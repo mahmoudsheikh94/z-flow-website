@@ -633,14 +633,14 @@
         "name": "MVP Sprint",
         "description": "For founders and teams who want to validate an idea quickly.",
         "price": "from €15,000",
-        "duration": "4-8 weeks",
-        "feature1": "Web app with Next.js/React",
-        "feature2": "Responsive design",
-        "feature3": "User authentication",
-        "feature4": "Database & API",
-        "feature5": "Deployment on Vercel/AWS",
+        "duration": "2-6 weeks",
+        "feature1": "Web app with Next.js/React or No-Code (WeWeb)",
+        "feature2": "Backend with Xano or Supabase",
+        "feature3": "Responsive design",
+        "feature4": "User authentication",
+        "feature5": "Deployment & hosting setup",
         "feature6": "Complete documentation",
-        "feature7": "2 weeks bug fixes included",
+        "feature7": "After-launch support included",
         "cta": "Discuss MVP"
       },
       "automation": {
@@ -655,6 +655,19 @@
         "feature5": "Documentation & training",
         "feature6": "30 days support",
         "cta": "Analyze process"
+      },
+      "training": {
+        "name": "Training",
+        "description": "Learn to build and maintain solutions yourself. Tailored to your use case.",
+        "price": "from €1,500",
+        "duration": "half to multi-day",
+        "feature1": "n8n, Make.com, or No-Code stack",
+        "feature2": "Hands-on with your real use case",
+        "feature3": "Remote or on-site available",
+        "feature4": "Best practices & architecture patterns",
+        "feature5": "Documentation & resources included",
+        "feature6": "Follow-up Q&A session",
+        "cta": "Book training"
       },
       "retainer": {
         "name": "Retainer",

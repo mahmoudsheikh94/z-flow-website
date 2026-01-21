@@ -633,14 +633,14 @@
         "name": "MVP Sprint",
         "description": "Für Gründer und Teams die eine Idee schnell validieren wollen.",
         "price": "ab 15.000€",
-        "duration": "4-8 Wochen",
-        "feature1": "Web-App mit Next.js/React",
-        "feature2": "Responsive Design",
-        "feature3": "User Authentication",
-        "feature4": "Datenbank & API",
-        "feature5": "Deployment auf Vercel/AWS",
+        "duration": "2-6 Wochen",
+        "feature1": "Web-App mit Next.js/React oder No-Code (WeWeb)",
+        "feature2": "Backend mit Xano oder Supabase",
+        "feature3": "Responsive Design",
+        "feature4": "User Authentication",
+        "feature5": "Deployment & Hosting-Setup",
         "feature6": "Vollständige Dokumentation",
-        "feature7": "2 Wochen Bug-Fixes inklusive",
+        "feature7": "After-Launch-Support inklusive",
         "cta": "MVP besprechen"
       },
       "automation": {
@@ -655,6 +655,19 @@
         "feature5": "Dokumentation & Training",
         "feature6": "30 Tage Support",
         "cta": "Prozess analysieren"
+      },
+      "training": {
+        "name": "Training",
+        "description": "Lernen Sie, Lösungen selbst zu bauen und zu warten. Auf Ihren Anwendungsfall zugeschnitten.",
+        "price": "ab 1.500€",
+        "duration": "halbtags bis mehrtägig",
+        "feature1": "n8n, Make.com oder No-Code Stack",
+        "feature2": "Praxisnah mit Ihrem echten Use Case",
+        "feature3": "Remote oder vor Ort möglich",
+        "feature4": "Best Practices & Architektur-Muster",
+        "feature5": "Dokumentation & Ressourcen inklusive",
+        "feature6": "Follow-up Q&A-Session",
+        "cta": "Training buchen"
       },
       "retainer": {
         "name": "Retainer",
