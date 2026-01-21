@@ -6,17 +6,18 @@ import { useState } from 'react'
 
 type CategoryKey = 'all' | 'ai' | 'automation' | 'tools' | 'pipelines'
 
-const projectKeys = [
-  'aiVideo',
-  'aiPhone',
-  'stripeRefund',
-  'carSupplier',
-  'invoicing',
-  'invoiceDistribution',
-  'financialFolders',
-  'volunteerTool',
-  'salesPipeline',
-] as const
+// Define projects with their categories directly to avoid translation lookup issues
+const projects: { key: string; category: CategoryKey }[] = [
+  { key: 'aiVideo', category: 'ai' },
+  { key: 'aiPhone', category: 'ai' },
+  { key: 'stripeRefund', category: 'automation' },
+  { key: 'carSupplier', category: 'automation' },
+  { key: 'invoicing', category: 'automation' },
+  { key: 'invoiceDistribution', category: 'automation' },
+  { key: 'financialFolders', category: 'automation' },
+  { key: 'volunteerTool', category: 'tools' },
+  { key: 'salesPipeline', category: 'pipelines' },
+]
 
 const categoryColors: Record<CategoryKey, string> = {
   all: 'badge-orange',
@@ -33,9 +34,9 @@ export default function ProjektePage() {
 
   const categories: CategoryKey[] = ['all', 'ai', 'automation', 'tools', 'pipelines']
 
-  const filteredProjects = projectKeys.filter((key) => {
+  const filteredProjects = projects.filter((project) => {
     if (activeCategory === 'all') return true
-    return t(`${key}.category`) === activeCategory
+    return project.category === activeCategory
   })
 
   return (
@@ -85,16 +86,14 @@ export default function ProjektePage() {
       <section className="section-light py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="space-y-16">
-            {filteredProjects.map((projectKey, index) => {
-              const category = t(`${projectKey}.category`) as CategoryKey
+            {filteredProjects.map((project, index) => {
+              const { key: projectKey, category } = project
               const tags = t.raw(`${projectKey}.tags`) as string[]
 
               return (
                 <div
                   key={projectKey}
-                  className="card"
-                  data-animate="blur-up"
-                  data-delay={String(index * 100)}
+                  className="card animated"
                 >
                   <div className="grid lg:grid-cols-2 gap-10 lg:gap-16">
                     <div>
