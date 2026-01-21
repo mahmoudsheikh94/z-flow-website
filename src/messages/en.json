@@ -47,52 +47,52 @@
   },
   "metadata": {
     "home": {
-      "title": "Z-Flow | MVPs & Automation that deliver",
-      "description": "Speed with standards. We build MVPs and automations that deliver fast and scale long-term. For companies that want to digitize their processes."
+      "title": "Z-Flow | MVP Development & Automation Agency Berlin",
+      "description": "Engineering studio in Berlin building MVPs, workflow automation with n8n and Make.com, and AI integration. Hire n8n developers, WeWeb experts, and Xano specialists. From idea to product in 2-6 weeks."
     },
     "services": {
-      "title": "Services | Z-Flow",
-      "description": "MVP Development, Automation with n8n and Make.com, AI Integration. We build digital solutions that deliver fast and scale long-term."
+      "title": "MVP Development, n8n Automation & AI Integration Services",
+      "description": "Hire expert n8n developers, Make.com consultants, and no-code specialists. MVP development with Next.js, WeWeb, Xano, Supabase. Workflow automation and OpenAI integration for startups and SMEs in Germany."
     },
     "mvp": {
-      "title": "MVP Development | Z-Flow",
-      "description": "From idea to working product in 4-8 weeks. Web apps with Next.js, React and modern tech stack. Validate quickly with real users."
+      "title": "MVP Development Agency | Build Your Startup MVP in 2-6 Weeks",
+      "description": "MVP development for non-technical founders. Web apps with Next.js/React or No-Code (WeWeb + Xano/Supabase). Fractional CTO services, fixed pricing from €15,000. Validate your startup idea fast."
     },
     "automation": {
-      "title": "Automation with n8n & Make.com | Z-Flow",
-      "description": "Automate workflows, digitize processes. With n8n and Make.com save up to 90% time on repetitive tasks."
+      "title": "n8n Developer & Make.com Expert | Workflow Automation Germany",
+      "description": "Hire certified n8n developers and Make.com experts. Business process automation, API integrations, workflow optimization. Self-hosted n8n setup, GDPR compliant. Save 90% on repetitive tasks."
     },
-    "ai": {
-      "title": "AI Integration | Z-Flow",
-      "description": "Use AI meaningfully where it brings real value. OpenAI, Claude and Custom AI Workflows for companies."
+    "aiIntegration": {
+      "title": "AI Integration Services | OpenAI, ChatGPT & LLM Developer",
+      "description": "AI integration for business: OpenAI API, Claude, custom LLM solutions. AI chatbot development, document processing, RAG implementation. Enterprise AI consulting in Germany."
     },
     "projects": {
-      "title": "Projects | Z-Flow",
-      "description": "Case studies and reference projects from Z-Flow. MVPs, automations and AI integrations for companies."
+      "title": "Case Studies | MVP, Automation & AI Projects",
+      "description": "Portfolio of MVP development, n8n automation workflows, and AI integration projects. Real results: 90% time savings, 24/7 AI voice agents, automated invoicing systems."
     },
     "process": {
-      "title": "Our Process | Z-Flow",
-      "description": "Transparent, structured, effective. Our development process from first idea to handover."
+      "title": "Our Development Process | Transparent & Agile",
+      "description": "Clear, fixed-price development process. Weekly demos, full documentation, no vendor lock-in. From discovery to launch in weeks. Your code belongs to you."
     },
     "pricing": {
-      "title": "Pricing | Z-Flow",
-      "description": "Transparent pricing for MVP development, automation and AI integration. Fixed prices or monthly retainers."
+      "title": "Pricing | MVP Development, Automation & AI Integration Costs",
+      "description": "Transparent fixed pricing: MVP development from €15,000, n8n/Make.com automation from €3,000, training from €1,500. No hidden costs. Free consultation available."
     },
     "about": {
-      "title": "About Us | Z-Flow",
-      "description": "Z-Flow is an engineering studio from Berlin. We build MVPs and automations for companies."
+      "title": "About Z-Flow | Engineering Studio Berlin",
+      "description": "Z-Flow is a Berlin-based engineering studio. We're n8n experts, WeWeb developers, and AI integration specialists. Fractional CTO services for startups. Speed with standards."
     },
     "contact": {
-      "title": "Contact | Z-Flow",
-      "description": "Contact Z-Flow for a free consultation. We look forward to your project."
+      "title": "Contact | Free Consultation for Your Project",
+      "description": "Contact Z-Flow for MVP development, workflow automation, or AI integration. Free 30-minute consultation. Based in Berlin, serving Germany and the DACH region."
     },
     "imprint": {
       "title": "Imprint | Z-Flow",
-      "description": "Imprint and legal information of Z-Flow UG, Berlin."
+      "description": "Legal information and imprint of Z-Flow UG, Berlin, Germany."
     },
     "privacy": {
-      "title": "Privacy | Z-Flow",
-      "description": "Privacy policy of Z-Flow UG, Berlin."
+      "title": "Privacy Policy | Z-Flow",
+      "description": "Privacy policy and data protection information of Z-Flow UG, Berlin."
     }
   },
   "home": {

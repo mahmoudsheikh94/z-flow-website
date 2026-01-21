@@ -1,52 +1,92 @@
 # Z-Flow - Engineering Studio Berlin
-# MVPs, Automation & AI Integration
+# MVP Development, n8n Automation & AI Integration Agency
 
-## About
-Z-Flow is an engineering studio based in Berlin, Germany. We build MVPs, automate business processes, and integrate AI solutions for startups and SMEs. Founded by Mahmoud Sheikh Alard.
+## Who We Are
+Z-Flow is an engineering studio and software agency based in Berlin, Germany. We specialize in:
+- MVP development for startups and non-technical founders
+- Workflow automation with n8n and Make.com
+- AI integration (OpenAI, Claude, LLM solutions)
+- No-code development with WeWeb, Xano, Supabase
 
-## Services
+Founded by Mahmoud Sheikh Alard. We serve startups, SMEs, and the German Mittelstand.
 
-### MVP Development
-Web applications built with Next.js/React or No-Code tools (WeWeb). Backend powered by Xano or Supabase. Includes responsive design, user authentication, deployment, and after-launch support.
-- Timeline: 2-6 weeks
-- Starting price: €15,000
+## Our Services
 
-### Process Automation
-Workflow automation using n8n or Make.com. We analyze your processes, build automated workflows, set up integrations, and provide documentation and training.
-- Timeline: 1-3 weeks
-- Starting price: €3,000
+### MVP Development Agency
+We build MVPs (Minimum Viable Products) for startups and founders who want to validate ideas fast.
+- **Tech stack**: Next.js, React, TypeScript OR No-Code (WeWeb + Xano/Supabase)
+- **What's included**: Web app, responsive design, user authentication, backend, deployment, documentation
+- **Timeline**: 2-6 weeks
+- **Price**: From €15,000 (fixed price)
+- **Ideal for**: Non-technical founders, first-time founders, startup MVP validation
 
-### AI Integration
-Integrate AI capabilities into existing systems. We help businesses leverage AI for customer support, content generation, data processing, and more.
+### n8n Developer & Automation Expert
+We are certified n8n developers and Make.com experts offering workflow automation services.
+- **Platforms**: n8n (self-hosted or cloud), Make.com, Zapier alternatives
+- **Capabilities**: API integrations, webhooks, data sync, CRM automation, lead management, invoice automation
+- **GDPR compliant**: Self-hosted n8n setups available
+- **Timeline**: 1-3 weeks
+- **Price**: From €3,000
 
-### Training
-Hands-on workshops tailored to your use case. Learn to build and maintain solutions yourself using n8n, Make.com, or the No-Code stack. Remote or on-site available.
-- Duration: Half-day to multi-day
-- Starting price: €1,500
+### AI Integration Services
+We integrate AI into business applications and workflows.
+- **Technologies**: OpenAI API, Claude API, LangChain, RAG systems, vector databases
+- **Use cases**: AI chatbots, document processing, content generation, voice agents (11Labs)
+- **Approach**: Human-in-the-loop, explainable AI, privacy-first
 
-### Retainer
-Ongoing development and maintenance partnership. Dedicated development time, priority support, regular updates, and feature development.
-- Starting price: €4,000/month
+### No-Code Development
+Expert WeWeb developers and Xano backend specialists.
+- **Frontend**: WeWeb (visual web app builder)
+- **Backend**: Xano (no-code backend), Supabase
+- **Database**: Airtable, PostgreSQL, Supabase
 
-## Tech Stack
-- Automation: n8n, Make.com
-- Frontend: Next.js, React, WeWeb (No-Code)
-- Backend: Xano, Supabase
-- Database: Supabase, Airtable, PostgreSQL
-- AI: Claude, OpenAI, 11Labs
-- Deployment: Vercel
+### Training & Workshops
+Learn to build and maintain automation and no-code solutions yourself.
+- **Topics**: n8n, Make.com, WeWeb, Xano, No-Code stack
+- **Format**: Remote or on-site, half-day to multi-day
+- **Price**: From €1,500
 
-## Contact
-- Website: https://z-flow.de
-- Email (English): hello@z-flow.de
-- Email (German): hallo@z-flow.de
-- Location: Berlin, Germany
-- LinkedIn: https://www.linkedin.com/company/z-flow/
+### Fractional CTO / Tech Partner
+Technical leadership for startups without a technical cofounder.
+- **Services**: Architecture decisions, tech strategy, vendor selection, team hiring
+- **Format**: Monthly retainer from €4,000
+
+## Technologies We Use
+- **Automation**: n8n, Make.com
+- **Frontend**: Next.js, React, WeWeb
+- **Backend**: Xano, Supabase, Node.js
+- **Database**: PostgreSQL, Supabase, Airtable
+- **AI**: OpenAI, Claude, 11Labs, LangChain
+- **Deployment**: Vercel
+
+## Location & Contact
+- **Location**: Berlin, Germany (serving DACH region and international clients)
+- **Website**: https://z-flow.de
+- **Email**: hello@z-flow.de (English) | hallo@z-flow.de (German)
+- **LinkedIn**: https://www.linkedin.com/company/z-flow/
+
+## Pricing Overview
+| Service | Starting Price | Timeline |
+|---------|---------------|----------|
+| MVP Development | €15,000 | 2-6 weeks |
+| Automation (n8n/Make.com) | €3,000 | 1-3 weeks |
+| Training/Workshop | €1,500 | Half to multi-day |
+| Monthly Retainer | €4,000/month | Ongoing |
 
 ## Key Pages
-- Home: https://z-flow.de/en
 - Services: https://z-flow.de/en/services
-- Projects: https://z-flow.de/en/projects
+- MVP Development: https://z-flow.de/en/services/mvp-development
+- Automation: https://z-flow.de/en/services/automation
+- AI Integration: https://z-flow.de/en/services/ai-integration
+- Projects/Portfolio: https://z-flow.de/en/projects
 - Pricing: https://z-flow.de/en/pricing
 - Contact: https://z-flow.de/en/contact
-- About: https://z-flow.de/en/about
+
+## German Pages (Deutsch)
+- Leistungen: https://z-flow.de/de/leistungen
+- MVP Entwicklung: https://z-flow.de/de/leistungen/mvp-entwicklung
+- Automatisierung: https://z-flow.de/de/leistungen/automatisierung
+- KI-Integration: https://z-flow.de/de/leistungen/ki-integration
+- Projekte: https://z-flow.de/de/projekte
+- Preise: https://z-flow.de/de/preise
+- Kontakt: https://z-flow.de/de/kontakt

@@ -47,52 +47,52 @@
   },
   "metadata": {
     "home": {
-      "title": "Z-Flow | MVPs & Automatisierung die liefern",
-      "description": "Speed with standards. Wir bauen MVPs und Automations die schnell liefern und langfristig skalieren. Für deutsche Unternehmen die Prozesse digitalisieren wollen."
+      "title": "Z-Flow | MVP Entwicklung & Automatisierung Agentur Berlin",
+      "description": "Engineering Studio in Berlin für MVP Entwicklung, Workflow-Automatisierung mit n8n und Make.com, und KI-Integration. n8n Entwickler, WeWeb Experten, Xano Spezialisten. Von der Idee zum Produkt in 2-6 Wochen."
     },
     "services": {
-      "title": "Leistungen | Z-Flow",
-      "description": "MVP Entwicklung, Automatisierung mit n8n und Make.com, KI-Integration. Wir bauen digitale Lösungen die schnell liefern und langfristig skalieren."
+      "title": "MVP Entwicklung, n8n Automatisierung & KI-Integration",
+      "description": "n8n Entwickler und Make.com Experten beauftragen. MVP Entwicklung mit Next.js, WeWeb, Xano, Supabase. Prozessautomatisierung und OpenAI Integration für Startups und KMU in Deutschland."
     },
     "mvp": {
-      "title": "MVP Entwicklung | Z-Flow",
-      "description": "Von der Idee zum funktionierenden Produkt in 4-8 Wochen. Web-Apps mit Next.js, React und modernem Tech-Stack. Validieren Sie schnell mit echten Nutzern."
+      "title": "MVP Agentur | MVP entwickeln lassen in 2-6 Wochen",
+      "description": "MVP Entwicklung für Gründer ohne technischen Hintergrund. Web-Apps mit Next.js/React oder No-Code (WeWeb + Xano/Supabase). Fractional CTO Service, Festpreise ab 15.000€. Startup-Idee schnell validieren."
     },
     "automation": {
-      "title": "Automatisierung mit n8n & Make.com | Z-Flow",
-      "description": "Workflows automatisieren, Prozesse digitalisieren. Mit n8n und Make.com sparen Sie bis zu 90% Zeit bei repetitiven Aufgaben."
+      "title": "n8n Entwickler & Make.com Experte | Prozessautomatisierung",
+      "description": "n8n Entwickler und Make.com Experten in Deutschland. Geschäftsprozesse automatisieren, API-Integrationen, Workflow-Optimierung. Self-hosted n8n Setup, DSGVO-konform. 90% Zeitersparnis bei repetitiven Aufgaben."
     },
-    "ai": {
-      "title": "KI-Integration | Z-Flow",
-      "description": "KI sinnvoll einsetzen wo sie echten Mehrwert bringt. OpenAI, Claude und Custom AI Workflows für deutsche Unternehmen."
+    "aiIntegration": {
+      "title": "KI-Integration | OpenAI, ChatGPT & LLM Entwickler",
+      "description": "KI-Integration für Unternehmen: OpenAI API, Claude, individuelle LLM-Lösungen. KI-Chatbot Entwicklung, Dokumentenverarbeitung, RAG-Implementierung. KI-Beratung für den deutschen Mittelstand."
     },
     "projects": {
-      "title": "Projekte | Z-Flow",
-      "description": "Case Studies und Referenzprojekte von Z-Flow. MVPs, Automatisierungen und KI-Integrationen für deutsche Unternehmen."
+      "title": "Referenzen | MVP, Automatisierung & KI Projekte",
+      "description": "Portfolio von MVP Entwicklung, n8n Automatisierungs-Workflows und KI-Integrationsprojekten. Echte Ergebnisse: 90% Zeitersparnis, 24/7 KI-Telefonagenten, automatisierte Rechnungssysteme."
     },
     "process": {
-      "title": "Unser Prozess | Z-Flow",
-      "description": "Transparent, strukturiert, effektiv. Unser Entwicklungsprozess von der ersten Idee bis zur Übergabe."
+      "title": "Unser Entwicklungsprozess | Transparent & Agil",
+      "description": "Klarer Festpreis-Entwicklungsprozess. Wöchentliche Demos, vollständige Dokumentation, kein Vendor Lock-in. Von der Entdeckung bis zum Launch in Wochen. Ihr Code gehört Ihnen."
     },
     "pricing": {
-      "title": "Preise | Z-Flow",
-      "description": "Transparente Preise für MVP Entwicklung, Automatisierung und KI-Integration. Festpreise oder monatliche Retainer."
+      "title": "Preise | MVP Entwicklung, Automatisierung & KI Kosten",
+      "description": "Transparente Festpreise: MVP Entwicklung ab 15.000€, n8n/Make.com Automatisierung ab 3.000€, Schulungen ab 1.500€. Keine versteckten Kosten. Kostenloses Erstgespräch."
     },
     "about": {
-      "title": "Über uns | Z-Flow",
-      "description": "Z-Flow ist ein Engineering Studio aus Berlin. Wir bauen MVPs und Automatisierungen für deutsche Unternehmen."
+      "title": "Über Z-Flow | Engineering Studio Berlin",
+      "description": "Z-Flow ist ein Engineering Studio aus Berlin. Wir sind n8n Experten, WeWeb Entwickler und KI-Integrations-Spezialisten. Fractional CTO Service für Startups. Speed with standards."
     },
     "contact": {
-      "title": "Kontakt | Z-Flow",
-      "description": "Kontaktieren Sie Z-Flow für ein kostenloses Erstgespräch. Wir freuen uns auf Ihr Projekt."
+      "title": "Kontakt | Kostenloses Erstgespräch für Ihr Projekt",
+      "description": "Kontaktieren Sie Z-Flow für MVP Entwicklung, Workflow-Automatisierung oder KI-Integration. Kostenloses 30-minütiges Erstgespräch. Standort Berlin, für Deutschland und die DACH-Region."
     },
     "imprint": {
       "title": "Impressum | Z-Flow",
-      "description": "Impressum und rechtliche Angaben von Z-Flow UG, Berlin."
+      "description": "Rechtliche Angaben und Impressum von Z-Flow UG, Berlin, Deutschland."
     },
     "privacy": {
-      "title": "Datenschutz | Z-Flow",
-      "description": "Datenschutzerklärung von Z-Flow UG, Berlin."
+      "title": "Datenschutzerklärung | Z-Flow",
+      "description": "Datenschutzerklärung und Datenschutzinformationen von Z-Flow UG, Berlin."
     }
   },
   "home": {
