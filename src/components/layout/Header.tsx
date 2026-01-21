@@ -44,7 +44,7 @@ export function Header() {
             className="flex items-center gap-3 group transition-transform duration-300 hover:scale-105"
           >
             <Image
-              src="/images/logo.png"
+              src="/images/logo-256.png"
               alt="Z-Flow Logo"
               width={40}
               height={40}

@@ -1,0 +1,52 @@
+# Z-Flow - Engineering Studio Berlin
+# MVPs, Automation & AI Integration
+
+## About
+Z-Flow is an engineering studio based in Berlin, Germany. We build MVPs, automate business processes, and integrate AI solutions for startups and SMEs. Founded by Mahmoud Sheikh Alard.
+
+## Services
+
+### MVP Development
+Web applications built with Next.js/React or No-Code tools (WeWeb). Backend powered by Xano or Supabase. Includes responsive design, user authentication, deployment, and after-launch support.
+- Timeline: 2-6 weeks
+- Starting price: €15,000
+
+### Process Automation
+Workflow automation using n8n or Make.com. We analyze your processes, build automated workflows, set up integrations, and provide documentation and training.
+- Timeline: 1-3 weeks
+- Starting price: €3,000
+
+### AI Integration
+Integrate AI capabilities into existing systems. We help businesses leverage AI for customer support, content generation, data processing, and more.
+
+### Training
+Hands-on workshops tailored to your use case. Learn to build and maintain solutions yourself using n8n, Make.com, or the No-Code stack. Remote or on-site available.
+- Duration: Half-day to multi-day
+- Starting price: €1,500
+
+### Retainer
+Ongoing development and maintenance partnership. Dedicated development time, priority support, regular updates, and feature development.
+- Starting price: €4,000/month
+
+## Tech Stack
+- Automation: n8n, Make.com
+- Frontend: Next.js, React, WeWeb (No-Code)
+- Backend: Xano, Supabase
+- Database: Supabase, Airtable, PostgreSQL
+- AI: Claude, OpenAI, 11Labs
+- Deployment: Vercel
+
+## Contact
+- Website: https://z-flow.de
+- Email (English): hello@z-flow.de
+- Email (German): hallo@z-flow.de
+- Location: Berlin, Germany
+- LinkedIn: https://www.linkedin.com/company/z-flow/
+
+## Key Pages
+- Home: https://z-flow.de/en
+- Services: https://z-flow.de/en/services
+- Projects: https://z-flow.de/en/projects
+- Pricing: https://z-flow.de/en/pricing
+- Contact: https://z-flow.de/en/contact
+- About: https://z-flow.de/en/about

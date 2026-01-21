@@ -37,7 +37,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-6 group">
               <Image
-                src="/images/logo.png"
+                src="/images/logo-256.png"
                 alt="Z-Flow Logo"
                 width={36}
                 height={36}

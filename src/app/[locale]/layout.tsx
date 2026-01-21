@@ -8,6 +8,7 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import { notFound } from 'next/navigation'
+import { JsonLd, schemas } from '@/components/seo/JsonLd'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -30,7 +31,10 @@ export async function generateMetadata({
   const baseUrl = 'https://z-flow.de'
 
   return {
-    title: t('title'),
+    title: {
+      default: t('title'),
+      template: '%s | Z-Flow',
+    },
     description: t('description'),
     keywords: [
       'MVP Entwicklung',
@@ -41,11 +45,19 @@ export async function generateMetadata({
       'Make.com',
       'KI Integration',
       'AI Integration',
+      'WeWeb',
+      'Xano',
+      'Supabase',
+      'No-Code',
+      'Low-Code',
       'Deutschland',
       'Germany',
       'Berlin',
     ],
     authors: [{ name: 'Z-Flow' }],
+    creator: 'Z-Flow',
+    publisher: 'Z-Flow',
+    metadataBase: new URL(baseUrl),
     openGraph: {
       title: t('title'),
       description: t('description'),
@@ -53,6 +65,20 @@ export async function generateMetadata({
       siteName: 'Z-Flow',
       locale: locale === 'de' ? 'de_DE' : 'en_US',
       type: 'website',
+      images: [
+        {
+          url: `${baseUrl}/opengraph-image`,
+          width: 1200,
+          height: 630,
+          alt: 'Z-Flow - Engineering Studio Berlin',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
+      images: [`${baseUrl}/opengraph-image`],
     },
     alternates: {
       canonical: `${baseUrl}/${locale}`,
@@ -60,6 +86,17 @@ export async function generateMetadata({
         de: `${baseUrl}/de`,
         en: `${baseUrl}/en`,
         'x-default': `${baseUrl}/en`,
+      },
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
       },
     },
   }
@@ -88,6 +125,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        <JsonLd data={schemas.organization()} />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

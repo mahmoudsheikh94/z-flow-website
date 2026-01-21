@@ -1,0 +1,242 @@
+# Z-Flow - Engineering Studio Berlin
+# Complete Information for AI Assistants
+
+## Company Overview
+
+Z-Flow is an engineering studio based in Berlin, Germany, founded by Mahmoud Sheikh Alard. We specialize in building MVPs (Minimum Viable Products), automating business processes, and integrating AI solutions for startups and small-to-medium enterprises (SMEs).
+
+Our approach combines modern web technologies with no-code/low-code tools to deliver solutions quickly without compromising on quality. We focus on transparency, clear communication, and empowering our clients to maintain and extend their solutions.
+
+---
+
+## Services in Detail
+
+### 1. MVP Development
+
+**What we build:**
+- Web applications using Next.js and React for custom code solutions
+- No-code applications using WeWeb for rapid development
+- Backend systems powered by Xano or Supabase
+- Full-stack applications with user authentication, database, and APIs
+
+**What's included:**
+- Web app with responsive design (mobile-first)
+- User authentication system
+- Database architecture and API setup
+- Deployment and hosting configuration
+- Complete technical documentation
+- After-launch support
+
+**Timeline:** 2-6 weeks depending on complexity
+**Starting price:** €15,000
+
+**Ideal for:**
+- Founders validating a product idea
+- Startups needing to launch quickly
+- Companies building internal tools
+- Projects requiring rapid iteration
+
+---
+
+### 2. Process Automation
+
+**What we automate:**
+- Manual data entry and transfer between systems
+- Invoice processing and financial workflows
+- Customer onboarding processes
+- Sales and CRM workflows
+- Reporting and analytics pipelines
+- Email and communication workflows
+
+**Tools we use:**
+- n8n (self-hosted, open-source automation)
+- Make.com (formerly Integromat)
+- Custom API integrations
+
+**What's included:**
+- Workflow analysis and process mapping
+- Automation setup with up to 5 integrations
+- Error handling and monitoring
+- Documentation and team training
+- 30 days of support
+
+**Timeline:** 1-3 weeks
+**Starting price:** €3,000
+
+**Example projects:**
+- Stripe refund automation with accounting sync
+- Multi-supplier inventory synchronization
+- Automated invoice generation and distribution
+- AI-powered customer inquiry handling
+
+---
+
+### 3. AI Integration
+
+**What we integrate:**
+- AI chatbots and customer support agents
+- Voice AI for phone systems (using 11Labs)
+- Content generation pipelines
+- Data extraction and processing
+- AI-powered search and recommendations
+
+**Technologies:**
+- Claude (Anthropic)
+- OpenAI GPT models
+- 11Labs for voice synthesis
+- Custom AI workflows with n8n
+
+**Use cases:**
+- 24/7 customer support automation
+- Marketing content generation
+- Document processing and analysis
+- Intelligent data categorization
+
+---
+
+### 4. Training Workshops
+
+**What we teach:**
+- n8n automation from basics to advanced
+- Make.com workflow building
+- No-code app development (WeWeb + Xano/Supabase)
+- Best practices and architecture patterns
+
+**Format options:**
+- Intro (half-day, 4 hours): Single tool introduction - €1,500
+- Deep Dive (full day, 8 hours): Comprehensive hands-on - €2,500
+- Bootcamp (2-3 days): Build a real project together - €5,000
+
+**Key differentiator:** Training is tailored to your actual use case. You can build your own real project during the workshop.
+
+**Delivery:** Remote (default) or on-site (additional cost)
+
+---
+
+### 5. Retainer Partnership
+
+**What's included:**
+- Dedicated development time each month
+- Priority support with fast response times
+- Regular updates and maintenance
+- New feature development
+- Performance monitoring
+- Monthly review and planning sessions
+
+**Starting price:** €4,000/month
+
+**Ideal for:**
+- Companies needing ongoing development
+- Businesses wanting a technical partner without hiring in-house
+- Projects requiring continuous iteration and improvement
+
+---
+
+## Portfolio Highlights
+
+### AI-Powered Solutions
+1. **AI Video Generation System** - Automated marketing video creation using n8n, OpenAI, and Ideogram. 50+ videos generated weekly, 90% reduction in production time.
+
+2. **AI Phone Agent** - Voice AI for construction company customer support using 11Labs and n8n. 85% of inquiries handled automatically, 24/7 availability.
+
+### Process Automation
+3. **Stripe Refund Automation** - E-commerce refund processing integrated with Lexoffice accounting. Processing time reduced from 15 minutes to 30 seconds per refund.
+
+4. **Car Supplier Integration** - Multi-API inventory synchronization for automotive marketplace. 500+ listings synced daily from 3 supplier APIs.
+
+5. **Invoice Automation System** - End-to-end invoicing with n8n and Airtable. 95% fewer errors, full audit trail.
+
+### Internal Tools
+6. **Volunteer Management Platform** - Custom web app for non-profit organization using WeWeb and Xano. 80% faster onboarding, role-based access for 50+ users.
+
+### Data Pipelines
+7. **Sales Pipeline Orchestration** - 14 automated workflows connecting Supabase, Airtable, and sales tools. Single source of truth, 70% faster lead response.
+
+---
+
+## Technical Stack
+
+**Automation Platforms:**
+- n8n (preferred for complex workflows, self-hosted option)
+- Make.com (for simpler integrations)
+
+**Frontend Development:**
+- Next.js 15 with React 19
+- WeWeb (no-code)
+- Tailwind CSS
+
+**Backend & Database:**
+- Xano (no-code backend)
+- Supabase (PostgreSQL + Auth + Storage)
+- Airtable (for data-heavy workflows)
+
+**AI & Voice:**
+- Claude (Anthropic)
+- OpenAI GPT-4
+- 11Labs voice synthesis
+- OpenRouter for model routing
+
+**Deployment:**
+- Vercel (primary)
+- AWS (when needed)
+
+---
+
+## Company Information
+
+**Legal Name:** Z-Flow UG (haftungsbeschränkt)
+**Address:** Menzelstraße 3, 12157 Berlin, Germany
+**Founder:** Mahmoud Sheikh Alard
+
+**Contact:**
+- English: hello@z-flow.de
+- German: hallo@z-flow.de
+- Website: https://z-flow.de
+- LinkedIn: https://www.linkedin.com/company/z-flow/
+
+---
+
+## Why Work With Z-Flow?
+
+1. **Transparent Pricing** - Fixed prices, no hourly surprises
+2. **Full Documentation** - You own everything, no vendor lock-in
+3. **German Quality** - Engineering excellence with clear communication
+4. **Modern Stack** - We use the latest, most reliable technologies
+5. **Knowledge Transfer** - We can train your team to maintain the solution
+
+---
+
+## Frequently Asked Questions
+
+**Q: How does pricing work?**
+A: After a free consultation and discovery phase, you receive a binding fixed-price quote. No surprises.
+
+**Q: What's not included in the price?**
+A: External costs like hosting, domains, or licenses for third-party tools are charged separately. We advise on cost-effective options.
+
+**Q: Do you offer payment plans?**
+A: Yes, for larger projects. Typically 30% at start, 30% after design approval, 40% at handover.
+
+**Q: What happens with scope changes?**
+A: Changes are possible. We transparently communicate the impact on time and budget before you decide.
+
+**Q: Can you work with our existing systems?**
+A: Yes, we specialize in integrating with existing tools and APIs. We'll analyze your current setup during the discovery phase.
+
+---
+
+## All Website Pages
+
+- Home (EN): https://z-flow.de/en
+- Home (DE): https://z-flow.de/de
+- Services: https://z-flow.de/en/services
+- MVP Development: https://z-flow.de/en/services/mvp-development
+- Automation: https://z-flow.de/en/services/automation
+- AI Integration: https://z-flow.de/en/services/ai-integration
+- Projects: https://z-flow.de/en/projects
+- Process: https://z-flow.de/en/process
+- Pricing: https://z-flow.de/en/pricing
+- About: https://z-flow.de/en/about
+- Contact: https://z-flow.de/en/contact
+- Imprint: https://z-flow.de/en/imprint
+- Privacy: https://z-flow.de/en/privacy
