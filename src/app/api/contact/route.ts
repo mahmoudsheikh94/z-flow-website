@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     }
 
     // Send email
-    const { error } = await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       from: 'Z-Flow Contact <hello@send.z-flow.de>',
       to: 'hello@z-flow.de',
       replyTo: email,
@@ -41,7 +41,8 @@ export async function POST(request: Request) {
       );
     }
 
-    return NextResponse.json({ success: true });
+    console.log('Email sent successfully:', data);
+    return NextResponse.json({ success: true, id: data?.id });
   } catch (err) {
     console.error('Contact form error:', err);
     return NextResponse.json(
