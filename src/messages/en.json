@@ -1,0 +1,935 @@
+{
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "common": {
+    "navigation": {
+      "services": "Services",
+      "projects": "Projects",
+      "process": "Process",
+      "pricing": "Pricing",
+      "about": "About Us",
+      "contact": "Contact"
+    },
+    "cta": {
+      "startProject": "Start Project",
+      "discussProject": "Discuss Project",
+      "viewProjects": "View Projects",
+      "learnMore": "Learn More",
+      "freeConsultation": "Free Consultation",
+      "viewPricing": "View Pricing",
+      "sendMessage": "Send Message",
+      "getInTouch": "Get in Touch",
+      "requestProject": "Request Project",
+      "scheduleAppointment": "Schedule Appointment",
+      "requestCustomQuote": "Request Custom Quote",
+      "viewExamples": "View Examples"
+    },
+    "footer": {
+      "tagline": "Speed with standards. MVPs and automations that deliver fast and scale long-term.",
+      "location": "Berlin, Germany",
+      "servicesTitle": "Services",
+      "companyTitle": "Company",
+      "contactTitle": "Contact",
+      "techWeUse": "Technologies we use",
+      "copyright": "© {year} Z-Flow UG. All rights reserved.",
+      "imprint": "Imprint",
+      "privacy": "Privacy"
+    },
+    "badges": {
+      "engineeringStudio": "ENGINEERING STUDIO FROM BERLIN"
+    },
+    "backToServices": "Back to Services",
+    "results": "Results",
+    "popular": "Popular"
+  },
+  "metadata": {
+    "home": {
+      "title": "Z-Flow | MVPs & Automation that deliver",
+      "description": "Speed with standards. We build MVPs and automations that deliver fast and scale long-term. For companies that want to digitize their processes."
+    },
+    "services": {
+      "title": "Services | Z-Flow",
+      "description": "MVP Development, Automation with n8n and Make.com, AI Integration. We build digital solutions that deliver fast and scale long-term."
+    },
+    "mvp": {
+      "title": "MVP Development | Z-Flow",
+      "description": "From idea to working product in 4-8 weeks. Web apps with Next.js, React and modern tech stack. Validate quickly with real users."
+    },
+    "automation": {
+      "title": "Automation with n8n & Make.com | Z-Flow",
+      "description": "Automate workflows, digitize processes. With n8n and Make.com save up to 90% time on repetitive tasks."
+    },
+    "ai": {
+      "title": "AI Integration | Z-Flow",
+      "description": "Use AI meaningfully where it brings real value. OpenAI, Claude and Custom AI Workflows for companies."
+    },
+    "projects": {
+      "title": "Projects | Z-Flow",
+      "description": "Case studies and reference projects from Z-Flow. MVPs, automations and AI integrations for companies."
+    },
+    "process": {
+      "title": "Our Process | Z-Flow",
+      "description": "Transparent, structured, effective. Our development process from first idea to handover."
+    },
+    "pricing": {
+      "title": "Pricing | Z-Flow",
+      "description": "Transparent pricing for MVP development, automation and AI integration. Fixed prices or monthly retainers."
+    },
+    "about": {
+      "title": "About Us | Z-Flow",
+      "description": "Z-Flow is an engineering studio from Berlin. We build MVPs and automations for companies."
+    },
+    "contact": {
+      "title": "Contact | Z-Flow",
+      "description": "Contact Z-Flow for a free consultation. We look forward to your project."
+    },
+    "imprint": {
+      "title": "Imprint | Z-Flow",
+      "description": "Imprint and legal information of Z-Flow UG, Berlin."
+    },
+    "privacy": {
+      "title": "Privacy | Z-Flow",
+      "description": "Privacy policy of Z-Flow UG, Berlin."
+    }
+  },
+  "home": {
+    "hero": {
+      "tagline": "We build.",
+      "headline": "You keep control.",
+      "subheadline": "MVPs and automations with complete documentation. No vendor lock-in. Your team can continue tomorrow without us."
+    },
+    "trustSignals": {
+      "transparentPricing": "Fully documented",
+      "fullDocumentation": "No vendor lock-in",
+      "noVendorLockIn": "Your code is yours",
+      "germanQuality": "You know who builds"
+    },
+    "services": {
+      "badge": "Services",
+      "title": "What we build for you",
+      "subtitle": "Focused on three areas where we consistently deliver results.",
+      "mvp": {
+        "title": "MVP Development",
+        "description": "From idea to working product in weeks, not months. Validate quickly with real users."
+      },
+      "automation": {
+        "title": "Automation",
+        "description": "Automate manual processes with n8n and Make.com. Save time and reduce errors."
+      },
+      "ai": {
+        "title": "AI Integration",
+        "description": "Use AI meaningfully where it brings real value. No gimmicks, just measurable results."
+      }
+    },
+    "process": {
+      "badge": "Our Process",
+      "title": "Clear, transparent, effective",
+      "subtitle": "No surprises. You always know where we stand and what comes next.",
+      "step1": {
+        "title": "Understand",
+        "description": "We analyze your requirements and define clear goals and deliverables."
+      },
+      "step2": {
+        "title": "Build",
+        "description": "Agile development with weekly updates. You see progress, not just reports."
+      },
+      "step3": {
+        "title": "Handover",
+        "description": "Complete documentation and training. You can maintain and develop it yourself."
+      },
+      "detailCta": "Process in detail"
+    },
+    "tools": {
+      "badge": "Our Tools",
+      "title": "Proven technologies",
+      "subtitle": "We use modern, proven tools that deliver results."
+    },
+    "support": {
+      "title": "Support included",
+      "point1": "Weekly updates during development",
+      "point2": "Bug fixes after launch included",
+      "point3": "Optional maintenance contracts available"
+    },
+    "cta": {
+      "title": "Ready to start your project?",
+      "subtitle": "Let's find out in a short conversation if and how we can help you. No obligation and free of charge."
+    }
+  },
+  "services": {
+    "hero": {
+      "badge": "OUR SERVICES",
+      "title": "Focused on what matters",
+      "subtitle": "Three core areas. Deep expertise. Measurable results. We don't do everything, but what we do, we do right."
+    },
+    "mvp": {
+      "subtitle": "From idea to product",
+      "title": "MVP Development",
+      "description": "Validate your business idea with a working product. We build MVPs that are good enough to win real users, and clean enough to build upon.",
+      "features": {
+        "1": "Web apps with Next.js and React",
+        "2": "Mobile-first responsive design",
+        "3": "Backend and database architecture",
+        "4": "User authentication and payments",
+        "5": "Deployment and hosting setup"
+      },
+      "metric": "4-8 weeks",
+      "metricLabel": "Typical project duration"
+    },
+    "automation": {
+      "subtitle": "Digitize processes",
+      "title": "Automation",
+      "description": "Manual, repetitive tasks cost time and cause errors. We automate your workflows with n8n and Make.com - reliable and traceable.",
+      "features": {
+        "1": "Workflow analysis and design",
+        "2": "n8n and Make.com integration",
+        "3": "API connections and webhooks",
+        "4": "Data synchronization between tools",
+        "5": "Monitoring and error handling"
+      },
+      "metric": "90%",
+      "metricLabel": "Typical time savings"
+    },
+    "ai": {
+      "subtitle": "Use AI meaningfully",
+      "title": "AI Integration",
+      "description": "AI is not an end in itself. We integrate AI features where they bring real value - from intelligent text processing to automated data analysis.",
+      "features": {
+        "1": "OpenAI and Claude integration",
+        "2": "Document processing and analysis",
+        "3": "Chatbots and assistants",
+        "4": "Automatic categorization",
+        "5": "Custom AI workflows"
+      },
+      "metric": "10x",
+      "metricLabel": "Productivity increase"
+    },
+    "cta": {
+      "title": "Not sure what you need?",
+      "subtitle": "No problem. In a free consultation, we'll figure out together which solution best fits your requirements."
+    }
+  },
+  "mvpPage": {
+    "hero": {
+      "title": "MVP Development",
+      "subtitle": "From idea to working product in weeks, not months. Validate your business idea with real users before you scale."
+    },
+    "features": {
+      "title": "What you get",
+      "subtitle": "A complete product with everything you need to go live.",
+      "nextjs": {
+        "title": "Next.js & React",
+        "description": "Modern web technologies for fast, SEO-friendly applications."
+      },
+      "mobile": {
+        "title": "Mobile-First Design",
+        "description": "Responsive interfaces that work perfectly on all devices."
+      },
+      "scalable": {
+        "title": "Scalable Architecture",
+        "description": "Clean code and modern patterns for easy further development."
+      },
+      "auth": {
+        "title": "Auth & Payments",
+        "description": "User management and payment integration from the start."
+      },
+      "api": {
+        "title": "API-First",
+        "description": "Well-documented APIs for future integrations."
+      },
+      "deployment": {
+        "title": "Deployment Ready",
+        "description": "CI/CD pipeline and hosting setup included."
+      }
+    },
+    "process": {
+      "title": "Our approach",
+      "step1": {
+        "title": "Discovery",
+        "description": "Clarify requirements, define scope"
+      },
+      "step2": {
+        "title": "Design",
+        "description": "UI/UX design, technical architecture"
+      },
+      "step3": {
+        "title": "Build",
+        "description": "Agile development in weekly sprints"
+      },
+      "step4": {
+        "title": "Launch",
+        "description": "Deployment, documentation, handover"
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "q1": {
+        "question": "What exactly is an MVP?",
+        "answer": "A Minimum Viable Product is the simplest version of your product that provides real value to users. It's about quickly learning whether your idea works before investing a lot of time and money."
+      },
+      "q2": {
+        "question": "How long does development take?",
+        "answer": "Typically 4-8 weeks, depending on scope. We work in weekly sprints with regular demos so you can see progress and give feedback."
+      },
+      "q3": {
+        "question": "What happens after launch?",
+        "answer": "You receive complete documentation and access to all code. We offer optional maintenance contracts, but you're not tied to us - everything belongs to you."
+      },
+      "q4": {
+        "question": "What technologies do you use?",
+        "answer": "Next.js, React, TypeScript, Tailwind CSS, PostgreSQL or Supabase. Modern, proven tools with a large community and good documentation."
+      }
+    },
+    "cta": {
+      "title": "Ready to bring your idea to life?",
+      "subtitle": "Let's find out in a short conversation how we can bring your MVP to life."
+    }
+  },
+  "automationPage": {
+    "hero": {
+      "title": "Automation",
+      "subtitle": "Manual processes cost time, money and nerves. We automate your workflows with n8n and Make.com - reliable, traceable and scalable.",
+      "cta": "Have your process analyzed"
+    },
+    "benefits": {
+      "timeSaving": {
+        "metric": "90%",
+        "label": "Time savings",
+        "description": "On repetitive tasks"
+      },
+      "errors": {
+        "metric": "0",
+        "label": "Manual errors",
+        "description": "Through automated processes"
+      },
+      "availability": {
+        "metric": "24/7",
+        "label": "Availability",
+        "description": "Workflows run around the clock"
+      }
+    },
+    "useCases": {
+      "title": "Typical use cases",
+      "subtitle": "These workflows we regularly automate for our clients.",
+      "leadManagement": {
+        "title": "Lead Management",
+        "description": "Automatic capture, qualification and distribution of leads from various sources."
+      },
+      "documents": {
+        "title": "Document Workflows",
+        "description": "Automatic processing, categorization and filing of documents and invoices."
+      },
+      "reporting": {
+        "title": "Reporting",
+        "description": "Automatic reports from various data sources, regularly to your inbox."
+      },
+      "ecommerce": {
+        "title": "E-Commerce",
+        "description": "Synchronize orders, update inventory, notify customers."
+      }
+    },
+    "tools": {
+      "title": "Our tools",
+      "subtitle": "We work with proven no-code/low-code platforms.",
+      "n8n": {
+        "title": "n8n",
+        "description": "Open-source workflow automation. Self-hosted for maximum control and privacy. Ideal for complex, data-sensitive workflows.",
+        "feature1": "Self-hosted possible (GDPR compliant)",
+        "feature2": "400+ integrations",
+        "feature3": "Custom code nodes"
+      },
+      "make": {
+        "title": "Make.com",
+        "description": "Cloud-based automation with intuitive visual builder. Perfect for fast implementation and easy maintenance.",
+        "feature1": "Cloud-hosted, ready to use",
+        "feature2": "1000+ app integrations",
+        "feature3": "Visual workflow builder"
+      }
+    },
+    "cta": {
+      "title": "Which processes are stealing your time?",
+      "subtitle": "Let's figure out together which of your processes are best suited for automation.",
+      "button": "Free process analysis"
+    }
+  },
+  "aiPage": {
+    "hero": {
+      "title": "AI Integration",
+      "subtitle": "AI is not magic - it's a tool. We integrate AI features where they bring real value and deliver measurable results.",
+      "cta": "Discuss use case"
+    },
+    "useCases": {
+      "title": "Typical use cases",
+      "subtitle": "These AI solutions we regularly implement for our clients.",
+      "documents": {
+        "title": "Document Analysis",
+        "description": "Automatic extraction and categorization of information from documents, contracts and invoices."
+      },
+      "chatbots": {
+        "title": "Intelligent Chatbots",
+        "description": "AI-powered assistants that understand and answer customer inquiries - trained on your data."
+      },
+      "content": {
+        "title": "Content Generation",
+        "description": "Automated creation of product descriptions, emails and other texts."
+      },
+      "categorization": {
+        "title": "Data Categorization",
+        "description": "Automatic classification and tagging of data, tickets or customer feedback."
+      }
+    },
+    "principles": {
+      "title": "Our principles",
+      "subtitle": "Using AI responsibly means for us:",
+      "noPurpose": {
+        "title": "Not an end in itself",
+        "description": "We only use AI where it brings measurable value - not because it's trendy."
+      },
+      "privacy": {
+        "title": "Privacy first",
+        "description": "Your data stays protected. We use European or self-hosted solutions where necessary."
+      },
+      "explainable": {
+        "title": "Explainable & transparent",
+        "description": "You understand what the AI does and can trace decisions."
+      },
+      "humanInLoop": {
+        "title": "Human stays in the loop",
+        "description": "AI supports and accelerates, but doesn't replace human decision-making."
+      }
+    },
+    "technologies": {
+      "title": "Technologies"
+    },
+    "cta": {
+      "title": "Do you have a use case in mind?",
+      "subtitle": "Let's check together whether AI makes sense for your use case - and if so, how."
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "PROJECTS",
+      "title": "What we've built",
+      "subtitle": "Selected projects from AI solutions, process automation, internal tools and data pipelines."
+    },
+    "categories": {
+      "all": "All Projects",
+      "ai": "AI Solutions",
+      "automation": "Process Automation",
+      "tools": "Internal Tools",
+      "pipelines": "Data Pipelines"
+    },
+    "aiVideo": {
+      "title": "AI-Powered Marketing Video Generation",
+      "industry": "Media & Marketing",
+      "category": "ai",
+      "description": "A marketing agency needed to generate diverse video content from single images at scale. We built an Airtable interface connected to a complex n8n workflow that generates videos using OpenAI and Ideogram, adds multi-language captions automatically, and exports structured data to Google Sheets for further distribution.",
+      "result1": "50+ marketing videos generated weekly",
+      "result2": "90% reduction in production time",
+      "result3": "Automated multi-language captions",
+      "tags": ["n8n", "OpenAI", "Ideogram", "Airtable", "Google Sheets"]
+    },
+    "aiPhone": {
+      "title": "AI Voice Agent for Customer Support",
+      "industry": "Construction",
+      "category": "ai",
+      "description": "A construction company needed to handle customer inquiries about project status around the clock. We built an AI phone agent using 11Labs voice technology integrated with n8n workflows. The agent accesses real-time project data from Airtable, answers questions naturally, and logs all interactions automatically.",
+      "result1": "85% of inquiries handled without human intervention",
+      "result2": "24/7 availability with consistent response quality",
+      "result3": "Customer satisfaction improved by 40%",
+      "tags": ["n8n", "11Labs", "Airtable", "OpenRouter"]
+    },
+    "stripeRefund": {
+      "title": "Automated Refund Processing System",
+      "industry": "E-Commerce",
+      "category": "automation",
+      "description": "An e-commerce business processing daily refunds needed a faster, error-free solution. We integrated Lexoffice accounting software with Airtable and Stripe, enabling one-click refunds through a simple checkbox interface that triggers automated Make.com workflows.",
+      "result1": "Processing time reduced from 15 min to 30 sec",
+      "result2": "200+ daily refunds processed automatically",
+      "result3": "Zero manual errors in refund handling",
+      "tags": ["Make.com", "Stripe", "Lexoffice", "Airtable"]
+    },
+    "carSupplier": {
+      "title": "Car Supplier Data Integration",
+      "industry": "Automotive",
+      "category": "automation",
+      "description": "A car reseller needed to aggregate vehicle data from multiple suppliers, enrich it with third-party services, and sync to their sales platform. We built a comprehensive Make.com automation that pulls data, enriches listings with market data, and uploads them to their Bubble.io platform.",
+      "result1": "500+ car listings synced daily",
+      "result2": "3 supplier APIs unified into one pipeline",
+      "result3": "Real-time inventory updates",
+      "tags": ["Make.com", "PostgreSQL", "Airtable", "Bubble.io"]
+    },
+    "invoicing": {
+      "title": "Automated Invoicing System",
+      "industry": "Finance",
+      "category": "automation",
+      "description": "A client with complex invoicing needs required a system to handle multiple use cases: creating, editing, canceling, and reissuing invoices. We built an n8n-powered solution with an intuitive Airtable interface that automates all invoice workflows with full audit trails.",
+      "result1": "95% reduction in invoice errors",
+      "result2": "Edit, cancel, and reissue with one click",
+      "result3": "Complete audit trail for compliance",
+      "tags": ["n8n", "Airtable", "Process Automation"]
+    },
+    "invoiceDistribution": {
+      "title": "Invoice Generation & Distribution",
+      "industry": "Finance",
+      "category": "automation",
+      "description": "A company needed automated invoice generation based on transaction types and timing, with proper filing and delivery. We built a Make.com workflow that generates invoices, saves them to organized Google Drive folders, updates Airtable records, and emails them to clients automatically.",
+      "result1": "Invoices auto-sorted to correct folders",
+      "result2": "Instant email delivery upon generation",
+      "result3": "Google Drive perfectly organized",
+      "tags": ["Make.com", "Google Docs API", "Airtable", "Bubble.io"]
+    },
+    "financialFolders": {
+      "title": "Financial Folder Organization",
+      "industry": "Finance",
+      "category": "automation",
+      "description": "A finance department needed dynamic folder structures in Google Drive for international accounting requirements. We created a Make.com automation that generates folder hierarchies based on accounting rules, ensuring invoices are automatically distributed to the correct locations.",
+      "result1": "Dynamic folder creation based on rules",
+      "result2": "International accounting standards supported",
+      "result3": "Zero manual filing required",
+      "tags": ["Make.com", "Google APIs", "Process Design"]
+    },
+    "volunteerTool": {
+      "title": "Volunteer Management Platform",
+      "industry": "Non-Profit",
+      "category": "tools",
+      "description": "A non-profit volunteering agency needed an internal tool to manage applicants through a complex process including background checks, references, and parental approvals. We built a WeWeb application with Xano backend featuring role-based permissions and sophisticated authentication flows.",
+      "result1": "Volunteer onboarding time reduced by 80%",
+      "result2": "Role-based access for 50+ team members",
+      "result3": "Background check workflow automated",
+      "tags": ["WeWeb", "Xano", "Database Architecture", "API Integration"]
+    },
+    "salesPipeline": {
+      "title": "End-to-End Lead Generation Pipeline",
+      "industry": "Sales & B2B",
+      "category": "pipelines",
+      "description": "A sales team needed a unified system to manage leads across multiple platforms. We built 14 interconnected n8n workflows orchestrating data between Airtable, Supabase, Smartlead, and Heyreach, with a single source of truth database handling all edge cases and sync scenarios.",
+      "result1": "14 workflows orchestrated seamlessly",
+      "result2": "Single source of truth for all lead data",
+      "result3": "Lead response time reduced by 70%",
+      "tags": ["n8n", "Supabase", "Airtable", "Smartlead", "Heyreach"]
+    },
+    "cta": {
+      "title": "Your project could be next",
+      "subtitle": "Let's discuss how we can help you achieve similar results."
+    }
+  },
+  "process": {
+    "hero": {
+      "badge": "OUR PROCESS",
+      "title": "Clear, transparent, effective",
+      "subtitle": "No surprises. You always know where we stand, what comes next, and what you'll get at the end."
+    },
+    "principles": {
+      "transparency": {
+        "title": "Full transparency",
+        "description": "You have access to code, documentation and progress at all times."
+      },
+      "weeklyUpdates": {
+        "title": "Weekly updates",
+        "description": "Every week a demo of progress and opportunity for feedback."
+      },
+      "fixedPrices": {
+        "title": "Fixed prices",
+        "description": "After the discovery phase you receive a binding fixed-price quote."
+      },
+      "flexible": {
+        "title": "Flexible with changes",
+        "description": "Scope changes are possible - with transparent communication about impact."
+      }
+    },
+    "phases": {
+      "title": "The four phases",
+      "subtitle": "Each phase has clear goals, deliverables and a defined timeframe.",
+      "activities": "Activities",
+      "deliverables": "Deliverables",
+      "discovery": {
+        "title": "Discovery",
+        "duration": "1 week",
+        "description": "We understand your problem and define the scope together.",
+        "deliverable1": "Requirements document",
+        "deliverable2": "Technical architecture",
+        "deliverable3": "Project roadmap",
+        "deliverable4": "Fixed-price quote",
+        "activity1": "Kick-off workshop",
+        "activity2": "Stakeholder interviews",
+        "activity3": "Technical analysis",
+        "activity4": "Scope definition"
+      },
+      "design": {
+        "title": "Design",
+        "duration": "1-2 weeks",
+        "description": "UI/UX design and technical planning before the first code.",
+        "deliverable1": "Wireframes / Mockups",
+        "deliverable2": "Interactive prototype",
+        "deliverable3": "Database schema",
+        "deliverable4": "API specification",
+        "activity1": "User flow mapping",
+        "activity2": "UI design",
+        "activity3": "Technical specification",
+        "activity4": "Review & feedback"
+      },
+      "build": {
+        "title": "Build",
+        "duration": "3-6 weeks",
+        "description": "Agile development in weekly sprints with regular updates.",
+        "deliverable1": "Weekly demos",
+        "deliverable2": "Staging environment",
+        "deliverable3": "Documented code",
+        "deliverable4": "Test coverage",
+        "activity1": "Sprint planning",
+        "activity2": "Development",
+        "activity3": "Code review",
+        "activity4": "Weekly demos"
+      },
+      "launch": {
+        "title": "Launch",
+        "duration": "1 week",
+        "description": "Go-live and handover with everything you need.",
+        "deliverable1": "Production deployment",
+        "deliverable2": "Technical documentation",
+        "deliverable3": "Admin manual",
+        "deliverable4": "Handover training",
+        "activity1": "Final testing",
+        "activity2": "Production setup",
+        "activity3": "Documentation",
+        "activity4": "Knowledge transfer"
+      }
+    },
+    "support": {
+      "title": "Support during & after the project",
+      "subtitle": "You're never alone. From day one until long after launch.",
+      "during": {
+        "title": "During development",
+        "point1": "Weekly demo calls and updates",
+        "point2": "Direct Slack/email access to the team",
+        "point3": "Access to staging environment",
+        "point4": "Fast response times for questions"
+      },
+      "after": {
+        "title": "After launch",
+        "point1": "2-4 weeks bug fixes included",
+        "point2": "Complete documentation and training",
+        "point3": "Optional maintenance retainers",
+        "point4": "On-demand support when needed"
+      },
+      "note": "Everything we build belongs to you. No vendor lock-in - you can continue development yourself or hire another provider at any time."
+    },
+    "cta": {
+      "title": "Ready for the first step?",
+      "subtitle": "Let's find out in a free consultation if we're the right partner for your project."
+    }
+  },
+  "pricing": {
+    "hero": {
+      "badge": "PRICING",
+      "title": "Transparent fixed prices",
+      "subtitle": "No hidden costs, no hourly rates that explode. You know upfront what it costs."
+    },
+    "packages": {
+      "mvp": {
+        "name": "MVP Sprint",
+        "description": "For founders and teams who want to validate an idea quickly.",
+        "price": "from €15,000",
+        "duration": "4-8 weeks",
+        "feature1": "Web app with Next.js/React",
+        "feature2": "Responsive design",
+        "feature3": "User authentication",
+        "feature4": "Database & API",
+        "feature5": "Deployment on Vercel/AWS",
+        "feature6": "Complete documentation",
+        "feature7": "2 weeks bug fixes included",
+        "cta": "Discuss MVP"
+      },
+      "automation": {
+        "name": "Automation",
+        "description": "Automate workflows and digitize processes.",
+        "price": "from €3,000",
+        "duration": "1-3 weeks",
+        "feature1": "Workflow analysis",
+        "feature2": "n8n or Make.com setup",
+        "feature3": "Up to 5 integrations",
+        "feature4": "Error handling & monitoring",
+        "feature5": "Documentation & training",
+        "feature6": "30 days support",
+        "cta": "Analyze process"
+      },
+      "retainer": {
+        "name": "Retainer",
+        "description": "Continuous development and maintenance.",
+        "price": "from €4,000",
+        "duration": "per month",
+        "feature1": "Dedicated development time",
+        "feature2": "Priority support",
+        "feature3": "Regular updates & maintenance",
+        "feature4": "Feature development",
+        "feature5": "Performance monitoring",
+        "feature6": "Monthly review",
+        "cta": "Request retainer"
+      }
+    },
+    "custom": {
+      "title": "Custom project?",
+      "subtitle": "The packages don't fit? No problem. We're happy to create a custom quote for your specific project."
+    },
+    "faq": {
+      "title": "Frequently asked questions about pricing",
+      "q1": {
+        "question": "How does pricing work?",
+        "answer": "After a free consultation and the discovery phase, you receive a binding fixed-price quote. No surprises."
+      },
+      "q2": {
+        "question": "What's not included in the price?",
+        "answer": "External costs like hosting, domains, or licenses for third-party tools are charged separately. But we're happy to advise on cost-effective options."
+      },
+      "q3": {
+        "question": "Do you offer payment plans?",
+        "answer": "Yes, for larger projects payment plans are possible. Typically 30% at start, 30% after design approval, 40% at handover."
+      },
+      "q4": {
+        "question": "What happens with scope changes?",
+        "answer": "Changes are possible. We transparently communicate the impact on time and budget before you make a decision."
+      }
+    },
+    "cta": {
+      "title": "Free consultation",
+      "subtitle": "Let's talk about your project with no obligation. Afterwards you'll know exactly what's possible and what it costs."
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "ABOUT Z-FLOW",
+      "title": "A small team with big impact",
+      "subtitle": "Z-Flow is an engineering studio from Berlin. We're a core team of founders and developers that draws on a curated network of specialists for larger projects."
+    },
+    "story": {
+      "title": "Why Z-Flow?",
+      "p1": "We've worked at agencies and startups and observed two things: Either things were built fast but sloppy, or clean but way too slow.",
+      "p2": "Z-Flow is our approach to combining both. With modern tools, clear processes and focused teams, we manage to deliver fast without building up technical debt.",
+      "p3": "\"Speed with standards\" isn't just a slogan - it's how we work."
+    },
+    "team": {
+      "title": "The founder",
+      "mahmoud": {
+        "name": "Mahmoud Sheikh Alard",
+        "role": "Founder & Engineering"
+      },
+      "location": "Location",
+      "contact": "Contact"
+    },
+    "network": {
+      "title": "Lean team + expert network",
+      "subtitle": "We keep the core team small and work with trusted freelancers from our network for specialized tasks.",
+      "benefitsTitle": "Benefits for you:",
+      "benefit1": "Lower costs through lean structure",
+      "benefit2": "Access to specialist knowledge when needed",
+      "benefit3": "Faster scaling when required",
+      "benefit4": "One contact person for everything",
+      "networkTitle": "Our network includes:",
+      "role1": "Frontend developers",
+      "role2": "Backend developers",
+      "role3": "DevOps engineers",
+      "role4": "UI/UX designers",
+      "role5": "Data scientists"
+    },
+    "values": {
+      "title": "Our values",
+      "speed": {
+        "title": "Speed with Standards",
+        "description": "Being fast without sacrificing quality. We deliver in weeks, not months - with code that's still maintainable years later."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "No hidden costs, no surprises. You always know where we stand and what comes next."
+      },
+      "ownership": {
+        "title": "Ownership",
+        "description": "Everything we build belongs to you. Complete documentation, no vendor lock-in, you can continue development yourself at any time."
+      },
+      "pragmatism": {
+        "title": "Pragmatism",
+        "description": "The best solution is the one that works. We choose technologies based on benefits, not hype."
+      }
+    },
+    "cta": {
+      "title": "Let's work together",
+      "subtitle": "We look forward to hearing about your project."
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Contact",
+      "title": "Let's talk",
+      "subtitle": "Tell us about your project. We'll get back to you within 24 hours."
+    },
+    "form": {
+      "title": "Request project",
+      "name": "Name",
+      "namePlaceholder": "John Smith",
+      "company": "Company",
+      "companyPlaceholder": "Company Inc.",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "service": "What is this about?",
+      "servicePlaceholder": "Please select",
+      "serviceMvp": "MVP Development",
+      "serviceAutomation": "Automation",
+      "serviceAi": "AI Integration",
+      "serviceOther": "Other",
+      "budget": "Budget range",
+      "budgetPlaceholder": "Please select",
+      "budgetSmall": "Under €10,000",
+      "budgetMedium": "€10,000 - €25,000",
+      "budgetLarge": "€25,000 - €50,000",
+      "budgetEnterprise": "Over €50,000",
+      "budgetUnsure": "Not sure yet",
+      "message": "Your message",
+      "messagePlaceholder": "Briefly describe your project or requirements...",
+      "required": "*"
+    },
+    "calendar": {
+      "title": "Book a Call",
+      "subtitle": "Prefer to schedule directly? Pick a time that works for you."
+    },
+    "info": {
+      "title": "Direct contact",
+      "email": "Email",
+      "location": "Location",
+      "locationValue": "Berlin, Germany",
+      "responseTime": "Response time",
+      "responseTimeValue": "We typically respond within 24 hours on business days.",
+      "nextSteps": {
+        "title": "What happens after your inquiry?",
+        "step1Title": "We read your inquiry",
+        "step1Desc": "And check if we can help.",
+        "step2Title": "Brief introduction",
+        "step2Desc": "15-30 minute video call or phone call.",
+        "step3Title": "Concrete offer",
+        "step3Desc": "If interested, we create a quote."
+      }
+    }
+  },
+  "imprint": {
+    "title": "Imprint",
+    "companyInfo": {
+      "title": "Information according to § 5 TMG"
+    },
+    "representedBy": {
+      "title": "Represented by"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email"
+    },
+    "registration": {
+      "title": "Registration entry",
+      "text": "Entry in the commercial register.",
+      "court": "Register court",
+      "number": "Register number"
+    },
+    "vatId": {
+      "title": "VAT ID",
+      "text": "VAT identification number according to § 27 a of the German VAT law:"
+    },
+    "responsible": {
+      "title": "Responsible for content according to § 55 Abs. 2 RStV"
+    },
+    "dispute": {
+      "title": "Dispute resolution",
+      "text1": "The European Commission provides a platform for online dispute resolution (OS):",
+      "text2": "You can find our email address above in the imprint.",
+      "text3": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+    },
+    "liability": {
+      "title": "Liability for content",
+      "text1": "As a service provider, we are responsible for our own content on these pages according to general laws pursuant to § 7 para. 1 TMG. According to §§ 8 to 10 TMG, however, we as a service provider are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.",
+      "text2": "Obligations to remove or block the use of information according to general laws remain unaffected. However, liability in this regard is only possible from the point in time at which a concrete legal violation becomes known. Upon becoming aware of corresponding legal violations, we will remove this content immediately."
+    },
+    "links": {
+      "title": "Liability for links",
+      "text1": "Our offer contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this external content. The respective provider or operator of the pages is always responsible for the content of the linked pages.",
+      "text2": "However, a permanent content control of the linked pages is not reasonable without concrete evidence of a violation of the law. Upon becoming aware of legal violations, we will remove such links immediately."
+    },
+    "copyright": {
+      "title": "Copyright",
+      "text1": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, and any kind of utilization outside the limits of copyright law require the written consent of the respective author or creator.",
+      "text2": "Insofar as the content on this page was not created by the operator, the copyrights of third parties are respected. Should you become aware of a copyright infringement, please inform us accordingly. Upon becoming aware of legal violations, we will remove such content immediately."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: January 2025",
+    "overview": {
+      "title": "1. Overview",
+      "general": {
+        "title": "General information",
+        "text": "The following information provides a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to personally identify you."
+      },
+      "collection": {
+        "title": "Data collection on this website",
+        "whoResponsible": "Who is responsible for data collection on this website?",
+        "whoResponsibleText": "Data processing on this website is carried out by the website operator. You can find their contact details in the imprint of this website.",
+        "howCollect": "How do we collect your data?",
+        "howCollectText": "Your data is collected on the one hand by you providing it to us. This can be, for example, data that you enter in a contact form.",
+        "automaticText": "Other data is collected automatically or with your consent when you visit the website by our IT systems. This is mainly technical data (e.g. internet browser, operating system or time of page access)."
+      }
+    },
+    "hosting": {
+      "title": "2. Hosting",
+      "text": "This website is hosted by Vercel Inc. When you visit this website, various data is automatically collected by Vercel for technical and security purposes. This includes the IP address, browser type, operating system, and timestamp.",
+      "details": "For more information, see Vercel's privacy policy:"
+    },
+    "general": {
+      "title": "3. General information and mandatory information",
+      "privacy": {
+        "title": "Data protection",
+        "text": "The operators of this site take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy."
+      },
+      "responsible": {
+        "title": "Responsible party",
+        "intro": "The responsible party for data processing on this website is:",
+        "email": "Email"
+      },
+      "duration": {
+        "title": "Storage duration",
+        "text": "Unless a more specific storage period is specified within this privacy policy, your personal data will remain with us until the purpose for data processing ceases to apply."
+      },
+      "revocation": {
+        "title": "Revocation of your consent to data processing",
+        "text": "Many data processing operations are only possible with your express consent. You can revoke consent you have already given at any time. The legality of the data processing carried out before the revocation remains unaffected by the revocation."
+      },
+      "portability": {
+        "title": "Right to data portability",
+        "text": "You have the right to have data that we process automatically on the basis of your consent or in fulfillment of a contract handed over to you or to a third party in a common, machine-readable format."
+      },
+      "access": {
+        "title": "Information, deletion and correction",
+        "text": "Within the framework of the applicable legal provisions, you have the right at any time to free information about your stored personal data, its origin and recipient and the purpose of data processing and, if necessary, a right to correction or deletion of this data."
+      }
+    },
+    "collection": {
+      "title": "4. Data collection on this website",
+      "form": {
+        "title": "Contact form",
+        "text": "If you send us inquiries via the contact form, your details from the inquiry form, including the contact details you provide there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not pass on this data without your consent."
+      },
+      "email": {
+        "title": "Inquiry by email",
+        "text": "If you contact us by email, your inquiry including all personal data resulting from it (name, inquiry) will be stored and processed by us for the purpose of processing your request."
+      }
+    },
+    "plugins": {
+      "title": "5. Plugins and tools",
+      "fonts": {
+        "title": "Google Fonts (local hosting)",
+        "text": "This site uses Google Fonts for the uniform display of fonts. The fonts are installed locally; no connection to Google servers is established."
+      }
+    }
+  },
+  "languageSwitcher": {
+    "switchTo": "Auf Deutsch wechseln",
+    "currentLanguage": "English"
+  }
+}
