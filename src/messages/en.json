@@ -99,7 +99,8 @@
     "hero": {
       "tagline": "We build.",
       "headline": "You keep control.",
-      "subheadline": "MVPs and automations with complete documentation. No vendor lock-in. Your team can continue tomorrow without us."
+      "subheadline": "MVPs and automations with complete documentation. No vendor lock-in. Your team can continue tomorrow without us.",
+      "meetFounder": "Meet Mahmoud"
     },
     "trustSignals": {
       "transparentPricing": "Fully documented",
@@ -726,7 +727,7 @@
     "team": {
       "title": "The founder",
       "mahmoud": {
-        "name": "Mahmoud Sheikh Alard",
+        "name": "Abdulhamit Cavdar",
         "role": "Founder & Engineering"
       },
       "location": "Location",

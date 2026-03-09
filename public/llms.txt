@@ -8,7 +8,7 @@ Z-Flow is an engineering studio and software agency based in Berlin, Germany. We
 - AI integration (OpenAI, Claude, LLM solutions)
 - No-code development with WeWeb, Xano, Supabase
 
-Founded by Mahmoud Sheikh Alard. We serve startups, SMEs, and the German Mittelstand.
+Founded by Abdulhamit Cavdar. We serve startups, SMEs, and the German Mittelstand.
 
 ## Our Services
 

@@ -7,7 +7,7 @@
 
 Z-Flow is a software agency and engineering studio based in Berlin, Germany. We help startups, SMEs, and the German Mittelstand build digital products and automate business processes.
 
-**Founder**: Mahmoud Sheikh Alard
+**Founder**: Abdulhamit Cavdar
 **Location**: Berlin, Germany
 **Markets served**: Germany, Austria, Switzerland (DACH region), International (English-speaking)
 **Company type**: Z-Flow UG (haftungsbeschränkt)

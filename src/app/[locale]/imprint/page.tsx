@@ -27,7 +27,7 @@ export default function ImprintPage() {
 
           <h2>{t('representedBy.title')}</h2>
           <p>
-            Mahmoud Sheikh Alard
+            Abdulhamit Cavdar
           </p>
 
           <h2>{t('contact.title')}</h2>
@@ -50,7 +50,7 @@ export default function ImprintPage() {
 
           <h2>{t('responsible.title')}</h2>
           <p>
-            Mahmoud Sheikh Alard<br />
+            Abdulhamit Cavdar<br />
             Menzelstraße 3<br />
             12157 Berlin
           </p>
