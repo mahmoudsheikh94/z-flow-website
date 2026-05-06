@@ -4,6 +4,7 @@ import '../globals.css'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { ScrollAnimationProvider } from '@/components/ui/ScrollAnimationProvider'
+import { SplashScreen } from '@/components/ui/SplashScreen'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
@@ -169,6 +170,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <SplashScreen />
           <ScrollAnimationProvider />
           <Header />
           <main>{children}</main>
