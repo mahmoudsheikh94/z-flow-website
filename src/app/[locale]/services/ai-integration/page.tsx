@@ -7,7 +7,7 @@ export default function AIIntegrationPage() {
   const t = useTranslations('aiPage')
   const common = useTranslations('common')
 
-  const technologies = ['OpenAI GPT-4', 'Claude', 'Whisper', 'LangChain', 'Vector DBs', 'Custom Models']
+  const technologies = ['OpenAI GPT-4', 'Claude', 'LangChain', 'Vector Databases', 'RAG Pipelines', 'n8n + AI']
 
   return (
     <>

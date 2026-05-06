@@ -1,10 +1,10 @@
 import { MetadataRoute } from 'next'
+import { projects } from '@/data/projects'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://z-flow.de'
   const currentDate = new Date()
 
-  // Define all pages with their locale variations
   const pages = [
     { path: '', priority: 1.0, changeFrequency: 'weekly' as const },
     { path: '/services', priority: 0.9, changeFrequency: 'monthly' as const },
@@ -22,7 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const locales = ['en', 'de']
 
-  // Generate sitemap entries for all pages in all locales
   const sitemapEntries: MetadataRoute.Sitemap = []
 
   for (const page of pages) {
@@ -36,6 +35,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             en: `${baseUrl}/en${page.path}`,
             de: `${baseUrl}/de${page.path}`,
+          },
+        },
+      })
+    }
+  }
+
+  for (const project of projects) {
+    for (const locale of locales) {
+      sitemapEntries.push({
+        url: `${baseUrl}/${locale}/projects/${project.slug}`,
+        lastModified: currentDate,
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+        alternates: {
+          languages: {
+            en: `${baseUrl}/en/projects/${project.slug}`,
+            de: `${baseUrl}/de/projects/${project.slug}`,
           },
         },
       })

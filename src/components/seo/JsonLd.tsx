@@ -19,7 +19,7 @@ export const schemas = {
     name: 'Z-Flow',
     url: 'https://z-flow.de',
     logo: 'https://z-flow.de/images/logo.png',
-    description: 'Engineering Studio from Berlin. We build MVPs, automate processes, and integrate AI solutions.',
+    description: 'Digitalization partner from Berlin. We understand your business process first, then build the right solution — automation, custom software, or AI.',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Menzelstraße 3',

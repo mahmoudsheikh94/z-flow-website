@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
+import { HeroMedia } from '@/components/hero/HeroMedia'
 
 const tools = [
   { name: 'n8n', category: 'Automation', logo: '/images/N8N.Io_idQ-KxEpHW_1.svg' },
@@ -25,20 +26,20 @@ export default async function Home({
     {
       title: t('services.mvp.title'),
       description: t('services.mvp.description'),
-      href: '/services/mvp-development' as const,
+      href: '/services/automation' as const,
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
         </svg>
       ),
     },
     {
       title: t('services.automation.title'),
       description: t('services.automation.description'),
-      href: '/services/automation' as const,
+      href: '/services/mvp-development' as const,
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
     },
@@ -70,6 +71,11 @@ export default async function Home({
       title: t('process.step3.title'),
       description: t('process.step3.description'),
     },
+    {
+      number: '04',
+      title: t('process.step4.title'),
+      description: t('process.step4.description'),
+    },
   ]
 
   const trustSignals = [
@@ -88,56 +94,79 @@ export default async function Home({
   return (
     <>
       {/* Hero Section */}
-      <section className="relative min-h-[100svh] flex items-center section-dark overflow-hidden">
+      <section className="relative min-h-[100svh] flex items-center pt-20 section-dark overflow-hidden">
         {/* Background Effects - More subtle */}
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="glow-subtle top-1/3 left-1/4 -translate-x-1/2" />
         <div className="glow-subtle bottom-1/3 right-1/4 translate-x-1/2" />
 
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-8 py-32 lg:py-0">
-          <div className="max-w-3xl lg:max-w-4xl">
-            {/* Badge */}
-            <div className="hero-animate hero-animate-1 mb-6">
-              <span className="badge badge-dark text-xs tracking-widest">
-                {common('badges.engineeringStudio')}
-              </span>
-            </div>
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-8 py-16 lg:py-0 w-full">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left Column - Text Content */}
+            <div className="max-w-xl">
+              {/* Badge */}
+              <div className="hero-animate hero-animate-1 mb-6">
+                <span className="badge badge-dark text-xs tracking-widest">
+                  {common('badges.engineeringStudio')}
+                </span>
+              </div>
 
-            {/* Headline - Much larger with text-display */}
-            <h1 className="hero-animate hero-animate-2 text-display font-bold tracking-tight mb-8">
-              <span className="gradient-text">{t('hero.tagline')}</span>
-              <br />
-              <span className="text-white">{t('hero.headline')}</span>
-            </h1>
+              {/* Headline - Much larger with text-display */}
+              <h1 className="hero-animate hero-animate-2 text-display font-bold tracking-tight mb-8">
+                <span className="gradient-text">{t('hero.tagline')}</span>
+                <br />
+                <span className="text-white">{t('hero.headline')}</span>
+              </h1>
 
-            {/* Subheadline - More breathing room */}
-            <p className="hero-animate hero-animate-3 text-body-lg text-white/60 max-w-xl mb-12 leading-relaxed">
-              {t('hero.subheadline')}
-            </p>
+              {/* Subheadline - More breathing room */}
+              <p className="hero-animate hero-animate-3 text-body-lg text-white/60 max-w-xl mb-8 leading-relaxed">
+                {t('hero.subheadline')}
+              </p>
 
-            {/* CTAs - More space */}
-            <div className="hero-animate hero-animate-4 flex flex-col sm:flex-row gap-5">
-              <Link href="/contact" className="btn btn-primary">
-                {common('cta.discussProject')}
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
-              <Link href="/projects" className="btn btn-secondary">
-                {common('cta.viewProjects')}
-              </Link>
-            </div>
+              {/* Mobile: Hero Media appears here */}
+              <div className="lg:hidden mb-12">
+                <HeroMedia
+                  imageSrc="/images/mahmoud-working.svg"
+                  imageAlt="Mahmoud working on automation workflows"
+                  videoSrc="/videos/intro.mp4"
+                  caption={t('hero.meetFounder')}
+                />
+              </div>
 
-            {/* Trust Signals */}
-            <div className="hero-animate hero-animate-5 mt-20 flex flex-wrap gap-x-8 gap-y-4">
-              {trustSignals.map((signal) => (
-                <div key={signal} className="flex items-center gap-2 text-white/40 text-sm">
-                  <svg className="w-4 h-4 text-brand-orange" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              {/* CTAs - More space */}
+              <div className="hero-animate hero-animate-4 flex flex-col sm:flex-row gap-5">
+                <Link href="/contact" className="btn btn-primary">
+                  {common('cta.discussProject')}
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
-                  {signal}
-                </div>
-              ))}
+                </Link>
+                <Link href="/projects" className="btn btn-secondary">
+                  {common('cta.viewProjects')}
+                </Link>
+              </div>
+
+              {/* Trust Signals */}
+              <div className="hero-animate hero-animate-5 mt-10 lg:mt-12 flex flex-wrap gap-x-8 gap-y-4">
+                {trustSignals.map((signal) => (
+                  <div key={signal} className="flex items-center gap-2 text-white/40 text-sm">
+                    <svg className="w-4 h-4 text-brand-orange" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    {signal}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Column - Hero Media (Desktop only) */}
+            <div className="hidden lg:block">
+              <HeroMedia
+                imageSrc="/images/mahmoud-working.svg"
+                imageAlt="Mahmoud working on automation workflows"
+                videoSrc="/videos/intro.mp4"
+                caption={t('hero.meetFounder')}
+              />
             </div>
           </div>
         </div>
@@ -206,7 +235,7 @@ export default async function Home({
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-12 lg:gap-16">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
             {processSteps.map((step, index) => (
               <div
                 key={step.number}

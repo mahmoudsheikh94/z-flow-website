@@ -35,8 +35,8 @@ export default function AiIntegrationLayout({
   children: React.ReactNode
 }) {
   const serviceSchema = schemas.service({
-    name: 'AI Integration',
-    description: 'Integrate AI capabilities into your business. Chatbots, voice agents, content generation, and more.',
+    name: 'AI for Business',
+    description: 'AI systems trained on your company data. Knowledge bases, employee AI assistants, internal chatbots, and RAG systems that understand your business.',
     url: 'https://z-flow.de/en/services/ai-integration',
   })
 

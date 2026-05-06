@@ -28,7 +28,7 @@
       "viewExamples": "Beispiele ansehen"
     },
     "footer": {
-      "tagline": "Speed with standards. MVPs und Automations die schnell liefern und langfristig skalieren.",
+      "tagline": "Wir verstehen deinen Prozess. Dann bauen wir die richtige Lösung.",
       "location": "Berlin, Deutschland",
       "servicesTitle": "Leistungen",
       "companyTitle": "Unternehmen",
@@ -39,7 +39,7 @@
       "privacy": "Datenschutz"
     },
     "badges": {
-      "engineeringStudio": "ENGINEERING STUDIO"
+      "engineeringStudio": "DIGITALISIERUNGSPARTNER"
     },
     "backToServices": "Zurück zu Leistungen",
     "results": "Ergebnisse",
@@ -47,44 +47,44 @@
   },
   "metadata": {
     "home": {
-      "title": "Z-Flow | MVP Entwicklung & Automatisierung Agentur Berlin",
-      "description": "Engineering Studio in Berlin für MVP Entwicklung, Workflow-Automatisierung mit n8n und Make.com, und KI-Integration. n8n Entwickler, WeWeb Experten, Xano Spezialisten. Von der Idee zum Produkt in 2-6 Wochen."
+      "title": "Z-Flow | Digitalisierungspartner Berlin — Automatisierung, Software & KI",
+      "description": "Ihr Digitalisierungspartner in Berlin. Wir verstehen erst Ihren Geschäftsprozess, dann bauen wir die richtige Lösung — Automatisierung, individuelle Software oder KI-Systeme trainiert auf Ihren Daten. Prozess-zuerst, Festpreise."
     },
     "services": {
-      "title": "MVP Entwicklung, n8n Automatisierung & KI-Integration",
-      "description": "n8n Entwickler und Make.com Experten beauftragen. MVP Entwicklung mit Next.js, WeWeb, Xano, Supabase. Prozessautomatisierung und OpenAI Integration für Startups und KMU in Deutschland."
+      "title": "Digitalisierung | Prozessautomatisierung, Software & KI",
+      "description": "Prozess-zuerst Digitalisierung: Workflow-Automatisierung mit n8n und Make.com, individuelle MVP-Entwicklung mit Next.js, und KI-Integration. Wir verstehen erst Ihr Unternehmen, dann wählen wir die richtige Technologie."
     },
     "mvp": {
-      "title": "MVP Agentur | MVP entwickeln lassen in 2-6 Wochen",
-      "description": "MVP Entwicklung für Gründer ohne technischen Hintergrund. Web-Apps mit Next.js/React oder No-Code (WeWeb + Xano/Supabase). Fractional CTO Service, Festpreise ab 15.000€. Startup-Idee schnell validieren."
+      "title": "MVP Entwicklung | Von der Idee zum Produkt in 4-8 Wochen",
+      "description": "MVP Entwicklung für Gründer und KMU. Web-Apps mit Next.js/React, Supabase Backend. Prozess-zuerst Ansatz, Festpreise. Validieren Sie Ihre Geschäftsidee mit echten Nutzern bevor Sie skalieren."
     },
     "automation": {
-      "title": "n8n Entwickler & Make.com Experte | Prozessautomatisierung",
-      "description": "n8n Entwickler und Make.com Experten in Deutschland. Geschäftsprozesse automatisieren, API-Integrationen, Workflow-Optimierung. Self-hosted n8n Setup, DSGVO-konform. 90% Zeitersparnis bei repetitiven Aufgaben."
+      "title": "Prozessautomatisierung | n8n & Make.com Experten Deutschland",
+      "description": "Wir analysieren Ihre Prozesse, finden die Engpässe und automatisieren was zählt. n8n und Make.com Experten mit 5+ Jahren Prozesserfahrung. Self-hosted, DSGVO-konform. 90% Zeitersparnis."
     },
     "aiIntegration": {
-      "title": "KI-Integration | OpenAI, ChatGPT & LLM Entwickler",
-      "description": "KI-Integration für Unternehmen: OpenAI API, Claude, individuelle LLM-Lösungen. KI-Chatbot Entwicklung, Dokumentenverarbeitung, RAG-Implementierung. KI-Beratung für den deutschen Mittelstand."
+      "title": "KI für Unternehmen | Wissensdatenbanken & KI-Assistenten",
+      "description": "Wir bauen KI-Systeme trainiert auf Ihren Unternehmensdaten — interne Wissensdatenbanken, KI-Assistenten für Mitarbeiter und Chatbots die Ihr Unternehmen verstehen. Prozess-zuerst, RAG-Systeme, OpenAI & Claude. Standort Berlin."
     },
     "projects": {
-      "title": "Referenzen | MVP, Automatisierung & KI Projekte",
-      "description": "Portfolio von MVP Entwicklung, n8n Automatisierungs-Workflows und KI-Integrationsprojekten. Echte Ergebnisse: 90% Zeitersparnis, 24/7 KI-Telefonagenten, automatisierte Rechnungssysteme."
+      "title": "Referenzen | Digitalisierung, Automatisierung & KI Projekte",
+      "description": "Echte Digitalisierungsprojekte: Prozessautomatisierung, individuelle Software und KI-Integration. Sehen Sie wie wir Unternehmen geholfen haben, 90% manuelle Arbeit zu sparen und Prozesse zu digitalisieren."
     },
     "process": {
-      "title": "Unser Entwicklungsprozess | Transparent & Agil",
-      "description": "Klarer Festpreis-Entwicklungsprozess. Wöchentliche Demos, vollständige Dokumentation, kein Vendor Lock-in. Von der Entdeckung bis zum Launch in Wochen. Ihr Code gehört Ihnen."
+      "title": "Unser Prozess | Prozess-Audit, Lösungsdesign, Build & Übergabe",
+      "description": "Prozess-zuerst Entwicklung: Wir analysieren Ihre Workflows, designen die richtige Lösung, bauen in wöchentlichen Sprints und übergeben alles. Festpreise, volle Dokumentation, kein Vendor Lock-in."
     },
     "pricing": {
-      "title": "Preise | MVP Entwicklung, Automatisierung & KI Kosten",
-      "description": "Transparente Festpreise: MVP Entwicklung ab 15.000€, n8n/Make.com Automatisierung ab 3.000€, Schulungen ab 1.500€. Keine versteckten Kosten. Kostenloses Erstgespräch."
+      "title": "Preise | Automatisierung, Software & KI — Transparente Festpreise",
+      "description": "Transparente Festpreise: Prozessautomatisierung ab 3.000€, MVP Entwicklung ab 15.000€, KI-Integration ab 5.000€. Kostenlose Prozessberatung inklusive."
     },
     "about": {
-      "title": "Über Z-Flow | Engineering Studio Berlin",
-      "description": "Z-Flow ist ein Engineering Studio aus Berlin. Wir sind n8n Experten, WeWeb Entwickler und KI-Integrations-Spezialisten. Fractional CTO Service für Startups. Speed with standards."
+      "title": "Über Z-Flow | Digitalisierungspartner Berlin",
+      "description": "Z-Flow ist Ihr Digitalisierungspartner in Berlin. 5+ Jahre Prozess-Mapping Erfahrung, jetzt mit KI-gestütztem Engineering. Wir verstehen erst Ihr Unternehmen, dann bauen wir die richtige Lösung."
     },
     "contact": {
-      "title": "Kontakt | Kostenloses Erstgespräch für Ihr Projekt",
-      "description": "Kontaktieren Sie Z-Flow für MVP Entwicklung, Workflow-Automatisierung oder KI-Integration. Kostenloses 30-minütiges Erstgespräch. Standort Berlin, für Deutschland und die DACH-Region."
+      "title": "Kontakt | Kostenlose Prozessberatung",
+      "description": "Starten Sie mit einer kostenlosen Prozessberatung. Wir analysieren Ihre Workflows und empfehlen den richtigen Ansatz — Automatisierung, individuelle Software oder KI. Standort Berlin, für Deutschland und DACH."
     },
     "imprint": {
       "title": "Impressum | Z-Flow",
@@ -97,49 +97,53 @@
   },
   "home": {
     "hero": {
-      "tagline": "Wir bauen.",
-      "headline": "Sie behalten die Kontrolle.",
-      "subheadline": "MVPs und Automationen mit vollständiger Dokumentation. Kein Vendor Lock-in. Ihr Team kann morgen ohne uns weitermachen.",
+      "tagline": "Wir verstehen deinen Prozess.",
+      "headline": "Dann bauen wir die richtige Lösung.",
+      "subheadline": "Ob Automatisierung, individuelle Software oder KI — wir verstehen erst, wie Ihr Unternehmen wirklich funktioniert. Dann digitalisieren wir es und machen es intelligent.",
       "meetFounder": "Mahmoud kennenlernen"
     },
     "trustSignals": {
-      "transparentPricing": "Vollständig dokumentiert",
-      "fullDocumentation": "Kein Vendor Lock-in",
-      "noVendorLockIn": "Ihr Code gehört Ihnen",
-      "germanQuality": "Sie wissen, wer baut"
+      "transparentPricing": "5+ Jahre Prozesserfahrung",
+      "fullDocumentation": "Prozess-first Ansatz",
+      "noVendorLockIn": "Dein Code gehört dir",
+      "germanQuality": "Standort Deutschland"
     },
     "services": {
-      "badge": "Leistungen",
-      "title": "Was wir für Sie bauen",
-      "subtitle": "Fokussiert auf drei Bereiche, in denen wir nachweislich Ergebnisse liefern.",
+      "badge": "Wie wir helfen",
+      "title": "Drei Probleme, die wir lösen",
+      "subtitle": "Jedes Projekt beginnt mit dem Verstehen deines Prozesses. Dann wählen wir den richtigen Ansatz.",
       "mvp": {
-        "title": "MVP Entwicklung",
-        "description": "Von der Idee zum funktionierenden Produkt in Wochen, nicht Monaten. Validieren Sie schnell mit echten Nutzern."
+        "title": "Manuelle Prozesse bremsen dich aus?",
+        "description": "Wir mappen deine Workflows, finden die Engpässe und automatisieren was nie manuell sein sollte. n8n, Make.com und individuelle Integrationen."
       },
       "automation": {
-        "title": "Automatisierung",
-        "description": "Manuelle Prozesse automatisieren mit n8n und Make.com. Sparen Sie Zeit und reduzieren Sie Fehler."
+        "title": "Brauchst du ein Produkt — schnell?",
+        "description": "Von der Idee zur funktionierenden Software in Wochen. MVPs, interne Tools und Custom-Plattformen — gebaut um zu halten, nicht nur um zu launchen."
       },
       "ai": {
-        "title": "KI-Integration",
-        "description": "KI sinnvoll einsetzen wo sie echten Mehrwert bringt. Keine Spielerei, sondern messbare Ergebnisse."
+        "title": "Bereit für Ihr Company Brain?",
+        "description": "Wir bauen KI-Systeme, trainiert auf Ihren Unternehmensdaten — Wissensdatenbanken, KI-Assistenten für Ihr Team und Chatbots, die Ihr Unternehmen wirklich verstehen. Keine generische KI, sondern Ihre KI."
       }
     },
     "process": {
       "badge": "Unser Prozess",
-      "title": "Klar, transparent, effektiv",
-      "subtitle": "Keine Überraschungen. Sie wissen immer wo wir stehen und was als nächstes kommt.",
+      "title": "Prozess-first. Technologie-second.",
+      "subtitle": "Wir starten nicht mit Code. Wir starten damit, dein Business zu verstehen.",
       "step1": {
-        "title": "Verstehen",
-        "description": "Wir analysieren Ihre Anforderungen und definieren klare Ziele und Deliverables."
+        "title": "Mappen",
+        "description": "Wir mappen deine aktuellen Prozesse und finden die Engpässe."
       },
       "step2": {
-        "title": "Bauen",
-        "description": "Agile Entwicklung mit wöchentlichen Updates. Sie sehen Fortschritte, nicht nur Berichte."
+        "title": "Planen",
+        "description": "Wir wählen die richtige Technologie und definieren den Scope."
       },
       "step3": {
+        "title": "Bauen",
+        "description": "Agile Entwicklung mit wöchentlichen Demos. Du siehst Fortschritt, nicht Berichte."
+      },
+      "step4": {
         "title": "Übergeben",
-        "description": "Vollständige Dokumentation und Training. Sie können es selbst warten und weiterentwickeln."
+        "description": "Vollständige Dokumentation, Training, dein Code. Kein Vendor Lock-in."
       },
       "detailCta": "Prozess im Detail"
     },
@@ -162,8 +166,8 @@
   "services": {
     "hero": {
       "badge": "UNSERE LEISTUNGEN",
-      "title": "Fokussiert auf das, was zählt",
-      "subtitle": "Drei Kernbereiche. Tiefe Expertise. Messbare Ergebnisse. Wir machen nicht alles, aber das was wir machen, machen wir richtig."
+      "title": "Drei Probleme. Drei Lösungen.",
+      "subtitle": "Jedes Projekt beginnt mit dem Verstehen Ihres Prozesses. Dann wählen wir den richtigen Ansatz — Automatisierung, individuelle Software oder KI."
     },
     "mvp": {
       "subtitle": "Von der Idee zum Produkt",
@@ -194,15 +198,15 @@
       "metricLabel": "Typische Zeitersparnis"
     },
     "ai": {
-      "subtitle": "KI sinnvoll einsetzen",
-      "title": "KI-Integration",
-      "description": "KI ist kein Selbstzweck. Wir integrieren KI-Funktionen dort wo sie echten Mehrwert bringen - von intelligenter Textverarbeitung bis zur automatisierten Datenanalyse.",
+      "subtitle": "Ihr Company Brain aufbauen",
+      "title": "KI für Ihr Unternehmen",
+      "description": "Ihr Unternehmen hat jahrelang Wissen angesammelt — in Dokumenten, E-Mails und in den Köpfen Ihrer Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen — interne Chatbots, KI-Assistenten für Mitarbeiter und intelligente Automatisierung, die Ihr Unternehmen wirklich versteht.",
       "features": {
-        "1": "OpenAI und Claude Integration",
-        "2": "Dokumenten-Verarbeitung und -Analyse",
-        "3": "Chatbots und Assistenten",
-        "4": "Automatische Kategorisierung",
-        "5": "Custom AI Workflows"
+        "1": "Wissensdatenbanken aus Ihren Unternehmensdaten",
+        "2": "Interne KI-Assistenten für Mitarbeiter",
+        "3": "Chatbots trainiert auf Ihren Dokumenten",
+        "4": "RAG-Systeme über Firmenwissen",
+        "5": "KI-gestützte Workflow-Automatisierung"
       },
       "metric": "10x",
       "metricLabel": "Produktivitätssteigerung"
@@ -215,7 +219,7 @@
   "mvpPage": {
     "hero": {
       "title": "MVP Entwicklung",
-      "subtitle": "Von der Idee zum funktionierenden Produkt in Wochen, nicht Monaten. Validieren Sie Ihre Geschäftsidee mit echten Nutzern, bevor Sie skalieren."
+      "subtitle": "Sie haben eine Geschäftsidee, aber noch kein Produkt. Wir bauen Ihr MVP in Wochen — funktional genug für echte Nutzer, sauber genug zum Skalieren."
     },
     "features": {
       "title": "Was Sie bekommen",
@@ -291,7 +295,7 @@
   "automationPage": {
     "hero": {
       "title": "Automatisierung",
-      "subtitle": "Manuelle Prozesse kosten Zeit, Geld und Nerven. Wir automatisieren Ihre Workflows mit n8n und Make.com - zuverlässig, nachvollziehbar und skalierbar.",
+      "subtitle": "Ihr Team verbringt Stunden mit Aufgaben, die eine Maschine in Sekunden erledigen könnte. Wir analysieren den Prozess, finden die Engpässe und automatisieren was zählt — mit n8n und Make.com.",
       "cta": "Prozess analysieren lassen"
     },
     "benefits": {
@@ -357,33 +361,33 @@
   },
   "aiPage": {
     "hero": {
-      "title": "KI-Integration",
-      "subtitle": "KI ist kein Zauber - es ist ein Werkzeug. Wir integrieren KI-Funktionen dort, wo sie echten Mehrwert bringen und messbare Ergebnisse liefern.",
-      "cta": "Use Case besprechen"
+      "title": "KI für Ihr Unternehmen",
+      "subtitle": "Ihr Team hat jahrelang Wissen angesammelt — in Dokumenten, Prozessen und in den Köpfen der Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen und nutzbar machen — interne Assistenten, smarte Chatbots und Automatisierung, die Ihr Unternehmen wirklich versteht.",
+      "cta": "KI-Projekt besprechen"
     },
     "useCases": {
       "title": "Typische Anwendungsfälle",
       "subtitle": "Diese KI-Lösungen implementieren wir regelmäßig für unsere Kunden.",
       "documents": {
-        "title": "Dokumenten-Analyse",
-        "description": "Automatische Extraktion und Kategorisierung von Informationen aus Dokumenten, Verträgen und Rechnungen."
+        "title": "Dokumenten-Intelligenz",
+        "description": "Verwandeln Sie Ihre Dokumente, Verträge und Handbücher in eine durchsuchbare Wissensdatenbank, die Ihr ganzes Team abfragen kann."
       },
       "chatbots": {
-        "title": "Intelligente Chatbots",
-        "description": "KI-gestützte Assistenten die Kundenanfragen verstehen und beantworten - trainiert auf Ihre Daten."
+        "title": "Firmen-Chatbot",
+        "description": "Ein KI-Assistent trainiert auf Ihren internen Daten — SOPs, Produktdokumentation, Kundenhistorie. Ihr Team stellt Fragen, er antwortet präzise."
       },
       "content": {
-        "title": "Content-Generierung",
-        "description": "Automatisierte Erstellung von Produktbeschreibungen, E-Mails und anderen Texten."
+        "title": "KI-Assistenten für Mitarbeiter",
+        "description": "Maßgeschneiderte KI-Tools für Ihr Team — vom E-Mail-Entwurf basierend auf vergangenen Gesprächen bis zur Meeting-Zusammenfassung und Berichtserstellung."
       },
       "categorization": {
-        "title": "Daten-Kategorisierung",
-        "description": "Automatische Klassifizierung und Tagging von Daten, Tickets oder Kundenfeedback."
+        "title": "Intelligente Automatisierung",
+        "description": "KI-gestützte Workflows, die Kontext verstehen — automatisches Ticket-Routing, Dokumentenklassifizierung und Entscheidungen basierend auf Ihren Geschäftsregeln."
       }
     },
     "principles": {
       "title": "Unsere Prinzipien",
-      "subtitle": "KI verantwortungsvoll einsetzen bedeutet für uns:",
+      "subtitle": "KI auf Ihren Unternehmensdaten aufzubauen erfordert Vertrauen. So verdienen wir es:",
       "noPurpose": {
         "title": "Kein Selbstzweck",
         "description": "Wir setzen KI nur dort ein, wo sie messbaren Mehrwert bringt - nicht weil sie trendy ist."
@@ -405,128 +409,137 @@
       "title": "Technologien"
     },
     "cta": {
-      "title": "Haben Sie einen Use Case im Kopf?",
-      "subtitle": "Lassen Sie uns gemeinsam prüfen, ob KI für Ihren Anwendungsfall Sinn macht - und wenn ja, wie."
+      "title": "Bereit für Ihr Company Brain?",
+      "subtitle": "Lassen Sie uns besprechen, wie KI trainiert auf Ihren Daten die Arbeitsweise Ihres Teams transformieren kann."
     }
   },
   "projects": {
     "hero": {
-      "badge": "PROJEKTE",
-      "title": "Was wir gebaut haben",
-      "subtitle": "Ausgewählte Projekte aus den Bereichen KI-Lösungen, Prozessautomatisierung, interne Tools und Datenpipelines."
+      "badge": "REFERENZEN",
+      "title": "Echte Projekte. Echte Ergebnisse.",
+      "subtitle": "Von Prozessdigitalisierung und Custom-Software bis KI-Integration und Workflow-Automatisierung."
     },
     "categories": {
       "all": "Alle Projekte",
-      "ai": "KI-Lösungen",
-      "automation": "Prozessautomatisierung",
-      "tools": "Interne Tools",
-      "pipelines": "Datenpipelines"
+      "software": "Custom Software",
+      "digitalization": "Prozessdigitalisierung",
+      "ai": "KI-Integration",
+      "automation": "Workflow-Automatisierung"
     },
-    "aiVideo": {
+    "weprospectify": {
+      "title": "B2B Sales-Prospecting-Plattform",
+      "industry": "Vertrieb & B2B",
+      "description": "Eine Multi-Channel-Outreach-Plattform die den gesamten Sales-Prospecting-Lifecycle automatisiert — von der Lead-Discovery bis zu E-Mail- und LinkedIn-Kampagnen. Mit KI-gestützter Personalisierung, Kampagnen-Analytics und CRM-Sync.",
+      "result1": "Gesamter Prospecting-Lifecycle automatisiert",
+      "result2": "KI-personalisierte Outreach im großen Stil",
+      "result3": "Multi-Channel-Kampagnen aus einem Dashboard",
+      "tags": ["Next.js", "Supabase", "n8n", "OpenAI", "Stripe"]
+    },
+    "layovr": {
+      "title": "Airport Passenger Experience App",
+      "industry": "Reisen & Hospitality",
+      "description": "Eine Plattform für Reisende, um das Beste aus Flughafen-Layovers zu machen — Echtzeit-Flugverfolgung, Gate-Community-Features, F&B-Angebote in der Nähe und Traveler-Chat. Integriert Live-Flugdaten mit standortbasierten Empfehlungen.",
+      "result1": "Echtzeit-Flugdaten-Integration",
+      "result2": "Standortbasierte Flughafen-Empfehlungen",
+      "result3": "Community-Features für Gate-Bereiche",
+      "tags": ["Next.js", "Supabase", "AviationStack API", "Tailwind CSS"]
+    },
+    "ai-video-generation": {
       "title": "KI-gestützte Marketing-Videogenerierung",
       "industry": "Medien & Marketing",
-      "category": "ai",
       "description": "Eine Marketing-Agentur brauchte skalierbare Video-Content-Produktion aus einzelnen Bildern. Wir haben eine Airtable-Oberfläche mit einem komplexen n8n-Workflow verbunden, der Videos mit OpenAI und Ideogram generiert, automatisch mehrsprachige Untertitel hinzufügt und strukturierte Daten in Google Sheets exportiert.",
       "result1": "50+ Marketing-Videos pro Woche generiert",
       "result2": "90% weniger Produktionszeit",
       "result3": "Automatisierte mehrsprachige Untertitel",
       "tags": ["n8n", "OpenAI", "Ideogram", "Airtable", "Google Sheets"]
     },
-    "aiPhone": {
+    "ai-voice-agent": {
       "title": "KI-Telefonagent für Kundenservice",
       "industry": "Bauwesen",
-      "category": "ai",
-      "description": "Ein Bauunternehmen musste Kundenanfragen zum Projektstatus rund um die Uhr bearbeiten. Wir haben einen KI-Telefonagenten mit 11Labs-Sprachtechnologie und n8n-Workflows gebaut. Der Agent greift in Echtzeit auf Projektdaten aus Airtable zu, beantwortet Fragen natürlich und protokolliert alle Interaktionen automatisch.",
+      "description": "Ein Bauunternehmen musste Kundenanfragen zum Projektstatus rund um die Uhr bearbeiten. Wir haben einen KI-Telefonagenten mit 11Labs-Sprachtechnologie und n8n-Workflows gebaut.",
       "result1": "85% der Anfragen ohne menschliches Eingreifen bearbeitet",
       "result2": "24/7 Verfügbarkeit mit konstanter Antwortqualität",
       "result3": "Kundenzufriedenheit um 40% verbessert",
       "tags": ["n8n", "11Labs", "Airtable", "OpenRouter"]
     },
-    "stripeRefund": {
-      "title": "Automatisiertes Rückerstattungssystem",
-      "industry": "E-Commerce",
-      "category": "automation",
-      "description": "Ein E-Commerce-Unternehmen mit täglichen Rückerstattungen brauchte eine schnellere, fehlerfreie Lösung. Wir haben Lexoffice Buchhaltungssoftware mit Airtable und Stripe integriert, sodass Rückerstattungen per Checkbox in einer einfachen Oberfläche automatisierte Make.com-Workflows auslösen.",
-      "result1": "Bearbeitungszeit von 15 Min. auf 30 Sek. reduziert",
-      "result2": "200+ tägliche Rückerstattungen automatisch verarbeitet",
-      "result3": "Null manuelle Fehler bei der Rückerstattung",
-      "tags": ["Make.com", "Stripe", "Lexoffice", "Airtable"]
-    },
-    "carSupplier": {
-      "title": "Fahrzeugdaten-Integration",
-      "industry": "Automotive",
-      "category": "automation",
-      "description": "Ein Autohändler musste Fahrzeugdaten von mehreren Lieferanten zusammenführen, mit Drittanbieter-Services anreichern und mit seiner Verkaufsplattform synchronisieren. Wir haben eine umfassende Make.com-Automatisierung gebaut, die Daten abruft, Angebote mit Marktdaten anreichert und sie auf die Bubble.io-Plattform hochlädt.",
-      "result1": "500+ Fahrzeugangebote täglich synchronisiert",
-      "result2": "3 Lieferanten-APIs in einer Pipeline vereint",
-      "result3": "Echtzeit-Bestandsaktualisierungen",
-      "tags": ["Make.com", "PostgreSQL", "Airtable", "Bubble.io"]
-    },
-    "invoicing": {
-      "title": "Automatisiertes Rechnungssystem",
-      "industry": "Finanzen",
-      "category": "automation",
-      "description": "Ein Kunde mit komplexen Rechnungsanforderungen brauchte ein System für mehrere Anwendungsfälle: Erstellen, Bearbeiten, Stornieren und erneutes Ausstellen von Rechnungen. Wir haben eine n8n-gesteuerte Lösung mit intuitiver Airtable-Oberfläche gebaut, die alle Rechnungs-Workflows mit vollständigem Audit-Trail automatisiert.",
-      "result1": "95% weniger Rechnungsfehler",
-      "result2": "Bearbeiten, Stornieren und Neuausstellen mit einem Klick",
-      "result3": "Vollständiger Audit-Trail für Compliance",
-      "tags": ["n8n", "Airtable", "Process Automation"]
-    },
-    "invoiceDistribution": {
-      "title": "Rechnungsgenerierung & -versand",
-      "industry": "Finanzen",
-      "category": "automation",
-      "description": "Ein Unternehmen brauchte automatisierte Rechnungsgenerierung basierend auf Transaktionstypen und Timing, mit korrekter Ablage und Zustellung. Wir haben einen Make.com-Workflow gebaut, der Rechnungen generiert, in organisierten Google Drive Ordnern speichert, Airtable-Datensätze aktualisiert und sie automatisch per E-Mail an Kunden sendet.",
-      "result1": "Rechnungen automatisch in richtige Ordner sortiert",
-      "result2": "Sofortiger E-Mail-Versand nach Generierung",
-      "result3": "Google Drive perfekt organisiert",
-      "tags": ["Make.com", "Google Docs API", "Airtable", "Bubble.io"]
-    },
-    "financialFolders": {
-      "title": "Finanz-Ordnerorganisation",
-      "industry": "Finanzen",
-      "category": "automation",
-      "description": "Eine Finanzabteilung brauchte dynamische Ordnerstrukturen in Google Drive für internationale Buchhaltungsanforderungen. Wir haben eine Make.com-Automatisierung erstellt, die Ordnerhierarchien nach Buchhaltungsregeln generiert und sicherstellt, dass Rechnungen automatisch an die richtigen Speicherorte verteilt werden.",
-      "result1": "Dynamische Ordnererstellung nach Regeln",
-      "result2": "Internationale Buchhaltungsstandards unterstützt",
-      "result3": "Keine manuelle Ablage erforderlich",
-      "tags": ["Make.com", "Google APIs", "Process Design"]
-    },
-    "volunteerTool": {
-      "title": "Freiwilligen-Management-Plattform",
-      "industry": "Non-Profit",
-      "category": "tools",
-      "description": "Eine gemeinnützige Freiwilligenagentur brauchte ein internes Tool zur Verwaltung von Bewerbern durch einen komplexen Prozess mit Hintergrundprüfungen, Referenzen und elterlichen Genehmigungen. Wir haben eine WeWeb-Anwendung mit Xano-Backend gebaut, mit rollenbasierter Zugriffskontrolle und ausgefeilten Authentifizierungs-Workflows.",
-      "result1": "Einarbeitungszeit für Freiwillige um 80% reduziert",
-      "result2": "Rollenbasierter Zugriff für 50+ Teammitglieder",
-      "result3": "Hintergrundprüfungs-Workflow automatisiert",
-      "tags": ["WeWeb", "Xano", "Database Architecture", "API Integration"]
-    },
-    "salesPipeline": {
+    "lead-generation-pipeline": {
       "title": "End-to-End Lead-Generierungs-Pipeline",
       "industry": "Vertrieb & B2B",
-      "category": "pipelines",
-      "description": "Ein Vertriebsteam brauchte ein einheitliches System zur Lead-Verwaltung über mehrere Plattformen hinweg. Wir haben 14 vernetzte n8n-Workflows gebaut, die Daten zwischen Airtable, Supabase, Smartlead und Heyreach orchestrieren, mit einer Single Source of Truth Datenbank, die alle Edge Cases und Sync-Szenarien abdeckt.",
+      "description": "Ein Vertriebsteam brauchte ein einheitliches System zur Lead-Verwaltung über mehrere Plattformen hinweg. 14 vernetzte n8n-Workflows orchestrieren Daten zwischen Airtable, Supabase, Smartlead und Heyreach.",
       "result1": "14 Workflows nahtlos orchestriert",
       "result2": "Single Source of Truth für alle Lead-Daten",
       "result3": "Lead-Reaktionszeit um 70% reduziert",
       "tags": ["n8n", "Supabase", "Airtable", "Smartlead", "Heyreach"]
     },
+    "automated-invoicing": {
+      "title": "Automatisiertes Rechnungssystem",
+      "industry": "Finanzen",
+      "description": "Ein Kunde mit komplexen Rechnungsanforderungen brauchte ein System für mehrere Anwendungsfälle: Erstellen, Bearbeiten, Stornieren und erneutes Ausstellen von Rechnungen.",
+      "result1": "95% weniger Rechnungsfehler",
+      "result2": "Bearbeiten, Stornieren und Neuausstellen mit einem Klick",
+      "result3": "Vollständiger Audit-Trail für Compliance",
+      "tags": ["n8n", "Airtable", "Process Automation"]
+    },
+    "stripe-refund-automation": {
+      "title": "Automatisiertes Rückerstattungssystem",
+      "industry": "E-Commerce",
+      "description": "Ein E-Commerce-Unternehmen mit täglichen Rückerstattungen brauchte eine schnellere, fehlerfreie Lösung. Lexoffice, Airtable und Stripe integriert mit Make.com-Workflows.",
+      "result1": "Bearbeitungszeit von 15 Min. auf 30 Sek. reduziert",
+      "result2": "200+ tägliche Rückerstattungen automatisch verarbeitet",
+      "result3": "Null manuelle Fehler bei der Rückerstattung",
+      "tags": ["Make.com", "Stripe", "Lexoffice", "Airtable"]
+    },
+    "car-supplier-integration": {
+      "title": "Fahrzeugdaten-Integration",
+      "industry": "Automotive",
+      "description": "Ein Autohändler musste Fahrzeugdaten von mehreren Lieferanten zusammenführen, anreichern und mit seiner Verkaufsplattform synchronisieren.",
+      "result1": "500+ Fahrzeugangebote täglich synchronisiert",
+      "result2": "3 Lieferanten-APIs in einer Pipeline vereint",
+      "result3": "Echtzeit-Bestandsaktualisierungen",
+      "tags": ["Make.com", "PostgreSQL", "Airtable", "Bubble.io"]
+    },
+    "invoice-distribution": {
+      "title": "Rechnungsgenerierung & -versand",
+      "industry": "Finanzen",
+      "description": "Automatisierte Rechnungsgenerierung basierend auf Transaktionstypen, mit korrekter Ablage und Zustellung via Make.com.",
+      "result1": "Rechnungen automatisch in richtige Ordner sortiert",
+      "result2": "Sofortiger E-Mail-Versand nach Generierung",
+      "result3": "Google Drive perfekt organisiert",
+      "tags": ["Make.com", "Google Docs API", "Airtable", "Bubble.io"]
+    },
+    "financial-folders": {
+      "title": "Finanz-Ordnerorganisation",
+      "industry": "Finanzen",
+      "description": "Dynamische Ordnerstrukturen in Google Drive für internationale Buchhaltungsanforderungen, automatisch generiert nach Regeln.",
+      "result1": "Dynamische Ordnererstellung nach Regeln",
+      "result2": "Internationale Buchhaltungsstandards unterstützt",
+      "result3": "Keine manuelle Ablage erforderlich",
+      "tags": ["Make.com", "Google APIs", "Process Design"]
+    },
+    "volunteer-management": {
+      "title": "Freiwilligen-Management-Plattform",
+      "industry": "Non-Profit",
+      "description": "Internes Tool zur Verwaltung von Bewerbern mit Hintergrundprüfungen, Referenzen und rollenbasierter Zugriffskontrolle.",
+      "result1": "Einarbeitungszeit für Freiwillige um 80% reduziert",
+      "result2": "Rollenbasierter Zugriff für 50+ Teammitglieder",
+      "result3": "Hintergrundprüfungs-Workflow automatisiert",
+      "tags": ["WeWeb", "Xano", "Database Architecture", "API Integration"]
+    },
     "cta": {
-      "title": "Ihr Projekt könnte das nächste sein",
-      "subtitle": "Lassen Sie uns besprechen, wie wir Ihnen helfen können, ähnliche Ergebnisse zu erzielen."
+      "title": "Dein Projekt könnte das nächste sein",
+      "subtitle": "Lass uns besprechen, wie wir dir helfen können, ähnliche Ergebnisse zu erzielen."
     }
   },
   "process": {
     "hero": {
       "badge": "UNSER PROZESS",
-      "title": "Klar, transparent, effektiv",
-      "subtitle": "Keine Überraschungen. Sie wissen immer wo wir stehen, was als nächstes kommt, und was Sie am Ende bekommen."
+      "title": "Erst verstehen. Dann bauen.",
+      "subtitle": "Jedes Projekt beginnt mit dem Verstehen Ihres Unternehmens. Wir analysieren Ihre Prozesse, finden die Engpässe und wählen dann die richtige Technologie — nicht umgekehrt."
     },
     "principles": {
       "transparency": {
-        "title": "Volle Transparenz",
-        "description": "Sie haben jederzeit Zugang zu Code, Dokumentation und Fortschritt."
+        "title": "Prozess-zuerst",
+        "description": "Wir verstehen erst, wie Ihr Unternehmen wirklich funktioniert, bevor wir eine Technologie wählen."
       },
       "weeklyUpdates": {
         "title": "Wöchentliche Updates",
@@ -534,11 +547,11 @@
       },
       "fixedPrices": {
         "title": "Fixpreise",
-        "description": "Nach der Discovery Phase erhalten Sie ein verbindliches Festpreisangebot."
+        "description": "Nach dem Prozess-Audit erhalten Sie ein verbindliches Festpreisangebot."
       },
       "flexible": {
         "title": "Flexibel bei Änderungen",
-        "description": "Scope-Änderungen sind möglich - mit transparenter Kommunikation über Auswirkungen."
+        "description": "Scope-Änderungen sind möglich — mit transparenter Kommunikation über Auswirkungen."
       }
     },
     "phases": {
@@ -547,28 +560,28 @@
       "activities": "Aktivitäten",
       "deliverables": "Deliverables",
       "discovery": {
-        "title": "Discovery",
+        "title": "Prozess-Audit",
         "duration": "1 Woche",
-        "description": "Wir verstehen Ihr Problem und definieren gemeinsam den Scope.",
-        "deliverable1": "Anforderungsdokument",
-        "deliverable2": "Technische Architektur",
+        "description": "Wir analysieren Ihre aktuellen Workflows, verstehen was funktioniert, identifizieren Engpässe und definieren den richtigen Ansatz — Automatisierung, individuelle Software oder KI.",
+        "deliverable1": "Prozessanalyse & Engpass-Identifikation",
+        "deliverable2": "Lösungsempfehlung",
         "deliverable3": "Projekt-Roadmap",
         "deliverable4": "Fixpreis-Angebot",
         "activity1": "Kick-off Workshop",
         "activity2": "Stakeholder Interviews",
-        "activity3": "Technische Analyse",
-        "activity4": "Scope Definition"
+        "activity3": "Prozess-Mapping & Analyse",
+        "activity4": "Technologieauswahl"
       },
       "design": {
-        "title": "Design",
+        "title": "Lösungsdesign",
         "duration": "1-2 Wochen",
-        "description": "UI/UX Design und technische Planung vor dem ersten Code.",
+        "description": "Basierend auf dem Prozess-Audit entwerfen wir die richtige Lösung — ob Workflows, Web-App oder KI-Integration.",
         "deliverable1": "Wireframes / Mockups",
         "deliverable2": "Interaktiver Prototyp",
-        "deliverable3": "Datenbank-Schema",
+        "deliverable3": "Technische Architektur",
         "deliverable4": "API-Spezifikation",
         "activity1": "User Flow Mapping",
-        "activity2": "UI Design",
+        "activity2": "UI/UX Design",
         "activity3": "Technische Spezifikation",
         "activity4": "Review & Feedback"
       },
@@ -586,9 +599,9 @@
         "activity4": "Wöchentliche Demos"
       },
       "launch": {
-        "title": "Launch",
+        "title": "Launch & Übergabe",
         "duration": "1 Woche",
-        "description": "Go-Live und Übergabe mit allem was Sie brauchen.",
+        "description": "Go-Live mit vollständiger Dokumentation, Training und Ihrem Code. Kein Vendor Lock-in.",
         "deliverable1": "Production Deployment",
         "deliverable2": "Technische Dokumentation",
         "deliverable3": "Admin-Handbuch",
@@ -940,6 +953,244 @@
         "title": "Google Fonts (lokales Hosting)",
         "text": "Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten Google Fonts. Die Fonts sind lokal installiert; eine Verbindung zu Google-Servern wird nicht hergestellt."
       }
+    }
+  },
+  "projectDetails": {
+    "common": {
+      "quickFacts": "Auf einen Blick",
+      "industry": "Branche",
+      "timeline": "Zeitraum",
+      "stack": "Stack",
+      "keyMetric": "Kennzahl",
+      "status": "Status",
+      "statusLive": "Live",
+      "statusBuilt": "Built by Z-Flow",
+      "challengeTitle": "Die Herausforderung",
+      "solutionTitle": "Die Lösung",
+      "approachTitle": "Technischer Ansatz",
+      "resultsTitle": "Ergebnisse",
+      "takeawaysTitle": "Wichtige Erkenntnisse",
+      "techStackTitle": "Tech Stack",
+      "relatedTitle": "Ähnliche Projekte",
+      "backToProjects": "Zurück zu Projekte",
+      "ctaTitle": "Dein Projekt könnte das nächste sein",
+      "ctaSubtitle": "Lass uns besprechen, wie wir dir helfen können, ähnliche Ergebnisse zu erzielen."
+    },
+    "weprospectify": {
+      "title": "B2B Sales-Prospecting-Plattform",
+      "subtitle": "Full-Stack SaaS-Plattform die den gesamten B2B Sales-Prospecting-Lifecycle automatisiert.",
+      "industry": "Vertrieb & B2B",
+      "keyMetric": "Gesamter Lifecycle automatisiert",
+      "challenge": {
+        "intro": "Vertriebsteams verschwenden jeden Tag Stunden mit manuellem Prospecting — Leads recherchieren, personalisierte Outreach schreiben, Antworten über verschiedene Kanäle verfolgen und CRM-Daten synchron halten.",
+        "painPoints": [
+          "Manuelle Lead-Recherche kostet 3+ Stunden täglich pro SDR",
+          "Generische Outreach-E-Mails mit niedrigen Antwortquoten",
+          "Keine einheitliche Sicht über E-Mail- und LinkedIn-Kampagnen",
+          "CRM-Daten ständig nicht synchron mit der tatsächlichen Pipeline"
+        ]
+      },
+      "solution": {
+        "intro": "Wir haben WeProspectify gebaut — eine Multi-Channel-Outreach-Plattform für den gesamten Prospecting-Lifecycle. Die Plattform integriert KI-gestützte Personalisierung mit automatisiertem Kampagnenmanagement.",
+        "approach": "Gebaut auf Next.js mit Supabase für Echtzeit-Daten. n8n-Workflows bilden das Automatisierungs-Backbone — Lead-Anreicherung, Kampagnen-Sequenzierung und CRM-Sync. OpenAI generiert personalisierten Outreach basierend auf Prospect-Daten. Stripe übernimmt die Abo-Abrechnung."
+      },
+      "results": {
+        "metrics": [
+          { "label": "Lead-Recherche-Zeit", "before": "3+ Stunden/Tag", "after": "15 Min./Tag", "improvement": "92% Reduktion" },
+          { "label": "Outreach-Personalisierung", "before": "Manuelles Copy-Paste", "after": "KI-generiert", "improvement": "10x schneller" },
+          { "label": "Kampagnen-Kanäle", "before": "Ein Kanal", "after": "Multi-Channel", "improvement": "E-Mail + LinkedIn" }
+        ],
+        "takeaways": [
+          "KI-Personalisierung verbessert die Outreach-Qualität erheblich, wenn sie mit guten Prospect-Daten trainiert wird",
+          "n8n erwies sich als ideal für die Orchestrierung komplexer mehrstufiger Automatisierungssequenzen",
+          "Echtzeit-Supabase-Sync hält die gesamte Pipeline sichtbar ohne manuelle Updates"
+        ]
+      }
+    },
+    "layovr": {
+      "title": "Airport Passenger Experience App",
+      "subtitle": "Reiseplattform die Passagieren hilft, Flughafen-Layovers mit Echtzeit-Daten optimal zu nutzen.",
+      "industry": "Reisen & Hospitality",
+      "keyMetric": "Echtzeit-Flug-Integration",
+      "challenge": {
+        "intro": "Reisende mit Layovers verschwenden oft Stunden an Flughäfen ohne zu wissen, was in der Nähe ihres Gates verfügbar ist. Fluginformationen sind über verschiedene Apps verstreut.",
+        "painPoints": [
+          "Keine zentrale Plattform für Layover-Planung",
+          "Flugdaten über mehrere Apps und Bildschirme verstreut",
+          "Keine Möglichkeit, gate-spezifische F&B und Services zu entdecken",
+          "Reisende fühlen sich während langer Layovers isoliert"
+        ]
+      },
+      "solution": {
+        "intro": "Wir haben Layovr gebaut — eine Plattform die Echtzeit-Flugverfolgung mit standortbasierten Flughafenservices und einem Gate-Community-Feature kombiniert.",
+        "approach": "Next.js-Frontend mit Supabase für Nutzerdaten und Echtzeit-Features. AviationStack API liefert Live-Flugdaten. Standortbasierte Services nutzen Geofencing für relevante Gate-Angebote."
+      },
+      "results": {
+        "metrics": [
+          { "label": "Flugdaten", "before": "Manuelles Nachschauen", "after": "Echtzeit-API", "improvement": "Sofortige Updates" },
+          { "label": "Flughafen-Services", "before": "Herumlaufen", "after": "Standortbasiert", "improvement": "Gate-spezifisch" },
+          { "label": "Build-Zeitraum", "before": "Geschätzt 12 Wochen", "after": "Geliefert", "improvement": "6 Wochen" }
+        ],
+        "takeaways": [
+          "Aviation-APIs erfordern robustes Error-Handling — Flugdaten können verzögert oder inkonsistent sein",
+          "Standortbasierte Features brauchen sorgfältige UX um Nutzer nicht zu überfordern",
+          "Supabase Realtime funktionierte hervorragend für das Community-Chat-Feature"
+        ]
+      }
+    },
+    "ai-video-generation": {
+      "title": "KI-gestützte Marketing-Videogenerierung",
+      "subtitle": "Automatisierte Pipeline die wöchentlich 50+ Marketing-Videos aus einzelnen Bildern generiert.",
+      "industry": "Medien & Marketing",
+      "keyMetric": "90% Zeitersparnis",
+      "challenge": {
+        "intro": "Eine Marketing-Agentur verbrachte enorm viel Zeit damit, Videocontent-Variationen aus statischen Bildern zu erstellen. Jedes Video erforderte manuelle Bearbeitung und mehrsprachige Untertitel.",
+        "painPoints": [
+          "Manuelle Video-Erstellung brauchte Stunden pro Stück",
+          "Mehrsprachige Untertitel erforderten manuelle Übersetzung",
+          "Keine skalierbare Methode für Content-Variationen",
+          "Verteilungsdaten über Tabellen verstreut"
+        ]
+      },
+      "solution": {
+        "intro": "Wir haben eine End-to-End Video-Generierungspipeline mit n8n, OpenAI und Ideogram gebaut.",
+        "approach": "Der n8n-Workflow orchestriert die gesamte Pipeline: Bildeingabe aus Airtable triggert OpenAI für Content-Generierung, Ideogram für visuelle Variationen und automatische Untertitelgenerierung in mehreren Sprachen."
+      },
+      "results": {
+        "metrics": [
+          { "label": "Wöchentlicher Output", "before": "5-10 Videos", "after": "50+ Videos", "improvement": "5x Steigerung" },
+          { "label": "Produktionszeit pro Video", "before": "2-3 Stunden", "after": "15 Minuten", "improvement": "90% Reduktion" },
+          { "label": "Sprachunterstützung", "before": "Manuelle Übersetzung", "after": "Automatisiert", "improvement": "Mehrsprachig" }
+        ],
+        "takeaways": [
+          "Airtable als Benutzeroberfläche reduziert die Einarbeitungszeit für nicht-technische Teammitglieder drastisch",
+          "KI-generierte Content-Qualität verbesserte sich mit strukturiertem Prompting erheblich",
+          "Die Pipeline skaliert linear — Verdopplung des Outputs erfordert null zusätzliche Arbeit"
+        ]
+      }
+    },
+    "ai-voice-agent": {
+      "title": "KI-Telefonagent für Kundenservice",
+      "subtitle": "24/7 KI-Telefonagent der 85% der Kundenanfragen ohne menschliches Eingreifen bearbeitet.",
+      "industry": "Bauwesen",
+      "keyMetric": "85% automatische Bearbeitung",
+      "challenge": {
+        "intro": "Ein Bauunternehmen erhielt ständig Kundenanrufe zu Projektstatus, Lieferplänen und Standardanfragen. Das kleine Support-Team konnte das Volumen nicht bewältigen.",
+        "painPoints": ["Support-Team überlastet mit repetitiven Statusanfragen", "Keine Erreichbarkeit außerhalb der Geschäftszeiten", "Projektstatusinformationen über mehrere Systeme verstreut", "Verpasste Anrufe führten zu Kundenunzufriedenheit"]
+      },
+      "solution": {
+        "intro": "Wir haben einen KI-Telefonagenten mit 11Labs-Sprachtechnologie gebaut, verbunden mit den Projektdaten des Unternehmens über n8n-Workflows.",
+        "approach": "11Labs liefert natürliche Sprachsynthese. n8n-Workflows übernehmen die Intelligenzschicht — Anrufweiterleitung, Airtable-Abfragen für Projektdaten und Interaktionsprotokollierung."
+      },
+      "results": {
+        "metrics": [
+          { "label": "Automatisierte Anfragen", "before": "0%", "after": "85%", "improvement": "85% durch KI bearbeitet" },
+          { "label": "Verfügbarkeit", "before": "Nur Geschäftszeiten", "after": "24/7", "improvement": "Immer erreichbar" },
+          { "label": "Kundenzufriedenheit", "before": "Ausgangswert", "after": "+40%", "improvement": "40% Verbesserung" }
+        ],
+        "takeaways": [
+          "Voice-KI-Qualität ist jetzt gut genug für professionelle kundenorientierte Anwendungen",
+          "Strukturierte Projektdaten in Airtable waren der Schlüssel",
+          "Automatische Interaktionsprotokollierung gibt dem Team Sichtbarkeit ohne manuelle Arbeit"
+        ]
+      }
+    },
+    "lead-generation-pipeline": {
+      "title": "End-to-End Lead-Generierungs-Pipeline",
+      "subtitle": "14 vernetzte Workflows die eine Single Source of Truth für alle Lead-Daten schaffen.",
+      "industry": "Vertrieb & B2B",
+      "keyMetric": "70% schnellere Reaktionszeit",
+      "challenge": {
+        "intro": "Ein B2B-Vertriebsteam verwaltete Leads über mehrere nicht verbundene Plattformen. Daten waren ständig nicht synchron und Leads gingen verloren.",
+        "painPoints": ["Lead-Daten über 4+ Plattformen fragmentiert", "Keine Single Source of Truth für Pipeline-Status", "Manuelle Dateneingabe verursachte Duplikate und Fehler", "Langsame Reaktionszeiten durch verpasste Benachrichtigungen"]
+      },
+      "solution": {
+        "intro": "Wir haben 14 vernetzte n8n-Workflows entworfen und gebaut, die den gesamten Lead-Lifecycle über alle Plattformen orchestrieren.",
+        "approach": "Jeder Workflow behandelt ein spezifisches Sync-Szenario. Edge Cases wie Duplikaterkennung, Statuskonflikte und plattformspezifische Datenformate werden automatisch behandelt."
+      },
+      "results": {
+        "metrics": [
+          { "label": "Lead-Reaktionszeit", "before": "4+ Stunden", "after": "Unter 1 Stunde", "improvement": "70% schneller" },
+          { "label": "Datengenauigkeit", "before": "Manueller Sync", "after": "Automatisiert", "improvement": "Null Duplikate" },
+          { "label": "Workflows", "before": "Manueller Prozess", "after": "14 automatisiert", "improvement": "Voll orchestriert" }
+        ],
+        "takeaways": [
+          "Prozess-Mapping vor der Automatisierung war entscheidend",
+          "n8ns Fähigkeit, komplexe Verzweigungslogik zu handhaben, machte es ideal für Multi-Plattform-Orchestrierung",
+          "Eine Single Source of Truth Datenbank eliminiert die Grundursache von Datensync-Problemen"
+        ]
+      }
+    },
+    "automated-invoicing": {
+      "title": "Automatisiertes Rechnungssystem",
+      "subtitle": "Vollständiger Rechnungs-Lifecycle automatisiert mit 95% weniger Fehlern und vollständigem Audit-Trail.",
+      "industry": "Finanzen",
+      "keyMetric": "95% weniger Fehler",
+      "challenge": {
+        "intro": "Ein Kunde mit komplexen Rechnungsanforderungen handhabte alles manuell — Erstellen, Bearbeiten, Stornieren und Neuausstellen.",
+        "painPoints": ["Manuelle Rechnungserstellung kostete Stunden täglich", "Hohe Fehlerquote bei Rechnungsbeträgen", "Kein Audit-Trail für Compliance", "Stornierung und Neuausstellung war verwirrend und langsam"]
+      },
+      "solution": {
+        "intro": "Wir haben ein n8n-gesteuertes Rechnungssystem mit intuitiver Airtable-Oberfläche gebaut.",
+        "approach": "Airtable dient als Benutzeroberfläche. n8n-Workflows übernehmen die Geschäftslogik: Validierung, PDF-Generierung, Status-Tracking und Audit-Logging."
+      },
+      "results": {
+        "metrics": [
+          { "label": "Rechnungsfehler", "before": "~12%/Monat", "after": "<1%/Monat", "improvement": "95% Reduktion" },
+          { "label": "Bearbeitungszeit", "before": "Manuell, 20+ Min.", "after": "Ein Klick", "improvement": "90% schneller" },
+          { "label": "Audit-Trail", "before": "Keiner", "after": "Vollständiges Tracking", "improvement": "100% compliant" }
+        ],
+        "takeaways": [
+          "Airtable als Frontend reduziert die Einarbeitungszeit im Vergleich zu Custom-UI drastisch",
+          "Vollständige Audit-Trails sollten von Tag eins eingebaut werden",
+          "Die Ein-Klick-Oberfläche steigerte die Team-Akzeptanz auf nahezu 100%"
+        ]
+      }
+    },
+    "stripe-refund-automation": {
+      "title": "Automatisiertes Rückerstattungssystem",
+      "subtitle": "Ein-Klick-Rückerstattungssystem das 200+ tägliche Rückerstattungen mit null manuellen Fehlern verarbeitet.",
+      "industry": "E-Commerce",
+      "keyMetric": "30x schnellere Verarbeitung",
+      "challenge": { "intro": "Ein E-Commerce-Unternehmen verarbeitete Rückerstattungen manuell über mehrere Systeme.", "painPoints": ["Jede Rückerstattung erforderte 4 separate Systeme", "15+ Minuten pro Rückerstattung, 200+ täglich", "Manuelle Fehler verursachten Buchhaltungsdiskrepanzen", "Team ausgebrannt durch repetitive Verwaltungsarbeit"] },
+      "solution": { "intro": "Ein-Klick-Rückerstattungssystem mit Make.com. Eine Checkbox in Airtable triggert den gesamten Workflow.", "approach": "Make.com orchestriert: Checkbox-Trigger → Stripe Refund API → Lexoffice Buchhaltungs-Update → Bestätigungsbenachrichtigung." },
+      "results": { "metrics": [{ "label": "Bearbeitungszeit", "before": "15 Minuten", "after": "30 Sekunden", "improvement": "30x schneller" }, { "label": "Tägliche Kapazität", "before": "~50 manuell", "after": "200+ automatisiert", "improvement": "4x Durchsatz" }, { "label": "Fehlerrate", "before": "~5% manuelle Fehler", "after": "0%", "improvement": "Null Fehler" }], "takeaways": ["Das einfachste UI (eine Checkbox) erzielte die höchste Akzeptanzrate", "Buchhaltungssoftware früh im Workflow zu verbinden verhindert Abstimmungsprobleme", "Error-Handling ist kritisch bei der Automatisierung von Finanztransaktionen"] }
+    },
+    "car-supplier-integration": {
+      "title": "Fahrzeugdaten-Integration",
+      "subtitle": "Vereinheitlichte Pipeline die 500+ Fahrzeugangebote täglich von 3 Lieferanten-APIs synchronisiert.",
+      "industry": "Automotive",
+      "keyMetric": "500+ Angebote/Tag",
+      "challenge": { "intro": "Ein Autohändler musste Fahrzeugdaten von mehreren Lieferanten zusammenführen.", "painPoints": ["3 Lieferanten-APIs mit inkompatiblen Formaten", "Manuelle Dateneingabe verursachte Listing-Fehler", "Keine automatische Anreicherung mit Marktpreisdaten", "Verkaufsplattform-Inventar immer veraltet"] },
+      "solution": { "intro": "Umfassende Make.com-Automatisierung die Daten von allen drei APIs normalisiert und synchronisiert.", "approach": "Geplante Pulls von jeder Lieferanten-API, Datennormalisierung in Airtable, Anreicherung mit Marktdaten und Upload zu Bubble.io." },
+      "results": { "metrics": [{ "label": "Tägliche Listings", "before": "~50 manuell", "after": "500+ automatisiert", "improvement": "10x Durchsatz" }, { "label": "Datenquellen", "before": "Manuell pro Quelle", "after": "3 APIs vereint", "improvement": "Eine Pipeline" }, { "label": "Inventar-Aktualität", "before": "24-48 Stunden Verzögerung", "after": "Nahezu Echtzeit", "improvement": "Immer aktuell" }], "takeaways": ["Datennormalisierung ist der schwierigste Teil", "Ein kanonischer Datenspeicher verhindert Sync-Konflikte", "Geplante Automatisierung ist zuverlässiger als Echtzeit-Trigger für Lieferantendaten"] }
+    },
+    "invoice-distribution": {
+      "title": "Rechnungsgenerierung & -versand",
+      "subtitle": "Automatisierte Rechnungsgenerierung mit intelligenter Ablage und sofortigem E-Mail-Versand.",
+      "industry": "Finanzen",
+      "keyMetric": "Null manuelle Ablage",
+      "challenge": { "intro": "Rechnungen mussten automatisch generiert, korrekt abgelegt und per E-Mail versendet werden.", "painPoints": ["Manuelle Rechnungserstellung aus Transaktionsdaten", "Komplexe Ablageregeln für verschiedene Transaktionstypen", "E-Mails manuell mit Anhängen versendet", "Häufige Fehlablage und verpasste Zustellungen"] },
+      "solution": { "intro": "Make.com-Workflow für den gesamten Rechnungs-Lifecycle.", "approach": "Transaktionsdaten aus Airtable, Rechnungsgenerierung via Google Docs API, dynamische Google Drive Ablage, automatischer E-Mail-Versand." },
+      "results": { "metrics": [{ "label": "Ablagegenauigkeit", "before": "~85% korrekt", "after": "100% korrekt", "improvement": "Null Fehlablage" }, { "label": "Zustellungsgeschwindigkeit", "before": "Stunden bis Tage", "after": "Sofort", "improvement": "Sofortig" }, { "label": "Manuelle Arbeit", "before": "30+ Min./Batch", "after": "Null", "improvement": "Voll automatisiert" }], "takeaways": ["Geschäftsregel-Komplexität wird oft unterschätzt", "Google Drive Ordnernamenskonventionen sind langfristig wichtiger als man denkt", "Automatische Zustellungsbestätigung gibt dem Team Vertrauen"] }
+    },
+    "financial-folders": {
+      "title": "Finanz-Ordnerorganisation",
+      "subtitle": "Dynamische Ordnerstrukturen für internationale Buchhaltung mit null manueller Ablage.",
+      "industry": "Finanzen",
+      "keyMetric": "Null manuelle Ablage",
+      "challenge": { "intro": "Dynamische Ordnerstrukturen für verschiedene Jurisdiktionen mussten automatisch erstellt und gepflegt werden.", "painPoints": ["Manuelle Ordnererstellung für jede Buchungsperiode", "Verschiedene Strukturen pro Jurisdiktion erforderlich", "Rechnungen häufig falsch abgelegt", "Keine Standardisierung in der Organisation"] },
+      "solution": { "intro": "Make.com-Automatisierung die Ordnerhierarchien nach Buchhaltungsregeln generiert.", "approach": "Ordnerstrukturen basierend auf konfigurierbaren Regeln — Buchungsperiode, Jurisdiktion, Dokumenttyp." },
+      "results": { "metrics": [{ "label": "Ordnererstellung", "before": "Manuelles Setup", "after": "Automatisch", "improvement": "Regelbasiert" }, { "label": "Ablagegenauigkeit", "before": "Häufige Fehler", "after": "100% korrekt", "improvement": "Null Fehler" }, { "label": "Standards-Compliance", "before": "Inkonsistent", "after": "Standardisiert", "improvement": "Multi-Jurisdiktion" }], "takeaways": ["Buchhaltungs-Ordnerstrukturen haben überraschende Edge Cases über Jurisdiktionen hinweg", "Die organisatorische Ebene zu automatisieren spart mehr Zeit als einzelne Dateioperationen", "Standardisierte Namenskonventionen sollten vor dem Bau jeder Automatisierung festgelegt werden"] }
+    },
+    "volunteer-management": {
+      "title": "Freiwilligen-Management-Plattform",
+      "subtitle": "Interne Plattform die die Einarbeitungszeit für Freiwillige um 80% reduziert.",
+      "industry": "Non-Profit",
+      "keyMetric": "80% schnellere Einarbeitung",
+      "challenge": { "intro": "Eine gemeinnützige Organisation brauchte ein System für den komplexen Bewerbungsprozess mit Hintergrundprüfungen.", "painPoints": ["Papierbasierter Bewerbungsprozess dauerte Wochen", "Keine rollenbasierte Zugriffskontrolle für sensible Daten", "Hintergrundprüfungs-Workflow komplett manuell", "Keine Sichtbarkeit des Pipeline-Status für das Management"] },
+      "solution": { "intro": "WeWeb-Anwendung mit Xano-Backend, rollenbasierten Berechtigungen und automatisierten Workflow-Stufen.", "approach": "WeWeb liefert das Frontend mit rollenbasierten Ansichten. Xano übernimmt Authentifizierung, Datenspeicherung und Geschäftslogik. n8n automatisiert Benachrichtigungen." },
+      "results": { "metrics": [{ "label": "Einarbeitungszeit", "before": "3-4 Wochen", "after": "3-5 Tage", "improvement": "80% Reduktion" }, { "label": "Teamzugriff", "before": "Geteilte Tabelle", "after": "Rollenbasierte Plattform", "improvement": "50+ Nutzer" }, { "label": "Hintergrundprüfungen", "before": "Manuelles Tracking", "after": "Automatisierter Workflow", "improvement": "Vollständiger Audit-Trail" }], "takeaways": ["WeWeb + Xano ist eine exzellente Kombination für interne Tools mit rollenbasiertem Zugriff", "Non-Profit-Organisationen haben überraschend komplexe Compliance-Anforderungen", "Automatisierte Statusbenachrichtigungen reduzierten Nachfragen um über 60%"] }
     }
   },
   "languageSwitcher": {

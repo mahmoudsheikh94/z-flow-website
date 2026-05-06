@@ -1,64 +1,38 @@
 # Z-Flow - Complete Business Information
-# Engineering Studio Berlin | MVP Development, n8n Automation & AI Integration
+# Digitalization Partner Berlin | Process Automation, Custom Software & AI Integration
 
 ================================================================================
 ## COMPANY OVERVIEW
 ================================================================================
 
-Z-Flow is a software agency and engineering studio based in Berlin, Germany. We help startups, SMEs, and the German Mittelstand build digital products and automate business processes.
+Z-Flow is a digitalization partner based in Berlin, Germany. We help startups, SMEs, and the German Mittelstand digitalize their business processes. Our approach: understand your process first, then build the right solution — whether that's automation, custom software, or AI.
 
-**Founder**: Abdulhamit Cavdar
+**Founder**: Mahmoud Salard
 **Location**: Berlin, Germany
 **Markets served**: Germany, Austria, Switzerland (DACH region), International (English-speaking)
 **Company type**: Z-Flow UG (haftungsbeschränkt)
 **Address**: Menzelstraße 3, 12157 Berlin, Germany
+**Experience**: 5+ years process mapping and automation in Germany
+
+**Core approach**:
+1. Process Audit — Map your workflows, find bottlenecks
+2. Solution Design — Choose the right technology for the problem
+3. Build — Agile development with weekly demos
+4. Launch & Handover — Full documentation, training, your code
 
 **Core expertise**:
-1. MVP Development for startups
-2. Workflow automation with n8n and Make.com
+1. Process automation with n8n and Make.com
+2. Custom software / MVP development
 3. AI integration (OpenAI, Claude, custom LLM solutions)
-4. No-code development (WeWeb, Xano, Supabase)
 
 ================================================================================
 ## SERVICES IN DETAIL
 ================================================================================
 
-### 1. MVP DEVELOPMENT
+### 1. PROCESS AUTOMATION (n8n & Make.com)
 
 **What we offer**:
-We build Minimum Viable Products (MVPs) for founders and startups who want to validate their business idea quickly without spending months in development.
-
-**Who it's for**:
-- Non-technical founders who need a technical partner
-- First-time founders validating a startup idea
-- Companies launching new digital products
-- Entrepreneurs seeking "fractional CTO" or "CTO as a service"
-
-**Technology options**:
-- **Code-based**: Next.js, React, TypeScript, Node.js
-- **No-Code**: WeWeb (frontend) + Xano or Supabase (backend)
-
-**What's included**:
-- Complete web application
-- Responsive mobile-first design
-- User authentication system
-- Database architecture
-- API development
-- Deployment and hosting setup
-- Full documentation
-- After-launch support (bug fixes included)
-
-**Timeline**: 2-6 weeks depending on scope
-**Price**: Starting from €15,000 (fixed price after discovery phase)
-
-**Keywords**: MVP development agency, MVP entwickeln lassen, build MVP for startup, MVP Agentur Deutschland, MVP development Berlin, startup MVP development, fractional CTO, CTO as a service, technical cofounder alternative
-
----
-
-### 2. WORKFLOW AUTOMATION (n8n & Make.com)
-
-**What we offer**:
-We automate repetitive business processes using n8n and Make.com, saving companies up to 90% of time on manual tasks.
+Your team is spending hours on tasks a machine could handle in seconds. We map the process, find the bottlenecks, and automate what matters.
 
 **Who it's for**:
 - Businesses with repetitive manual processes
@@ -81,8 +55,8 @@ We automate repetitive business processes using n8n and Make.com, saving compani
 - Email automation workflows
 
 **What's included**:
-- Workflow analysis and design
-- n8n or Make.com implementation
+- Process audit and bottleneck analysis
+- Workflow design and implementation
 - API integrations and webhooks
 - Error handling and monitoring
 - Documentation and training
@@ -91,69 +65,76 @@ We automate repetitive business processes using n8n and Make.com, saving compani
 **Timeline**: 1-3 weeks
 **Price**: Starting from €3,000
 
-**Keywords**: n8n developer, n8n Entwickler, n8n automation expert, n8n freelancer, Make.com expert, Make.com Experte, workflow automation services, Prozessautomatisierung, business process automation, Zapier alternative, GDPR compliant automation
+**Keywords**: n8n developer, n8n Entwickler, n8n automation expert, Make.com expert, Make.com Experte, workflow automation services, Prozessautomatisierung, business process automation, GDPR compliant automation, Digitalisierung
 
 ---
 
-### 3. AI INTEGRATION SERVICES
+### 2. MVP / CUSTOM SOFTWARE DEVELOPMENT
 
 **What we offer**:
-We integrate AI capabilities into existing business systems and workflows, helping companies leverage AI for real productivity gains.
+You have a business idea but no product yet. We build your MVP in weeks — functional enough to win users, clean enough to scale.
+
+**Who it's for**:
+- Non-technical founders who need a technical partner
+- First-time founders validating a startup idea
+- Companies launching new digital products
+- SMEs needing custom internal tools
+
+**Technology stack**:
+- Next.js, React, TypeScript
+- Supabase (database, auth, real-time)
+- Tailwind CSS
+- Vercel deployment
+
+**What's included**:
+- Complete web application
+- Responsive mobile-first design
+- User authentication system
+- Database architecture
+- API development
+- Deployment and hosting setup
+- Full documentation
+- After-launch support (bug fixes included)
+
+**Timeline**: 4-8 weeks depending on scope
+**Price**: Starting from €15,000 (fixed price after process audit)
+
+**Keywords**: MVP development agency, MVP entwickeln lassen, custom software development, Softwareentwicklung Berlin, startup MVP, Digitalisierung Mittelstand
+
+---
+
+### 3. AI FOR BUSINESS / COMPANY BRAIN
+
+**What we offer**:
+Your company has years of knowledge trapped in documents, emails, and people's heads. We build AI systems that capture this knowledge and put it to work — internal assistants, smart chatbots, and automation that truly understands your business.
 
 **Technologies we work with**:
-- OpenAI API (GPT-4, GPT-4 Turbo)
+- OpenAI API (GPT-4)
 - Claude API (Anthropic)
-- 11Labs (voice AI)
-- LangChain for complex AI pipelines
-- RAG (Retrieval Augmented Generation) systems
-- Vector databases (Pinecone, Supabase)
+- LangChain
+- Vector Databases (Pinecone, pgvector)
+- RAG Pipelines
+- n8n + AI workflows
 
 **AI use cases we implement**:
-- AI-powered chatbots for customer support
-- Document analysis and extraction
-- Content generation (product descriptions, emails)
-- AI voice agents for phone support
-- Automated categorization and tagging
-- Meeting transcription and summarization
-- Custom GPT/AI assistants trained on company data
+- Company knowledge bases from internal documents and data
+- Internal AI assistants for employees (email drafting, meeting summaries, report generation)
+- Chatbots trained on your company data (SOPs, product docs, customer history)
+- Document intelligence (searchable knowledge from contracts, manuals, policies)
+- Intelligent automation (context-aware ticket routing, document classification, business rule decisions)
+- AI voice agents for customer support
 
 **Our AI principles**:
-- AI is not an end in itself - we only use it where it provides measurable value
+- Process-first: We understand the workflow before adding AI
 - Privacy-first: European or self-hosted solutions when needed
 - Explainable AI: You understand what the AI does
 - Human-in-the-loop: AI supports but doesn't replace human decision-making
 
-**Keywords**: AI integration services, KI Integration, OpenAI API integration, ChatGPT integration, LLM integration developer, AI chatbot development, KI Beratung, Claude API developer, RAG implementation, AI for business
+**Keywords**: AI integration services, KI Integration, Company Brain, Firmen-KI, KI Wissensdatenbank, RAG System, OpenAI API integration, AI chatbot development, KI Beratung, Claude API developer, AI for business, KI Implementierung, AI knowledge base, KI Assistent für Mitarbeiter
 
 ---
 
-### 4. NO-CODE DEVELOPMENT
-
-**Platforms we specialize in**:
-
-**WeWeb** (Frontend):
-- Visual web application builder
-- Connects to any backend via API
-- Custom logic and workflows
-- Responsive design
-
-**Xano** (Backend):
-- No-code backend and database
-- Visual API builder
-- Built-in authentication
-- Scalable infrastructure
-
-**Supabase** (Backend alternative):
-- PostgreSQL database
-- Authentication
-- Real-time subscriptions
-- Edge functions
-
-**Keywords**: WeWeb developer, WeWeb Entwickler, Xano developer, Xano backend developer, Supabase developer, no-code development agency, No-Code Agentur, low-code development
-
----
-
-### 5. TRAINING & WORKSHOPS
+### 4. TRAINING & WORKSHOPS
 
 **What we offer**:
 Hands-on training tailored to your specific use case. Learn to build and maintain automation and no-code solutions yourself.
@@ -161,7 +142,6 @@ Hands-on training tailored to your specific use case. Learn to build and maintai
 **Training topics**:
 - n8n workflow automation
 - Make.com scenario building
-- WeWeb + Xano/Supabase development
 - No-code stack architecture
 
 **Format options**:
@@ -169,18 +149,12 @@ Hands-on training tailored to your specific use case. Learn to build and maintai
 - On-site (Germany, additional travel costs may apply)
 - Half-day to multi-day workshops
 
-**What's included**:
-- Hands-on exercises with your real use case
-- Best practices and architecture patterns
-- Documentation and resources
-- Follow-up Q&A session
-
 **Timeline**: Half-day to multi-day
 **Price**: Starting from €1,500
 
 ---
 
-### 6. RETAINER / ONGOING PARTNERSHIP
+### 5. RETAINER / ONGOING PARTNERSHIP
 
 **What we offer**:
 Monthly development partnership for companies needing ongoing support, feature development, and maintenance.
@@ -195,53 +169,86 @@ Monthly development partnership for companies needing ongoing support, feature d
 
 **Price**: Starting from €4,000/month
 
-**Keywords**: fractional CTO Berlin, tech partner for startup, development partner, externer CTO, CTO als Dienstleistung
-
 ================================================================================
 ## PORTFOLIO / CASE STUDIES
 ================================================================================
 
+### B2B Sales Prospecting Platform (WeProspectify)
+**Category**: Custom Software | **Status**: Built by Z-Flow
+**Industry**: Sales & B2B
+**Challenge**: Sales teams waste hours on manual prospecting across fragmented tools
+**Solution**: Full-stack SaaS with Next.js, Supabase, n8n, OpenAI, Stripe
+**Results**: 92% reduction in lead research time, AI-powered personalization, multi-channel outreach
+
+### Airport Passenger Experience App (Layovr)
+**Category**: Custom Software | **Status**: Built by Z-Flow
+**Industry**: Travel & Hospitality
+**Challenge**: Passengers waste layover time with no visibility into airport amenities
+**Solution**: Next.js platform with Supabase, AviationStack API, Google Places
+**Results**: Real-time data from 500+ airports, personalized recommendations
+
 ### AI-Powered Marketing Video Generation
+**Category**: AI | **Status**: Live
 **Industry**: Media & Marketing
 **Challenge**: Generate diverse video content from single images at scale
 **Solution**: Airtable interface + n8n workflow + OpenAI + Ideogram
 **Results**: 50+ videos/week, 90% reduction in production time
 
 ### AI Voice Agent for Customer Support
+**Category**: AI | **Status**: Live
 **Industry**: Construction
 **Challenge**: Handle project status inquiries 24/7
 **Solution**: 11Labs voice AI + n8n + Airtable
 **Results**: 85% inquiries handled without humans, 40% satisfaction increase
 
+### End-to-End Lead Generation Pipeline
+**Category**: Digitalization | **Status**: Live
+**Industry**: Sales & B2B
+**Challenge**: Unified lead management across platforms
+**Solution**: 14 n8n workflows + Airtable + Supabase + Smartlead + Heyreach
+**Results**: Single source of truth, 70% faster lead response
+
+### Automated Invoicing System
+**Category**: Digitalization | **Status**: Live
+**Industry**: Finance
+**Challenge**: Complex invoicing with create, edit, cancel, reissue
+**Solution**: n8n + Airtable with audit trails
+**Results**: 95% reduction in errors, one-click operations
+
 ### Automated Refund Processing
+**Category**: Automation | **Status**: Live
 **Industry**: E-Commerce
 **Challenge**: Process daily refunds faster without errors
 **Solution**: Lexoffice + Airtable + Stripe + Make.com
 **Results**: 30 seconds vs 15 minutes, 200+ daily refunds, zero errors
 
 ### Car Supplier Data Integration
+**Category**: Automation | **Status**: Live
 **Industry**: Automotive
 **Challenge**: Aggregate vehicle data from multiple suppliers
-**Solution**: Make.com + PostgreSQL + Airtable + Bubble.io
+**Solution**: Make.com + PostgreSQL + Airtable
 **Results**: 500+ listings synced daily, 3 APIs unified
 
-### Automated Invoicing System
+### Invoice Distribution Automation
+**Category**: Automation | **Status**: Live
 **Industry**: Finance
-**Challenge**: Complex invoicing with create, edit, cancel, reissue
-**Solution**: n8n + Airtable with audit trails
-**Results**: 95% reduction in errors, one-click operations
+**Challenge**: Manual invoice routing to different departments
+**Solution**: n8n + email + cloud storage integration
+**Results**: Zero manual intervention, 100% routing accuracy
+
+### Financial Folder Organization
+**Category**: Automation | **Status**: Live
+**Industry**: Finance
+**Challenge**: Manual document filing across categories
+**Solution**: n8n + cloud storage + automated categorization
+**Results**: Instant organization, eliminated filing errors
 
 ### Volunteer Management Platform
+**Category**: Custom Software | **Status**: Live
 **Industry**: Non-Profit
 **Challenge**: Complex onboarding with background checks
 **Solution**: WeWeb + Xano with role-based permissions
 **Results**: 80% faster onboarding, 50+ team members supported
-
-### End-to-End Lead Pipeline
-**Industry**: Sales & B2B
-**Challenge**: Unified lead management across platforms
-**Solution**: 14 n8n workflows + Airtable + Supabase + Smartlead + Heyreach
-**Results**: Single source of truth, 70% faster lead response
 
 ================================================================================
 ## PRICING OVERVIEW
@@ -249,13 +256,13 @@ Monthly development partnership for companies needing ongoing support, feature d
 
 | Service | Starting Price | Timeline |
 |---------|---------------|----------|
-| MVP Development | €15,000 | 2-6 weeks |
-| Automation (n8n/Make.com) | €3,000 | 1-3 weeks |
-| AI Integration | Custom quote | Varies |
+| Process Automation | €3,000 | 1-3 weeks |
+| MVP Development | €15,000 | 4-8 weeks |
+| AI for Business | €5,000 | 2-4 weeks |
 | Training/Workshop | €1,500 | Half to multi-day |
 | Monthly Retainer | €4,000/month | Ongoing |
 
-**Pricing model**: Fixed prices after discovery phase. No hourly rates, no surprises.
+**Pricing model**: Fixed prices after process audit. No hourly rates, no surprises.
 **Payment terms**: Typically 30% at start, 30% after design, 40% at delivery
 
 ================================================================================
@@ -271,10 +278,8 @@ Monthly development partnership for companies needing ongoing support, feature d
 - React
 - TypeScript
 - Tailwind CSS
-- WeWeb (No-Code)
 
 **Backend development**:
-- Xano (No-Code backend)
 - Supabase
 - Node.js
 
@@ -286,22 +291,20 @@ Monthly development partnership for companies needing ongoing support, feature d
 **AI & Machine Learning**:
 - OpenAI API
 - Claude API (Anthropic)
-- 11Labs (Voice AI)
 - LangChain
-- OpenRouter
+- Vector Databases (Pinecone, pgvector)
+- RAG Pipelines
+- 11Labs (Voice AI)
 
 **Deployment & Hosting**:
 - Vercel
-- Railway
-- Self-hosted options available
 
 ================================================================================
 ## CONTACT INFORMATION
 ================================================================================
 
 **Website**: https://z-flow.de
-**Email (English)**: hello@z-flow.de
-**Email (German)**: hallo@z-flow.de
+**Email**: hello@z-flow.de
 **LinkedIn**: https://www.linkedin.com/company/z-flow/
 **Location**: Berlin, Germany
 
@@ -311,14 +314,14 @@ Monthly development partnership for companies needing ongoing support, feature d
 ## FREQUENTLY ASKED QUESTIONS
 ================================================================================
 
+**Q: What makes Z-Flow different from other agencies?**
+A: We start with your process, not with technology. With 5+ years of process mapping experience in Germany, we understand your business workflows first, then choose the right solution — automation, custom software, or AI.
+
 **Q: How does pricing work?**
-A: After a free consultation and discovery phase, you receive a binding fixed-price quote. No hourly rates, no surprises.
+A: After a free process consultation and audit phase, you receive a binding fixed-price quote. No hourly rates, no surprises.
 
 **Q: What's not included in the price?**
 A: External costs like hosting, domains, or third-party tool licenses are separate. We advise on cost-effective options.
-
-**Q: Do you offer payment plans?**
-A: Yes, for larger projects. Typically 30% at start, 30% after design approval, 40% at handover.
 
 **Q: Can I continue development myself after the project?**
 A: Yes! Everything belongs to you. Full documentation, no vendor lock-in. You can continue development yourself or hire another provider.
@@ -329,14 +332,8 @@ A: Yes, we serve international clients. English communication is standard.
 **Q: What's the difference between n8n and Make.com?**
 A: n8n can be self-hosted (better for GDPR compliance and data-sensitive workflows). Make.com is cloud-only but has more pre-built integrations.
 
-**Q: What is a fractional CTO?**
-A: A fractional CTO provides part-time technical leadership for startups without a full-time CTO. This includes architecture decisions, tech strategy, and team guidance.
-
-**Q: How long does MVP development take?**
-A: Typically 2-6 weeks depending on complexity. We work in weekly sprints with regular demos.
-
-**Q: What technologies do you use for MVPs?**
-A: Next.js and React for code-based solutions, or WeWeb + Xano/Supabase for no-code. We choose based on your needs and budget.
+**Q: How do you decide between automation, software, or AI?**
+A: During the process audit, we analyze your workflows and recommend the approach with the best ROI. Sometimes it's a simple automation, sometimes you need custom software, sometimes AI adds real value. We let the process dictate the technology.
 
 ================================================================================
 ## ALL WEBSITE PAGES
@@ -347,7 +344,7 @@ A: Next.js and React for code-based solutions, or WeWeb + Xano/Supabase for no-c
 - Services overview: https://z-flow.de/en/services
 - MVP Development: https://z-flow.de/en/services/mvp-development
 - Automation: https://z-flow.de/en/services/automation
-- AI Integration: https://z-flow.de/en/services/ai-integration
+- AI for Business: https://z-flow.de/en/services/ai-integration
 - Projects: https://z-flow.de/en/projects
 - Process: https://z-flow.de/en/process
 - Pricing: https://z-flow.de/en/pricing
@@ -356,34 +353,33 @@ A: Next.js and React for code-based solutions, or WeWeb + Xano/Supabase for no-c
 
 **German pages (Deutsch)**:
 - Startseite: https://z-flow.de/de
-- Leistungen: https://z-flow.de/de/leistungen
-- MVP Entwicklung: https://z-flow.de/de/leistungen/mvp-entwicklung
-- Automatisierung: https://z-flow.de/de/leistungen/automatisierung
-- KI-Integration: https://z-flow.de/de/leistungen/ki-integration
-- Projekte: https://z-flow.de/de/projekte
-- Prozess: https://z-flow.de/de/prozess
-- Preise: https://z-flow.de/de/preise
-- Über uns: https://z-flow.de/de/ueber-uns
-- Kontakt: https://z-flow.de/de/kontakt
+- Leistungen: https://z-flow.de/de/services
+- Automatisierung: https://z-flow.de/de/services/automation
+- MVP Entwicklung: https://z-flow.de/de/services/mvp-development
+- KI für Ihr Unternehmen: https://z-flow.de/de/services/ai-integration
+- Projekte: https://z-flow.de/de/projects
+- Prozess: https://z-flow.de/de/process
+- Preise: https://z-flow.de/de/pricing
+- Über uns: https://z-flow.de/de/about
+- Kontakt: https://z-flow.de/de/contact
 
 ================================================================================
 ## GERMAN KEYWORDS (für deutsche Suchen)
 ================================================================================
 
-MVP Entwicklung, MVP entwickeln lassen, MVP Agentur Deutschland, MVP Agentur Berlin,
-MVP Kosten, MVP Preise, Startup MVP Entwicklung, schnelle MVP Entwicklung,
+Digitalisierungspartner, Digitalisierung Mittelstand, Digitalisierung KMU,
+Prozessdigitalisierung, digitale Transformation, Geschäftsprozesse digitalisieren,
+Prozessautomatisierung, Workflow Automatisierung, Geschäftsprozesse automatisieren,
 n8n Entwickler, n8n Experte, n8n Agentur, n8n Freelancer, n8n Berater,
 n8n selbst gehostet, n8n DSGVO konform, n8n Workflow Entwickler,
 Make.com Experte, Make.com Berater, Integromat Experte,
-Prozessautomatisierung, Workflow Automatisierung, Geschäftsprozesse automatisieren,
-Automatisierung Agentur, Automatisierung Berater, RPA Entwicklung,
+MVP Entwicklung, MVP entwickeln lassen, MVP Agentur Deutschland, MVP Agentur Berlin,
+Softwareentwicklung Berlin, individuelle Software, maßgeschneiderte Software,
 KI Integration, KI Beratung, künstliche Intelligenz Integration, KI für KMU,
+Company Brain, Firmen-KI, KI Wissensdatenbank, RAG System, KI Assistent Mitarbeiter,
 ChatGPT Integration, OpenAI API Entwickler, KI Chatbot entwickeln,
 KI Implementierung, KI Lösungen für Unternehmen, KI Automatisierung,
-No-Code Entwickler, No-Code Agentur Deutschland, Low-Code Entwicklung,
-WeWeb Entwickler, Xano Entwickler, Supabase Entwickler,
-App entwickeln ohne Programmieren, schnelle App Entwicklung,
-Softwareagentur Berlin, Softwareentwicklung Berlin, Tech Studio Berlin,
-Digitalisierung Mittelstand, Digitalisierung KMU, digitale Transformation,
-Fractional CTO, CTO als Dienstleistung, externer CTO, technischer Berater Startup,
-Entwicklungspartner, technischer Mitgründer, Startup technische Unterstützung
+Prozessanalyse, Prozess-Mapping, Prozessberatung, Prozessoptimierung,
+Automatisierung Agentur, Automatisierung Berater,
+Softwareagentur Berlin, Tech Studio Berlin,
+Fractional CTO, technischer Berater, Entwicklungspartner

@@ -639,3 +639,68 @@ body {
   background: rgba(34, 197, 94, 0.1);
   color: rgb(34, 197, 94);
 }
+
+/* ============================================
+   HERO MEDIA ANIMATIONS
+   ============================================ */
+
+/* Ken Burns effect - subtle zoom and pan */
+@keyframes kenBurns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.08) translate(-1.5%, -1%);
+  }
+}
+
+.hero-media-container {
+  animation: kenBurns 25s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+/* Play button pulse animation */
+@keyframes playPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.hero-play-pulse {
+  animation: playPulse 2s ease-out infinite;
+}
+
+.hero-play-pulse-delayed {
+  animation: playPulse 2s ease-out infinite;
+  animation-delay: 0.5s;
+}
+
+/* Custom background utility for hero media glow */
+.bg-brand-orange\/20 {
+  background-color: rgba(238, 79, 39, 0.2);
+}
+
+.bg-brand-orange\/10 {
+  background-color: rgba(238, 79, 39, 0.1);
+}
+
+/* Pause Ken Burns on reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .hero-media-container {
+    animation: none;
+  }
+
+  .hero-play-pulse,
+  .hero-play-pulse-delayed {
+    animation: none;
+  }
+}
