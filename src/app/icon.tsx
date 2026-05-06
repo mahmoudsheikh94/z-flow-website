@@ -18,20 +18,20 @@ export default function Icon() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          background: 'linear-gradient(135deg, #ff6b35 0%, #ff8f5a 100%)',
+          background: '#0e0918',
           borderRadius: 6,
         }}
       >
-        <span
-          style={{
-            fontSize: 22,
-            fontWeight: 700,
-            color: 'white',
-            marginTop: -2,
-          }}
+        <svg
+          viewBox="0 0 120 120"
+          width="26"
+          height="26"
         >
-          Z
-        </span>
+          <path
+            d="M 70 10 L 28 64 L 56 64 L 50 110 L 92 56 L 64 56 Z"
+            fill="#ee4f27"
+          />
+        </svg>
       </div>
     ),
     {
