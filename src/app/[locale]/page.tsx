@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
-import { HeroMedia } from '@/components/hero/HeroMedia'
+import { HeroBrandVisual } from '@/components/hero/HeroBrandVisual'
 
 const tools = [
   { name: 'n8n', category: 'Automation', logo: '/images/N8N.Io_idQ-KxEpHW_1.svg' },
@@ -123,14 +123,9 @@ export default async function Home({
                 {t('hero.subheadline')}
               </p>
 
-              {/* Mobile: Hero Media appears here */}
+              {/* Mobile: Brand visual appears here */}
               <div className="lg:hidden mb-12">
-                <HeroMedia
-                  imageSrc="/images/mahmoud-working.svg"
-                  imageAlt="Mahmoud working on automation workflows"
-                  videoSrc="/videos/intro.mp4"
-                  caption={t('hero.meetFounder')}
-                />
+                <HeroBrandVisual />
               </div>
 
               {/* CTAs - More space */}
@@ -159,14 +154,9 @@ export default async function Home({
               </div>
             </div>
 
-            {/* Right Column - Hero Media (Desktop only) */}
+            {/* Right Column - Brand visual (Desktop only) */}
             <div className="hidden lg:block">
-              <HeroMedia
-                imageSrc="/images/mahmoud-working.svg"
-                imageAlt="Mahmoud working on automation workflows"
-                videoSrc="/videos/intro.mp4"
-                caption={t('hero.meetFounder')}
-              />
+              <HeroBrandVisual />
             </div>
           </div>
         </div>
