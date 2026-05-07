@@ -1,7 +1,5 @@
 import { ImageResponse } from 'next/og'
 
-export const runtime = 'edge'
-
 export const size = {
   width: 32,
   height: 32,
@@ -23,14 +21,25 @@ export default function Icon() {
         }}
       >
         <svg
-          viewBox="0 0 120 120"
+          viewBox="0 0 100 100"
           width="26"
           height="26"
         >
+          {/* Main lightning bolt */}
           <path
-            d="M 70 10 L 28 64 L 56 64 L 50 110 L 92 56 L 64 56 Z"
-            fill="#ee4f27"
+            d="M 58 4 L 22 50 L 44 50 L 38 96 L 78 46 L 54 46 Z"
+            fill="none"
+            stroke="#ee4f27"
+            strokeWidth="5"
+            strokeLinejoin="round"
+            strokeLinecap="round"
           />
+          {/* Branch line going left from top */}
+          <line x1="40" y1="27" x2="26" y2="18" stroke="#ee4f27" strokeWidth="5" strokeLinecap="round" />
+          {/* Circuit node dots */}
+          <circle cx="40" cy="27" r="3.5" fill="#ee4f27" />
+          <circle cx="26" cy="18" r="3.5" fill="#ee4f27" />
+          <circle cx="44" cy="50" r="3.5" fill="#ee4f27" />
         </svg>
       </div>
     ),
