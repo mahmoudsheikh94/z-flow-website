@@ -39,6 +39,7 @@ const integrations = [
   { key: 'confluence', icon: '📖' },
   { key: 'google', icon: '📧' },
   { key: 'linear', icon: '🔷' },
+  { key: 'custom', icon: '🔌' },
 ] as const
 
 export default async function CompanyBrainPage({
@@ -303,6 +304,10 @@ export default async function CompanyBrainPage({
               </div>
             ))}
           </div>
+
+          <p className="text-center text-text-secondary mt-8 text-sm">
+            {t('integrations.footerNote')}
+          </p>
         </div>
       </section>
 

@@ -69,7 +69,7 @@
     },
     "companyBrain": {
       "title": "Company Brain | KI-gestützte Organisationsintelligenz",
-      "description": "Company Brain verbindet sich mit den Tools Ihres Teams — GitHub, Slack, Jira, Confluence, Google Workspace, Linear — und erstellt KI-gestützte Leistungsprofile. Nur Metadaten. Privacy first. Individuell deployt von Z-Flow."
+      "description": "Company Brain verbindet sich mit den Tools Ihres Teams — von GitHub und Jira bis Microsoft Teams und Salesforce — und erstellt KI-gestützte Leistungsprofile. Maßgeschneidert pro Unternehmen. Nur Metadaten. Privacy first."
     },
     "projects": {
       "title": "Referenzen | Digitalisierung, Automatisierung & KI Projekte",
@@ -172,8 +172,8 @@
       "title": "Wir haben nicht nur für Kunden gebaut — sondern auch für uns selbst.",
       "subtitle": "Company Brain ist eine KI-gestützte Organisationsintelligenz-Plattform, die sich mit den Tools Ihres Teams verbindet und objektive Leistungseinblicke liefert — ohne Überwachung.",
       "feature1": {
-        "title": "7+ Integrationen",
-        "description": "GitHub, Slack, Jira, Confluence, Google Workspace, Linear — in Minuten verbunden."
+        "title": "Individuelle Integrationen",
+        "description": "GitHub, Jira, Microsoft Teams, Salesforce und mehr — wir bauen Konnektoren für Ihre spezifische Tool-Landschaft."
       },
       "feature2": {
         "title": "5-Dimensionen KI-Scoring",
@@ -1228,7 +1228,7 @@
     "problem": {
       "badge": "DAS PROBLEM",
       "title": "Sie führen das Team. Aber sehen Sie wirklich, wie es arbeitet?",
-      "subtitle": "Ihr Team nutzt täglich 7+ Tools. Aber kein einziger Ort verrät Ihnen, wer was beiträgt, wer wächst und wer Unterstützung braucht.",
+      "subtitle": "Ihr Team nutzt täglich dutzende Tools. Aber kein einziger Ort verrät Ihnen, wer was beiträgt, wer wächst und wer Unterstützung braucht.",
       "card1": {
         "title": "Blinde Flecken in der Leistung",
         "description": "Sie sehen nur, was in Meetings und Standups passiert. Der Rest — Code Reviews, Dokumentation, asynchrone Zusammenarbeit — bleibt unsichtbar."
@@ -1251,7 +1251,7 @@
       "title": "Von verbundenen Tools zu verwertbaren Erkenntnissen in 48 Stunden",
       "step1": {
         "title": "Verbinden",
-        "description": "GitHub, Slack, Jira, Confluence, Google Workspace und Linear über Webhooks und geplante Abfragen integrieren. Setup dauert 15 Minuten."
+        "description": "Wir analysieren die Tool-Landschaft Ihres Unternehmens und bauen individuelle Konnektoren — ob GitHub, Jira, Microsoft Teams, Salesforce oder andere. Die meisten Integrationen sind innerhalb von 48 Stunden live."
       },
       "step2": {
         "title": "Analysieren",
@@ -1294,8 +1294,8 @@
     },
     "integrations": {
       "badge": "INTEGRATIONEN",
-      "title": "Verbindet sich mit den Tools, die Ihr Team bereits nutzt",
-      "subtitle": "Company Brain erfasst Aktivitäts-Metadaten aus 7+ Arbeitstools über Webhooks und geplante Abfragen. Keine Code-Änderungen nötig.",
+      "title": "Maßgeschneidert für IHRE Tools",
+      "subtitle": "Wir passen jede Company Brain-Installation an die spezifische Tool-Landschaft Ihres Unternehmens an. Hier sind einige der häufigsten Integrationen — aber wenn Ihr Team es nutzt, können wir es anbinden.",
       "github": {
         "title": "GitHub",
         "description": "Pull Requests, Commits, Code Reviews, Repository-Aktivität"
@@ -1319,7 +1319,12 @@
       "linear": {
         "title": "Linear",
         "description": "Issue-Abschlüsse, Projektbeiträge, Diskussionen"
-      }
+      },
+      "custom": {
+        "title": "Ihre Tools",
+        "description": "Microsoft Teams, Azure DevOps, Salesforce, Notion, Asana, Monday.com — wir bauen Integrationen für alles, was Ihr Team nutzt."
+      },
+      "footerNote": "Ihr Tool nicht dabei? Wir bauen jede Integration individuell. Kontaktieren Sie uns, um Ihren Stack zu besprechen."
     },
     "privacy": {
       "badge": "DATENSCHUTZ",
