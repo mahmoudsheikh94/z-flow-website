@@ -200,12 +200,17 @@ export default function AIIntegrationPage() {
           <p className="text-white/70 text-lg max-w-2xl mx-auto mb-10">
             {t('cta.subtitle')}
           </p>
-          <Link href="/contact" className="btn btn-primary">
-            {common('cta.freeConsultation')}
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact" className="btn btn-primary">
+              {common('cta.freeConsultation')}
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+            <Link href="/company-brain" className="btn btn-secondary">
+              Company Brain →
+            </Link>
+          </div>
         </div>
       </section>
     </>

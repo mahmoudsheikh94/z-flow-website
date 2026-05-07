@@ -130,13 +130,13 @@ export default async function Home({
 
               {/* CTAs - More space */}
               <div className="hero-animate hero-animate-4 flex flex-col sm:flex-row gap-5">
-                <Link href="/contact" className="btn btn-primary">
+                <Link href="/contact" locale={locale} className="btn btn-primary">
                   {common('cta.discussProject')}
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </Link>
-                <Link href="/projects" className="btn btn-secondary">
+                <Link href="/projects" locale={locale} className="btn btn-secondary">
                   {common('cta.viewProjects')}
                 </Link>
               </div>
@@ -187,6 +187,7 @@ export default async function Home({
               <Link
                 key={service.title}
                 href={service.href}
+                locale={locale}
                 className="card group"
                 data-animate="fade-up"
                 data-delay={String((index + 1) * 100)}
@@ -208,6 +209,53 @@ export default async function Home({
                 </span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Company Brain Featured Product Section */}
+      <section className="section-dark py-32 lg:py-40 relative overflow-hidden">
+        <div className="absolute inset-0 bg-grid opacity-20" />
+        <div className="glow-subtle top-1/2 left-1/4 -translate-x-1/2" />
+
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="text-center mb-16" data-animate="blur-up">
+            <span className="badge badge-dark text-xs tracking-widest mb-6">
+              {t('companyBrain.badge')}
+            </span>
+            <h2 className="text-headline font-bold text-white mb-6">
+              {t('companyBrain.title')}
+            </h2>
+            <p className="text-body-lg text-white/60 max-w-2xl mx-auto">
+              {t('companyBrain.subtitle')}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 lg:gap-10 mb-12">
+            {(['feature1', 'feature2', 'feature3'] as const).map((feature, index) => (
+              <div
+                key={feature}
+                className="bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 p-8"
+                data-animate="fade-up"
+                data-delay={String((index + 1) * 100)}
+              >
+                <h3 className="text-title text-white mb-3">
+                  {t(`companyBrain.${feature}.title`)}
+                </h3>
+                <p className="text-white/60 leading-relaxed">
+                  {t(`companyBrain.${feature}.description`)}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center" data-animate="fade-up" data-delay="400">
+            <Link href="/company-brain" locale={locale} className="btn btn-primary">
+              {t('companyBrain.cta')}
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
@@ -247,7 +295,7 @@ export default async function Home({
           </div>
 
           <div className="text-center mt-16" data-animate="fade-up" data-delay="400">
-            <Link href="/process" className="btn btn-outline">
+            <Link href="/process" locale={locale} className="btn btn-outline">
               {t('process.detailCta')}
             </Link>
           </div>
@@ -337,13 +385,13 @@ export default async function Home({
               {t('cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-5 justify-center">
-              <Link href="/contact" className="btn btn-primary">
+              <Link href="/contact" locale={locale} className="btn btn-primary">
                 {common('cta.freeConsultation')}
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </Link>
-              <Link href="/pricing" className="btn btn-secondary">
+              <Link href="/pricing" locale={locale} className="btn btn-secondary">
                 {common('cta.viewPricing')}
               </Link>
             </div>

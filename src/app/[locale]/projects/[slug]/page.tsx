@@ -91,6 +91,7 @@ export default async function ProjectDetailPage({
           {/* Back link */}
           <Link
             href="/projects"
+            locale={locale}
             className="hero-animate hero-animate-1 inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors mb-10"
           >
             <svg
@@ -398,6 +399,7 @@ export default async function ProjectDetailPage({
                 <Link
                   key={related.slug}
                   href={`/projects/${related.slug}`}
+                  locale={locale}
                   className="card group"
                   data-animate="fade-up"
                   data-delay={String((index + 1) * 100)}
@@ -473,7 +475,7 @@ export default async function ProjectDetailPage({
             {common('ctaSubtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
-            <Link href="/contact" className="btn btn-primary">
+            <Link href="/contact" locale={locale} className="btn btn-primary">
               {commonNav('cta.discussProject')}
               <svg
                 className="w-5 h-5"
@@ -489,7 +491,7 @@ export default async function ProjectDetailPage({
                 />
               </svg>
             </Link>
-            <Link href="/pricing" className="btn btn-secondary">
+            <Link href="/pricing" locale={locale} className="btn btn-secondary">
               {commonNav('cta.viewPricing')}
             </Link>
           </div>

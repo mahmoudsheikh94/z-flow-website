@@ -13,6 +13,7 @@ export function Footer() {
 
   const footerLinks = {
     services: [
+      { name: 'Company Brain', href: '/company-brain' },
       { name: t('navigation.services') === 'Services' ? 'MVP Development' : 'MVP Entwicklung', href: '/services/mvp-development' },
       { name: t('navigation.services') === 'Services' ? 'Automation' : 'Automatisierung', href: '/services/automation' },
       { name: t('navigation.services') === 'Services' ? 'AI for Business' : 'KI für Ihr Unternehmen', href: '/services/ai-integration' },

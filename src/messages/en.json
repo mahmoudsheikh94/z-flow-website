@@ -11,7 +11,8 @@
       "process": "Process",
       "pricing": "Pricing",
       "about": "About Us",
-      "contact": "Contact"
+      "contact": "Contact",
+      "companyBrain": "Company Brain"
     },
     "cta": {
       "startProject": "Start Project",
@@ -65,6 +66,10 @@
     "aiIntegration": {
       "title": "AI for Business | Company Knowledge Bases & AI Assistants",
       "description": "We build AI systems trained on your company data — internal knowledge bases, employee AI assistants, and chatbots that understand your business. Process-first approach, RAG systems, OpenAI & Claude. Based in Berlin."
+    },
+    "companyBrain": {
+      "title": "Company Brain | AI-Powered Organizational Intelligence",
+      "description": "Company Brain connects to your team's tools — GitHub, Slack, Jira, Confluence, Google Workspace, Linear — and uses AI to build objective performance profiles. Metadata only. Privacy first. Deployed per company by Z-Flow."
     },
     "projects": {
       "title": "Case Studies | Digitalization, Automation & AI Projects",
@@ -121,8 +126,8 @@
         "description": "From idea to working software in weeks. MVPs, internal tools, and custom platforms — built to last, not just to launch."
       },
       "ai": {
-        "title": "Ready for your company brain?",
-        "description": "We build AI systems trained on your company data — knowledge bases, AI assistants for your team, and chatbots that actually understand your business. Not generic AI, but your AI."
+        "title": "Ready for AI-powered team intelligence?",
+        "description": "From Company Brain — our organizational intelligence platform — to custom AI assistants and knowledge bases. We build AI systems trained on your company data. Not generic AI, but your AI."
       }
     },
     "process": {
@@ -161,6 +166,24 @@
     "cta": {
       "title": "Ready to start your project?",
       "subtitle": "Let's find out in a short conversation if and how we can help you. No obligation and free of charge."
+    },
+    "companyBrain": {
+      "badge": "OUR PRODUCT",
+      "title": "We didn't just build for clients — we built one for ourselves.",
+      "subtitle": "Company Brain is an AI-powered organizational intelligence platform that connects to your team's tools and gives you objective performance insights — without surveillance.",
+      "feature1": {
+        "title": "7+ Integrations",
+        "description": "GitHub, Slack, Jira, Confluence, Google Workspace, Linear — all connected in minutes."
+      },
+      "feature2": {
+        "title": "5-Dimension AI Scoring",
+        "description": "Output, Collaboration, Knowledge, Growth, Leadership — scored daily by AI."
+      },
+      "feature3": {
+        "title": "Metadata Only",
+        "description": "Privacy-first — sees that work happened, not what was said or written."
+      },
+      "cta": "Learn More About Company Brain"
     }
   },
   "services": {
@@ -198,11 +221,11 @@
       "metricLabel": "Typical time savings"
     },
     "ai": {
-      "subtitle": "Build your company brain",
+      "subtitle": "AI-powered intelligence",
       "title": "AI for Your Business",
-      "description": "Your company has years of knowledge trapped in documents, emails, and people's heads. We build AI systems that capture this knowledge — internal chatbots, AI assistants for employees, and intelligent automation that truly understands your business.",
+      "description": "Your company has years of knowledge trapped in documents, emails, and people's heads. We build AI systems that capture this knowledge — including Company Brain, our organizational intelligence platform that scores team performance across 5 dimensions.",
       "features": {
-        "1": "Knowledge bases from your company data",
+        "1": "Company Brain — AI-powered team analytics",
         "2": "Internal AI assistants for employees",
         "3": "Chatbots trained on your documents",
         "4": "RAG systems over company knowledge",
@@ -409,8 +432,8 @@
       "title": "Technologies"
     },
     "cta": {
-      "title": "Ready to build your company brain?",
-      "subtitle": "Let's discuss how AI trained on your data can transform how your team works."
+      "title": "Ready to build your Company Brain?",
+      "subtitle": "Let's discuss how AI trained on your data can transform how your team works. See Company Brain, our flagship product, in action."
     }
   },
   "projects": {
@@ -801,6 +824,7 @@
       "emailPlaceholder": "john@example.com",
       "service": "What is this about?",
       "servicePlaceholder": "Please select",
+      "serviceCompanyBrain": "Company Brain Demo",
       "serviceMvp": "MVP Development",
       "serviceAutomation": "Automation",
       "serviceAi": "AI Integration",
@@ -1316,6 +1340,201 @@
           "Automating status notifications reduced follow-up inquiries by over 60%"
         ]
       }
+    }
+  },
+  "companyBrain": {
+    "hero": {
+      "badge": "PRODUCT",
+      "title": "Company Brain",
+      "subtitle": "AI-powered organizational intelligence that connects to your team's tools and reveals how work actually happens — across code, conversations, documents, and tasks.",
+      "cta1": "Book a Demo",
+      "cta2": "See How It Works"
+    },
+    "problem": {
+      "badge": "THE PROBLEM",
+      "title": "You manage the team. But do you really see how they work?",
+      "subtitle": "Your team uses 7+ tools every day. But no single place tells you who's contributing what, who's growing, and who needs support.",
+      "card1": {
+        "title": "Blind spots in performance",
+        "description": "You only see what happens in meetings and standup reports. The rest — code reviews, documentation, async collaboration — is invisible."
+      },
+      "card2": {
+        "title": "Reviews based on gut feeling",
+        "description": "Performance reviews rely on recency bias and self-reporting. Objective data across all work tools doesn't exist."
+      },
+      "card3": {
+        "title": "No cross-tool visibility",
+        "description": "GitHub shows code. Jira shows tickets. Slack shows messages. Nobody connects the dots across tools to show the full picture."
+      },
+      "card4": {
+        "title": "Knowledge silos",
+        "description": "You can't tell who documents, who shares knowledge, and who hoards expertise — until someone leaves and the team scrambles."
+      }
+    },
+    "howItWorks": {
+      "badge": "HOW IT WORKS",
+      "title": "From connected tools to actionable insights in 48 hours",
+      "step1": {
+        "title": "Connect",
+        "description": "Integrate GitHub, Slack, Jira, Confluence, Google Workspace, and Linear via webhooks and scheduled polling. Setup takes 15 minutes."
+      },
+      "step2": {
+        "title": "Analyze",
+        "description": "AI runs daily analysis. All activity is normalized into a unified event stream. Employee identities are automatically resolved across tools — same person, one profile."
+      },
+      "step3": {
+        "title": "Understand",
+        "description": "Get 5-dimension performance profiles for every team member, with daily trends, detected skills, strengths, growth areas, and coaching suggestions."
+      }
+    },
+    "dimensions": {
+      "badge": "THE 5 DIMENSIONS",
+      "title": "Objective performance profiles, updated daily",
+      "subtitle": "Every employee is scored across five dimensions, each on a 0-100 scale with trend indicators. Scores are evidence-based — backed by real activity data, not opinions.",
+      "output": {
+        "title": "Output",
+        "description": "Volume and quality of deliverables — PRs merged, issues closed, documents written, releases shipped.",
+        "score": "78"
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Working with others — code reviews given, cross-functional participation, meeting facilitation, mentoring signals.",
+        "score": "85"
+      },
+      "knowledge": {
+        "title": "Knowledge",
+        "description": "Documentation and knowledge sharing — wiki pages created, how-to guides, expertise depth and breadth.",
+        "score": "62"
+      },
+      "growth": {
+        "title": "Growth",
+        "description": "Taking on new challenges — learning new domains, expanding scope, stepping outside comfort zones.",
+        "score": "71"
+      },
+      "leadership": {
+        "title": "Leadership",
+        "description": "Driving initiatives — facilitating discussions, unblocking others, taking ownership of outcomes.",
+        "score": "69"
+      }
+    },
+    "integrations": {
+      "badge": "INTEGRATIONS",
+      "title": "Connects to the tools your team already uses",
+      "subtitle": "Company Brain ingests activity metadata from 7+ work tools via webhooks and scheduled polling. No code changes needed.",
+      "github": {
+        "title": "GitHub",
+        "description": "Pull requests, commits, code reviews, repository activity"
+      },
+      "slack": {
+        "title": "Slack",
+        "description": "Channel activity, reactions, participation patterns (metadata only)"
+      },
+      "jira": {
+        "title": "Jira",
+        "description": "Issue completions, comments, task ownership, sprint contributions"
+      },
+      "confluence": {
+        "title": "Confluence",
+        "description": "Knowledge base articles, documentation contributions, page updates"
+      },
+      "google": {
+        "title": "Google Workspace",
+        "description": "Calendar events, Drive activity, document collaboration"
+      },
+      "linear": {
+        "title": "Linear",
+        "description": "Issue completions, project contributions, discussions"
+      }
+    },
+    "privacy": {
+      "badge": "PRIVACY",
+      "title": "Metadata only. We see that work happened — not what was said.",
+      "subtitle": "Company Brain is built on a strict metadata-only architecture. No message content, no document text, no code — just activity signals.",
+      "point1": {
+        "title": "Metadata only",
+        "description": "We track that a PR was merged, not what code was written. That a Slack message was sent, not what it said."
+      },
+      "point2": {
+        "title": "Isolated database",
+        "description": "Each company gets its own dedicated database. Your data never touches another company's infrastructure."
+      },
+      "point3": {
+        "title": "GDPR compliant",
+        "description": "European hosting available. Built with German data protection standards in mind from day one."
+      },
+      "point4": {
+        "title": "Not SaaS",
+        "description": "Company Brain is deployed specifically for your organization. No shared infrastructure, no multi-tenant risks."
+      }
+    },
+    "audience": {
+      "badge": "WHO IT'S FOR",
+      "title": "Built for leaders who want data, not surveillance",
+      "roles": {
+        "engineering": {
+          "title": "Engineering Managers",
+          "description": "Get objective data on team performance instead of relying on gut feeling and standup reports."
+        },
+        "cto": {
+          "title": "CTOs & VPs of Engineering",
+          "description": "Cross-team visibility without micromanaging. Understand work patterns across your entire engineering organization."
+        },
+        "hr": {
+          "title": "HR & People Ops",
+          "description": "Transition from subjective reviews to data-informed performance assessments. Fair, evidence-based evaluations."
+        },
+        "coo": {
+          "title": "COOs of Remote Teams",
+          "description": "Understand how distributed teams collaborate across time zones and tools without invasive monitoring."
+        }
+      },
+      "teamSize": "Companies with 20-200+ employees across multiple tools"
+    },
+    "deployment": {
+      "badge": "DEPLOYMENT",
+      "title": "Custom-deployed for your organization",
+      "subtitle": "Company Brain is not SaaS. Z-Flow deploys and configures it specifically for your company's tool stack and team structure.",
+      "point1": {
+        "title": "Custom setup",
+        "description": "Z-Flow engineers configure Company Brain for your specific tools, teams, and organizational structure."
+      },
+      "point2": {
+        "title": "Isolated infrastructure",
+        "description": "Your Company Brain runs on dedicated infrastructure. Your data stays in your environment."
+      },
+      "point3": {
+        "title": "Ongoing support",
+        "description": "We handle maintenance, updates, and adding new integrations as your tool stack evolves."
+      }
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "Frequently asked questions",
+      "q1": {
+        "question": "Does Company Brain read our Slack messages or code?",
+        "answer": "No. Company Brain only processes metadata — that a message was sent, that a PR was merged, that a document was updated. It never reads message content, code, or document text."
+      },
+      "q2": {
+        "question": "Can employees see their own scores?",
+        "answer": "This is fully configurable. You decide who sees what — individual scores can be visible to managers only, to the employee themselves, or to the whole team."
+      },
+      "q3": {
+        "question": "How quickly will we see insights?",
+        "answer": "First analysis runs within 24-48 hours after connecting your tools. The AI needs a few days of data to establish baseline patterns, but you'll see initial scores immediately."
+      },
+      "q4": {
+        "question": "What if we use tools that aren't listed?",
+        "answer": "We can build custom integrations for additional tools. Company Brain's architecture is designed to ingest activity data from any tool with an API or webhook support."
+      },
+      "q5": {
+        "question": "How is this different from Jellyfish or LinearB?",
+        "answer": "Three key differences: (1) Company Brain is deployed per-company, not SaaS — your data stays isolated. (2) We score across 5 dimensions including Knowledge and Leadership, not just DORA/engineering metrics. (3) Metadata-only architecture means privacy is built into the system, not just a policy."
+      }
+    },
+    "cta": {
+      "title": "See Company Brain in action",
+      "subtitle": "Book a 30-minute demo. We'll show you how Company Brain works with your team's tools and what insights it can surface.",
+      "button": "Book a Demo"
     }
   },
   "languageSwitcher": {

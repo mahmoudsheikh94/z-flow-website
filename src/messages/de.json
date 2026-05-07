@@ -11,7 +11,8 @@
       "process": "Prozess",
       "pricing": "Preise",
       "about": "Über uns",
-      "contact": "Kontakt"
+      "contact": "Kontakt",
+      "companyBrain": "Company Brain"
     },
     "cta": {
       "startProject": "Projekt starten",
@@ -65,6 +66,10 @@
     "aiIntegration": {
       "title": "KI für Unternehmen | Wissensdatenbanken & KI-Assistenten",
       "description": "Wir bauen KI-Systeme trainiert auf Ihren Unternehmensdaten — interne Wissensdatenbanken, KI-Assistenten für Mitarbeiter und Chatbots die Ihr Unternehmen verstehen. Prozess-zuerst, RAG-Systeme, OpenAI & Claude. Standort Berlin."
+    },
+    "companyBrain": {
+      "title": "Company Brain | KI-gestützte Organisationsintelligenz",
+      "description": "Company Brain verbindet sich mit den Tools Ihres Teams — GitHub, Slack, Jira, Confluence, Google Workspace, Linear — und erstellt KI-gestützte Leistungsprofile. Nur Metadaten. Privacy first. Individuell deployt von Z-Flow."
     },
     "projects": {
       "title": "Referenzen | Digitalisierung, Automatisierung & KI Projekte",
@@ -121,8 +126,8 @@
         "description": "Von der Idee zur funktionierenden Software in Wochen. MVPs, interne Tools und Custom-Plattformen — gebaut um zu halten, nicht nur um zu launchen."
       },
       "ai": {
-        "title": "Bereit für Ihr Company Brain?",
-        "description": "Wir bauen KI-Systeme, trainiert auf Ihren Unternehmensdaten — Wissensdatenbanken, KI-Assistenten für Ihr Team und Chatbots, die Ihr Unternehmen wirklich verstehen. Keine generische KI, sondern Ihre KI."
+        "title": "Bereit für KI-gestützte Team-Intelligenz?",
+        "description": "Von Company Brain — unserer Organisationsintelligenz-Plattform — bis zu individuellen KI-Assistenten und Wissensdatenbanken. Wir bauen KI-Systeme, trainiert auf Ihren Daten. Keine generische KI, sondern Ihre KI."
       }
     },
     "process": {
@@ -161,6 +166,24 @@
     "cta": {
       "title": "Bereit, Ihr Projekt zu starten?",
       "subtitle": "Lassen Sie uns in einem kurzen Gespräch herausfinden, ob und wie wir Ihnen helfen können. Unverbindlich und kostenlos."
+    },
+    "companyBrain": {
+      "badge": "UNSER PRODUKT",
+      "title": "Wir haben nicht nur für Kunden gebaut — sondern auch für uns selbst.",
+      "subtitle": "Company Brain ist eine KI-gestützte Organisationsintelligenz-Plattform, die sich mit den Tools Ihres Teams verbindet und objektive Leistungseinblicke liefert — ohne Überwachung.",
+      "feature1": {
+        "title": "7+ Integrationen",
+        "description": "GitHub, Slack, Jira, Confluence, Google Workspace, Linear — in Minuten verbunden."
+      },
+      "feature2": {
+        "title": "5-Dimensionen KI-Scoring",
+        "description": "Output, Zusammenarbeit, Wissen, Wachstum, Führung — täglich von KI bewertet."
+      },
+      "feature3": {
+        "title": "Nur Metadaten",
+        "description": "Privacy-first — erfasst, dass Arbeit stattfand, nicht was gesagt oder geschrieben wurde."
+      },
+      "cta": "Mehr über Company Brain erfahren"
     }
   },
   "services": {
@@ -198,11 +221,11 @@
       "metricLabel": "Typische Zeitersparnis"
     },
     "ai": {
-      "subtitle": "Ihr Company Brain aufbauen",
+      "subtitle": "KI-gestützte Intelligenz",
       "title": "KI für Ihr Unternehmen",
-      "description": "Ihr Unternehmen hat jahrelang Wissen angesammelt — in Dokumenten, E-Mails und in den Köpfen Ihrer Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen — interne Chatbots, KI-Assistenten für Mitarbeiter und intelligente Automatisierung, die Ihr Unternehmen wirklich versteht.",
+      "description": "Ihr Unternehmen hat jahrelang Wissen angesammelt — in Dokumenten, E-Mails und in den Köpfen Ihrer Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen — einschließlich Company Brain, unserer Organisationsintelligenz-Plattform, die Teamleistung über 5 Dimensionen bewertet.",
       "features": {
-        "1": "Wissensdatenbanken aus Ihren Unternehmensdaten",
+        "1": "Company Brain — KI-gestützte Team-Analytik",
         "2": "Interne KI-Assistenten für Mitarbeiter",
         "3": "Chatbots trainiert auf Ihren Dokumenten",
         "4": "RAG-Systeme über Firmenwissen",
@@ -410,7 +433,7 @@
     },
     "cta": {
       "title": "Bereit für Ihr Company Brain?",
-      "subtitle": "Lassen Sie uns besprechen, wie KI trainiert auf Ihren Daten die Arbeitsweise Ihres Teams transformieren kann."
+      "subtitle": "Lassen Sie uns besprechen, wie KI trainiert auf Ihren Daten die Arbeitsweise Ihres Teams transformieren kann. Erleben Sie Company Brain, unser Flaggschiff-Produkt, in Aktion."
     }
   },
   "projects": {
@@ -801,6 +824,7 @@
       "emailPlaceholder": "max@beispiel.de",
       "service": "Worum geht es?",
       "servicePlaceholder": "Bitte wählen",
+      "serviceCompanyBrain": "Company Brain Demo",
       "serviceMvp": "MVP Entwicklung",
       "serviceAutomation": "Automatisierung",
       "serviceAi": "KI-Integration",
@@ -1191,6 +1215,201 @@
       "challenge": { "intro": "Eine gemeinnützige Organisation brauchte ein System für den komplexen Bewerbungsprozess mit Hintergrundprüfungen.", "painPoints": ["Papierbasierter Bewerbungsprozess dauerte Wochen", "Keine rollenbasierte Zugriffskontrolle für sensible Daten", "Hintergrundprüfungs-Workflow komplett manuell", "Keine Sichtbarkeit des Pipeline-Status für das Management"] },
       "solution": { "intro": "WeWeb-Anwendung mit Xano-Backend, rollenbasierten Berechtigungen und automatisierten Workflow-Stufen.", "approach": "WeWeb liefert das Frontend mit rollenbasierten Ansichten. Xano übernimmt Authentifizierung, Datenspeicherung und Geschäftslogik. n8n automatisiert Benachrichtigungen." },
       "results": { "metrics": [{ "label": "Einarbeitungszeit", "before": "3-4 Wochen", "after": "3-5 Tage", "improvement": "80% Reduktion" }, { "label": "Teamzugriff", "before": "Geteilte Tabelle", "after": "Rollenbasierte Plattform", "improvement": "50+ Nutzer" }, { "label": "Hintergrundprüfungen", "before": "Manuelles Tracking", "after": "Automatisierter Workflow", "improvement": "Vollständiger Audit-Trail" }], "takeaways": ["WeWeb + Xano ist eine exzellente Kombination für interne Tools mit rollenbasiertem Zugriff", "Non-Profit-Organisationen haben überraschend komplexe Compliance-Anforderungen", "Automatisierte Statusbenachrichtigungen reduzierten Nachfragen um über 60%"] }
+    }
+  },
+  "companyBrain": {
+    "hero": {
+      "badge": "PRODUKT",
+      "title": "Company Brain",
+      "subtitle": "KI-gestützte Organisationsintelligenz, die sich mit den Tools Ihres Teams verbindet und zeigt, wie Arbeit wirklich passiert — über Code, Kommunikation, Dokumente und Aufgaben hinweg.",
+      "cta1": "Demo buchen",
+      "cta2": "So funktioniert's"
+    },
+    "problem": {
+      "badge": "DAS PROBLEM",
+      "title": "Sie führen das Team. Aber sehen Sie wirklich, wie es arbeitet?",
+      "subtitle": "Ihr Team nutzt täglich 7+ Tools. Aber kein einziger Ort verrät Ihnen, wer was beiträgt, wer wächst und wer Unterstützung braucht.",
+      "card1": {
+        "title": "Blinde Flecken in der Leistung",
+        "description": "Sie sehen nur, was in Meetings und Standups passiert. Der Rest — Code Reviews, Dokumentation, asynchrone Zusammenarbeit — bleibt unsichtbar."
+      },
+      "card2": {
+        "title": "Bewertungen nach Bauchgefühl",
+        "description": "Leistungsbewertungen basieren auf Erinnerungsverzerrung und Selbstberichten. Objektive Daten über alle Arbeitstools hinweg existieren nicht."
+      },
+      "card3": {
+        "title": "Keine tool-übergreifende Sichtbarkeit",
+        "description": "GitHub zeigt Code. Jira zeigt Tickets. Slack zeigt Nachrichten. Niemand verbindet die Punkte über alle Tools hinweg zum Gesamtbild."
+      },
+      "card4": {
+        "title": "Wissenssilos",
+        "description": "Sie können nicht erkennen, wer dokumentiert, wer Wissen teilt und wer Expertise hortet — bis jemand geht und das Team improvisieren muss."
+      }
+    },
+    "howItWorks": {
+      "badge": "SO FUNKTIONIERT'S",
+      "title": "Von verbundenen Tools zu verwertbaren Erkenntnissen in 48 Stunden",
+      "step1": {
+        "title": "Verbinden",
+        "description": "GitHub, Slack, Jira, Confluence, Google Workspace und Linear über Webhooks und geplante Abfragen integrieren. Setup dauert 15 Minuten."
+      },
+      "step2": {
+        "title": "Analysieren",
+        "description": "KI führt tägliche Analysen durch. Alle Aktivitäten werden in einen einheitlichen Event-Stream normalisiert. Mitarbeiter-Identitäten werden automatisch über Tools hinweg aufgelöst — eine Person, ein Profil."
+      },
+      "step3": {
+        "title": "Verstehen",
+        "description": "Erhalten Sie 5-Dimensionen-Leistungsprofile für jedes Teammitglied, mit täglichen Trends, erkannten Fähigkeiten, Stärken, Wachstumsbereichen und Coaching-Vorschlägen."
+      }
+    },
+    "dimensions": {
+      "badge": "DIE 5 DIMENSIONEN",
+      "title": "Objektive Leistungsprofile, täglich aktualisiert",
+      "subtitle": "Jeder Mitarbeiter wird über fünf Dimensionen bewertet, jeweils auf einer Skala von 0-100 mit Trendindikatoren. Die Bewertungen sind evidenzbasiert — gestützt auf echte Aktivitätsdaten, nicht Meinungen.",
+      "output": {
+        "title": "Output",
+        "description": "Umfang und Qualität der Ergebnisse — gemergte PRs, geschlossene Issues, verfasste Dokumente, veröffentlichte Releases.",
+        "score": "78"
+      },
+      "collaboration": {
+        "title": "Zusammenarbeit",
+        "description": "Arbeiten mit anderen — gegebene Code Reviews, funktionsübergreifende Beteiligung, Meeting-Moderation, Mentoring-Signale.",
+        "score": "85"
+      },
+      "knowledge": {
+        "title": "Wissen",
+        "description": "Dokumentation und Wissensaustausch — erstellte Wiki-Seiten, Anleitungen, Tiefe und Breite der Expertise.",
+        "score": "62"
+      },
+      "growth": {
+        "title": "Wachstum",
+        "description": "Neue Herausforderungen annehmen — neue Bereiche lernen, Scope erweitern, die Komfortzone verlassen.",
+        "score": "71"
+      },
+      "leadership": {
+        "title": "Führung",
+        "description": "Initiativen vorantreiben — Diskussionen moderieren, andere entblocken, Verantwortung für Ergebnisse übernehmen.",
+        "score": "69"
+      }
+    },
+    "integrations": {
+      "badge": "INTEGRATIONEN",
+      "title": "Verbindet sich mit den Tools, die Ihr Team bereits nutzt",
+      "subtitle": "Company Brain erfasst Aktivitäts-Metadaten aus 7+ Arbeitstools über Webhooks und geplante Abfragen. Keine Code-Änderungen nötig.",
+      "github": {
+        "title": "GitHub",
+        "description": "Pull Requests, Commits, Code Reviews, Repository-Aktivität"
+      },
+      "slack": {
+        "title": "Slack",
+        "description": "Kanal-Aktivität, Reaktionen, Teilnahme-Muster (nur Metadaten)"
+      },
+      "jira": {
+        "title": "Jira",
+        "description": "Issue-Abschlüsse, Kommentare, Aufgabenverantwortung, Sprint-Beiträge"
+      },
+      "confluence": {
+        "title": "Confluence",
+        "description": "Wissensbasis-Artikel, Dokumentationsbeiträge, Seitenaktualisierungen"
+      },
+      "google": {
+        "title": "Google Workspace",
+        "description": "Kalendertermine, Drive-Aktivität, Dokumenten-Zusammenarbeit"
+      },
+      "linear": {
+        "title": "Linear",
+        "description": "Issue-Abschlüsse, Projektbeiträge, Diskussionen"
+      }
+    },
+    "privacy": {
+      "badge": "DATENSCHUTZ",
+      "title": "Nur Metadaten. Wir sehen, dass Arbeit passiert ist — nicht was gesagt wurde.",
+      "subtitle": "Company Brain basiert auf einer strikten Nur-Metadaten-Architektur. Keine Nachrichteninhalte, kein Dokumententext, kein Code — nur Aktivitätssignale.",
+      "point1": {
+        "title": "Nur Metadaten",
+        "description": "Wir erfassen, dass ein PR gemergt wurde, nicht welcher Code geschrieben wurde. Dass eine Slack-Nachricht gesendet wurde, nicht was sie enthielt."
+      },
+      "point2": {
+        "title": "Isolierte Datenbank",
+        "description": "Jedes Unternehmen erhält eine eigene dedizierte Datenbank. Ihre Daten berühren nie die Infrastruktur eines anderen Unternehmens."
+      },
+      "point3": {
+        "title": "DSGVO-konform",
+        "description": "Europäisches Hosting verfügbar. Von Anfang an mit deutschen Datenschutzstandards entwickelt."
+      },
+      "point4": {
+        "title": "Kein SaaS",
+        "description": "Company Brain wird speziell für Ihre Organisation deployt. Keine geteilte Infrastruktur, keine Multi-Tenant-Risiken."
+      }
+    },
+    "audience": {
+      "badge": "FÜR WEN",
+      "title": "Gebaut für Führungskräfte, die Daten wollen — keine Überwachung",
+      "roles": {
+        "engineering": {
+          "title": "Engineering Manager",
+          "description": "Objektive Daten zur Teamleistung statt Bauchgefühl und Standup-Berichte."
+        },
+        "cto": {
+          "title": "CTOs & VP Engineering",
+          "description": "Team-übergreifende Sichtbarkeit ohne Mikromanagement. Arbeitsmuster in der gesamten Engineering-Organisation verstehen."
+        },
+        "hr": {
+          "title": "HR & People Ops",
+          "description": "Von subjektiven Bewertungen zu datengestützten Leistungsbeurteilungen. Faire, evidenzbasierte Evaluierungen."
+        },
+        "coo": {
+          "title": "COOs von Remote-Teams",
+          "description": "Verstehen, wie verteilte Teams über Zeitzonen und Tools hinweg zusammenarbeiten — ohne invasives Monitoring."
+        }
+      },
+      "teamSize": "Unternehmen mit 20-200+ Mitarbeitern über mehrere Tools hinweg"
+    },
+    "deployment": {
+      "badge": "DEPLOYMENT",
+      "title": "Individuell deployt für Ihre Organisation",
+      "subtitle": "Company Brain ist kein SaaS. Z-Flow deployt und konfiguriert es speziell für den Tool-Stack und die Teamstruktur Ihres Unternehmens.",
+      "point1": {
+        "title": "Individuelles Setup",
+        "description": "Z-Flow-Ingenieure konfigurieren Company Brain für Ihre spezifischen Tools, Teams und Organisationsstruktur."
+      },
+      "point2": {
+        "title": "Isolierte Infrastruktur",
+        "description": "Ihr Company Brain läuft auf dedizierter Infrastruktur. Ihre Daten bleiben in Ihrer Umgebung."
+      },
+      "point3": {
+        "title": "Laufender Support",
+        "description": "Wir übernehmen Wartung, Updates und das Hinzufügen neuer Integrationen, wenn sich Ihr Tool-Stack weiterentwickelt."
+      }
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "Häufig gestellte Fragen",
+      "q1": {
+        "question": "Liest Company Brain unsere Slack-Nachrichten oder unseren Code?",
+        "answer": "Nein. Company Brain verarbeitet nur Metadaten — dass eine Nachricht gesendet wurde, dass ein PR gemergt wurde, dass ein Dokument aktualisiert wurde. Es liest niemals Nachrichteninhalte, Code oder Dokumententext."
+      },
+      "q2": {
+        "question": "Können Mitarbeiter ihre eigenen Bewertungen sehen?",
+        "answer": "Das ist vollständig konfigurierbar. Sie entscheiden, wer was sieht — individuelle Bewertungen können nur für Manager, für den Mitarbeiter selbst oder für das gesamte Team sichtbar sein."
+      },
+      "q3": {
+        "question": "Wie schnell sehen wir Ergebnisse?",
+        "answer": "Die erste Analyse läuft innerhalb von 24-48 Stunden nach Verbindung Ihrer Tools. Die KI braucht einige Tage an Daten um Baseline-Muster zu etablieren, aber Sie sehen sofort erste Bewertungen."
+      },
+      "q4": {
+        "question": "Was ist mit Tools, die nicht aufgelistet sind?",
+        "answer": "Wir können individuelle Integrationen für zusätzliche Tools entwickeln. Die Architektur von Company Brain ist darauf ausgelegt, Aktivitätsdaten von jedem Tool mit API- oder Webhook-Unterstützung aufzunehmen."
+      },
+      "q5": {
+        "question": "Wie unterscheidet sich das von Jellyfish oder LinearB?",
+        "answer": "Drei zentrale Unterschiede: (1) Company Brain wird pro Unternehmen deployt, nicht als SaaS — Ihre Daten bleiben isoliert. (2) Wir bewerten über 5 Dimensionen einschließlich Wissen und Führung, nicht nur DORA/Engineering-Metriken. (3) Die Nur-Metadaten-Architektur bedeutet, dass Datenschutz in das System eingebaut ist, nicht nur eine Richtlinie."
+      }
+    },
+    "cta": {
+      "title": "Erleben Sie Company Brain in Aktion",
+      "subtitle": "Buchen Sie eine 30-minütige Demo. Wir zeigen Ihnen, wie Company Brain mit den Tools Ihres Teams funktioniert und welche Erkenntnisse es liefern kann.",
+      "button": "Demo buchen"
     }
   },
   "languageSwitcher": {
