@@ -12,7 +12,8 @@
       "pricing": "Pricing",
       "about": "About Us",
       "contact": "Contact",
-      "companyBrain": "Company Brain"
+      "companyBrain": "Company Brain",
+      "blog": "Blog"
     },
     "cta": {
       "startProject": "Start Project",
@@ -98,6 +99,10 @@
     "privacy": {
       "title": "Privacy Policy | Z-Flow",
       "description": "Privacy policy and data protection information of Z-Flow UG, Berlin."
+    },
+    "blog": {
+      "title": "Blog | Automation, AI & Digital Transformation Insights",
+      "description": "Practical articles on business automation, AI integration, and digital transformation. Service explainers and real case studies from Z-Flow in Berlin."
     }
   },
   "home": {
@@ -1540,6 +1545,40 @@
       "title": "See Company Brain in action",
       "subtitle": "Book a 30-minute demo. We'll show you how Company Brain works with your team's tools and what insights it can surface.",
       "button": "Book a Demo"
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "BLOG",
+      "title": "Insights & Case Studies",
+      "subtitle": "Practical guides on automation, AI integration, and building digital products — from the Z-Flow team in Berlin."
+    },
+    "categories": {
+      "all": "All Posts",
+      "serviceExplainer": "Service Explainers",
+      "caseStudy": "Case Studies"
+    },
+    "readingTime": "{minutes} min read",
+    "publishedOn": "Published on {date}",
+    "backToBlog": "Back to Blog",
+    "relatedPosts": "Related Articles",
+    "readMore": "Read Article",
+    "noPosts": "No articles found in this category.",
+    "cta": {
+      "title": "Ready to digitalize your business?",
+      "subtitle": "Let's discuss how we can automate your processes, build your product, or integrate AI into your workflows."
+    },
+    "posts": {
+      "what-is-company-brain": {
+        "title": "What is Company Brain? AI-Powered Knowledge Management Explained",
+        "description": "Learn how a Company Brain uses RAG technology to capture your organization's knowledge and make it instantly accessible to your entire team.",
+        "excerpt": "Your company has years of knowledge trapped in documents, emails, and people's heads. A Company Brain captures it and puts it to work — here's how."
+      },
+      "automating-invoice-processing": {
+        "title": "How We Automated Invoice Processing for a German SME",
+        "description": "A case study on building an end-to-end invoice automation system with n8n and AI, reducing 20+ hours of manual work per week to just 2 hours.",
+        "excerpt": "A medium-sized German company was spending 20+ hours per week on manual invoice processing. Here's how we automated 80% of it in 3 weeks."
+      }
     }
   },
   "languageSwitcher": {

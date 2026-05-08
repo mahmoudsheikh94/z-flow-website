@@ -74,12 +74,19 @@ Learn to build and maintain automation and no-code solutions yourself.
 | Training/Workshop | €1,500 | Half to multi-day |
 | Monthly Retainer | €4,000/month | Ongoing |
 
+## Blog
+Practical articles on automation, AI, and digital transformation:
+- What is Company Brain? AI-Powered Knowledge Management Explained
+- How We Automated Invoice Processing for a German SME
+- Blog: https://z-flow.de/en/blog
+
 ## Key Pages
 - Services: https://z-flow.de/en/services
 - MVP Development: https://z-flow.de/en/services/mvp-development
 - Automation: https://z-flow.de/en/services/automation
 - AI for Business: https://z-flow.de/en/services/ai-integration
 - Projects: https://z-flow.de/en/projects
+- Blog: https://z-flow.de/en/blog
 - Pricing: https://z-flow.de/en/pricing
 - Process: https://z-flow.de/en/process
 - Contact: https://z-flow.de/en/contact

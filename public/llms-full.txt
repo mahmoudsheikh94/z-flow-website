@@ -336,6 +336,18 @@ A: n8n can be self-hosted (better for GDPR compliance and data-sensitive workflo
 A: During the process audit, we analyze your workflows and recommend the approach with the best ROI. Sometimes it's a simple automation, sometimes you need custom software, sometimes AI adds real value. We let the process dictate the technology.
 
 ================================================================================
+## BLOG
+================================================================================
+
+Practical articles on automation, AI, and digital transformation. Written by the Z-Flow team.
+
+**Articles**:
+- "What is Company Brain? AI-Powered Knowledge Management Explained" — How RAG technology captures organizational knowledge and makes it accessible via AI assistants. Topics: Company Brain, RAG, vector databases, knowledge bases.
+- "How We Automated Invoice Processing for a German SME" — Case study: end-to-end invoice automation with n8n and AI. From 20+ hours/week manual work to 2 hours. Topics: n8n, process automation, document AI, German SME.
+
+**Blog URL**: https://z-flow.de/en/blog (English), https://z-flow.de/de/blog (German)
+
+================================================================================
 ## ALL WEBSITE PAGES
 ================================================================================
 
@@ -346,6 +358,7 @@ A: During the process audit, we analyze your workflows and recommend the approac
 - Automation: https://z-flow.de/en/services/automation
 - AI for Business: https://z-flow.de/en/services/ai-integration
 - Projects: https://z-flow.de/en/projects
+- Blog: https://z-flow.de/en/blog
 - Process: https://z-flow.de/en/process
 - Pricing: https://z-flow.de/en/pricing
 - About: https://z-flow.de/en/about
@@ -358,6 +371,7 @@ A: During the process audit, we analyze your workflows and recommend the approac
 - MVP Entwicklung: https://z-flow.de/de/services/mvp-development
 - KI für Ihr Unternehmen: https://z-flow.de/de/services/ai-integration
 - Projekte: https://z-flow.de/de/projects
+- Blog: https://z-flow.de/de/blog
 - Prozess: https://z-flow.de/de/process
 - Preise: https://z-flow.de/de/pricing
 - Über uns: https://z-flow.de/de/about
@@ -381,5 +395,7 @@ ChatGPT Integration, OpenAI API Entwickler, KI Chatbot entwickeln,
 KI Implementierung, KI Lösungen für Unternehmen, KI Automatisierung,
 Prozessanalyse, Prozess-Mapping, Prozessberatung, Prozessoptimierung,
 Automatisierung Agentur, Automatisierung Berater,
+Rechnungsautomatisierung, Dokumentenverarbeitung KI, Rechnungsverarbeitung automatisieren,
+Blog Digitalisierung, Fachartikel Automatisierung, Fallstudien KI Unternehmen,
 Softwareagentur Berlin, Tech Studio Berlin,
 Fractional CTO, technischer Berater, Entwicklungspartner

@@ -1,0 +1,89 @@
+## Der Ausgangspunkt
+
+Ein mittelständisches deutsches Unternehmen ertrank in Rechnungen. Jeden Monat verarbeitete das Finanzteam manuell über 200 eingehende Rechnungen — PDFs aus E-Mails herunterladen, Schlüsseldaten extrahieren (Beträge, Daten, Lieferantennamen, Steuernummern), alles in die Buchhaltungssoftware eingeben und die Dokumente in die richtigen Ordner ablegen.
+
+**Die Kosten:** Über 20 Stunden pro Woche manuelle Arbeit. Häufige Fehler. Verspätete Zahlungen. Frustrierte Mitarbeitende.
+
+Sie kamen mit einer einfachen Frage zu uns: *Kann man das automatisieren?*
+
+## Den Prozess zuerst verstehen
+
+Bevor wir eine einzige Automatisierung geschrieben haben, verbrachten wir zwei Tage damit, den tatsächlichen Workflow zu verstehen. Das ist unser Process-First-Ansatz — wir automatisieren keine kaputten Prozesse, wir reparieren sie zuerst.
+
+Was wir gefunden haben:
+
+- **5 verschiedene E-Mail-Postfächer** empfingen Rechnungen (keine einzige Wahrheitsquelle)
+- **3 verschiedene Formate** — PDF-Anhänge, Inline-E-Mails und gescannte Dokumente
+- **Manuelle Dateneingabe** in zwei separate Systeme (Buchhaltung + internes Tracking)
+- **Ordnerstruktur** in Google Drive, die inkonsistent und schwer zu navigieren war
+- **Keine Validierung** — Fehler wurden erst bei der monatlichen Abstimmung entdeckt
+
+Das eigentliche Problem war nicht nur „zu viele Rechnungen". Es war ein fragmentierter Prozess ohne einzige Wahrheitsquelle.
+
+## Die Lösung, die wir gebaut haben
+
+Wir haben eine End-to-End-Automatisierung mit **n8n** als Workflow-Engine entworfen, mit Integrationen zu den bestehenden Tools:
+
+### Schritt 1: Zentralisierte Aufnahme
+Alle Rechnungen werden jetzt an ein einzelnes Postfach geleitet. Wir haben E-Mail-Weiterleitungsregeln und eine dedizierte Rechnungs-E-Mail-Adresse eingerichtet. n8n überwacht dieses Postfach und startet den Workflow für jede neue E-Mail mit Anhang.
+
+### Schritt 2: Dokumentenverarbeitung
+Für jede Rechnung:
+- Extrahiert das System den PDF-Anhang
+- Nutzt KI (OpenAI GPT-4 mit Vision), um die Rechnung zu lesen und strukturierte Daten zu extrahieren: Lieferantenname, Rechnungsnummer, Datum, Positionen, Gesamtbetrag, Steuerbetrag, Steuernummer
+- Validiert die extrahierten Daten gegen bekannte Lieferantendatensätze in ihrer Datenbank
+
+### Schritt 3: Automatisierte Ablage
+Die validierten Rechnungsdaten werden:
+- Via API in die Buchhaltungssoftware eingegeben
+- In der internen Tracking-Tabelle protokolliert
+- Das PDF wird im richtigen Google-Drive-Ordner abgelegt (bei Bedarf automatisch erstellt, mit konsistenter Namenskonvention)
+
+### Schritt 4: Ausnahmebehandlung
+Nicht jede Rechnung ist unkompliziert. Das System behandelt:
+- **Unbekannte Lieferanten** → Markierung zur manuellen Prüfung, Benachrichtigung via Slack
+- **Abweichende Beträge** → Zurückstellung zur Verifizierung
+- **Doppelte Rechnungen** → Erkennung und Alarm
+- **Fehlende Daten** → Automatische Nachfrage beim Absender
+
+## Der Tech-Stack
+
+| Komponente | Tool | Zweck |
+|-----------|------|---------|
+| Workflow-Engine | n8n | Orchestriert den gesamten Ablauf |
+| KI-Extraktion | OpenAI GPT-4 | Liest und strukturiert Rechnungsdaten |
+| Datenvalidierung | Xano | Backend-API für Lieferantenabgleich |
+| Dateispeicher | Google Drive | Organisiertes Rechnungsarchiv |
+| Benachrichtigungen | Slack | Alerts bei Ausnahmen |
+| Tracking | Google Sheets | Übersichts-Dashboard des Finanzteams |
+
+## Die Ergebnisse
+
+Nach zwei Wochen Entwicklung und einer Woche Testen mit echten Rechnungen:
+
+- **Bearbeitungszeit:** 20+ Stunden/Woche → 2 Stunden/Woche (nur Prüfung markierter Ausnahmen)
+- **Fehlerquote:** ~8% → unter 1%
+- **Zahlungsverzug:** Durchschnittlich 5 Tage zu spät → konstant pünktlich
+- **Mitarbeiterzufriedenheit:** Das Finanzteam kann sich auf echte Finanzarbeit konzentrieren statt auf Dateneingabe
+
+## Was dieses Projekt erfolgreich gemacht hat
+
+Drei Dinge haben dieses Projekt zum Erfolg geführt:
+
+**1. Process-First-Denken.** Wir haben nicht einfach das bestehende Chaos automatisiert. Wir haben den Aufnahmefluss umstrukturiert, die Ordnerstruktur standardisiert und klare Ausnahmebehandlungsregeln etabliert, bevor wir irgendetwas gebaut haben.
+
+**2. Praktische KI, keine Magie.** Wir haben KI dort eingesetzt, wo sie echten Mehrwert bietet (Lesen unstrukturierter Dokumente) und einfache Automatisierung für alles andere. Kein Over-Engineering.
+
+**3. Ausnahmebehandlung.** Die 80/20-Regel gilt — 80% der Rechnungen werden vollautomatisch verarbeitet. Die restlichen 20% werden zur schnellen menschlichen Prüfung markiert, anstatt den gesamten Ablauf zu blockieren.
+
+## Zeitplan & Investition
+
+- **Analyse & Prozess-Audit:** 3 Tage
+- **Entwicklung:** 2 Wochen
+- **Tests & Feinabstimmung:** 1 Woche
+- **Gesamtdauer:** ~3 Wochen
+- **ROI:** Innerhalb von 2 Monaten amortisiert
+
+---
+
+*Verbringt Ihr Team Stunden mit repetitiver Dokumentenverarbeitung? [Sprechen wir darüber](/contact) — wir analysieren Ihren Prozess und zeigen Ihnen, was möglich ist.*

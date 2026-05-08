@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { projects } from '@/data/projects'
+import { blogPosts } from '@/data/blog'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://z-flow.de'
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/services/mvp-development', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/services/automation', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/services/ai-integration', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const },
     { path: '/projects', priority: 0.8, changeFrequency: 'weekly' as const },
     { path: '/process', priority: 0.7, changeFrequency: 'monthly' as const },
     { path: '/pricing', priority: 0.9, changeFrequency: 'monthly' as const },
@@ -52,6 +54,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             en: `${baseUrl}/en/projects/${project.slug}`,
             de: `${baseUrl}/de/projects/${project.slug}`,
+          },
+        },
+      })
+    }
+  }
+
+  for (const post of blogPosts) {
+    for (const locale of locales) {
+      sitemapEntries.push({
+        url: `${baseUrl}/${locale}/blog/${post.slug}`,
+        lastModified: post.updatedAt ? new Date(post.updatedAt) : new Date(post.publishedAt),
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+        alternates: {
+          languages: {
+            en: `${baseUrl}/en/blog/${post.slug}`,
+            de: `${baseUrl}/de/blog/${post.slug}`,
           },
         },
       })

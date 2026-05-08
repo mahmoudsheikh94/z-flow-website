@@ -21,6 +21,7 @@ export function Footer() {
     company: [
       { name: t('navigation.about'), href: '/about' },
       { name: t('navigation.projects'), href: '/projects' },
+      { name: t('navigation.blog'), href: '/blog' },
       { name: t('navigation.process'), href: '/process' },
       { name: t('navigation.pricing'), href: '/pricing' },
     ],

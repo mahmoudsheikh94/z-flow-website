@@ -12,7 +12,8 @@
       "pricing": "Preise",
       "about": "Über uns",
       "contact": "Kontakt",
-      "companyBrain": "Company Brain"
+      "companyBrain": "Company Brain",
+      "blog": "Blog"
     },
     "cta": {
       "startProject": "Projekt starten",
@@ -98,6 +99,10 @@
     "privacy": {
       "title": "Datenschutzerklärung | Z-Flow",
       "description": "Datenschutzerklärung und Datenschutzinformationen von Z-Flow UG, Berlin."
+    },
+    "blog": {
+      "title": "Blog | Automatisierung, KI & Digitalisierung Insights",
+      "description": "Praxisnahe Artikel über Geschäftsautomatisierung, KI-Integration und digitale Transformation. Service-Erklärungen und echte Fallstudien von Z-Flow in Berlin."
     }
   },
   "home": {
@@ -1415,6 +1420,40 @@
       "title": "Erleben Sie Company Brain in Aktion",
       "subtitle": "Buchen Sie eine 30-minütige Demo. Wir zeigen Ihnen, wie Company Brain mit den Tools Ihres Teams funktioniert und welche Erkenntnisse es liefern kann.",
       "button": "Demo buchen"
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "BLOG",
+      "title": "Insights & Fallstudien",
+      "subtitle": "Praxisnahe Leitfäden zu Automatisierung, KI-Integration und digitaler Produktentwicklung — vom Z-Flow Team in Berlin."
+    },
+    "categories": {
+      "all": "Alle Beiträge",
+      "serviceExplainer": "Service-Erklärungen",
+      "caseStudy": "Fallstudien"
+    },
+    "readingTime": "{minutes} Min. Lesezeit",
+    "publishedOn": "Veröffentlicht am {date}",
+    "backToBlog": "Zurück zum Blog",
+    "relatedPosts": "Verwandte Artikel",
+    "readMore": "Artikel lesen",
+    "noPosts": "Keine Artikel in dieser Kategorie gefunden.",
+    "cta": {
+      "title": "Bereit, Ihr Unternehmen zu digitalisieren?",
+      "subtitle": "Lassen Sie uns besprechen, wie wir Ihre Prozesse automatisieren, Ihr Produkt bauen oder KI in Ihre Workflows integrieren können."
+    },
+    "posts": {
+      "what-is-company-brain": {
+        "title": "Was ist ein Company Brain? KI-gestütztes Wissensmanagement erklärt",
+        "description": "Erfahren Sie, wie ein Company Brain RAG-Technologie nutzt, um das Wissen Ihrer Organisation zu erfassen und sofort für Ihr gesamtes Team zugänglich zu machen.",
+        "excerpt": "Ihr Unternehmen hat jahrelanges Wissen in Dokumenten, E-Mails und Köpfen gespeichert. Ein Company Brain macht es nutzbar — so funktioniert es."
+      },
+      "automating-invoice-processing": {
+        "title": "Wie wir die Rechnungsverarbeitung für ein deutsches KMU automatisiert haben",
+        "description": "Eine Fallstudie über den Aufbau eines End-to-End-Rechnungsautomatisierungssystems mit n8n und KI — von 20+ Stunden manueller Arbeit pro Woche auf nur 2 Stunden.",
+        "excerpt": "Ein mittelständisches deutsches Unternehmen verbrachte über 20 Stunden pro Woche mit manueller Rechnungsverarbeitung. So haben wir 80% davon in 3 Wochen automatisiert."
+      }
     }
   },
   "languageSwitcher": {

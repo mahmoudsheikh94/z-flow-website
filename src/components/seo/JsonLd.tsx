@@ -122,6 +122,38 @@ export const schemas = {
     })),
   }),
 
+  blogPosting: (post: {
+    title: string
+    description: string
+    url: string
+    datePublished: string
+    dateModified?: string
+    author: string
+    locale: string
+  }) => ({
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.description,
+    url: post.url,
+    datePublished: post.datePublished,
+    dateModified: post.dateModified || post.datePublished,
+    author: {
+      '@type': 'Person',
+      name: post.author,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Z-Flow',
+      url: 'https://z-flow.de',
+    },
+    inLanguage: post.locale === 'de' ? 'de-DE' : 'en-US',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': post.url,
+    },
+  }),
+
   webPage: (page: {
     name: string
     description: string

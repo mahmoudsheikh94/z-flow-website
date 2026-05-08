@@ -1,0 +1,89 @@
+## The Starting Point
+
+A medium-sized German company was drowning in invoices. Every month, their finance team manually processed over 200 incoming invoices — downloading PDFs from emails, extracting key data (amounts, dates, vendor names, tax IDs), entering everything into their accounting software, and filing the documents into the right folders.
+
+**The cost:** 20+ hours per week of manual work. Frequent errors. Late payments. Frustrated employees.
+
+They came to us with a simple question: *Can this be automated?*
+
+## Understanding the Process First
+
+Before writing a single line of automation, we spent two days understanding their actual workflow. This is our process-first approach — we don't automate broken processes, we fix them first.
+
+What we found:
+
+- **5 different email inboxes** received invoices (no single source of truth)
+- **3 different formats** — PDF attachments, inline emails, and scanned documents
+- **Manual data entry** into two separate systems (accounting + internal tracking)
+- **Folder structure** in Google Drive that was inconsistent and hard to navigate
+- **No validation** — errors were only caught during monthly reconciliation
+
+The real problem wasn't just "too many invoices." It was a fragmented process with no single source of truth.
+
+## The Solution We Built
+
+We designed an end-to-end automation using **n8n** as the workflow engine, with integrations to their existing tools:
+
+### Step 1: Centralized Intake
+All invoices now route to a single inbox. We set up email forwarding rules and a dedicated invoice email address. n8n monitors this inbox and triggers the workflow for every new email with an attachment.
+
+### Step 2: Document Processing
+For each invoice, the system:
+- Extracts the PDF attachment
+- Uses AI (OpenAI GPT-4 with vision) to read the invoice and extract structured data: vendor name, invoice number, date, line items, total amount, tax amount, tax ID
+- Validates the extracted data against known vendor records in their database
+
+### Step 3: Automated Filing
+The validated invoice data is:
+- Entered into their accounting software via API
+- Logged in their internal tracking spreadsheet
+- The PDF is filed in the correct Google Drive folder (auto-created if needed, following a consistent naming convention)
+
+### Step 4: Exception Handling
+Not every invoice is straightforward. The system handles:
+- **Unrecognized vendors** → flags for manual review, notifies via Slack
+- **Mismatched amounts** → holds for verification
+- **Duplicate invoices** → detects and alerts
+- **Missing data** → requests clarification from the sender automatically
+
+## The Tech Stack
+
+| Component | Tool | Purpose |
+|-----------|------|---------|
+| Workflow engine | n8n | Orchestrates the entire flow |
+| AI extraction | OpenAI GPT-4 | Reads and structures invoice data |
+| Data validation | Xano | Backend API for vendor matching |
+| File storage | Google Drive | Organized invoice archive |
+| Notifications | Slack | Alerts for exceptions |
+| Tracking | Google Sheets | Finance team's overview dashboard |
+
+## The Results
+
+After two weeks of development and one week of testing with real invoices:
+
+- **Processing time:** 20+ hours/week → 2 hours/week (just reviewing flagged exceptions)
+- **Error rate:** ~8% → less than 1%
+- **Payment delays:** Average 5 days late → consistently on time
+- **Employee satisfaction:** Finance team can focus on actual finance work instead of data entry
+
+## What Made This Work
+
+Three things made this project successful:
+
+**1. Process-first thinking.** We didn't just automate the existing chaos. We restructured the intake flow, standardized the folder structure, and established clear exception handling rules before building anything.
+
+**2. Practical AI, not magic.** We used AI where it genuinely adds value (reading unstructured documents) and simple automation for everything else. No over-engineering.
+
+**3. Exception handling.** The 80/20 rule applies — 80% of invoices process fully automatically. The remaining 20% get flagged for quick human review instead of blocking the entire flow.
+
+## Timeline & Investment
+
+- **Discovery & process audit:** 3 days
+- **Development:** 2 weeks
+- **Testing & refinement:** 1 week
+- **Total timeline:** ~3 weeks
+- **ROI:** Paid for itself within 2 months
+
+---
+
+*Is your team spending hours on repetitive document processing? [Let's talk](/contact) — we'll audit your process and show you what's possible.*
