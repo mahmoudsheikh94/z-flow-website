@@ -311,6 +311,43 @@ export default async function CompanyBrainPage({
         </div>
       </section>
 
+      {/* Knowledge Sources */}
+      <section className="section-light py-24 lg:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="text-center mb-16" data-animate="blur-up">
+            <span className="badge badge-orange mb-6">{t('knowledgeSources.badge')}</span>
+            <h2 className="text-headline font-bold text-text-primary mb-6">
+              {t('knowledgeSources.title')}
+            </h2>
+            <p className="text-body-lg text-text-secondary max-w-2xl mx-auto">
+              {t('knowledgeSources.subtitle')}
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {(['slack', 'meetings', 'docs', 'tickets'] as const).map((source, index) => (
+              <div
+                key={source}
+                className="bg-white rounded-xl border border-neutral-200 p-6 hover:border-brand-orange/30 transition-colors"
+                data-animate="fade-up"
+                data-delay={String((index % 2) * 100)}
+              >
+                <h3 className="text-lg font-semibold text-text-primary mb-2">
+                  {t(`knowledgeSources.${source}.title`)}
+                </h3>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  {t(`knowledgeSources.${source}.description`)}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-center text-text-muted mt-8 text-sm" data-animate="fade-up" data-delay="200">
+            {t('knowledgeSources.consent')}
+          </p>
+        </div>
+      </section>
+
       {/* Privacy */}
       <section className="section-dark py-24 lg:py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-20" />
@@ -346,8 +383,68 @@ export default async function CompanyBrainPage({
         </div>
       </section>
 
-      {/* Who It's For */}
+      {/* EU AI Act Compliance */}
       <section className="section-light py-24 lg:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="text-center mb-16" data-animate="blur-up">
+            <span className="badge badge-orange mb-6">{t('compliance.badge')}</span>
+            <h2 className="text-headline font-bold text-text-primary mb-6">
+              {t('compliance.title')}
+            </h2>
+            <p className="text-body-lg text-text-secondary max-w-2xl mx-auto">
+              {t('compliance.subtitle')}
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-3 gap-8 max-w-5xl mx-auto" data-animate="fade-up" data-delay="100">
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-brand-orange/10 text-brand-orange mb-4">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-text-primary mb-2">
+                {t('compliance.transparency.title')}
+              </h3>
+              <p className="text-text-secondary text-sm">
+                {t('compliance.transparency.description')}
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-brand-orange/10 text-brand-orange mb-4">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-text-primary mb-2">
+                {t('compliance.dataProtection.title')}
+              </h3>
+              <p className="text-text-secondary text-sm">
+                {t('compliance.dataProtection.description')}
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-brand-orange/10 text-brand-orange mb-4">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-text-primary mb-2">
+                {t('compliance.humanOversight.title')}
+              </h3>
+              <p className="text-text-secondary text-sm">
+                {t('compliance.humanOversight.description')}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Who It's For */}
+      <section className="section-gray py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center mb-16" data-animate="blur-up">
             <span className="badge badge-orange mb-6">{t('audience.badge')}</span>

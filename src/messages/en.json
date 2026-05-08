@@ -433,6 +433,22 @@
         "description": "AI supports and accelerates, but doesn't replace human decision-making."
       }
     },
+    "compliance": {
+      "title": "EU AI Act Compliant",
+      "subtitle": "Company Brain is built to meet EU AI Act and GDPR requirements from day one.",
+      "transparency": {
+        "title": "AI Transparency",
+        "description": "Users always know they're interacting with AI. Every response is clearly labeled, with full disclosure of the models used."
+      },
+      "dataProtection": {
+        "title": "GDPR by Design",
+        "description": "Consent management, right-to-deletion, data retention policies, and full audit trails built into the platform."
+      },
+      "humanOversight": {
+        "title": "Human Oversight",
+        "description": "AI assists — it never makes autonomous decisions. No employment scoring, no surveillance, no high-risk use cases."
+      }
+    },
     "technologies": {
       "title": "Technologies"
     },
@@ -1456,6 +1472,28 @@
       },
       "footerNote": "Don't see your tool? We custom-build every integration. Contact us to discuss your stack."
     },
+    "knowledgeSources": {
+      "badge": "KNOWLEDGE SOURCES",
+      "title": "Your company's knowledge, captured and searchable",
+      "subtitle": "Company Brain can go beyond metadata. With your consent, it ingests real content from your tools — making your team's collective knowledge searchable and actionable.",
+      "slack": {
+        "title": "Slack Public Channels",
+        "description": "Decisions, context, and discussions from public channels — captured so institutional knowledge doesn't vanish in the scroll."
+      },
+      "meetings": {
+        "title": "Meeting Transcripts",
+        "description": "With recording consent, meeting notes and transcripts become searchable knowledge — decisions, action items, and context preserved."
+      },
+      "docs": {
+        "title": "Internal Documentation",
+        "description": "Confluence pages, Notion docs, Google Docs — your team's written knowledge indexed and queryable via AI."
+      },
+      "tickets": {
+        "title": "Project Context",
+        "description": "Jira and Linear tickets, GitHub issues and PRs — the reasoning behind decisions captured alongside the outcomes."
+      },
+      "consent": "All content ingestion requires explicit organizational consent. You choose what gets indexed."
+    },
     "privacy": {
       "badge": "PRIVACY",
       "title": "Metadata only. We see that work happened — not what was said.",
@@ -1475,6 +1513,23 @@
       "point4": {
         "title": "Not SaaS",
         "description": "Company Brain is deployed specifically for your organization. No shared infrastructure, no multi-tenant risks."
+      }
+    },
+    "compliance": {
+      "badge": "COMPLIANCE",
+      "title": "EU AI Act & GDPR Compliant",
+      "subtitle": "Company Brain is built to meet EU AI Act and GDPR requirements from day one — not as an afterthought.",
+      "transparency": {
+        "title": "AI Transparency",
+        "description": "Users always know they're interacting with AI. Every response is labeled, models are disclosed, and AI-generated content is machine-readable."
+      },
+      "dataProtection": {
+        "title": "GDPR by Design",
+        "description": "Consent management, right-to-deletion, data retention policies, and full audit trails built into the platform."
+      },
+      "humanOversight": {
+        "title": "Human Oversight",
+        "description": "AI assists — it never makes autonomous decisions. No employment scoring, no surveillance, no high-risk use cases."
       }
     },
     "audience": {
@@ -1522,7 +1577,7 @@
       "title": "Frequently asked questions",
       "q1": {
         "question": "Does Company Brain read our Slack messages or code?",
-        "answer": "No. Company Brain only processes metadata — that a message was sent, that a PR was merged, that a document was updated. It never reads message content, code, or document text."
+        "answer": "By default, Company Brain processes metadata only — that a message was sent, not what it said. However, with your explicit consent, it can ingest content from public Slack channels, meeting transcripts, and documentation to build a searchable knowledge base. You always control what gets indexed."
       },
       "q2": {
         "question": "Can employees see their own scores?",

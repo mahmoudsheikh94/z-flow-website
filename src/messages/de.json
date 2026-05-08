@@ -433,6 +433,22 @@
         "description": "KI unterstützt und beschleunigt, ersetzt aber nicht die menschliche Entscheidung."
       }
     },
+    "compliance": {
+      "title": "EU AI Act konform",
+      "subtitle": "Company Brain erfüllt die Anforderungen des EU AI Act und der DSGVO von Tag eins.",
+      "transparency": {
+        "title": "KI-Transparenz",
+        "description": "Nutzer wissen immer, dass sie mit KI interagieren. Jede Antwort ist klar gekennzeichnet, mit vollständiger Offenlegung der verwendeten Modelle."
+      },
+      "dataProtection": {
+        "title": "DSGVO by Design",
+        "description": "Einwilligungsmanagement, Recht auf Löschung, Aufbewahrungsrichtlinien und vollständige Audit-Trails sind in die Plattform integriert."
+      },
+      "humanOversight": {
+        "title": "Menschliche Aufsicht",
+        "description": "KI unterstützt — sie trifft keine autonomen Entscheidungen. Kein Employment-Scoring, keine Überwachung, keine Hochrisiko-Anwendungsfälle."
+      }
+    },
     "technologies": {
       "title": "Technologien"
     },
@@ -1331,6 +1347,28 @@
       },
       "footerNote": "Ihr Tool nicht dabei? Wir bauen jede Integration individuell. Kontaktieren Sie uns, um Ihren Stack zu besprechen."
     },
+    "knowledgeSources": {
+      "badge": "WISSENSQUELLEN",
+      "title": "Das Wissen Ihres Unternehmens, erfasst und durchsuchbar",
+      "subtitle": "Company Brain kann über Metadaten hinausgehen. Mit Ihrer Zustimmung werden echte Inhalte aus Ihren Tools aufgenommen — damit das kollektive Wissen Ihres Teams durchsuchbar und nutzbar wird.",
+      "slack": {
+        "title": "Öffentliche Slack-Kanäle",
+        "description": "Entscheidungen, Kontext und Diskussionen aus öffentlichen Kanälen — erfasst, damit institutionelles Wissen nicht im Scroll verschwindet."
+      },
+      "meetings": {
+        "title": "Meeting-Transkripte",
+        "description": "Mit Aufnahme-Einwilligung werden Meeting-Notizen und Transkripte zu durchsuchbarem Wissen — Entscheidungen, Aktionspunkte und Kontext bleiben erhalten."
+      },
+      "docs": {
+        "title": "Interne Dokumentation",
+        "description": "Confluence-Seiten, Notion-Docs, Google Docs — das geschriebene Wissen Ihres Teams wird indexiert und per KI abfragbar."
+      },
+      "tickets": {
+        "title": "Projektkontext",
+        "description": "Jira- und Linear-Tickets, GitHub Issues und PRs — die Gründe hinter Entscheidungen werden zusammen mit den Ergebnissen erfasst."
+      },
+      "consent": "Jede Inhaltsaufnahme erfordert eine ausdrückliche organisatorische Zustimmung. Sie entscheiden, was indexiert wird."
+    },
     "privacy": {
       "badge": "DATENSCHUTZ",
       "title": "Nur Metadaten. Wir sehen, dass Arbeit passiert ist — nicht was gesagt wurde.",
@@ -1350,6 +1388,23 @@
       "point4": {
         "title": "Kein SaaS",
         "description": "Company Brain wird speziell für Ihre Organisation deployt. Keine geteilte Infrastruktur, keine Multi-Tenant-Risiken."
+      }
+    },
+    "compliance": {
+      "badge": "COMPLIANCE",
+      "title": "EU AI Act & DSGVO konform",
+      "subtitle": "Company Brain erfüllt die Anforderungen des EU AI Act und der DSGVO von Tag eins — nicht als Nachgedanke.",
+      "transparency": {
+        "title": "KI-Transparenz",
+        "description": "Nutzer wissen immer, dass sie mit KI interagieren. Jede Antwort ist gekennzeichnet, Modelle werden offengelegt und KI-generierte Inhalte sind maschinenlesbar."
+      },
+      "dataProtection": {
+        "title": "DSGVO by Design",
+        "description": "Einwilligungsmanagement, Recht auf Löschung, Aufbewahrungsrichtlinien und vollständige Audit-Trails sind in die Plattform integriert."
+      },
+      "humanOversight": {
+        "title": "Menschliche Aufsicht",
+        "description": "KI unterstützt — sie trifft keine autonomen Entscheidungen. Kein Employment-Scoring, keine Überwachung, keine Hochrisiko-Anwendungsfälle."
       }
     },
     "audience": {
@@ -1397,7 +1452,7 @@
       "title": "Häufig gestellte Fragen",
       "q1": {
         "question": "Liest Company Brain unsere Slack-Nachrichten oder unseren Code?",
-        "answer": "Nein. Company Brain verarbeitet nur Metadaten — dass eine Nachricht gesendet wurde, dass ein PR gemergt wurde, dass ein Dokument aktualisiert wurde. Es liest niemals Nachrichteninhalte, Code oder Dokumententext."
+        "answer": "Standardmäßig verarbeitet Company Brain nur Metadaten — dass eine Nachricht gesendet wurde, nicht was sie enthielt. Mit Ihrer ausdrücklichen Zustimmung kann es jedoch Inhalte aus öffentlichen Slack-Kanälen, Meeting-Transkripten und Dokumentation aufnehmen, um eine durchsuchbare Wissensdatenbank aufzubauen. Sie kontrollieren immer, was indexiert wird."
       },
       "q2": {
         "question": "Können Mitarbeiter ihre eigenen Bewertungen sehen?",
