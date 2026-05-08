@@ -1249,14 +1249,14 @@
     "problem": {
       "badge": "DAS PROBLEM",
       "title": "Sie führen das Team. Aber sehen Sie wirklich, wie es arbeitet?",
-      "subtitle": "Ihr Team nutzt täglich dutzende Tools. Aber kein einziger Ort verrät Ihnen, wer was beiträgt, wer wächst und wer Unterstützung braucht.",
+      "subtitle": "Ihr Team nutzt täglich dutzende Tools. Aber kein einziger Ort zeigt Ihnen, wie Arbeit tatsächlich fließt, wo Zusammenarbeit stark ist und wo die Lücken sind.",
       "card1": {
-        "title": "Blinde Flecken in der Leistung",
+        "title": "Blinde Flecken in der Arbeitsweise",
         "description": "Sie sehen nur, was in Meetings und Standups passiert. Der Rest — Code Reviews, Dokumentation, asynchrone Zusammenarbeit — bleibt unsichtbar."
       },
       "card2": {
-        "title": "Bewertungen nach Bauchgefühl",
-        "description": "Leistungsbewertungen basieren auf Erinnerungsverzerrung und Selbstberichten. Objektive Daten über alle Arbeitstools hinweg existieren nicht."
+        "title": "Entscheidungen nach Bauchgefühl",
+        "description": "Organisationsentscheidungen basieren auf Anekdoten und Annahmen. Objektive Daten über alle Arbeitstools hinweg existieren nicht."
       },
       "card3": {
         "title": "Keine tool-übergreifende Sichtbarkeit",
@@ -1264,7 +1264,7 @@
       },
       "card4": {
         "title": "Wissenssilos",
-        "description": "Sie können nicht erkennen, wer dokumentiert, wer Wissen teilt und wer Expertise hortet — bis jemand geht und das Team improvisieren muss."
+        "description": "Sie können nicht erkennen, wo Wissen liegt, wie es fließt oder wo es konzentriert ist — bis jemand geht und das Team improvisieren muss."
       }
     },
     "howItWorks": {
@@ -1413,7 +1413,7 @@
       "roles": {
         "engineering": {
           "title": "Engineering Manager",
-          "description": "Objektive Daten zur Teamleistung statt Bauchgefühl und Standup-Berichte."
+          "description": "Objektive Daten zur Teamdynamik statt Bauchgefühl und Standup-Berichte."
         },
         "cto": {
           "title": "CTOs & VP Engineering",
