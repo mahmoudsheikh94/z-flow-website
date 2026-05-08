@@ -70,7 +70,7 @@
     },
     "companyBrain": {
       "title": "Company Brain | AI-Powered Organizational Intelligence",
-      "description": "Company Brain connects to your team's tools — from GitHub and Jira to Microsoft Teams and Salesforce — and uses AI to build objective performance profiles. Custom-tailored per company. Metadata only. Privacy first."
+      "description": "Company Brain connects to your team's tools — from GitHub and Jira to Microsoft Teams and Salesforce — and uses AI to surface organizational insights and team activity patterns. Custom-tailored per company. Metadata only. Privacy first."
     },
     "projects": {
       "title": "Case Studies | Digitalization, Automation & AI Projects",
@@ -181,8 +181,8 @@
         "description": "GitHub, Jira, Microsoft Teams, Salesforce, and more — we build connectors for your specific toolchain."
       },
       "feature2": {
-        "title": "5-Dimension AI Scoring",
-        "description": "Output, Collaboration, Knowledge, Growth, Leadership — scored daily by AI."
+        "title": "5-Dimension Team Analysis",
+        "description": "Output, Collaboration, Knowledge, Growth, Leadership — analyzed daily by AI across your organization."
       },
       "feature3": {
         "title": "Metadata Only",
@@ -228,7 +228,7 @@
     "ai": {
       "subtitle": "AI-powered intelligence",
       "title": "AI for Your Business",
-      "description": "Your company has years of knowledge trapped in documents, emails, and people's heads. We build AI systems that capture this knowledge — including Company Brain, our organizational intelligence platform that scores team performance across 5 dimensions.",
+      "description": "Your company has years of knowledge trapped in documents, emails, and people's heads. We build AI systems that capture this knowledge — including Company Brain, our organizational intelligence platform that analyzes team dynamics across 5 dimensions.",
       "features": {
         "1": "Company Brain — AI-powered team analytics",
         "2": "Internal AI assistants for employees",
@@ -446,7 +446,7 @@
       },
       "humanOversight": {
         "title": "Human Oversight",
-        "description": "AI assists — it never makes autonomous decisions. No employment scoring, no surveillance, no high-risk use cases."
+        "description": "AI assists — it never makes autonomous decisions. No individual evaluation or ranking, no surveillance, no high-risk use cases."
       }
     },
     "technologies": {
@@ -1401,41 +1401,41 @@
       },
       "step2": {
         "title": "Analyze",
-        "description": "AI runs daily analysis. All activity is normalized into a unified event stream. Employee identities are automatically resolved across tools — same person, one profile."
+        "description": "AI runs daily analysis. All activity is normalized into a unified event stream and aggregated at the team level — giving you a clear picture of organizational patterns across tools."
       },
       "step3": {
         "title": "Understand",
-        "description": "Get 5-dimension performance profiles for every team member, with daily trends, detected skills, strengths, growth areas, and coaching suggestions."
+        "description": "Get team-level insights across 5 dimensions, with daily trends, identified strengths, collaboration patterns, knowledge distribution, and areas for organizational improvement."
       }
     },
     "dimensions": {
       "badge": "THE 5 DIMENSIONS",
-      "title": "Objective performance profiles, updated daily",
-      "subtitle": "Every employee is scored across five dimensions, each on a 0-100 scale with trend indicators. Scores are evidence-based — backed by real activity data, not opinions.",
+      "title": "Organizational health, measured across five lenses",
+      "subtitle": "Your team's activity is analyzed across five dimensions with trend indicators. Insights are evidence-based — backed by real activity data, not opinions.",
       "output": {
         "title": "Output",
-        "description": "Volume and quality of deliverables — PRs merged, issues closed, documents written, releases shipped.",
-        "score": "78"
+        "description": "Team delivery patterns — PRs merged, issues closed, documents written, releases shipped. Understand throughput trends across your organization.",
+        "level": "High"
       },
       "collaboration": {
         "title": "Collaboration",
-        "description": "Working with others — code reviews given, cross-functional participation, meeting facilitation, mentoring signals.",
-        "score": "85"
+        "description": "Cross-team dynamics — code review activity, cross-functional participation, meeting patterns, and mentoring signals across the organization.",
+        "level": "High"
       },
       "knowledge": {
         "title": "Knowledge",
-        "description": "Documentation and knowledge sharing — wiki pages created, how-to guides, expertise depth and breadth.",
-        "score": "62"
+        "description": "Knowledge distribution — documentation contributions, wiki activity, how-to guides, and where expertise concentration risks exist.",
+        "level": "Medium"
       },
       "growth": {
         "title": "Growth",
-        "description": "Taking on new challenges — learning new domains, expanding scope, stepping outside comfort zones.",
-        "score": "71"
+        "description": "Organizational learning — adoption of new domains, scope expansion patterns, and how the team is evolving its capabilities.",
+        "level": "Medium"
       },
       "leadership": {
         "title": "Leadership",
-        "description": "Driving initiatives — facilitating discussions, unblocking others, taking ownership of outcomes.",
-        "score": "69"
+        "description": "Initiative patterns — who drives discussions, unblocks others, and coordinates across teams. Understand where leadership behavior emerges.",
+        "level": "Medium"
       }
     },
     "integrations": {
@@ -1529,7 +1529,7 @@
       },
       "humanOversight": {
         "title": "Human Oversight",
-        "description": "AI assists — it never makes autonomous decisions. No employment scoring, no surveillance, no high-risk use cases."
+        "description": "AI assists — it never makes autonomous decisions. No individual evaluation or ranking, no surveillance, no high-risk use cases."
       }
     },
     "audience": {
@@ -1546,7 +1546,7 @@
         },
         "hr": {
           "title": "HR & People Ops",
-          "description": "Transition from subjective reviews to data-informed performance assessments. Fair, evidence-based evaluations."
+          "description": "Transition from subjective reviews to data-informed organizational insights. Fair, evidence-based team analytics."
         },
         "coo": {
           "title": "COOs of Remote Teams",
@@ -1580,12 +1580,12 @@
         "answer": "By default, Company Brain processes metadata only — that a message was sent, not what it said. However, with your explicit consent, it can ingest content from public Slack channels, meeting transcripts, and documentation to build a searchable knowledge base. You always control what gets indexed."
       },
       "q2": {
-        "question": "Can employees see their own scores?",
-        "answer": "This is fully configurable. You decide who sees what — individual scores can be visible to managers only, to the employee themselves, or to the whole team."
+        "question": "Who can see the insights?",
+        "answer": "This is fully configurable. You decide who sees what — team-level dashboards can be visible to managers only, to specific teams, or across the whole organization."
       },
       "q3": {
         "question": "How quickly will we see insights?",
-        "answer": "First analysis runs within 24-48 hours after connecting your tools. The AI needs a few days of data to establish baseline patterns, but you'll see initial scores immediately."
+        "answer": "First analysis runs within 24-48 hours after connecting your tools. The AI needs a few days of data to establish baseline patterns, but you'll see initial insights immediately."
       },
       "q4": {
         "question": "What if we use tools that aren't listed?",
@@ -1593,7 +1593,7 @@
       },
       "q5": {
         "question": "How is this different from Jellyfish or LinearB?",
-        "answer": "Three key differences: (1) Company Brain is deployed per-company, not SaaS — your data stays isolated. (2) We score across 5 dimensions including Knowledge and Leadership, not just DORA/engineering metrics. (3) Metadata-only architecture means privacy is built into the system, not just a policy."
+        "answer": "Three key differences: (1) Company Brain is deployed per-company, not SaaS — your data stays isolated. (2) We analyze across 5 dimensions including Knowledge and Leadership, not just DORA/engineering metrics. (3) Metadata-only architecture means privacy is built into the system, not just a policy."
       }
     },
     "cta": {

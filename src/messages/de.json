@@ -70,7 +70,7 @@
     },
     "companyBrain": {
       "title": "Company Brain | KI-gestützte Organisationsintelligenz",
-      "description": "Company Brain verbindet sich mit den Tools Ihres Teams — von GitHub und Jira bis Microsoft Teams und Salesforce — und erstellt KI-gestützte Leistungsprofile. Maßgeschneidert pro Unternehmen. Nur Metadaten. Privacy first."
+      "description": "Company Brain verbindet sich mit den Tools Ihres Teams — von GitHub und Jira bis Microsoft Teams und Salesforce — und liefert KI-gestützte Einblicke in Teamdynamik und Organisationsmuster. Maßgeschneidert pro Unternehmen. Nur Metadaten. Privacy first."
     },
     "projects": {
       "title": "Referenzen | Digitalisierung, Automatisierung & KI Projekte",
@@ -181,8 +181,8 @@
         "description": "GitHub, Jira, Microsoft Teams, Salesforce und mehr — wir bauen Konnektoren für Ihre spezifische Tool-Landschaft."
       },
       "feature2": {
-        "title": "5-Dimensionen KI-Scoring",
-        "description": "Output, Zusammenarbeit, Wissen, Wachstum, Führung — täglich von KI bewertet."
+        "title": "5-Dimensionen Team-Analyse",
+        "description": "Output, Zusammenarbeit, Wissen, Wachstum, Führung — täglich von KI für Ihre Organisation analysiert."
       },
       "feature3": {
         "title": "Nur Metadaten",
@@ -228,7 +228,7 @@
     "ai": {
       "subtitle": "KI-gestützte Intelligenz",
       "title": "KI für Ihr Unternehmen",
-      "description": "Ihr Unternehmen hat jahrelang Wissen angesammelt — in Dokumenten, E-Mails und in den Köpfen Ihrer Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen — einschließlich Company Brain, unserer Organisationsintelligenz-Plattform, die Teamleistung über 5 Dimensionen bewertet.",
+      "description": "Ihr Unternehmen hat jahrelang Wissen angesammelt — in Dokumenten, E-Mails und in den Köpfen Ihrer Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen — einschließlich Company Brain, unserer Organisationsintelligenz-Plattform, die Teamdynamik über 5 Dimensionen analysiert.",
       "features": {
         "1": "Company Brain — KI-gestützte Team-Analytik",
         "2": "Interne KI-Assistenten für Mitarbeiter",
@@ -446,7 +446,7 @@
       },
       "humanOversight": {
         "title": "Menschliche Aufsicht",
-        "description": "KI unterstützt — sie trifft keine autonomen Entscheidungen. Kein Employment-Scoring, keine Überwachung, keine Hochrisiko-Anwendungsfälle."
+        "description": "KI unterstützt — sie trifft keine autonomen Entscheidungen. Keine individuelle Bewertung oder Einstufung, keine Überwachung, keine Hochrisiko-Anwendungsfälle."
       }
     },
     "technologies": {
@@ -1276,41 +1276,41 @@
       },
       "step2": {
         "title": "Analysieren",
-        "description": "KI führt tägliche Analysen durch. Alle Aktivitäten werden in einen einheitlichen Event-Stream normalisiert. Mitarbeiter-Identitäten werden automatisch über Tools hinweg aufgelöst — eine Person, ein Profil."
+        "description": "KI führt tägliche Analysen durch. Alle Aktivitäten werden in einen einheitlichen Event-Stream normalisiert und auf Teamebene aggregiert — für ein klares Bild der Organisationsmuster über alle Tools hinweg."
       },
       "step3": {
         "title": "Verstehen",
-        "description": "Erhalten Sie 5-Dimensionen-Leistungsprofile für jedes Teammitglied, mit täglichen Trends, erkannten Fähigkeiten, Stärken, Wachstumsbereichen und Coaching-Vorschlägen."
+        "description": "Erhalten Sie Team-Einblicke über 5 Dimensionen, mit täglichen Trends, identifizierten Stärken, Zusammenarbeitsmuster, Wissensverteilung und Bereiche für organisatorische Verbesserung."
       }
     },
     "dimensions": {
       "badge": "DIE 5 DIMENSIONEN",
-      "title": "Objektive Leistungsprofile, täglich aktualisiert",
-      "subtitle": "Jeder Mitarbeiter wird über fünf Dimensionen bewertet, jeweils auf einer Skala von 0-100 mit Trendindikatoren. Die Bewertungen sind evidenzbasiert — gestützt auf echte Aktivitätsdaten, nicht Meinungen.",
+      "title": "Organisationsgesundheit, gemessen über fünf Perspektiven",
+      "subtitle": "Die Aktivität Ihres Teams wird über fünf Dimensionen mit Trendindikatoren analysiert. Die Erkenntnisse sind evidenzbasiert — gestützt auf echte Aktivitätsdaten, nicht Meinungen.",
       "output": {
         "title": "Output",
-        "description": "Umfang und Qualität der Ergebnisse — gemergte PRs, geschlossene Issues, verfasste Dokumente, veröffentlichte Releases.",
-        "score": "78"
+        "description": "Team-Liefermuster — gemergte PRs, geschlossene Issues, verfasste Dokumente, veröffentlichte Releases. Durchsatztrends in der gesamten Organisation verstehen.",
+        "level": "Hoch"
       },
       "collaboration": {
         "title": "Zusammenarbeit",
-        "description": "Arbeiten mit anderen — gegebene Code Reviews, funktionsübergreifende Beteiligung, Meeting-Moderation, Mentoring-Signale.",
-        "score": "85"
+        "description": "Teamübergreifende Dynamik — Code-Review-Aktivität, funktionsübergreifende Beteiligung, Meeting-Muster und Mentoring-Signale in der Organisation.",
+        "level": "Hoch"
       },
       "knowledge": {
         "title": "Wissen",
-        "description": "Dokumentation und Wissensaustausch — erstellte Wiki-Seiten, Anleitungen, Tiefe und Breite der Expertise.",
-        "score": "62"
+        "description": "Wissensverteilung — Dokumentationsbeiträge, Wiki-Aktivität, Anleitungen und wo Expertisekonzentrations-Risiken bestehen.",
+        "level": "Mittel"
       },
       "growth": {
         "title": "Wachstum",
-        "description": "Neue Herausforderungen annehmen — neue Bereiche lernen, Scope erweitern, die Komfortzone verlassen.",
-        "score": "71"
+        "description": "Organisationales Lernen — Erschließung neuer Bereiche, Scope-Erweiterungsmuster und wie das Team seine Fähigkeiten weiterentwickelt.",
+        "level": "Mittel"
       },
       "leadership": {
         "title": "Führung",
-        "description": "Initiativen vorantreiben — Diskussionen moderieren, andere entblocken, Verantwortung für Ergebnisse übernehmen.",
-        "score": "69"
+        "description": "Initiativmuster — wer Diskussionen vorantreibt, andere entblockt und teamübergreifend koordiniert. Verstehen, wo Führungsverhalten entsteht.",
+        "level": "Mittel"
       }
     },
     "integrations": {
@@ -1404,7 +1404,7 @@
       },
       "humanOversight": {
         "title": "Menschliche Aufsicht",
-        "description": "KI unterstützt — sie trifft keine autonomen Entscheidungen. Kein Employment-Scoring, keine Überwachung, keine Hochrisiko-Anwendungsfälle."
+        "description": "KI unterstützt — sie trifft keine autonomen Entscheidungen. Keine individuelle Bewertung oder Einstufung, keine Überwachung, keine Hochrisiko-Anwendungsfälle."
       }
     },
     "audience": {
@@ -1421,7 +1421,7 @@
         },
         "hr": {
           "title": "HR & People Ops",
-          "description": "Von subjektiven Bewertungen zu datengestützten Leistungsbeurteilungen. Faire, evidenzbasierte Evaluierungen."
+          "description": "Von subjektiven Bewertungen zu datengestützten Organisations-Einblicken. Faire, evidenzbasierte Team-Analytik."
         },
         "coo": {
           "title": "COOs von Remote-Teams",
@@ -1455,12 +1455,12 @@
         "answer": "Standardmäßig verarbeitet Company Brain nur Metadaten — dass eine Nachricht gesendet wurde, nicht was sie enthielt. Mit Ihrer ausdrücklichen Zustimmung kann es jedoch Inhalte aus öffentlichen Slack-Kanälen, Meeting-Transkripten und Dokumentation aufnehmen, um eine durchsuchbare Wissensdatenbank aufzubauen. Sie kontrollieren immer, was indexiert wird."
       },
       "q2": {
-        "question": "Können Mitarbeiter ihre eigenen Bewertungen sehen?",
-        "answer": "Das ist vollständig konfigurierbar. Sie entscheiden, wer was sieht — individuelle Bewertungen können nur für Manager, für den Mitarbeiter selbst oder für das gesamte Team sichtbar sein."
+        "question": "Wer kann die Erkenntnisse sehen?",
+        "answer": "Das ist vollständig konfigurierbar. Sie entscheiden, wer was sieht — Team-Dashboards können nur für Manager, für bestimmte Teams oder organisationsweit sichtbar sein."
       },
       "q3": {
         "question": "Wie schnell sehen wir Ergebnisse?",
-        "answer": "Die erste Analyse läuft innerhalb von 24-48 Stunden nach Verbindung Ihrer Tools. Die KI braucht einige Tage an Daten um Baseline-Muster zu etablieren, aber Sie sehen sofort erste Bewertungen."
+        "answer": "Die erste Analyse läuft innerhalb von 24-48 Stunden nach Verbindung Ihrer Tools. Die KI braucht einige Tage an Daten um Baseline-Muster zu etablieren, aber Sie sehen sofort erste Erkenntnisse."
       },
       "q4": {
         "question": "Was ist mit Tools, die nicht aufgelistet sind?",
@@ -1468,7 +1468,7 @@
       },
       "q5": {
         "question": "Wie unterscheidet sich das von Jellyfish oder LinearB?",
-        "answer": "Drei zentrale Unterschiede: (1) Company Brain wird pro Unternehmen deployt, nicht als SaaS — Ihre Daten bleiben isoliert. (2) Wir bewerten über 5 Dimensionen einschließlich Wissen und Führung, nicht nur DORA/Engineering-Metriken. (3) Die Nur-Metadaten-Architektur bedeutet, dass Datenschutz in das System eingebaut ist, nicht nur eine Richtlinie."
+        "answer": "Drei zentrale Unterschiede: (1) Company Brain wird pro Unternehmen deployt, nicht als SaaS — Ihre Daten bleiben isoliert. (2) Wir analysieren über 5 Dimensionen einschließlich Wissen und Führung, nicht nur DORA/Engineering-Metriken. (3) Die Nur-Metadaten-Architektur bedeutet, dass Datenschutz in das System eingebaut ist, nicht nur eine Richtlinie."
       }
     },
     "cta": {

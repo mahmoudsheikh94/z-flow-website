@@ -120,20 +120,17 @@ export default async function CompanyBrainPage({
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-6 lg:p-8">
               <div className="grid grid-cols-5 gap-4">
                 {dimensions.map((dim) => {
-                  const score = parseInt(t(`dimensions.${dim}.score`))
+                  const level = t(`dimensions.${dim}.level`)
+                  const isHigh = level === 'High' || level === 'Hoch'
                   return (
                     <div key={dim} className="text-center">
-                      <div className="relative w-16 h-16 mx-auto mb-3">
-                        <svg className="w-16 h-16 -rotate-90" viewBox="0 0 64 64">
-                          <circle cx="32" cy="32" r="28" fill="none" stroke="white" strokeOpacity="0.1" strokeWidth="4" />
-                          <circle
-                            cx="32" cy="32" r="28" fill="none"
-                            stroke="#ee4f27" strokeWidth="4" strokeLinecap="round"
-                            strokeDasharray={`${(score / 100) * 175.93} 175.93`}
-                          />
-                        </svg>
-                        <span className="absolute inset-0 flex items-center justify-center text-white font-bold text-sm">
-                          {score}
+                      <div className="relative w-16 h-16 mx-auto mb-3 flex items-center justify-center">
+                        <span className={`text-xs font-bold px-3 py-1.5 rounded-full ${
+                          isHigh
+                            ? 'bg-green-400/20 text-green-400'
+                            : 'bg-yellow-400/20 text-yellow-400'
+                        }`}>
+                          {level}
                         </span>
                       </div>
                       <span className="text-white/60 text-xs font-medium">
@@ -243,7 +240,9 @@ export default async function CompanyBrainPage({
 
           <div className="space-y-6 max-w-3xl mx-auto">
             {dimensions.map((dim, index) => {
-              const score = parseInt(t(`dimensions.${dim}.score`))
+              const level = t(`dimensions.${dim}.level`)
+              const isHigh = level === 'High' || level === 'Hoch'
+              const isMedium = level === 'Medium' || level === 'Mittel'
               return (
                 <div
                   key={dim}
@@ -255,13 +254,20 @@ export default async function CompanyBrainPage({
                     <h3 className="text-lg font-semibold text-text-primary">
                       {t(`dimensions.${dim}.title`)}
                     </h3>
-                    <span className="text-2xl font-bold text-brand-orange">{score}</span>
+                    <span className={`text-sm font-bold px-3 py-1 rounded-full ${
+                      isHigh
+                        ? 'bg-green-100 text-green-700'
+                        : isMedium
+                        ? 'bg-yellow-100 text-yellow-700'
+                        : 'bg-neutral-100 text-neutral-500'
+                    }`}>
+                      {level}
+                    </span>
                   </div>
-                  <div className="w-full bg-neutral-100 rounded-full h-2 mb-3">
-                    <div
-                      className="bg-brand-orange rounded-full h-2 transition-all duration-1000"
-                      style={{ width: `${score}%` }}
-                    />
+                  <div className="flex gap-1.5 mb-3">
+                    <div className={`h-2 flex-1 rounded-full ${isHigh || isMedium ? 'bg-brand-orange' : 'bg-neutral-100'}`} />
+                    <div className={`h-2 flex-1 rounded-full ${isHigh ? 'bg-brand-orange' : 'bg-neutral-100'}`} />
+                    <div className={`h-2 flex-1 rounded-full ${isHigh ? 'bg-brand-orange/60' : 'bg-neutral-100'}`} />
                   </div>
                   <p className="text-text-secondary text-sm">
                     {t(`dimensions.${dim}.description`)}
