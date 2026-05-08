@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import readingTime from 'reading-time'
 import { compileMDX } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
 import type { ReactElement } from 'react'
 
 const CONTENT_DIR = path.join(process.cwd(), 'src/content/blog')
@@ -85,6 +86,7 @@ export async function getBlogPostContent(slug: string, locale: string) {
   const { content: mdxContent } = await compileMDX({
     source: content,
     components: createMdxComponents(locale) as Record<string, React.ComponentType>,
+    options: { mdxOptions: { remarkPlugins: [remarkGfm] } },
   })
 
   return {
