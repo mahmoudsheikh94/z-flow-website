@@ -159,6 +159,43 @@ export default async function CompanyBrainPage({
         </div>
       </section>
 
+      {/* Knowledge Sources */}
+      <section className="section-light py-24 lg:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="text-center mb-16" data-animate="blur-up">
+            <span className="badge badge-orange mb-6">{t('knowledgeSources.badge')}</span>
+            <h2 className="text-headline font-bold text-text-primary mb-6">
+              {t('knowledgeSources.title')}
+            </h2>
+            <p className="text-body-lg text-text-secondary max-w-2xl mx-auto">
+              {t('knowledgeSources.subtitle')}
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {(['slack', 'meetings', 'docs', 'tickets'] as const).map((source, index) => (
+              <div
+                key={source}
+                className="bg-white rounded-xl border border-neutral-200 p-6 hover:border-brand-orange/30 transition-colors"
+                data-animate="fade-up"
+                data-delay={String((index % 2) * 100)}
+              >
+                <h3 className="text-lg font-semibold text-text-primary mb-2">
+                  {t(`knowledgeSources.${source}.title`)}
+                </h3>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  {t(`knowledgeSources.${source}.description`)}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-center text-text-muted mt-8 text-sm" data-animate="fade-up" data-delay="200">
+            {t('knowledgeSources.consent')}
+          </p>
+        </div>
+      </section>
+
       {/* Problem */}
       <section className="section-light py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -313,43 +350,6 @@ export default async function CompanyBrainPage({
 
           <p className="text-center text-text-secondary mt-8 text-sm">
             {t('integrations.footerNote')}
-          </p>
-        </div>
-      </section>
-
-      {/* Knowledge Sources */}
-      <section className="section-light py-24 lg:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="text-center mb-16" data-animate="blur-up">
-            <span className="badge badge-orange mb-6">{t('knowledgeSources.badge')}</span>
-            <h2 className="text-headline font-bold text-text-primary mb-6">
-              {t('knowledgeSources.title')}
-            </h2>
-            <p className="text-body-lg text-text-secondary max-w-2xl mx-auto">
-              {t('knowledgeSources.subtitle')}
-            </p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {(['slack', 'meetings', 'docs', 'tickets'] as const).map((source, index) => (
-              <div
-                key={source}
-                className="bg-white rounded-xl border border-neutral-200 p-6 hover:border-brand-orange/30 transition-colors"
-                data-animate="fade-up"
-                data-delay={String((index % 2) * 100)}
-              >
-                <h3 className="text-lg font-semibold text-text-primary mb-2">
-                  {t(`knowledgeSources.${source}.title`)}
-                </h3>
-                <p className="text-text-secondary text-sm leading-relaxed">
-                  {t(`knowledgeSources.${source}.description`)}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <p className="text-center text-text-muted mt-8 text-sm" data-animate="fade-up" data-delay="200">
-            {t('knowledgeSources.consent')}
           </p>
         </div>
       </section>

@@ -70,7 +70,7 @@
     },
     "companyBrain": {
       "title": "Company Brain | AI-Powered Organizational Intelligence",
-      "description": "Company Brain connects to your team's tools — from GitHub and Jira to Microsoft Teams and Salesforce — and uses AI to surface organizational insights and team activity patterns. Custom-tailored per company. Metadata only. Privacy first."
+      "description": "Company Brain connects to your company's tools and uses AI to surface organizational insights and team activity patterns. Custom-tailored per company. Metadata only. Privacy first."
     },
     "projects": {
       "title": "Case Studies | Digitalization, Automation & AI Projects",
@@ -1373,7 +1373,7 @@
     },
     "problem": {
       "badge": "THE PROBLEM",
-      "title": "You manage the team. But do you really see how they work?",
+      "title": "Your company runs on dozens of tools. But can you see the full picture?",
       "subtitle": "Your team uses dozens of tools every day. But no single place tells you how work actually flows, where collaboration thrives, and where the gaps are.",
       "card1": {
         "title": "Blind spots in how work happens",

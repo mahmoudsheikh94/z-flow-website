@@ -70,7 +70,7 @@
     },
     "companyBrain": {
       "title": "Company Brain | KI-gestützte Organisationsintelligenz",
-      "description": "Company Brain verbindet sich mit den Tools Ihres Teams — von GitHub und Jira bis Microsoft Teams und Salesforce — und liefert KI-gestützte Einblicke in Teamdynamik und Organisationsmuster. Maßgeschneidert pro Unternehmen. Nur Metadaten. Privacy first."
+      "description": "Company Brain verbindet sich mit den Tools Ihres Unternehmens und liefert KI-gestützte Einblicke in Teamdynamik und Organisationsmuster. Maßgeschneidert pro Unternehmen. Nur Metadaten. Privacy first."
     },
     "projects": {
       "title": "Referenzen | Digitalisierung, Automatisierung & KI Projekte",
@@ -1248,7 +1248,7 @@
     },
     "problem": {
       "badge": "DAS PROBLEM",
-      "title": "Sie führen das Team. Aber sehen Sie wirklich, wie es arbeitet?",
+      "title": "Ihr Unternehmen nutzt dutzende Tools. Aber sehen Sie das Gesamtbild?",
       "subtitle": "Ihr Team nutzt täglich dutzende Tools. Aber kein einziger Ort zeigt Ihnen, wie Arbeit tatsächlich fließt, wo Zusammenarbeit stark ist und wo die Lücken sind.",
       "card1": {
         "title": "Blinde Flecken in der Arbeitsweise",
