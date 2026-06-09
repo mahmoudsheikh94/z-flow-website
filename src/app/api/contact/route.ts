@@ -1,5 +1,7 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
+import { after } from 'next/server';
+import { sendTelegramMessage, escapeHtml } from '@/lib/telegram';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -42,6 +44,25 @@ export async function POST(request: Request) {
     }
 
     console.log('Email sent successfully:', data);
+
+    // Fire a Telegram notification after the response is sent — non-blocking,
+    // and a Telegram failure never affects the form result.
+    after(async () => {
+      const lines = [
+        '🔔 <b>New Z-Flow contact</b>',
+        '',
+        `<b>Name:</b> ${escapeHtml(name)}`,
+        `<b>Company:</b> ${escapeHtml(company || '—')}`,
+        `<b>Email:</b> ${escapeHtml(email)}`,
+        `<b>Service:</b> ${escapeHtml(service || '—')}`,
+        `<b>Budget:</b> ${escapeHtml(budget || '—')}`,
+        '',
+        '<b>Message:</b>',
+        escapeHtml(message),
+      ];
+      await sendTelegramMessage(lines.join('\n'));
+    });
+
     return NextResponse.json({ success: true, id: data?.id });
   } catch (err) {
     console.error('Contact form error:', err);
