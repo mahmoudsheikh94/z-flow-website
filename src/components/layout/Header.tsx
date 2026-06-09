@@ -12,12 +12,9 @@ export function Header() {
   const t = useTranslations('common')
 
   const navigation = [
-    { name: t('navigation.companyBrain'), href: '/company-brain' },
     { name: t('navigation.services'), href: '/services' },
     { name: t('navigation.teardown'), href: '/growth-ops-teardown' },
     { name: t('navigation.projects'), href: '/projects' },
-    { name: t('navigation.blog'), href: '/blog' },
-    { name: t('navigation.process'), href: '/process' },
     { name: t('navigation.pricing'), href: '/pricing' },
     { name: t('navigation.about'), href: '/about' },
   ]

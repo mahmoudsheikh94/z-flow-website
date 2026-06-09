@@ -9,21 +9,21 @@ export interface Testimonial {
   avatar?: string
 }
 
-export const testimonials: Testimonial[] = [
-  {
-    id: 'weprospectify',
-    // NOTE: This quote is a DRAFT placeholder. Replace with the client's exact, approved
-    // words from the testimonial-capture email (Step 0 of the GTM plan) before promoting
-    // the case study. Do not publish invented client speech.
-    name: '[VERIFY: client name]',
-    role: '[VERIFY: role]',
-    company: 'WeProspectify',
-    quote_en:
-      '[VERIFY — replace with the client’s approved words] Z-Flow took our prospecting from a manual grind to a system that runs itself. We roughly tripled booked meetings and got 20+ hours a week back — and the product still scales as we grow.',
-    quote_de:
-      '[VERIFY — durch die freigegebenen Worte des Kunden ersetzen] Z-Flow hat unser Prospecting von Handarbeit zu einem System gemacht, das sich selbst betreibt. Wir haben unsere gebuchten Meetings etwa verdreifacht und 20+ Stunden pro Woche zurückgewonnen — und das Produkt skaliert weiter mit uns.',
-  },
-]
+// No testimonials are published yet. The case-study page guards on this array, so the
+// testimonial block simply does not render while it's empty — nothing unverified ships.
+//
+// WHEN THE WEPROSPECTIFY CLIENT APPROVES A QUOTE (Step 0 of the GTM plan), uncomment and
+// fill the entry below with their EXACT words + real name/role. Until then it stays empty.
+//
+// {
+//   id: 'weprospectify',
+//   name: '<client name>',
+//   role: '<role>',
+//   company: 'WeProspectify',
+//   quote_en: '<client-approved English quote>',
+//   quote_de: '<client-approved German quote>',
+// },
+export const testimonials: Testimonial[] = []
 
 export function getTestimonialById(id: string): Testimonial | undefined {
   return testimonials.find((t) => t.id === id)

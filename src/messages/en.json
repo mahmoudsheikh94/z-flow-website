@@ -973,11 +973,10 @@
         "description": "Continuous development and maintenance on a monthly retainer.",
         "price": "from €2,500",
         "duration": "month",
-        "feature1": "Flow Lite — €2,500/mo: ~2 dev days + monitoring",
-        "feature2": "Flow Growth — €4,500/mo: ~3 dev days + monthly review (most popular)",
-        "feature3": "Flow Scale — €7,500+/mo: ~8 dev days + dedicated specialist + SLA",
+        "feature1": "Flow Lite — €2,500/mo: 1 dev day + monitoring",
+        "feature2": "Flow Growth — €4,500/mo: 2 dev days + monthly review (most popular)",
+        "feature3": "Flow Scale — €7,500+/mo: 4 dev days + dedicated specialist + SLA",
         "feature4": "3-month minimum, then rolling",
-        "feature5": "First month 50% if signed within 14 days of build handover",
         "cta": "Discuss a retainer"
       }
     },

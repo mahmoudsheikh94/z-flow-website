@@ -973,11 +973,10 @@
         "description": "Kontinuierliche Entwicklung und Wartung im monatlichen Retainer.",
         "price": "ab 2.500€",
         "duration": "Monat",
-        "feature1": "Flow Lite — 2.500€/Mon.: ~2 Entwicklertage + Monitoring",
-        "feature2": "Flow Growth — 4.500€/Mon.: ~3 Entwicklertage + monatliches Review (am beliebtesten)",
-        "feature3": "Flow Scale — ab 7.500€/Mon.: ~8 Entwicklertage + dedizierter Spezialist + SLA",
+        "feature1": "Flow Lite — 2.500€/Mon.: 1 Entwicklertag + Monitoring",
+        "feature2": "Flow Growth — 4.500€/Mon.: 2 Entwicklertage + monatliches Review (am beliebtesten)",
+        "feature3": "Flow Scale — ab 7.500€/Mon.: 4 Entwicklertage + dedizierter Spezialist + SLA",
         "feature4": "3 Monate Mindestlaufzeit, danach monatlich kündbar",
-        "feature5": "Erster Monat 50%, bei Abschluss innerhalb von 14 Tagen nach Build-Übergabe",
         "cta": "Retainer besprechen"
       }
     },
