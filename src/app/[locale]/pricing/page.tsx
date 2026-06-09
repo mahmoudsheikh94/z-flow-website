@@ -9,15 +9,15 @@ export default function PricingPage() {
 
   const packages = [
     {
-      key: 'mvp',
+      key: 'teardown',
       highlighted: true,
     },
     {
-      key: 'automation',
+      key: 'mvp',
       highlighted: false,
     },
     {
-      key: 'training',
+      key: 'automation',
       highlighted: false,
     },
     {
@@ -26,7 +26,7 @@ export default function PricingPage() {
     },
   ]
 
-  const faqKeys = ['q1', 'q2', 'q3', 'q4'] as const
+  const faqKeys = ['q1', 'q2', 'q3', 'q4', 'q5'] as const
 
   return (
     <>
@@ -81,6 +81,52 @@ export default function PricingPage() {
                 </div>
 
                 <ul className="space-y-4 mb-10">
+                  {pkg.key === 'teardown' && (
+                    <>
+                      <li className="flex items-start gap-3">
+                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        <span className="text-text-secondary">{t('packages.teardown.feature1')}</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        <span className="text-text-secondary">{t('packages.teardown.feature2')}</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        <span className="text-text-secondary">{t('packages.teardown.feature3')}</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        <span className="text-text-secondary">{t('packages.teardown.feature4')}</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        <span className="text-text-secondary">{t('packages.teardown.feature5')}</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        <span className="text-text-secondary">{t('packages.teardown.feature6')}</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        <span className="text-text-secondary">{t('packages.teardown.feature7')}</span>
+                      </li>
+                    </>
+                  )}
                   {pkg.key === 'mvp' && (
                     <>
                       <li className="flex items-start gap-3">
@@ -125,6 +171,12 @@ export default function PricingPage() {
                         </svg>
                         <span className="text-text-secondary">{t('packages.mvp.feature7')}</span>
                       </li>
+                      <li className="flex items-start gap-3">
+                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        <span className="text-text-secondary">{t('packages.mvp.feature8')}</span>
+                      </li>
                     </>
                   )}
                   {pkg.key === 'automation' && (
@@ -165,45 +217,11 @@ export default function PricingPage() {
                         </svg>
                         <span className="text-text-secondary">{t('packages.automation.feature6')}</span>
                       </li>
-                    </>
-                  )}
-                  {pkg.key === 'training' && (
-                    <>
                       <li className="flex items-start gap-3">
                         <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
-                        <span className="text-text-secondary">{t('packages.training.feature1')}</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
-                        <span className="text-text-secondary">{t('packages.training.feature2')}</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
-                        <span className="text-text-secondary">{t('packages.training.feature3')}</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
-                        <span className="text-text-secondary">{t('packages.training.feature4')}</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
-                        <span className="text-text-secondary">{t('packages.training.feature5')}</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
-                        <span className="text-text-secondary">{t('packages.training.feature6')}</span>
+                        <span className="text-text-secondary">{t('packages.automation.feature7')}</span>
                       </li>
                     </>
                   )}
@@ -239,12 +257,6 @@ export default function PricingPage() {
                         </svg>
                         <span className="text-text-secondary">{t('packages.retainer.feature5')}</span>
                       </li>
-                      <li className="flex items-start gap-3">
-                        <svg className="w-5 h-5 text-brand-orange mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
-                        <span className="text-text-secondary">{t('packages.retainer.feature6')}</span>
-                      </li>
                     </>
                   )}
                 </ul>
@@ -274,6 +286,9 @@ export default function PricingPage() {
             <Link href="/contact" className="btn btn-primary">
               {common('cta.requestCustomQuote')}
             </Link>
+            <p className="text-text-secondary mt-8">
+              {t('custom.training')}
+            </p>
           </div>
         </div>
       </section>

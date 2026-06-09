@@ -2,6 +2,8 @@ import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { HeroBrandVisual } from '@/components/hero/HeroBrandVisual'
+import { TestimonialsSection } from '@/components/testimonials/TestimonialsSection'
+import { testimonials } from '@/data/testimonials'
 
 const tools = [
   { name: 'n8n', category: 'Automation', logo: '/images/N8N.Io_idQ-KxEpHW_1.svg' },
@@ -370,6 +372,17 @@ export default async function Home({
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <TestimonialsSection
+        testimonials={testimonials}
+        locale={locale}
+        translations={{
+          badge: t('testimonials.badge'),
+          title: t('testimonials.title'),
+          subtitle: t('testimonials.subtitle'),
+        }}
+      />
 
       {/* CTA Section */}
       <section className="section-dark py-32 lg:py-44 relative overflow-hidden">

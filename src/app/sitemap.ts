@@ -12,6 +12,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/services/mvp-development', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/services/automation', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/services/ai-integration', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/growth-ops-teardown', priority: 0.9, changeFrequency: 'monthly' as const },
+    { path: '/digitalisierung', priority: 0.7, changeFrequency: 'monthly' as const },
     { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const },
     { path: '/projects', priority: 0.8, changeFrequency: 'weekly' as const },
     { path: '/process', priority: 0.7, changeFrequency: 'monthly' as const },

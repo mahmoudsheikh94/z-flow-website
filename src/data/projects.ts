@@ -10,6 +10,8 @@ export interface Project {
   relatedSlugs: string[]
   featured: boolean
   status: 'live' | 'built'
+  /** Slug into the `testimonials` array (src/data/testimonials.ts) to render a named client quote on the case study. */
+  testimonialId?: string
 }
 
 export const projects: Project[] = [
@@ -17,13 +19,14 @@ export const projects: Project[] = [
   {
     slug: 'weprospectify',
     category: 'software',
-    stack: ['Next.js', 'Supabase', 'n8n', 'OpenAI', 'Stripe'],
-    timeline: '8 weeks',
+    stack: ['Next.js', 'Supabase', 'n8n', 'OpenAI', 'Smartlead', 'HeyReach', 'Airtable', 'Stripe', 'MCP'],
+    timeline: '8-week MVP · 12-week product',
     thumbnail: '/images/projects/weprospectify/thumbnail.webp',
     screenshots: [],
     relatedSlugs: ['lead-generation-pipeline', 'layovr'],
     featured: true,
-    status: 'built',
+    status: 'live',
+    testimonialId: 'weprospectify',
   },
   {
     slug: 'layovr',

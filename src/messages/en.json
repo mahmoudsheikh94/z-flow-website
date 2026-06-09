@@ -7,6 +7,7 @@
   "common": {
     "navigation": {
       "services": "Services",
+      "teardown": "Teardown",
       "projects": "Projects",
       "process": "Process",
       "pricing": "Pricing",
@@ -20,7 +21,7 @@
       "discussProject": "Discuss Project",
       "viewProjects": "View Projects",
       "learnMore": "Learn More",
-      "freeConsultation": "Free Consultation",
+      "freeConsultation": "Free 30-Min Diagnostic",
       "viewPricing": "View Pricing",
       "sendMessage": "Send Message",
       "getInTouch": "Get in Touch",
@@ -30,7 +31,7 @@
       "viewExamples": "View Examples"
     },
     "footer": {
-      "tagline": "We understand your process. Then we build the right solution.",
+      "tagline": "We find the bottleneck. Then we build the fix.",
       "location": "Berlin, Germany",
       "servicesTitle": "Services",
       "companyTitle": "Company",
@@ -77,20 +78,28 @@
       "description": "Real digitalization projects: process automation, custom software, and AI integration. See how we helped businesses save 90% on manual tasks, automate sales pipelines, and build production-ready platforms."
     },
     "process": {
-      "title": "Our Process | Process Audit, Solution Design, Build & Handover",
+      "title": "Our Process | Growth-Ops Teardown, Solution Design, Build & Handover",
       "description": "Process-first development: we audit your workflows, design the right solution, build in weekly sprints, and hand over everything. Fixed prices, full documentation, no vendor lock-in."
+    },
+    "teardown": {
+      "title": "Growth-Ops Teardown | Find your B2B SaaS bottleneck in 5 days",
+      "description": "A fixed-fee €2,500 Growth-Ops Teardown for B2B SaaS teams: we map where you lose hours and revenue and hand you a build-ready roadmap in 5 business days. 50% credited toward your build. Roadmap in 5 days or it's free."
+    },
+    "digitalisierung": {
+      "title": "Digitalisierung für den Mittelstand | Z-Flow Berlin",
+      "description": "Schluss mit Tabellen-Chaos und manuellen Prozessen. Z-Flow digitalisiert und automatisiert die Abläufe von Mittelstand und Industrie — mit einem Prozess-Audit ab 1.500€, vor Ort oder remote. GDPR-konform, made in Berlin."
     },
     "pricing": {
       "title": "Pricing | Automation, Software & AI — Transparent Fixed Prices",
-      "description": "Transparent fixed pricing: process automation from €3,000, MVP development from €15,000, AI integration from €5,000. Free process consultation included."
+      "description": "Transparent fixed pricing. Most engagements start with a €2,500 Growth-Ops Teardown (50% credited): automation from €6,000, MVP development from €18,000, AI integration from €5,000. Free 30-min diagnostic call included."
     },
     "about": {
       "title": "About Z-Flow | Digitalization Partner Berlin",
       "description": "Z-Flow is your digitalization partner in Berlin. 5+ years of process mapping experience, now powered by AI-driven engineering. We understand your business first, then build the right solution."
     },
     "contact": {
-      "title": "Contact | Free Process Consultation",
-      "description": "Start with a free process consultation. We'll map your workflows and recommend the right approach — automation, custom software, or AI. Based in Berlin, serving Germany and DACH."
+      "title": "Contact | Free 30-Min Diagnostic Call",
+      "description": "Start with a free 30-min diagnostic call. We'll map your workflows and recommend the right approach — automation, custom software, or AI. Based in Berlin, serving Germany and DACH."
     },
     "imprint": {
       "title": "Imprint | Z-Flow",
@@ -107,9 +116,9 @@
   },
   "home": {
     "hero": {
-      "tagline": "We understand your process.",
-      "headline": "Then we build the right solution.",
-      "subheadline": "Whether it's automation, custom software, or AI — we start by understanding how your business actually works. Then we digitalize it and make it intelligent.",
+      "tagline": "We find the bottleneck.",
+      "headline": "Then we build the fix.",
+      "subheadline": "We're the operator-engineers funded B2B SaaS teams bring in to automate the busywork and build the software they can't hire fast enough to build themselves. We find where you lose hours and revenue — then we ship.",
       "meetFounder": "Meet Mahmoud"
     },
     "trustSignals": {
@@ -168,6 +177,11 @@
       "point2": "Bug fixes after launch included",
       "point3": "Optional maintenance contracts available"
     },
+    "testimonials": {
+      "badge": "WHAT OUR CLIENTS SAY",
+      "title": "Trusted by teams across industries",
+      "subtitle": "From startups to established companies — here's what our clients say about working with Z-Flow."
+    },
     "cta": {
       "title": "Ready to start your project?",
       "subtitle": "Let's find out in a short conversation if and how we can help you. No obligation and free of charge."
@@ -198,9 +212,9 @@
       "subtitle": "Every engagement starts with understanding your process. Then we choose the right approach — automation, custom software, or AI."
     },
     "mvp": {
-      "subtitle": "From idea to product",
-      "title": "MVP Development",
-      "description": "Validate your business idea with a working product. We build MVPs that are good enough to win real users, and clean enough to build upon.",
+      "subtitle": "MVP / Custom Software",
+      "title": "Ship the product you can't hire for.",
+      "description": "Production software in 6 weeks, not 6 months. We build MVPs and internal tools good enough to win real users — and clean enough to scale on. Same partner from first commit to production.",
       "features": {
         "1": "Web apps with Next.js and React",
         "2": "Mobile-first responsive design",
@@ -212,9 +226,9 @@
       "metricLabel": "Typical project duration"
     },
     "automation": {
-      "subtitle": "Digitize processes",
-      "title": "Automation",
-      "description": "Manual, repetitive tasks cost time and cause errors. We automate your workflows with n8n and Make.com - reliable and traceable.",
+      "subtitle": "Automation",
+      "title": "Get your team's week back.",
+      "description": "Manual sales and ops work — lead routing, CRM hygiene, reporting, hand-offs — costs hours and causes errors. We automate what should never be manual with n8n, Make, or custom APIs. Whichever actually fits.",
       "features": {
         "1": "Workflow analysis and design",
         "2": "n8n and Make.com integration",
@@ -226,9 +240,9 @@
       "metricLabel": "Typical time savings"
     },
     "ai": {
-      "subtitle": "AI-powered intelligence",
-      "title": "AI for Your Business",
-      "description": "Your company has years of knowledge trapped in documents, emails, and people's heads. We build AI systems that capture this knowledge — including Company Brain, our organizational intelligence platform that analyzes team dynamics across 5 dimensions.",
+      "subtitle": "AI Integration",
+      "title": "AI that does the work, not a demo.",
+      "description": "Custom AI assistants, knowledge bases, and org-intelligence wired into your real stack — deployed only where it beats the alternative. Trained on your data, not generic. Company Brain, our own org-intelligence platform, is what we build for ourselves.",
       "features": {
         "1": "Company Brain — AI-powered team analytics",
         "2": "Internal AI assistants for employees",
@@ -236,12 +250,12 @@
         "4": "RAG systems over company knowledge",
         "5": "AI-powered workflow automation"
       },
-      "metric": "10x",
-      "metricLabel": "Productivity increase"
+      "metric": "Your data",
+      "metricLabel": "AI trained on it, not generic"
     },
     "cta": {
       "title": "Not sure what you need?",
-      "subtitle": "No problem. In a free consultation, we'll figure out together which solution best fits your requirements."
+      "subtitle": "No problem. In a free 30-min diagnostic call, we'll figure out together which solution best fits your requirements."
     }
   },
   "mvpPage": {
@@ -384,7 +398,7 @@
     "cta": {
       "title": "Which processes are stealing your time?",
       "subtitle": "Let's figure out together which of your processes are best suited for automation.",
-      "button": "Free process analysis"
+      "button": "Book a free diagnostic"
     }
   },
   "aiPage": {
@@ -471,107 +485,318 @@
       "automation": "Workflow Automation"
     },
     "weprospectify": {
-      "title": "B2B Sales Prospecting Platform",
-      "industry": "Sales & B2B",
-      "description": "Built a multi-channel outreach platform that automates the entire sales prospecting lifecycle — from lead discovery to email and LinkedIn campaigns. Features AI-powered message personalization, campaign analytics, and CRM sync.",
-      "result1": "Full prospecting lifecycle automated",
-      "result2": "AI-personalized outreach at scale",
-      "result3": "Multi-channel campaigns from one dashboard",
-      "tags": ["Next.js", "Supabase", "n8n", "OpenAI", "Stripe"]
+      "title": "~3× more booked meetings for a B2B sales team",
+      "industry": "B2B SaaS · Sales",
+      "description": "Stabilized a duct-taped Airtable + n8n prospecting setup, then rebuilt it as a scalable AI-first platform on Next.js with MCP — without ever taking the revenue engine offline.",
+      "result1": "~3× more booked meetings per month",
+      "result2": "20+ hours/week of manual prospecting eliminated",
+      "result3": "Working MVP in 8 weeks, full product in 12",
+      "tags": [
+        "Next.js",
+        "Supabase",
+        "n8n",
+        "MCP",
+        "Smartlead"
+      ]
     },
     "layovr": {
-      "title": "Airport Passenger Experience App",
+      "title": "Helping layover travelers make the most of their time",
       "industry": "Travel & Hospitality",
       "description": "Built a platform for travelers to make the most of airport layovers — real-time flight tracking, gate community features, nearby F&B offers, and traveler chat. Integrates live aviation data with location-based recommendations.",
       "result1": "Real-time flight data integration",
       "result2": "Location-based airport recommendations",
       "result3": "Community features for gate areas",
-      "tags": ["Next.js", "Supabase", "AviationStack API", "Tailwind CSS"]
+      "tags": [
+        "Next.js",
+        "Supabase",
+        "AviationStack API",
+        "Tailwind CSS"
+      ]
     },
     "ai-video-generation": {
-      "title": "AI-Powered Marketing Video Generation",
+      "title": "50+ marketing videos a week, generated by AI",
       "industry": "Media & Marketing",
       "description": "A marketing agency needed to generate diverse video content from single images at scale. We built an Airtable interface connected to a complex n8n workflow that generates videos using OpenAI and Ideogram, adds multi-language captions automatically, and exports structured data to Google Sheets for further distribution.",
       "result1": "50+ marketing videos generated weekly",
       "result2": "90% reduction in production time",
       "result3": "Automated multi-language captions",
-      "tags": ["n8n", "OpenAI", "Ideogram", "Airtable", "Google Sheets"]
+      "tags": [
+        "n8n",
+        "OpenAI",
+        "Ideogram",
+        "Airtable",
+        "Google Sheets"
+      ]
     },
     "ai-voice-agent": {
-      "title": "AI Voice Agent for Customer Support",
+      "title": "85% of support inquiries handled without a human",
       "industry": "Construction",
       "description": "A construction company needed to handle customer inquiries about project status around the clock. We built an AI phone agent using 11Labs voice technology integrated with n8n workflows. The agent accesses real-time project data from Airtable, answers questions naturally, and logs all interactions automatically.",
       "result1": "85% of inquiries handled without human intervention",
       "result2": "24/7 availability with consistent response quality",
       "result3": "Customer satisfaction improved by 40%",
-      "tags": ["n8n", "11Labs", "Airtable", "OpenRouter"]
+      "tags": [
+        "n8n",
+        "11Labs",
+        "Airtable",
+        "OpenRouter"
+      ]
     },
     "lead-generation-pipeline": {
-      "title": "End-to-End Lead Generation Pipeline",
+      "title": "A lead pipeline that runs itself",
       "industry": "Sales & B2B",
       "description": "A sales team needed a unified system to manage leads across multiple platforms. We built 14 interconnected n8n workflows orchestrating data between Airtable, Supabase, Smartlead, and Heyreach, with a single source of truth database handling all edge cases and sync scenarios.",
       "result1": "14 workflows orchestrated seamlessly",
       "result2": "Single source of truth for all lead data",
       "result3": "Lead response time reduced by 70%",
-      "tags": ["n8n", "Supabase", "Airtable", "Smartlead", "Heyreach"]
+      "tags": [
+        "n8n",
+        "Supabase",
+        "Airtable",
+        "Smartlead",
+        "Heyreach"
+      ]
     },
     "automated-invoicing": {
-      "title": "Automated Invoicing System",
+      "title": "95% fewer invoice errors, fully automated",
       "industry": "Finance",
       "description": "A client with complex invoicing needs required a system to handle multiple use cases: creating, editing, canceling, and reissuing invoices. We built an n8n-powered solution with an intuitive Airtable interface that automates all invoice workflows with full audit trails.",
       "result1": "95% reduction in invoice errors",
       "result2": "Edit, cancel, and reissue with one click",
       "result3": "Complete audit trail for compliance",
-      "tags": ["n8n", "Airtable", "Process Automation"]
+      "tags": [
+        "n8n",
+        "Airtable",
+        "Process Automation"
+      ]
     },
     "stripe-refund-automation": {
-      "title": "Automated Refund Processing System",
+      "title": "Refunds processed in 30 seconds, not 15 minutes",
       "industry": "E-Commerce",
       "description": "An e-commerce business processing daily refunds needed a faster, error-free solution. We integrated Lexoffice accounting software with Airtable and Stripe, enabling one-click refunds through a simple checkbox interface that triggers automated Make.com workflows.",
       "result1": "Processing time reduced from 15 min to 30 sec",
       "result2": "200+ daily refunds processed automatically",
       "result3": "Zero manual errors in refund handling",
-      "tags": ["Make.com", "Stripe", "Lexoffice", "Airtable"]
+      "tags": [
+        "Make.com",
+        "Stripe",
+        "Lexoffice",
+        "Airtable"
+      ]
     },
     "car-supplier-integration": {
-      "title": "Car Supplier Data Integration",
+      "title": "500+ car listings synced every day, automatically",
       "industry": "Automotive",
       "description": "A car reseller needed to aggregate vehicle data from multiple suppliers, enrich it with third-party services, and sync to their sales platform. We built a comprehensive Make.com automation that pulls data, enriches listings with market data, and uploads them to their Bubble.io platform.",
       "result1": "500+ car listings synced daily",
       "result2": "3 supplier APIs unified into one pipeline",
       "result3": "Real-time inventory updates",
-      "tags": ["Make.com", "PostgreSQL", "Airtable", "Bubble.io"]
+      "tags": [
+        "Make.com",
+        "PostgreSQL",
+        "Airtable",
+        "Bubble.io"
+      ]
     },
     "invoice-distribution": {
-      "title": "Invoice Generation & Distribution",
+      "title": "Every invoice filed automatically, no manual sorting",
       "industry": "Finance",
       "description": "A company needed automated invoice generation based on transaction types and timing, with proper filing and delivery. We built a Make.com workflow that generates invoices, saves them to organized Google Drive folders, updates Airtable records, and emails them to clients automatically.",
       "result1": "Invoices auto-sorted to correct folders",
       "result2": "Instant email delivery upon generation",
       "result3": "Google Drive perfectly organized",
-      "tags": ["Make.com", "Google Docs API", "Airtable", "Bubble.io"]
+      "tags": [
+        "Make.com",
+        "Google Docs API",
+        "Airtable",
+        "Bubble.io"
+      ]
     },
     "financial-folders": {
-      "title": "Financial Folder Organization",
+      "title": "Financial folders that organize themselves",
       "industry": "Finance",
       "description": "A finance department needed dynamic folder structures in Google Drive for international accounting requirements. We created a Make.com automation that generates folder hierarchies based on accounting rules, ensuring invoices are automatically distributed to the correct locations.",
       "result1": "Dynamic folder creation based on rules",
       "result2": "International accounting standards supported",
       "result3": "Zero manual filing required",
-      "tags": ["Make.com", "Google APIs", "Process Design"]
+      "tags": [
+        "Make.com",
+        "Google APIs",
+        "Process Design"
+      ]
     },
     "volunteer-management": {
-      "title": "Volunteer Management Platform",
+      "title": "Volunteer onboarding 80% faster",
       "industry": "Non-Profit",
       "description": "A non-profit volunteering agency needed an internal tool to manage applicants through a complex process including background checks, references, and parental approvals. We built a WeWeb application with Xano backend featuring role-based permissions and sophisticated authentication flows.",
       "result1": "Volunteer onboarding time reduced by 80%",
       "result2": "Role-based access for 50+ team members",
       "result3": "Background check workflow automated",
-      "tags": ["WeWeb", "Xano", "Database Architecture", "API Integration"]
+      "tags": [
+        "WeWeb",
+        "Xano",
+        "Database Architecture",
+        "API Integration"
+      ]
     },
     "cta": {
       "title": "Your project could be next",
       "subtitle": "Let's discuss how we can help you achieve similar results."
+    }
+  },
+  "teardown": {
+    "hero": {
+      "badge": "Growth-Ops Teardown",
+      "title": "Find your bottleneck in 5 days.",
+      "subtitle": "A fixed-fee diagnostic for B2B SaaS teams. We map exactly where you lose hours and revenue, then hand you a build-ready roadmap — the spec your next automation or product is built from.",
+      "priceLabel": "Fixed fee",
+      "price": "€2,500",
+      "priceNote": "50% credited toward your build",
+      "ctaPrimary": "Book a free 30-min diagnostic",
+      "ctaSecondary": "See the Weprospectify case"
+    },
+    "what": {
+      "badge": "What it is",
+      "title": "A paid diagnosis, not a sales call.",
+      "intro": "Most agencies guess, quote, and start building. We charge to think first — because the roadmap is the most valuable thing we can give you, whether or not you build with us. You walk away with a plan you could hand to any team.",
+      "points": [
+        "A senior operator-engineer maps your real growth and ops workflows",
+        "We quantify the time and revenue leaking out of each one",
+        "You get a prioritized 90-day roadmap and a build-ready spec of your #1 quick win",
+        "Platform-agnostic — we recommend what actually fits, not what we sell"
+      ]
+    },
+    "deliverable": {
+      "badge": "What you get",
+      "title": "A 12–20 page build-ready roadmap.",
+      "items": [
+        {
+          "title": "Current-state workflow maps",
+          "description": "How work actually flows today — across your real tools, not a whiteboard."
+        },
+        {
+          "title": "The time & revenue leak table",
+          "description": "Every bottleneck, quantified in hours and euros, conservatively estimated."
+        },
+        {
+          "title": "Prioritized 90-day roadmap",
+          "description": "What to fix first, sequenced by impact and effort."
+        },
+        {
+          "title": "Build-ready spec of your #1 quick win",
+          "description": "The signature artifact — a spec only a senior builder can produce, ready to execute."
+        }
+      ]
+    },
+    "how": {
+      "badge": "How it works",
+      "title": "Five days. ~90 minutes of your time.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Free 30-min diagnostic",
+          "description": "We confirm there's a real fit and one quick win worth chasing. No obligation."
+        },
+        {
+          "step": "02",
+          "title": "One 60-min discovery call",
+          "description": "Recorded. Plus read-only access to 2–3 systems and a short async walkthrough — that's all we need from you."
+        },
+        {
+          "step": "03",
+          "title": "We map and quantify",
+          "description": "We do the heavy lifting: workflow maps, the leak table, the roadmap, the quick-win spec."
+        },
+        {
+          "step": "04",
+          "title": "45-min walkthrough call",
+          "description": "We hand over the roadmap and talk through exactly what to build next."
+        }
+      ]
+    },
+    "guarantee": {
+      "badge": "Risk reversal",
+      "title": "Two promises.",
+      "items": [
+        {
+          "title": "Roadmap in 5 business days, or it's free.",
+          "description": "We deliver on time or you don't pay. Simple."
+        },
+        {
+          "title": "One senior partner, no junior hand-off.",
+          "description": "Backed by a vetted specialist network so delivery never stalls."
+        }
+      ]
+    },
+    "proof": {
+      "quote": "We diagnosed WeProspectify's lead-gen bottleneck, stabilized their setup so revenue never stopped, then rebuilt it as a scalable AI-first platform — roughly tripling booked meetings and saving 20+ hours a week.",
+      "linkLabel": "Read the full Weprospectify case →"
+    },
+    "cta": {
+      "title": "Find out where you're leaking hours and revenue.",
+      "subtitle": "Start with a free 30-min diagnostic. If there's a fit, we'll scope your Growth-Ops Teardown on the call.",
+      "button": "Book a free 30-min diagnostic"
+    }
+  },
+  "digitalisierung": {
+    "hero": {
+      "badge": "Mittelstand & Industrie",
+      "title": "Schluss mit Tabellen-Chaos.",
+      "subtitle": "Wenn Ihr Unternehmen auf Excel, E-Mails und Zettelwirtschaft läuft, kostet das jede Woche Stunden — und Wissen steckt in einzelnen Köpfen. Wir digitalisieren und automatisieren Ihre Abläufe, damit Ihr Team wieder arbeiten kann statt zu verwalten.",
+      "ctaPrimary": "Kostenloses Erstgespräch",
+      "ctaSecondary": "So gehen wir vor"
+    },
+    "pains": {
+      "badge": "Kommt Ihnen bekannt vor?",
+      "title": "Die typischen Bremsen im Mittelstand.",
+      "items": [
+        "Prozesse leben in Excel-Tabellen, die niemand mehr versteht",
+        "Daten werden mehrfach von Hand in verschiedene Systeme getippt",
+        "Wichtiges Wissen steckt nur in einzelnen Mitarbeitern",
+        "Angebote, Rechnungen und Berichte fressen Stunden manueller Arbeit"
+      ]
+    },
+    "approach": {
+      "badge": "So gehen wir vor",
+      "title": "Erst verstehen, dann digitalisieren.",
+      "intro": "Wir kommen nicht mit einer fertigen Software-Meinung. Wir schauen uns zuerst an, wie Ihr Betrieb wirklich arbeitet — vor Ort oder remote — und empfehlen dann, was passt. Plattform-unabhängig, ohne Vendor-Lock-in.",
+      "steps": [
+        {
+          "title": "Prozess-Audit",
+          "description": "Wir kartieren Ihre Abläufe, finden die Engpässe und beziffern, wo Zeit und Geld verloren gehen. Ab 1.500€, vor Ort oder remote."
+        },
+        {
+          "title": "Lösung & Tool-Auswahl",
+          "description": "Wir empfehlen die richtige Lösung — Automatisierung, Software oder das passende Standard-Tool. Unabhängig und unvoreingenommen."
+        },
+        {
+          "title": "Umsetzung & Übergabe",
+          "description": "Wir bauen, integrieren und schulen Ihr Team. Volle Dokumentation, kein Lock-in. Sie bleiben Herr Ihrer Systeme."
+        }
+      ]
+    },
+    "trust": {
+      "badge": "Warum Z-Flow",
+      "title": "Made in Berlin, für deutsche Betriebe.",
+      "items": [
+        {
+          "title": "GDPR-konform by default",
+          "description": "Datenschutz und DSGVO sind in Deutschland kein Nachgedanke — bei uns von Anfang an mitgedacht."
+        },
+        {
+          "title": "Vor Ort oder remote",
+          "description": "Für das Audit und Workshops kommen wir auch zu Ihnen. Persönlich, wenn es zählt."
+        },
+        {
+          "title": "Ein Senior-Partner",
+          "description": "Keine Junior-Übergabe. Sie sprechen mit dem, der versteht und baut — gestützt auf ein Spezialisten-Netzwerk."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Lassen Sie uns Ihre Abläufe anschauen.",
+      "subtitle": "Starten Sie mit einem kostenlosen Erstgespräch. Wir finden gemeinsam heraus, wo sich Digitalisierung für Sie am schnellsten lohnt.",
+      "button": "Kostenloses Erstgespräch buchen"
     }
   },
   "process": {
@@ -591,7 +816,7 @@
       },
       "fixedPrices": {
         "title": "Fixed prices",
-        "description": "After the process audit you receive a binding fixed-price quote."
+        "description": "After the Growth-Ops Teardown you receive a binding fixed-price quote."
       },
       "flexible": {
         "title": "Flexible with changes",
@@ -604,9 +829,9 @@
       "activities": "Activities",
       "deliverables": "Deliverables",
       "discovery": {
-        "title": "Process Audit",
-        "duration": "1 week",
-        "description": "We map your current workflows, understand what works, identify bottlenecks, and define the right approach — automation, custom software, or AI.",
+        "title": "Growth-Ops Teardown",
+        "duration": "5 business days",
+        "description": "Our paid diagnostic (€2,500, 50% credited toward your build): we map your current workflows, identify bottlenecks, and define the right approach — producing a build-ready roadmap and a fixed-price quote.",
         "deliverable1": "Process map & bottleneck analysis",
         "deliverable2": "Solution recommendation",
         "deliverable3": "Project roadmap",
@@ -619,7 +844,7 @@
       "design": {
         "title": "Solution Design",
         "duration": "1-2 weeks",
-        "description": "Based on the process audit, we design the right solution — whether that's workflows, a web app, or AI integration.",
+        "description": "Based on the Growth-Ops Teardown, we design the right solution — whether that's workflows, a web app, or AI integration.",
         "deliverable1": "Wireframes / Mockups",
         "deliverable2": "Interactive prototype",
         "deliverable3": "Technical architecture",
@@ -677,20 +902,34 @@
     },
     "cta": {
       "title": "Ready for the first step?",
-      "subtitle": "Let's find out in a free consultation if we're the right partner for your project."
+      "subtitle": "Let's find out in a free 30-min diagnostic call if we're the right partner for your project."
     }
   },
   "pricing": {
     "hero": {
       "badge": "PRICING",
       "title": "Transparent fixed prices",
-      "subtitle": "No hidden costs, no hourly rates that explode. You know upfront what it costs."
+      "subtitle": "Most engagements start with a Growth-Ops Teardown. No hidden costs, no hourly rates that explode. You know upfront what it costs."
     },
     "packages": {
+      "teardown": {
+        "name": "Growth-Ops Teardown",
+        "description": "The entry point. A build-ready roadmap that turns your operations into a clear plan.",
+        "price": "€2,500",
+        "duration": "5 business days",
+        "feature1": "Build-ready roadmap (12–20pp)",
+        "feature2": "Current-state workflow maps",
+        "feature3": "Quantified time & € leak table",
+        "feature4": "Prioritized 90-day roadmap",
+        "feature5": "Build-ready spec of your #1 quick win",
+        "feature6": "50% credited toward your build",
+        "feature7": "Roadmap in 5 days or it's free",
+        "cta": "Book a free 30-min diagnostic"
+      },
       "mvp": {
-        "name": "MVP Sprint",
+        "name": "MVP / Product Build",
         "description": "For founders and teams who want to validate an idea quickly.",
-        "price": "from €15,000",
+        "price": "from €18,000",
         "duration": "2-6 weeks",
         "feature1": "Web app with Next.js/React or No-Code (WeWeb)",
         "feature2": "Backend with Xano or Supabase",
@@ -699,12 +938,13 @@
         "feature5": "Deployment & hosting setup",
         "feature6": "Complete documentation",
         "feature7": "After-launch support included",
+        "feature8": "50% of your Teardown fee credited here",
         "cta": "Discuss MVP"
       },
       "automation": {
         "name": "Automation",
         "description": "Automate workflows and digitize processes.",
-        "price": "from €3,000",
+        "price": "from €6,000",
         "duration": "1-3 weeks",
         "feature1": "Workflow analysis",
         "feature2": "n8n or Make.com setup",
@@ -712,6 +952,7 @@
         "feature4": "Error handling & monitoring",
         "feature5": "Documentation & training",
         "feature6": "30 days support",
+        "feature7": "50% of your Teardown fee credited here",
         "cta": "Analyze process"
       },
       "training": {
@@ -728,28 +969,28 @@
         "cta": "Book training"
       },
       "retainer": {
-        "name": "Retainer",
-        "description": "Continuous development and maintenance.",
-        "price": "from €4,000",
-        "duration": "per month",
-        "feature1": "Dedicated development time",
-        "feature2": "Priority support",
-        "feature3": "Regular updates & maintenance",
-        "feature4": "Feature development",
-        "feature5": "Performance monitoring",
-        "feature6": "Monthly review",
-        "cta": "Request retainer"
+        "name": "Flow Partner",
+        "description": "Continuous development and maintenance on a monthly retainer.",
+        "price": "from €2,500",
+        "duration": "month",
+        "feature1": "Flow Lite — €2,500/mo: ~2 dev days + monitoring",
+        "feature2": "Flow Growth — €4,500/mo: ~3 dev days + monthly review (most popular)",
+        "feature3": "Flow Scale — €7,500+/mo: ~8 dev days + dedicated specialist + SLA",
+        "feature4": "3-month minimum, then rolling",
+        "feature5": "First month 50% if signed within 14 days of build handover",
+        "cta": "Discuss a retainer"
       }
     },
     "custom": {
       "title": "Custom project?",
-      "subtitle": "The packages don't fit? No problem. We're happy to create a custom quote for your specific project."
+      "subtitle": "The packages don't fit? No problem. We're happy to create a custom quote for your specific project.",
+      "training": "We also offer hands-on training on n8n, Make and no-code — ask about it."
     },
     "faq": {
       "title": "Frequently asked questions about pricing",
       "q1": {
         "question": "How does pricing work?",
-        "answer": "After a free consultation and the discovery phase, you receive a binding fixed-price quote. No surprises."
+        "answer": "After a free diagnostic and a paid Growth-Ops Teardown, you receive a binding fixed-price quote — with 50% of the Teardown fee credited toward your build. No surprises."
       },
       "q2": {
         "question": "What's not included in the price?",
@@ -762,10 +1003,14 @@
       "q4": {
         "question": "What happens with scope changes?",
         "answer": "Changes are possible. We transparently communicate the impact on time and budget before you make a decision."
+      },
+      "q5": {
+        "question": "Why pay for a Teardown?",
+        "answer": "Because we charge to think first. You get a build-ready roadmap that's yours to keep — even if you never build with us. And if you do, half of the fee is credited toward your build, so it effectively costs you nothing."
       }
     },
     "cta": {
-      "title": "Free consultation",
+      "title": "Free 30-min diagnostic",
       "subtitle": "Let's talk about your project with no obligation. Afterwards you'll know exactly what's possible and what it costs."
     }
   },
@@ -1022,38 +1267,55 @@
       "ctaSubtitle": "Let's discuss how we can help you achieve similar results."
     },
     "weprospectify": {
-      "title": "B2B Sales Prospecting Platform",
-      "subtitle": "Full-stack SaaS platform that automates the entire B2B sales prospecting lifecycle.",
-      "industry": "Sales & B2B",
-      "keyMetric": "Full lifecycle automated",
+      "title": "From Airtable duct-tape to a scalable AI sales platform",
+      "subtitle": "We diagnosed the lead-gen bottleneck, stabilized the existing setup so revenue never stopped, then rebuilt it as an AI-first product — roughly tripling booked meetings along the way.",
+      "industry": "B2B SaaS · Sales",
+      "keyMetric": "~3× booked meetings",
+      "forWhom": "For: B2B SaaS sales teams running prospecting on duct-taped tools",
+      "deliveryModel": "Delivered by Z-Flow + a curated specialist team — working MVP in 8 weeks, full product in 12.",
       "challenge": {
-        "intro": "Sales teams waste hours every day on manual prospecting — searching for leads, writing personalized outreach, tracking responses across channels, and keeping CRM data in sync. The process is fragmented across multiple tools with no single source of truth.",
+        "intro": "WeProspectify was running its entire prospecting motion on a fragile stack of Airtable, spreadsheets and a few n8n flows. It worked — barely — but it couldn't scale, broke under load, and ate hours of manual work every week. The hard part: the duct-taped system was also the live revenue engine. It couldn't be switched off to be fixed.",
         "painPoints": [
-          "Manual lead research consuming 3+ hours daily per SDR",
-          "Generic outreach emails with low response rates",
-          "No unified view across email and LinkedIn campaigns",
-          "CRM data constantly out of sync with actual pipeline"
+          "20+ hours a week lost to manual lead research and list-building",
+          "A brittle Airtable + n8n setup that broke as volume grew",
+          "Outreach scattered across tools with no single source of truth",
+          "No clean schema to build on — every new channel meant more glue"
         ]
       },
       "solution": {
-        "intro": "We built WeProspectify — a multi-channel outreach platform that handles the full prospecting lifecycle from lead discovery to campaign execution. The platform integrates AI-powered personalization with automated campaign management.",
-        "approach": "Built on Next.js with Supabase for real-time data, n8n workflows handle the automation backbone — lead enrichment, campaign sequencing, and CRM sync. OpenAI generates personalized outreach based on prospect data. Stripe handles subscription billing for the SaaS model."
+        "intro": "We started with a diagnosis, not a rebuild. First we stabilized the existing Airtable + n8n engine so the team kept booking meetings while we worked. Then — underneath the running system — we re-architected it into a scalable, AI-first product on a proper schema, and migrated over without downtime.",
+        "approach": "The production rebuild runs on Next.js + Supabase with a clean, scalable schema. n8n orchestrates lead enrichment and multi-channel sequencing across Smartlead, HeyReach and Airtable. OpenAI powers personalization, and an MCP layer lets the system extend and scale with AI agents rather than more manual glue. Stripe handles SaaS billing. Same partner from the scrappy MVP to the production platform."
       },
       "results": {
         "metrics": [
-          { "label": "Lead research time", "before": "3+ hours/day", "after": "15 min/day", "improvement": "92% reduction" },
-          { "label": "Outreach personalization", "before": "Manual copy-paste", "after": "AI-generated", "improvement": "10x faster" },
-          { "label": "Campaign channels", "before": "Single channel", "after": "Multi-channel", "improvement": "Email + LinkedIn" }
+          {
+            "label": "Booked meetings / month",
+            "before": "Baseline",
+            "after": "~3× baseline",
+            "improvement": "~3× more meetings"
+          },
+          {
+            "label": "Manual prospecting time",
+            "before": "20+ hrs/week",
+            "after": "Largely automated",
+            "improvement": "20+ hrs/week saved"
+          },
+          {
+            "label": "Time to product",
+            "before": "Fragile MVP",
+            "after": "Scalable platform",
+            "improvement": "MVP in 8 wks · product in 12"
+          }
         ],
         "takeaways": [
-          "AI personalization significantly improves outreach quality when trained on good prospect data",
-          "n8n proved ideal for orchestrating complex multi-step automation sequences",
-          "Real-time Supabase sync keeps the entire pipeline visible without manual updates"
+          "Stabilize before you rebuild — the revenue engine kept running the whole time",
+          "A clean schema and an MCP layer let the product scale with AI agents, not more manual glue",
+          "One senior partner across MVP and production rebuild meant zero context loss"
         ]
       }
     },
     "layovr": {
-      "title": "Airport Passenger Experience App",
+      "title": "Helping layover travelers make the most of their time",
       "subtitle": "Travel platform helping passengers make the most of airport layovers with real-time data.",
       "industry": "Travel & Hospitality",
       "keyMetric": "Real-time flight integration",
@@ -1072,9 +1334,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Flight data", "before": "Manual lookup", "after": "Real-time API", "improvement": "Instant updates" },
-          { "label": "Airport services", "before": "Walk around", "after": "Location-based", "improvement": "Gate-specific" },
-          { "label": "Build timeline", "before": "Estimated 12 weeks", "after": "Delivered", "improvement": "6 weeks" }
+          {
+            "label": "Flight data",
+            "before": "Manual lookup",
+            "after": "Real-time API",
+            "improvement": "Instant updates"
+          },
+          {
+            "label": "Airport services",
+            "before": "Walk around",
+            "after": "Location-based",
+            "improvement": "Gate-specific"
+          },
+          {
+            "label": "Build timeline",
+            "before": "Estimated 12 weeks",
+            "after": "Delivered",
+            "improvement": "6 weeks"
+          }
         ],
         "takeaways": [
           "Aviation APIs require robust error handling — flight data can be delayed or inconsistent",
@@ -1084,7 +1361,7 @@
       }
     },
     "ai-video-generation": {
-      "title": "AI-Powered Marketing Video Generation",
+      "title": "50+ marketing videos a week, generated by AI",
       "subtitle": "Automated pipeline generating 50+ marketing videos weekly from single images.",
       "industry": "Media & Marketing",
       "keyMetric": "90% time reduction",
@@ -1103,9 +1380,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Weekly output", "before": "5-10 videos", "after": "50+ videos", "improvement": "5x increase" },
-          { "label": "Production time per video", "before": "2-3 hours", "after": "15 minutes", "improvement": "90% reduction" },
-          { "label": "Language support", "before": "Manual translation", "after": "Automated", "improvement": "Multi-language" }
+          {
+            "label": "Weekly output",
+            "before": "5-10 videos",
+            "after": "50+ videos",
+            "improvement": "5x increase"
+          },
+          {
+            "label": "Production time per video",
+            "before": "2-3 hours",
+            "after": "15 minutes",
+            "improvement": "90% reduction"
+          },
+          {
+            "label": "Language support",
+            "before": "Manual translation",
+            "after": "Automated",
+            "improvement": "Multi-language"
+          }
         ],
         "takeaways": [
           "Airtable as a user interface dramatically reduces training time for non-technical team members",
@@ -1115,7 +1407,7 @@
       }
     },
     "ai-voice-agent": {
-      "title": "AI Voice Agent for Customer Support",
+      "title": "85% of support inquiries handled without a human",
       "subtitle": "24/7 AI phone agent handling 85% of customer inquiries without human intervention.",
       "industry": "Construction",
       "keyMetric": "85% automated handling",
@@ -1134,9 +1426,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Inquiries automated", "before": "0%", "after": "85%", "improvement": "85% handled by AI" },
-          { "label": "Availability", "before": "Business hours only", "after": "24/7", "improvement": "Always available" },
-          { "label": "Customer satisfaction", "before": "Baseline", "after": "+40%", "improvement": "40% improvement" }
+          {
+            "label": "Inquiries automated",
+            "before": "0%",
+            "after": "85%",
+            "improvement": "85% handled by AI"
+          },
+          {
+            "label": "Availability",
+            "before": "Business hours only",
+            "after": "24/7",
+            "improvement": "Always available"
+          },
+          {
+            "label": "Customer satisfaction",
+            "before": "Baseline",
+            "after": "+40%",
+            "improvement": "40% improvement"
+          }
         ],
         "takeaways": [
           "Voice AI quality is now good enough for professional customer-facing applications",
@@ -1146,7 +1453,7 @@
       }
     },
     "lead-generation-pipeline": {
-      "title": "End-to-End Lead Generation Pipeline",
+      "title": "A lead pipeline that runs itself",
       "subtitle": "14 interconnected workflows creating a single source of truth for all lead data.",
       "industry": "Sales & B2B",
       "keyMetric": "70% faster response time",
@@ -1165,9 +1472,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Lead response time", "before": "4+ hours", "after": "Under 1 hour", "improvement": "70% faster" },
-          { "label": "Data accuracy", "before": "Manual sync", "after": "Automated", "improvement": "Zero duplicates" },
-          { "label": "Workflows", "before": "Manual process", "after": "14 automated", "improvement": "Fully orchestrated" }
+          {
+            "label": "Lead response time",
+            "before": "4+ hours",
+            "after": "Under 1 hour",
+            "improvement": "70% faster"
+          },
+          {
+            "label": "Data accuracy",
+            "before": "Manual sync",
+            "after": "Automated",
+            "improvement": "Zero duplicates"
+          },
+          {
+            "label": "Workflows",
+            "before": "Manual process",
+            "after": "14 automated",
+            "improvement": "Fully orchestrated"
+          }
         ],
         "takeaways": [
           "Process mapping before automation was critical — without understanding all data flows first, the workflows would have missed edge cases",
@@ -1177,7 +1499,7 @@
       }
     },
     "automated-invoicing": {
-      "title": "Automated Invoicing System",
+      "title": "95% fewer invoice errors, fully automated",
       "subtitle": "Complete invoicing lifecycle automated with 95% error reduction and full audit trail.",
       "industry": "Finance",
       "keyMetric": "95% fewer errors",
@@ -1196,9 +1518,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Invoice errors", "before": "~12%/month", "after": "<1%/month", "improvement": "95% reduction" },
-          { "label": "Processing time", "before": "Manual, 20+ min", "after": "One-click", "improvement": "90% faster" },
-          { "label": "Audit trail", "before": "None", "after": "Full tracking", "improvement": "100% compliant" }
+          {
+            "label": "Invoice errors",
+            "before": "~12%/month",
+            "after": "<1%/month",
+            "improvement": "95% reduction"
+          },
+          {
+            "label": "Processing time",
+            "before": "Manual, 20+ min",
+            "after": "One-click",
+            "improvement": "90% faster"
+          },
+          {
+            "label": "Audit trail",
+            "before": "None",
+            "after": "Full tracking",
+            "improvement": "100% compliant"
+          }
         ],
         "takeaways": [
           "Airtable as a front-end dramatically reduces training time compared to custom UI",
@@ -1208,7 +1545,7 @@
       }
     },
     "stripe-refund-automation": {
-      "title": "Automated Refund Processing System",
+      "title": "Refunds processed in 30 seconds, not 15 minutes",
       "subtitle": "One-click refund system processing 200+ daily refunds with zero manual errors.",
       "industry": "E-Commerce",
       "keyMetric": "30x faster processing",
@@ -1227,9 +1564,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Processing time", "before": "15 minutes", "after": "30 seconds", "improvement": "30x faster" },
-          { "label": "Daily capacity", "before": "~50 manual", "after": "200+ automated", "improvement": "4x throughput" },
-          { "label": "Error rate", "before": "~5% manual errors", "after": "0%", "improvement": "Zero errors" }
+          {
+            "label": "Processing time",
+            "before": "15 minutes",
+            "after": "30 seconds",
+            "improvement": "30x faster"
+          },
+          {
+            "label": "Daily capacity",
+            "before": "~50 manual",
+            "after": "200+ automated",
+            "improvement": "4x throughput"
+          },
+          {
+            "label": "Error rate",
+            "before": "~5% manual errors",
+            "after": "0%",
+            "improvement": "Zero errors"
+          }
         ],
         "takeaways": [
           "The simplest possible UI (a checkbox) drove the highest adoption rate",
@@ -1239,7 +1591,7 @@
       }
     },
     "car-supplier-integration": {
-      "title": "Car Supplier Data Integration",
+      "title": "500+ car listings synced every day, automatically",
       "subtitle": "Unified pipeline syncing 500+ vehicle listings daily from 3 supplier APIs.",
       "industry": "Automotive",
       "keyMetric": "500+ listings/day",
@@ -1258,9 +1610,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Daily listings synced", "before": "~50 manual", "after": "500+ automated", "improvement": "10x throughput" },
-          { "label": "Data sources", "before": "Manual per source", "after": "3 APIs unified", "improvement": "Single pipeline" },
-          { "label": "Inventory freshness", "before": "24-48 hour delay", "after": "Near real-time", "improvement": "Always current" }
+          {
+            "label": "Daily listings synced",
+            "before": "~50 manual",
+            "after": "500+ automated",
+            "improvement": "10x throughput"
+          },
+          {
+            "label": "Data sources",
+            "before": "Manual per source",
+            "after": "3 APIs unified",
+            "improvement": "Single pipeline"
+          },
+          {
+            "label": "Inventory freshness",
+            "before": "24-48 hour delay",
+            "after": "Near real-time",
+            "improvement": "Always current"
+          }
         ],
         "takeaways": [
           "Data normalization is the hardest part — each supplier has quirks that need handling",
@@ -1270,7 +1637,7 @@
       }
     },
     "invoice-distribution": {
-      "title": "Invoice Generation & Distribution",
+      "title": "Every invoice filed automatically, no manual sorting",
       "subtitle": "Automated invoice generation with smart filing and instant email delivery.",
       "industry": "Finance",
       "keyMetric": "Zero manual filing",
@@ -1289,9 +1656,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Filing accuracy", "before": "~85% correct", "after": "100% correct", "improvement": "Zero misfiling" },
-          { "label": "Delivery speed", "before": "Hours to days", "after": "Instant", "improvement": "Immediate" },
-          { "label": "Manual work", "before": "30+ min/batch", "after": "Zero", "improvement": "Fully automated" }
+          {
+            "label": "Filing accuracy",
+            "before": "~85% correct",
+            "after": "100% correct",
+            "improvement": "Zero misfiling"
+          },
+          {
+            "label": "Delivery speed",
+            "before": "Hours to days",
+            "after": "Instant",
+            "improvement": "Immediate"
+          },
+          {
+            "label": "Manual work",
+            "before": "30+ min/batch",
+            "after": "Zero",
+            "improvement": "Fully automated"
+          }
         ],
         "takeaways": [
           "Business rule complexity is often underestimated — mapping all scenarios before building is essential",
@@ -1301,7 +1683,7 @@
       }
     },
     "financial-folders": {
-      "title": "Financial Folder Organization",
+      "title": "Financial folders that organize themselves",
       "subtitle": "Dynamic folder structures for international accounting with zero manual filing.",
       "industry": "Finance",
       "keyMetric": "Zero manual filing",
@@ -1320,9 +1702,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Folder creation", "before": "Manual setup", "after": "Automatic", "improvement": "Rule-based" },
-          { "label": "Filing accuracy", "before": "Frequent errors", "after": "100% correct", "improvement": "Zero errors" },
-          { "label": "Standards compliance", "before": "Inconsistent", "after": "Standardized", "improvement": "Multi-jurisdiction" }
+          {
+            "label": "Folder creation",
+            "before": "Manual setup",
+            "after": "Automatic",
+            "improvement": "Rule-based"
+          },
+          {
+            "label": "Filing accuracy",
+            "before": "Frequent errors",
+            "after": "100% correct",
+            "improvement": "Zero errors"
+          },
+          {
+            "label": "Standards compliance",
+            "before": "Inconsistent",
+            "after": "Standardized",
+            "improvement": "Multi-jurisdiction"
+          }
         ],
         "takeaways": [
           "Accounting folder structures seem simple but have surprising edge cases across jurisdictions",
@@ -1332,7 +1729,7 @@
       }
     },
     "volunteer-management": {
-      "title": "Volunteer Management Platform",
+      "title": "Volunteer onboarding 80% faster",
       "subtitle": "Internal platform reducing volunteer onboarding time by 80% with role-based access.",
       "industry": "Non-Profit",
       "keyMetric": "80% faster onboarding",
@@ -1351,9 +1748,24 @@
       },
       "results": {
         "metrics": [
-          { "label": "Onboarding time", "before": "3-4 weeks", "after": "3-5 days", "improvement": "80% reduction" },
-          { "label": "Team access", "before": "Shared spreadsheet", "after": "Role-based platform", "improvement": "50+ users" },
-          { "label": "Background checks", "before": "Manual tracking", "after": "Automated workflow", "improvement": "Full audit trail" }
+          {
+            "label": "Onboarding time",
+            "before": "3-4 weeks",
+            "after": "3-5 days",
+            "improvement": "80% reduction"
+          },
+          {
+            "label": "Team access",
+            "before": "Shared spreadsheet",
+            "after": "Role-based platform",
+            "improvement": "50+ users"
+          },
+          {
+            "label": "Background checks",
+            "before": "Manual tracking",
+            "after": "Automated workflow",
+            "improvement": "Full audit trail"
+          }
         ],
         "takeaways": [
           "WeWeb + Xano is an excellent combination for internal tools that need role-based access",
@@ -1365,10 +1777,10 @@
   },
   "companyBrain": {
     "hero": {
-      "badge": "PRODUCT",
+      "badge": "BUILT IN-HOUSE",
       "title": "Company Brain",
-      "subtitle": "AI-powered organizational intelligence that connects to your team's tools and reveals how work actually happens — across code, conversations, documents, and tasks.",
-      "cta1": "Book a Demo",
+      "subtitle": "The AI org-intelligence platform we built for ourselves — it connects to your team's tools and reveals how work actually happens across code, conversations, documents, and tasks. It's also the kind of AI system we build for clients. Want one tuned to your stack? That starts with a Teardown.",
+      "cta1": "Book a free 30-min diagnostic",
       "cta2": "See How It Works"
     },
     "problem": {

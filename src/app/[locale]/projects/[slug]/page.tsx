@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { notFound } from 'next/navigation'
 import { projects, getProjectBySlug, getRelatedProjects } from '@/data/projects'
+import { getTestimonialById } from '@/data/testimonials'
 import type { Metadata } from 'next'
 import type { ProjectCategory } from '@/data/projects'
 import { locales } from '@/i18n/routing'
@@ -79,6 +80,20 @@ export default async function ProjectDetailPage({
   const takeaways = t.raw(`${slug}.results.takeaways`) as string[]
   const relatedProjects = getRelatedProjects(slug)
 
+  // Optional case-study enrichment fields (only render when present)
+  const forWhom = t.has(`${slug}.forWhom`) ? t(`${slug}.forWhom`) : null
+  const deliveryModel = t.has(`${slug}.deliveryModel`)
+    ? t(`${slug}.deliveryModel`)
+    : null
+  const testimonial = project.testimonialId
+    ? getTestimonialById(project.testimonialId)
+    : undefined
+  const testimonialQuote = testimonial
+    ? locale === 'de'
+      ? testimonial.quote_de
+      : testimonial.quote_en
+    : null
+
   return (
     <>
       {/* ───────── Hero ───────── */}
@@ -126,9 +141,36 @@ export default async function ProjectDetailPage({
             </h1>
 
             {/* Subtitle */}
-            <p className="hero-animate hero-animate-3 text-body-lg text-white/60 leading-relaxed max-w-3xl mb-16">
+            <p className="hero-animate hero-animate-3 text-body-lg text-white/60 leading-relaxed max-w-3xl mb-8">
               {t(`${slug}.subtitle`)}
             </p>
+
+            {/* For-whom chip + delivery model (optional) */}
+            {(forWhom || deliveryModel) && (
+              <div className="hero-animate hero-animate-3 flex flex-col sm:flex-row sm:items-center gap-3 mb-12">
+                {forWhom && (
+                  <span className="inline-flex items-center gap-2 rounded-full border border-brand-orange/30 bg-brand-orange/10 px-4 py-2 text-sm font-medium text-brand-orange">
+                    <svg
+                      className="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m6-1.13a4 4 0 10-4-4 4 4 0 004 4z"
+                      />
+                    </svg>
+                    {forWhom}
+                  </span>
+                )}
+                {deliveryModel && (
+                  <span className="text-sm text-white/50">{deliveryModel}</span>
+                )}
+              </div>
+            )}
 
             {/* Quick Facts */}
             <div className="hero-animate hero-animate-4 grid grid-cols-2 lg:grid-cols-4 gap-6">
@@ -357,6 +399,37 @@ export default async function ProjectDetailPage({
           </div>
         </div>
       </section>
+
+      {/* ───────── Testimonial ───────── */}
+      {testimonial && testimonialQuote && (
+        <section className="section-dark py-24 lg:py-32 relative overflow-hidden">
+          <div className="absolute inset-0 bg-grid opacity-20" />
+          <div className="glow-subtle top-1/2 left-1/4 -translate-y-1/2" />
+          <div
+            className="relative mx-auto max-w-4xl px-6 lg:px-8 text-center"
+            data-animate="blur-up"
+          >
+            <svg
+              className="w-12 h-12 text-brand-orange/40 mx-auto mb-8"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+            </svg>
+            <blockquote className="text-2xl lg:text-3xl font-medium text-white leading-relaxed mb-10">
+              “{testimonialQuote}”
+            </blockquote>
+            <div className="flex items-center justify-center gap-3">
+              <div className="text-left">
+                <p className="text-white font-semibold">{testimonial.name}</p>
+                <p className="text-white/50 text-sm">
+                  {testimonial.role} · {testimonial.company}
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ───────── Tech Stack ───────── */}
       <section className="section-gray py-24 lg:py-32">

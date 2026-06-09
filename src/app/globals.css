@@ -521,6 +521,19 @@ body {
   color: var(--color-text-primary);
 }
 
+.testimonials-section {
+  background: linear-gradient(135deg, #1a0a2e 0%, #2d1b40 25%, #4a2010 60%, #b8451a 100%);
+}
+
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+}
+
+.testimonial-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 /* Diagonal transition between sections */
 .diagonal-top {
   clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
