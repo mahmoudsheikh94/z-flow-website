@@ -7,7 +7,7 @@
   "common": {
     "navigation": {
       "services": "Services",
-      "teardown": "Teardown",
+      "teardown": "Operations Audit",
       "projects": "Projects",
       "process": "Process",
       "pricing": "Pricing",
@@ -78,12 +78,12 @@
       "description": "Real digitalization projects: process automation, custom software, and AI integration. See how we helped businesses save 90% on manual tasks, automate sales pipelines, and build production-ready platforms."
     },
     "process": {
-      "title": "Our Process | Growth-Ops Teardown, Solution Design, Build & Handover",
+      "title": "Our Process | Operations Audit, Solution Design, Build & Handover",
       "description": "Process-first development: we audit your workflows, design the right solution, build in weekly sprints, and hand over everything. Fixed prices, full documentation, no vendor lock-in."
     },
     "teardown": {
-      "title": "Growth-Ops Teardown | Find your B2B SaaS bottleneck in 5 days",
-      "description": "A fixed-fee €2,500 Growth-Ops Teardown for B2B SaaS teams: we map where you lose hours and revenue and hand you a build-ready roadmap in 5 business days. 50% credited toward your build. Roadmap in 5 days or it's free."
+      "title": "Operations Audit | Find what to automate first — in 5 days",
+      "description": "A fixed-fee €2,500 Operations Audit for growing companies: we map your workflows and show you exactly what to automate first — and what it's worth — in 5 business days. 50% credited toward your build. Roadmap in 5 days or it's free."
     },
     "digitalisierung": {
       "title": "Digitalisierung für den Mittelstand | Z-Flow Berlin",
@@ -91,7 +91,7 @@
     },
     "pricing": {
       "title": "Pricing | Automation, Software & AI — Transparent Fixed Prices",
-      "description": "Transparent fixed pricing. Most engagements start with a €2,500 Growth-Ops Teardown (50% credited): automation from €6,000, MVP development from €18,000, AI integration from €5,000. Free 30-min diagnostic call included."
+      "description": "Transparent fixed pricing. Most engagements start with a €2,500 Operations Audit (50% credited): automation from €6,000, MVP development from €18,000, AI integration from €5,000. Free 30-min diagnostic call included."
     },
     "about": {
       "title": "About Z-Flow | Digitalization Partner Berlin",
@@ -118,7 +118,7 @@
     "hero": {
       "tagline": "We find the bottleneck.",
       "headline": "Then we build the fix.",
-      "subheadline": "We're the operator-engineers funded B2B SaaS teams bring in to automate the busywork and build the software they can't hire fast enough to build themselves. We find where you lose hours and revenue — then we ship.",
+      "subheadline": "We're the operator-engineers that growing companies bring in to automate the manual work and build the software they can't hire fast enough to build themselves. We find where you lose hours and revenue — then we ship.",
       "meetFounder": "Meet Mahmoud"
     },
     "trustSignals": {
@@ -646,9 +646,9 @@
   },
   "teardown": {
     "hero": {
-      "badge": "Growth-Ops Teardown",
-      "title": "Find your bottleneck in 5 days.",
-      "subtitle": "A fixed-fee diagnostic for B2B SaaS teams. We map exactly where you lose hours and revenue, then hand you a build-ready roadmap — the spec your next automation or product is built from.",
+      "badge": "Operations Audit",
+      "title": "Find what to automate first — in 5 days.",
+      "subtitle": "A fixed-fee diagnostic for growing companies. We map your business's workflows and show you exactly what to automate first — and what it's worth — then hand you a build-ready roadmap, the spec your next automation or product is built from.",
       "priceLabel": "Fixed fee",
       "price": "€2,500",
       "priceNote": "50% credited toward your build",
@@ -660,7 +660,7 @@
       "title": "A paid diagnosis, not a sales call.",
       "intro": "Most agencies guess, quote, and start building. We charge to think first — because the roadmap is the most valuable thing we can give you, whether or not you build with us. You walk away with a plan you could hand to any team.",
       "points": [
-        "A senior operator-engineer maps your real growth and ops workflows",
+        "A senior operator-engineer maps your team's real workflows and manual work",
         "We quantify the time and revenue leaking out of each one",
         "You get a prioritized 90-day roadmap and a build-ready spec of your #1 quick win",
         "Platform-agnostic — we recommend what actually fits, not what we sell"
@@ -729,21 +729,21 @@
       ]
     },
     "proof": {
-      "quote": "We diagnosed WeProspectify's lead-gen bottleneck, stabilized their setup so revenue never stopped, then rebuilt it as a scalable AI-first platform — roughly tripling booked meetings and saving 20+ hours a week.",
-      "linkLabel": "Read the full Weprospectify case →"
+      "quote": "For Movacar, an established mobility company, we automated supplier integrations, end-to-end refunds into their accounting, and a support chatbot — and became their ongoing technical partner. For WeProspectify, we stabilized a duct-taped setup then rebuilt it, roughly tripling booked meetings and saving 20+ hours a week.",
+      "linkLabel": "See the projects →"
     },
     "cta": {
       "title": "Find out where you're leaking hours and revenue.",
-      "subtitle": "Start with a free 30-min diagnostic. If there's a fit, we'll scope your Growth-Ops Teardown on the call.",
+      "subtitle": "Start with a free 30-min diagnostic. If there's a fit, we'll scope your Operations Audit on the call.",
       "button": "Book a free 30-min diagnostic"
     },
     "faq": {
       "badge": "FAQ",
-      "title": "Questions about the Teardown",
+      "title": "Questions about the Operations Audit",
       "items": [
-        { "q": "What is a Growth-Ops Teardown?", "a": "A Growth-Ops Teardown is a paid diagnostic for B2B SaaS teams. A senior operator-engineer maps your real growth and ops workflows, quantifies where you lose hours and revenue, and hands you a build-ready roadmap — the spec your next automation or product is built from. It costs €2,500 and takes 5 business days." },
+        { "q": "What is an Operations Audit?", "a": "An Operations Audit is a paid diagnostic for growing companies. A senior operator-engineer maps your team's real workflows and manual work, quantifies where you lose hours and revenue, and shows you exactly what to automate first — handing you a build-ready roadmap, the spec your next automation or product is built from. It costs €2,500 and takes 5 business days." },
         { "q": "What do I actually get?", "a": "You get a 12–20 page build-ready roadmap: current-state workflow maps, a quantified time and revenue leak table, a prioritized 90-day roadmap, and a build-ready spec of your single highest-impact quick win — delivered on a 45-minute walkthrough call. It's a plan you could hand to any team, whether or not you build with us." },
-        { "q": "How much does it cost?", "a": "The Growth-Ops Teardown is a fixed €2,500. If you go on to a build with us within 60 days, 50% of the Teardown fee is credited toward it — so half of it effectively comes back." },
+        { "q": "How much does it cost?", "a": "The Operations Audit is a fixed €2,500. If you go on to a build with us within 60 days, 50% of the Audit fee is credited toward it — so half of it effectively comes back." },
         { "q": "How long does it take, and what if you're late?", "a": "Five business days from our discovery call. Your roadmap arrives in 5 business days or it's free — that's the guarantee. We only need about 90 minutes of your time: one discovery call plus read-only access to two or three systems." }
       ]
     }
@@ -826,7 +826,7 @@
       },
       "fixedPrices": {
         "title": "Fixed prices",
-        "description": "After the Growth-Ops Teardown you receive a binding fixed-price quote."
+        "description": "After the Operations Audit you receive a binding fixed-price quote."
       },
       "flexible": {
         "title": "Flexible with changes",
@@ -839,9 +839,9 @@
       "activities": "Activities",
       "deliverables": "Deliverables",
       "discovery": {
-        "title": "Growth-Ops Teardown",
+        "title": "Operations Audit",
         "duration": "5 business days",
-        "description": "Our paid diagnostic (€2,500, 50% credited toward your build): we map your current workflows, identify bottlenecks, and define the right approach — producing a build-ready roadmap and a fixed-price quote.",
+        "description": "Our paid diagnostic (€2,500, 50% credited toward your build): we map your current workflows, identify what to automate first, and define the right approach — producing a build-ready roadmap and a fixed-price quote.",
         "deliverable1": "Process map & bottleneck analysis",
         "deliverable2": "Solution recommendation",
         "deliverable3": "Project roadmap",
@@ -854,7 +854,7 @@
       "design": {
         "title": "Solution Design",
         "duration": "1-2 weeks",
-        "description": "Based on the Growth-Ops Teardown, we design the right solution — whether that's workflows, a web app, or AI integration.",
+        "description": "Based on the Operations Audit, we design the right solution — whether that's workflows, a web app, or AI integration.",
         "deliverable1": "Wireframes / Mockups",
         "deliverable2": "Interactive prototype",
         "deliverable3": "Technical architecture",
@@ -919,11 +919,11 @@
     "hero": {
       "badge": "PRICING",
       "title": "Transparent fixed prices",
-      "subtitle": "Most engagements start with a Growth-Ops Teardown. No hidden costs, no hourly rates that explode. You know upfront what it costs."
+      "subtitle": "Most engagements start with an Operations Audit. No hidden costs, no hourly rates that explode. You know upfront what it costs."
     },
     "packages": {
       "teardown": {
-        "name": "Growth-Ops Teardown",
+        "name": "Operations Audit",
         "description": "The entry point. A build-ready roadmap that turns your operations into a clear plan.",
         "price": "€2,500",
         "duration": "5 business days",
@@ -948,7 +948,7 @@
         "feature5": "Deployment & hosting setup",
         "feature6": "Complete documentation",
         "feature7": "After-launch support included",
-        "feature8": "50% of your Teardown fee credited here",
+        "feature8": "50% of your Audit fee credited here",
         "cta": "Discuss MVP"
       },
       "automation": {
@@ -962,7 +962,7 @@
         "feature4": "Error handling & monitoring",
         "feature5": "Documentation & training",
         "feature6": "30 days support",
-        "feature7": "50% of your Teardown fee credited here",
+        "feature7": "50% of your Audit fee credited here",
         "cta": "Analyze process"
       },
       "training": {
@@ -999,7 +999,7 @@
       "title": "Frequently asked questions about pricing",
       "q1": {
         "question": "How does pricing work?",
-        "answer": "After a free diagnostic and a paid Growth-Ops Teardown, you receive a binding fixed-price quote — with 50% of the Teardown fee credited toward your build. No surprises."
+        "answer": "After a free diagnostic and a paid Operations Audit, you receive a binding fixed-price quote — with 50% of the Audit fee credited toward your build. No surprises."
       },
       "q2": {
         "question": "What's not included in the price?",
@@ -1014,7 +1014,7 @@
         "answer": "Changes are possible. We transparently communicate the impact on time and budget before you make a decision."
       },
       "q5": {
-        "question": "Why pay for a Teardown?",
+        "question": "Why pay for an Operations Audit?",
         "answer": "Because we charge to think first. You get a build-ready roadmap that's yours to keep — even if you never build with us. And if you do, half of the fee is credited toward your build, so it effectively costs you nothing."
       }
     },
@@ -1788,7 +1788,7 @@
     "hero": {
       "badge": "BUILT IN-HOUSE",
       "title": "Company Brain",
-      "subtitle": "The AI org-intelligence platform we built for ourselves — it connects to your team's tools and reveals how work actually happens across code, conversations, documents, and tasks. It's also the kind of AI system we build for clients. Want one tuned to your stack? That starts with a Teardown.",
+      "subtitle": "The AI org-intelligence platform we built for ourselves — it connects to your team's tools and reveals how work actually happens across code, conversations, documents, and tasks. It's also the kind of AI system we build for clients. Want one tuned to your stack? That starts with an Operations Audit.",
       "cta1": "Book a free 30-min diagnostic",
       "cta2": "See How It Works"
     },
@@ -2047,8 +2047,8 @@
     },
     "posts": {
       "20-workflows-saas-teams-automate-first": {
-        "title": "20 Workflows B2B SaaS Teams Should Automate First",
-        "description": "A practical checklist of the 20 highest-impact workflows funded B2B SaaS teams automate first — across sales, ops, onboarding, and reporting — with the tools and time savings for each.",
+        "title": "20 Workflows Growing Companies Should Automate First",
+        "description": "A practical checklist of the 20 highest-impact workflows growing companies automate first — across sales, ops, onboarding, and reporting — with the tools and time savings for each.",
         "excerpt": "The 20 manual workflows quietly eating your team's week — and the order to automate them in. A field guide from the bottlenecks we fix most."
       },
       "what-is-company-brain": {

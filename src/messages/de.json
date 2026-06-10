@@ -7,7 +7,7 @@
   "common": {
     "navigation": {
       "services": "Leistungen",
-      "teardown": "Teardown",
+      "teardown": "Operations-Analyse",
       "projects": "Projekte",
       "process": "Prozess",
       "pricing": "Preise",
@@ -78,12 +78,12 @@
       "description": "Echte Digitalisierungsprojekte: Prozessautomatisierung, individuelle Software und KI-Integration. Sehen Sie wie wir Unternehmen geholfen haben, 90% manuelle Arbeit zu sparen und Prozesse zu digitalisieren."
     },
     "process": {
-      "title": "Unser Prozess | Growth-Ops Teardown, Lösungsdesign, Build & Übergabe",
+      "title": "Unser Prozess | Operations-Analyse, Lösungsdesign, Build & Übergabe",
       "description": "Prozess-zuerst Entwicklung: Wir analysieren Ihre Workflows, designen die richtige Lösung, bauen in wöchentlichen Sprints und übergeben alles. Festpreise, volle Dokumentation, kein Vendor Lock-in."
     },
     "teardown": {
-      "title": "Growth-Ops Teardown | Euren B2B-SaaS-Engpass in 5 Tagen finden",
-      "description": "Ein Growth-Ops Teardown zum Festpreis von 2.500€ für B2B-SaaS-Teams: Wir zeigen, wo ihr Stunden und Umsatz verliert, und liefern in 5 Werktagen eine build-fertige Roadmap. 50% werden auf euren Build angerechnet. Roadmap in 5 Tagen oder kostenlos."
+      "title": "Operations-Analyse | In 5 Tagen finden, was zuerst zu automatisieren ist",
+      "description": "Eine Operations-Analyse zum Festpreis von 2.500€ für wachsende Unternehmen: Wir kartieren eure Workflows und zeigen genau, was zuerst zu automatisieren ist — und was es wert ist — in 5 Werktagen. 50% werden auf euren Build angerechnet. Roadmap in 5 Tagen oder kostenlos."
     },
     "digitalisierung": {
       "title": "Digitalisierung für den Mittelstand | Z-Flow Berlin",
@@ -91,7 +91,7 @@
     },
     "pricing": {
       "title": "Preise | Automatisierung, Software & KI — Transparente Festpreise",
-      "description": "Transparente Festpreise. Die meisten Projekte starten mit einem Growth-Ops Teardown für 2.500€ (50% angerechnet): Automatisierung ab 6.000€, MVP-Entwicklung ab 18.000€, KI-Integration ab 5.000€. Kostenloses 30-Min-Erstgespräch inklusive."
+      "description": "Transparente Festpreise. Die meisten Projekte starten mit einer Operations-Analyse für 2.500€ (50% angerechnet): Automatisierung ab 6.000€, MVP-Entwicklung ab 18.000€, KI-Integration ab 5.000€. Kostenloses 30-Min-Erstgespräch inklusive."
     },
     "about": {
       "title": "Über Z-Flow | Digitalisierungspartner Berlin",
@@ -118,7 +118,7 @@
     "hero": {
       "tagline": "Wir finden den Engpass.",
       "headline": "Dann bauen wir die Lösung.",
-      "subheadline": "Wir sind die Operator-Engineers, die B2B-SaaS-Teams holen, um Fleißarbeit zu automatisieren und die Software zu bauen, für die sie nicht schnell genug einstellen können. Wir finden, wo ihr Stunden und Umsatz verliert — dann liefern wir.",
+      "subheadline": "Wir sind die Operator-Engineers, die wachsende Unternehmen holen, um manuelle Arbeit zu automatisieren und die Software zu bauen, für die sie nicht schnell genug einstellen können. Wir finden, wo ihr Stunden und Umsatz verliert — dann liefern wir.",
       "meetFounder": "Mahmoud kennenlernen"
     },
     "trustSignals": {
@@ -646,9 +646,9 @@
   },
   "teardown": {
     "hero": {
-      "badge": "Growth-Ops Teardown",
-      "title": "Findet euren Engpass in 5 Tagen.",
-      "subtitle": "Eine Diagnose zum Festpreis für B2B-SaaS-Teams. Wir zeigen genau, wo ihr Stunden und Umsatz verliert, und liefern eine build-fertige Roadmap — die Spezifikation, aus der eure nächste Automatisierung oder euer Produkt entsteht.",
+      "badge": "Operations-Analyse",
+      "title": "Findet in 5 Tagen, was zuerst zu automatisieren ist.",
+      "subtitle": "Eine Diagnose zum Festpreis für wachsende Unternehmen. Wir kartieren die Workflows eures Unternehmens und zeigen genau, was zuerst zu automatisieren ist — und was es wert ist — und liefern eine build-fertige Roadmap, die Spezifikation, aus der eure nächste Automatisierung oder euer Produkt entsteht.",
       "priceLabel": "Festpreis",
       "price": "2.500€",
       "priceNote": "50% werden auf euren Build angerechnet",
@@ -660,7 +660,7 @@
       "title": "Eine bezahlte Diagnose, kein Verkaufsgespräch.",
       "intro": "Die meisten Agenturen raten, bieten an und legen los. Wir lassen uns das Denken zuerst bezahlen — denn die Roadmap ist das Wertvollste, das wir euch geben können, ob ihr mit uns baut oder nicht. Ihr geht mit einem Plan, den ihr jedem Team in die Hand drücken könntet.",
       "points": [
-        "Ein Senior Operator-Engineer kartiert eure echten Growth- und Ops-Workflows",
+        "Ein Senior Operator-Engineer kartiert die echten Workflows und manuelle Arbeit eures Teams",
         "Wir quantifizieren die Zeit und den Umsatz, die in jedem davon verloren gehen",
         "Ihr erhaltet eine priorisierte 90-Tage-Roadmap und eine build-fertige Spezifikation eures wichtigsten Quick Wins",
         "Plattform-agnostisch — wir empfehlen, was wirklich passt, nicht was wir verkaufen"
@@ -729,21 +729,21 @@
       ]
     },
     "proof": {
-      "quote": "Wir haben den Lead-Gen-Engpass von WeProspectify diagnostiziert, das Setup stabilisiert, sodass der Umsatz nie stoppte, und es dann als skalierbare KI-first-Plattform neu gebaut — und dabei die gebuchten Meetings etwa verdreifacht und 20+ Stunden pro Woche gespart.",
-      "linkLabel": "Den ganzen Weprospectify-Case lesen →"
+      "quote": "Für Movacar, ein etabliertes Mobilitätsunternehmen, haben wir Lieferanten-Integrationen, Ende-zu-Ende-Rückerstattungen in die Buchhaltung und einen Support-Chatbot automatisiert — und wurden ihr fester technischer Partner. Für WeProspectify haben wir ein zusammengeflicktes Setup stabilisiert und neu gebaut — gebuchte Meetings etwa verdreifacht, 20+ Stunden/Woche gespart.",
+      "linkLabel": "Die Projekte ansehen →"
     },
     "cta": {
       "title": "Findet heraus, wo euch Stunden und Umsatz verloren gehen.",
-      "subtitle": "Startet mit einem kostenlosen 30-Min-Erstgespräch. Wenn es passt, scopen wir euren Growth-Ops Teardown direkt im Call.",
+      "subtitle": "Startet mit einem kostenlosen 30-Min-Erstgespräch. Wenn es passt, scopen wir eure Operations-Analyse direkt im Call.",
       "button": "Kostenloses 30-Min-Erstgespräch buchen"
     },
     "faq": {
       "badge": "FAQ",
-      "title": "Fragen zum Teardown",
+      "title": "Fragen zur Operations-Analyse",
       "items": [
-        { "q": "Was ist ein Growth-Ops Teardown?", "a": "Ein Growth-Ops Teardown ist eine bezahlte Diagnose für B2B-SaaS-Teams. Ein Senior Operator-Engineer kartiert eure echten Growth- und Ops-Workflows, beziffert, wo ihr Stunden und Umsatz verliert, und liefert eine build-fertige Roadmap — die Spezifikation, aus der eure nächste Automatisierung oder euer Produkt entsteht. Er kostet 2.500€ und dauert 5 Werktage." },
+        { "q": "Was ist eine Operations-Analyse?", "a": "Eine Operations-Analyse ist eine bezahlte Diagnose für wachsende Unternehmen. Ein Senior Operator-Engineer kartiert die echten Workflows und manuelle Arbeit eures Teams, beziffert, wo ihr Stunden und Umsatz verliert, und zeigt genau, was zuerst zu automatisieren ist — und liefert eine build-fertige Roadmap, die Spezifikation, aus der eure nächste Automatisierung oder euer Produkt entsteht. Sie kostet 2.500€ und dauert 5 Werktage." },
         { "q": "Was bekomme ich konkret?", "a": "Ihr erhaltet eine build-fertige Roadmap auf 12–20 Seiten: Workflow-Maps des Ist-Zustands, eine quantifizierte Zeit- und Umsatz-Leck-Tabelle, eine priorisierte 90-Tage-Roadmap und eine build-fertige Spezifikation eures wichtigsten Quick Wins — übergeben in einem 45-minütigen Walkthrough-Call. Ein Plan, den ihr jedem Team geben könntet, ob ihr mit uns baut oder nicht." },
-        { "q": "Was kostet es?", "a": "Der Growth-Ops Teardown kostet fix 2.500€. Wenn ihr innerhalb von 60 Tagen mit uns einen Build startet, werden 50% der Teardown-Gebühr darauf angerechnet — die Hälfte kommt also effektiv zurück." },
+        { "q": "Was kostet es?", "a": "Die Operations-Analyse kostet fix 2.500€. Wenn ihr innerhalb von 60 Tagen mit uns einen Build startet, werden 50% der Analyse-Gebühr darauf angerechnet — die Hälfte kommt also effektiv zurück." },
         { "q": "Wie lange dauert es, und was, wenn ihr zu spät seid?", "a": "Fünf Werktage ab unserem Discovery-Call. Eure Roadmap kommt in 5 Werktagen oder sie ist kostenlos — das ist die Garantie. Wir brauchen nur rund 90 Minuten eurer Zeit: einen Discovery-Call plus Lesezugriff auf zwei bis drei Systeme." }
       ]
     }
@@ -826,7 +826,7 @@
       },
       "fixedPrices": {
         "title": "Fixpreise",
-        "description": "Nach dem Growth-Ops Teardown erhalten Sie ein verbindliches Festpreisangebot."
+        "description": "Nach der Operations-Analyse erhalten Sie ein verbindliches Festpreisangebot."
       },
       "flexible": {
         "title": "Flexibel bei Änderungen",
@@ -839,9 +839,9 @@
       "activities": "Aktivitäten",
       "deliverables": "Deliverables",
       "discovery": {
-        "title": "Growth-Ops Teardown (Prozess-Analyse)",
+        "title": "Operations-Analyse",
         "duration": "5 Werktage",
-        "description": "Unsere kostenpflichtige Analyse (2.500€, 50% auf den Build angerechnet): Wir analysieren Ihre aktuellen Workflows, identifizieren Engpässe und definieren den richtigen Ansatz — und liefern eine build-fertige Roadmap sowie ein Festpreisangebot.",
+        "description": "Unsere kostenpflichtige Analyse (2.500€, 50% auf den Build angerechnet): Wir analysieren Ihre aktuellen Workflows, identifizieren, was zuerst zu automatisieren ist, und definieren den richtigen Ansatz — und liefern eine build-fertige Roadmap sowie ein Festpreisangebot.",
         "deliverable1": "Prozessanalyse & Engpass-Identifikation",
         "deliverable2": "Lösungsempfehlung",
         "deliverable3": "Projekt-Roadmap",
@@ -854,7 +854,7 @@
       "design": {
         "title": "Lösungsdesign",
         "duration": "1-2 Wochen",
-        "description": "Basierend auf dem Growth-Ops Teardown entwerfen wir die richtige Lösung — ob Workflows, Web-App oder KI-Integration.",
+        "description": "Basierend auf der Operations-Analyse entwerfen wir die richtige Lösung — ob Workflows, Web-App oder KI-Integration.",
         "deliverable1": "Wireframes / Mockups",
         "deliverable2": "Interaktiver Prototyp",
         "deliverable3": "Technische Architektur",
@@ -919,11 +919,11 @@
     "hero": {
       "badge": "PREISE",
       "title": "Transparente Festpreise",
-      "subtitle": "Die meisten Projekte beginnen mit einem Growth-Ops Teardown. Keine versteckten Kosten, keine Stundenabrechnungen die explodieren. Sie wissen vorher, was es kostet."
+      "subtitle": "Die meisten Projekte beginnen mit einer Operations-Analyse. Keine versteckten Kosten, keine Stundenabrechnungen die explodieren. Sie wissen vorher, was es kostet."
     },
     "packages": {
       "teardown": {
-        "name": "Growth-Ops Teardown",
+        "name": "Operations-Analyse",
         "description": "Der Einstieg. Eine umsetzungsreife Roadmap, die Ihre Abläufe in einen klaren Plan überführt.",
         "price": "2.500€",
         "duration": "5 Werktage",
@@ -948,7 +948,7 @@
         "feature5": "Deployment & Hosting-Setup",
         "feature6": "Vollständige Dokumentation",
         "feature7": "After-Launch-Support inklusive",
-        "feature8": "50% Ihrer Teardown-Gebühr werden hier angerechnet",
+        "feature8": "50% Ihrer Analyse-Gebühr werden hier angerechnet",
         "cta": "MVP besprechen"
       },
       "automation": {
@@ -962,7 +962,7 @@
         "feature4": "Fehlerbehandlung & Monitoring",
         "feature5": "Dokumentation & Training",
         "feature6": "30 Tage Support",
-        "feature7": "50% Ihrer Teardown-Gebühr werden hier angerechnet",
+        "feature7": "50% Ihrer Analyse-Gebühr werden hier angerechnet",
         "cta": "Prozess analysieren"
       },
       "training": {
@@ -999,7 +999,7 @@
       "title": "Häufige Fragen zu Preisen",
       "q1": {
         "question": "Wie funktioniert die Preisfindung?",
-        "answer": "Nach einem kostenlosen Erstgespräch und einem kostenpflichtigen Growth-Ops Teardown erhalten Sie ein verbindliches Festpreisangebot — wobei 50% der Teardown-Gebühr auf Ihren Build angerechnet werden. Keine Überraschungen."
+        "answer": "Nach einem kostenlosen Erstgespräch und einer kostenpflichtigen Operations-Analyse erhalten Sie ein verbindliches Festpreisangebot — wobei 50% der Analyse-Gebühr auf Ihren Build angerechnet werden. Keine Überraschungen."
       },
       "q2": {
         "question": "Was ist nicht im Preis enthalten?",
@@ -1014,7 +1014,7 @@
         "answer": "Änderungen sind möglich. Wir kommunizieren transparent die Auswirkungen auf Zeit und Budget, bevor Sie eine Entscheidung treffen."
       },
       "q5": {
-        "question": "Warum für einen Teardown bezahlen?",
+        "question": "Warum für eine Operations-Analyse bezahlen?",
         "answer": "Weil wir dafür bezahlt werden, zuerst zu denken. Sie erhalten eine umsetzungsreife Roadmap, die Ihnen gehört — auch wenn Sie nie mit uns bauen. Und wenn doch, werden 50% der Gebühr auf Ihren Build angerechnet, sodass er Sie praktisch nichts kostet."
       }
     },
@@ -1788,7 +1788,7 @@
     "hero": {
       "badge": "SELBST GEBAUT",
       "title": "Company Brain",
-      "subtitle": "Die KI-Org-Intelligence-Plattform, die wir für uns selbst gebaut haben — sie verbindet sich mit den Tools eures Teams und zeigt, wie Arbeit wirklich passiert: über Code, Kommunikation, Dokumente und Aufgaben hinweg. Es ist auch die Art von KI-System, die wir für Kunden bauen. Wollt ihr eines, abgestimmt auf euren Stack? Das beginnt mit einem Teardown.",
+      "subtitle": "Die KI-Org-Intelligence-Plattform, die wir für uns selbst gebaut haben — sie verbindet sich mit den Tools eures Teams und zeigt, wie Arbeit wirklich passiert: über Code, Kommunikation, Dokumente und Aufgaben hinweg. Es ist auch die Art von KI-System, die wir für Kunden bauen. Wollt ihr eines, abgestimmt auf euren Stack? Das beginnt mit einer Operations-Analyse.",
       "cta1": "Kostenloses 30-Min-Erstgespräch buchen",
       "cta2": "So funktioniert's"
     },
@@ -2047,8 +2047,8 @@
     },
     "posts": {
       "20-workflows-saas-teams-automate-first": {
-        "title": "20 Workflows, die B2B-SaaS-Teams zuerst automatisieren sollten",
-        "description": "Eine praktische Checkliste der 20 wirkungsvollsten Workflows, die B2B-SaaS-Teams zuerst automatisieren — in Sales, Ops, Onboarding und Reporting — inklusive Tools und Zeitersparnis je Workflow.",
+        "title": "20 Workflows, die wachsende Unternehmen zuerst automatisieren sollten",
+        "description": "Eine praktische Checkliste der 20 wirkungsvollsten Workflows, die wachsende Unternehmen zuerst automatisieren — in Sales, Ops, Onboarding und Reporting — inklusive Tools und Zeitersparnis je Workflow.",
         "excerpt": "Die 20 manuellen Workflows, die eurem Team still die Woche auffressen — und die Reihenfolge, in der ihr sie automatisieren solltet."
       },
       "what-is-company-brain": {

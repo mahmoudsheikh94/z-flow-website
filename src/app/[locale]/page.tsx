@@ -250,7 +250,7 @@ export default async function Home({
           </div>
 
           <div className="text-center mt-16" data-animate="fade-up" data-delay="400">
-            <Link href="/growth-ops-teardown" locale={locale} className="btn btn-outline">
+            <Link href="/operations-audit" locale={locale} className="btn btn-outline">
               {t('process.detailCta')}
             </Link>
           </div>

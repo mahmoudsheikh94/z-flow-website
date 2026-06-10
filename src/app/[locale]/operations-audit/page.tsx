@@ -26,13 +26,13 @@ export default async function GrowthOpsTeardownPage({
   }[]
   const faqItems = t.raw('faq.items') as { q: string; a: string }[]
 
-  const teardownUrl = `https://z-flow.de/${locale}/growth-ops-teardown`
+  const teardownUrl = `https://z-flow.de/${locale}/operations-audit`
 
   return (
     <>
       <JsonLd
         data={schemas.service({
-          name: 'Growth-Ops Teardown',
+          name: 'Operations Audit',
           description: t('hero.subtitle'),
           url: teardownUrl,
           price: '2500',
@@ -247,7 +247,7 @@ export default async function GrowthOpsTeardownPage({
             “{t('proof.quote')}”
           </blockquote>
           <Link
-            href="/projects/weprospectify"
+            href="/projects"
             locale={locale}
             className="text-brand-orange font-medium inline-flex items-center gap-2 hover:gap-3 transition-all duration-500"
           >

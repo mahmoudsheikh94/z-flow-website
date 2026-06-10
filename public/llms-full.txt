@@ -1,11 +1,11 @@
 # Z-Flow - Complete Business Information
-# Operator-Engineering for B2B SaaS | Automation, Custom Software & AI, built in Berlin
+# Operator-Engineering for Established SMBs | Automation, Custom Software & AI, built in Berlin
 
 ================================================================================
 ## COMPANY OVERVIEW
 ================================================================================
 
-Z-Flow is the operator-engineer that funded B2B SaaS teams bring in to find where they lose hours and revenue — then build the fix, from automation to production software, in weeks not quarters. One senior partner, backed by a vetted specialist network, so delivery never stalls. We diagnose like a consultant and ship like a senior engineer.
+Z-Flow is the operator-engineer that established, profitable SMBs bring in when they have no internal automation or engineering talent — to find where they lose hours and money, then build the fix, from automation to production software, in weeks not quarters. One senior partner, backed by a vetted specialist network, so delivery never stalls. We diagnose like a consultant and ship like a senior engineer.
 
 **Founder**: Mahmoud Sheikh Alard
 **Location**: Berlin, Germany
@@ -14,12 +14,15 @@ Z-Flow is the operator-engineer that funded B2B SaaS teams bring in to find wher
 **Address**: Menzelstraße 3, 12157 Berlin, Germany
 
 **Who we help**:
-- Spearhead: funded B2B SaaS (seed–Series B, 11–200 people) with a sales/ops/growth bottleneck and no internal RevOps team yet — especially companies hiring an ops/RevOps role right now.
-- Secondary: German Mittelstand / industrial SMEs digitizing manual, spreadsheet-driven processes (see /digitalisierung).
+- Spearhead: established, profitable SMBs with no internal automation or engineering talent. Two tiers:
+  - Tier 1 — software-literate service businesses (~10–50 people): digital/marketing agencies, e-commerce/DTC brands, recruiting/staffing firms, professional services. They move fast and convert quickly.
+  - Tier 2 — German Mittelstand / industrial (up to ~300 people, profitable, not VC-funded): manufacturing, mobility/logistics, wholesale/distribution, construction/trades. Bigger, stickier engagements (see /digitalisierung).
+- Secondary: small B2B SaaS — warm-referral only. They tend to DIY, so we don't cold-target them.
+- Buyer: the owner / managing director / founder, or a Head of Digitalisierung / COO with a modernization mandate.
 
 **How we start (the offer ladder)**:
 1. Free 30-min diagnostic call — confirm the fit and one quick win. No obligation.
-2. Growth-Ops Teardown — €2,500, delivered in 5 business days, 50% credited toward your build. A paid diagnostic that produces a build-ready roadmap. Guarantee: your roadmap in 5 business days, or it's free.
+2. Operations Audit — €2,500, delivered in 5 business days, 50% credited toward your build. A paid diagnostic that maps your workflows and shows you exactly what to automate first — and what it's worth — producing a build-ready roadmap. Guarantee: your roadmap in 5 business days, or it's free.
 3. Build — fixed-quoted from the roadmap (Quick Win → Sprint → Product/MVP).
 4. Flow Partner retainer — ongoing development + monitoring.
 
@@ -29,20 +32,21 @@ Z-Flow is the operator-engineer that funded B2B SaaS teams bring in to find wher
 3. AI integration (Claude, OpenAI, RAG, MCP, custom LLM solutions)
 
 ================================================================================
-## HOW WE START: THE GROWTH-OPS TEARDOWN
+## HOW WE START: THE OPERATIONS AUDIT
 ================================================================================
 
 Most engagements begin with a paid diagnostic, not a guess. Charging to think first is what separates us from freelancers who jump straight to building.
 
 **Free 30-min diagnostic call**: We confirm there's a real fit and one quick win worth chasing. No obligation.
 
-**Growth-Ops Teardown** — the wedge:
+**Operations Audit** — the wedge:
+- **What it does**: we map your workflows and show you exactly what to automate first — and what it's worth.
 - **Price**: €2,500 fixed. 50% credited toward any build within 60 days.
 - **Timeline**: 5 business days. Roadmap in 5 business days or it's free.
 - **Your time**: ~90 minutes (one discovery call + read-only access to 2–3 systems + a short async walkthrough).
-- **Deliverable**: a 12–20 page build-ready roadmap — current-state workflow maps, a quantified time/€ leak table, a prioritized 90-day roadmap, and a build-ready spec of your #1 quick win — handed over on a 45-minute walkthrough call.
+- **Deliverable**: a 12–20 page build-ready roadmap — current-state workflow maps, a quantified time/€ leak table, a prioritized 90-day automation roadmap, and a build-ready spec of your #1 quick win — handed over on a 45-minute walkthrough call.
 
-**Page**: https://z-flow.de/en/growth-ops-teardown
+**Page**: https://z-flow.de/en/operations-audit
 
 ================================================================================
 ## SERVICES IN DETAIL
@@ -51,11 +55,12 @@ Most engagements begin with a paid diagnostic, not a guess. Charging to think fi
 ### 1. AUTOMATION — "Get your team's week back."
 
 **What we offer**:
-Automate the manual sales and ops work — lead routing, CRM hygiene, reporting, hand-offs — that costs hours and causes errors. Built on n8n, Make, or custom APIs, whichever actually fits. Platform-agnostic: we recommend what works, not what we sell.
+Automate the manual back-office and ops work — lead routing, CRM hygiene, reporting, hand-offs, invoicing, supplier and accounting integrations — that costs hours and causes errors. Built on n8n, Make, or custom APIs, whichever actually fits. Platform-agnostic: we recommend what works, not what we sell.
 
 **Who it's for**:
-- B2B SaaS teams with manual sales/ops processes that break as they scale
-- Companies connecting multiple tools (CRM, billing, support, spreadsheets)
+- Established SMBs with manual processes and no internal automation/engineering talent
+- Service businesses (agencies, e-commerce/DTC, recruiting/staffing, professional services) scaling on spreadsheets and copy-paste
+- Mittelstand / industrial operations connecting multiple tools (ERP, billing, accounting, support, spreadsheets)
 - Teams drowning in data entry, reporting, and hand-offs
 - Organizations seeking GDPR-compliant automation (self-hosted n8n available)
 
@@ -64,12 +69,12 @@ Automate the manual sales and ops work — lead routing, CRM hygiene, reporting,
 - Make.com (cloud, 1000+ integrations)
 - Custom API integrations where off-the-shelf doesn't fit
 
-**Proof**: WeProspectify — ~3× more booked meetings/month and 20+ hours/week of manual prospecting eliminated.
+**Proof**: Movacar — an established mobility company where we automated supplier integrations and end-to-end refunds into their accounting (Lexware). WeProspectify — ~3× more booked meetings/month and 20+ hours/week of manual work eliminated.
 
 **Timeline**: 1–3 weeks
 **Price**: from €6,000
 
-**Keywords**: n8n agency, n8n developer, n8n Entwickler, n8n Agentur, Make.com expert, b2b saas automation agency, revops automation, workflow automation services, Prozessautomatisierung, GDPR compliant automation
+**Keywords**: n8n agency, n8n developer, n8n Entwickler, n8n Agentur, Make.com expert, SMB automation agency, Mittelstand automation, back-office automation, workflow automation services, Prozessautomatisierung, GDPR compliant automation
 
 ---
 
@@ -79,9 +84,9 @@ Automate the manual sales and ops work — lead routing, CRM hygiene, reporting,
 Production software in 6 weeks, not 6 months. MVPs and internal tools good enough to win real users and clean enough to scale on. Same partner from first commit to production.
 
 **Who it's for**:
-- B2B SaaS founders who need to ship faster than they can hire
-- Teams launching new products or internal tools
-- Companies that have outgrown no-code and need a scalable foundation
+- Established SMBs and founders who need to ship faster than they can hire
+- Teams launching new products, customer portals, or internal tools
+- Companies that have outgrown no-code and spreadsheets and need a scalable foundation
 
 **Technology stack**:
 - Next.js, React, TypeScript
@@ -93,9 +98,9 @@ Production software in 6 weeks, not 6 months. MVPs and internal tools good enoug
 **Proof**: WeProspectify — a scrappy Airtable + n8n MVP rebuilt into a scalable, AI-first product on Next.js with MCP, without ever taking the revenue engine offline. Working MVP in 8 weeks, full product in 12.
 
 **Timeline**: 4–8 weeks depending on scope
-**Price**: from €18,000 (fixed price, quoted from the Teardown roadmap)
+**Price**: from €18,000 (fixed price, quoted from the Operations Audit roadmap)
 
-**Keywords**: MVP development agency, MVP entwickeln lassen, custom software development, Softwareentwicklung Berlin, B2B SaaS product build, Next.js agency
+**Keywords**: MVP development agency, MVP entwickeln lassen, custom software development, Softwareentwicklung Berlin, SMB internal tools, customer portal development, Next.js agency
 
 ---
 
@@ -157,24 +162,25 @@ For established German Mittelstand and industrial SMEs drowning in Excel, email,
 ## PORTFOLIO / CASE STUDIES
 ================================================================================
 
-### WeProspectify — B2B sales prospecting platform (FLAGSHIP)
+### Movacar — established mobility company (CO-FLAGSHIP)
+**Category**: Automation + AI | **Status**: Live
+**Industry**: Mobility
+**Why it matters**: Movacar is the established-SMB profile our ICP now targets — a profitable operator with no internal engineering team that needed a senior technical partner.
+**Work**: We automated supplier integrations, built end-to-end refunds flowing into their accounting (Lexware), and shipped a support chatbot — then became their ongoing technical partner.
+
+### WeProspectify — B2B sales prospecting platform (CO-FLAGSHIP)
 **Category**: Automation → Custom Software | **Status**: Live
 **Industry**: B2B SaaS · Sales
 **Challenge**: A duct-taped Airtable + n8n prospecting setup that was also the live revenue engine — it worked barely, broke under load, and ate 20+ hours/week.
 **Approach**: Stabilize before you rebuild. We stabilized the existing engine so revenue never stopped, then re-architected it underneath into a scalable, AI-first product on Next.js + Supabase with a clean schema, n8n orchestration across Smartlead/HeyReach/Airtable, and an MCP layer.
 **Results**: ~3× more booked meetings/month, 20+ hours/week of manual prospecting eliminated, working MVP in 8 weeks and full product in 12.
 
-### Movacar — mobility company
-**Category**: Automation + AI | **Status**: Live
-**Industry**: Mobility
-**Work**: Make.com car-supplier integration, Stripe → Lexware refund automation, Salesforce chatbot integration, and more — Z-Flow as ongoing technical partner.
-
 ### Galvany GmbH — German industrial company
 **Category**: Digitalization | **Status**: Live
 **Industry**: Industrial
 **Work**: Process digitization for a German industrial business (DACH Mittelstand proof).
 
-### Other selected work (B2B SaaS + industry)
+### Other selected work (established SMBs + Mittelstand)
 - AI-powered marketing video generation (n8n + OpenAI + Ideogram): 50+ videos/week.
 - AI voice agent for customer support (11Labs + n8n): 85% of inquiries handled without a human.
 - End-to-end lead generation pipeline (n8n + Airtable + Smartlead + HeyReach).
@@ -190,13 +196,13 @@ For established German Mittelstand and industrial SMEs drowning in Excel, email,
 | Offer | Price | Timeline |
 |-------|-------|----------|
 | Free diagnostic call | Free | 30 min |
-| Growth-Ops Teardown | €2,500 (50% credited to build) | 5 business days |
+| Operations Audit | €2,500 (50% credited to build) | 5 business days |
 | Automation | from €6,000 | 1–3 weeks |
 | MVP / Custom Software | from €18,000 | 4–8 weeks |
 | AI Integration | from €5,000 | 2–4 weeks |
 | Flow Partner retainer | from €2,500/month | ongoing |
 
-**Pricing model**: Most engagements start with a €2,500 Growth-Ops Teardown; builds are fixed-quoted from the resulting roadmap, with 50% of the Teardown fee credited toward the build. No hourly rates, no surprises.
+**Pricing model**: Most engagements start with a €2,500 Operations Audit; builds are fixed-quoted from the resulting roadmap, with 50% of the Audit fee credited toward the build. No hourly rates, no surprises.
 **Mittelstand variant**: process audit from €1,500.
 
 ================================================================================
@@ -238,7 +244,7 @@ For established German Mittelstand and industrial SMEs drowning in Excel, email,
 - Transparent prices, named clients, real numbers.
 - One senior partner, no junior hand-off; vetted specialist network so delivery never stalls.
 - Berlin-based, GDPR-aware, German + English.
-- Paid diagnostic (Growth-Ops Teardown) — a build-ready roadmap that's yours to keep, whether or not you build with us.
+- Paid diagnostic (Operations Audit) — a build-ready roadmap that's yours to keep, whether or not you build with us.
 
 ================================================================================
 ## CONTACT INFORMATION
@@ -256,16 +262,16 @@ For established German Mittelstand and industrial SMEs drowning in Excel, email,
 ================================================================================
 
 **Q: What makes Z-Flow different from other agencies?**
-A: We diagnose like a consultant and ship like a senior engineer. We start with a paid Growth-Ops Teardown that quantifies where you lose hours and revenue, then build the fix. Platform-agnostic, transparent prices, real named clients with real numbers.
+A: We diagnose like a consultant and ship like a senior engineer. We start with a paid Operations Audit that quantifies where you lose hours and money, then build the fix. Platform-agnostic, transparent prices, real named clients with real numbers.
 
-**Q: What is a Growth-Ops Teardown?**
-A: A paid diagnostic for B2B SaaS teams (€2,500, 5 business days). A senior operator-engineer maps your growth/ops workflows, quantifies the leaks, and hands you a build-ready roadmap plus a spec of your #1 quick win. 50% of the fee is credited toward your build. Roadmap in 5 business days or it's free.
+**Q: What is an Operations Audit?**
+A: A paid diagnostic for established SMBs (€2,500, 5 business days). A senior operator-engineer maps your workflows and shows you exactly what to automate first — and what it's worth — then hands you a build-ready roadmap plus a spec of your #1 quick win. 50% of the fee is credited toward your build. Roadmap in 5 business days or it's free.
 
 **Q: How does pricing work?**
-A: Most engagements start with a free 30-min diagnostic, then a €2,500 Growth-Ops Teardown. Builds are fixed-quoted from the roadmap, with 50% of the Teardown fee credited toward the build. No hourly rates, no surprises.
+A: Most engagements start with a free 30-min diagnostic, then a €2,500 Operations Audit. Builds are fixed-quoted from the roadmap, with 50% of the Audit fee credited toward the build. No hourly rates, no surprises.
 
 **Q: Who do you work with?**
-A: Primarily funded B2B SaaS companies (seed–Series B, 11–200 people) with a sales/ops/growth bottleneck. We also help German Mittelstand and industrial SMEs digitize manual processes.
+A: Primarily established, profitable SMBs with no internal automation or engineering talent — software-literate service businesses (digital/marketing agencies, e-commerce/DTC brands, recruiting/staffing, professional services, ~10–50 people) and German Mittelstand / industrial companies (manufacturing, mobility/logistics, wholesale/distribution, construction/trades, up to ~300 people). The buyer is usually the owner, managing director, or a Head of Digitalisierung / COO with a modernization mandate. We also help small B2B SaaS teams by warm referral.
 
 **Q: Can I continue development myself after the project?**
 A: Yes. Everything belongs to you — full documentation, no vendor lock-in.
@@ -286,7 +292,7 @@ A: One senior partner (Mahmoud) leads every engagement — no junior hand-off �
 Practical articles on automation, AI, and B2B SaaS operations.
 
 **Articles**:
-- "20 Workflows B2B SaaS Teams Should Automate First" — a practical, ordered checklist of the highest-impact workflows to automate across sales, ops, onboarding, and reporting, with tools and time savings for each. Topics: automation, RevOps, n8n, B2B SaaS.
+- "20 Workflows B2B SaaS Teams Should Automate First" — a practical, ordered checklist of the highest-impact workflows to automate across sales, ops, onboarding, and reporting, with tools and time savings for each. Topics: automation, operations, n8n, SMBs.
 - "What is Company Brain? AI-Powered Knowledge Management Explained" — how RAG captures organizational knowledge and makes it accessible via AI. Topics: Company Brain, RAG, vector databases, knowledge bases.
 - "How We Automated Invoice Processing for a German SME" — case study: end-to-end invoice automation with n8n and AI. Topics: n8n, process automation, document AI.
 
@@ -298,7 +304,7 @@ Practical articles on automation, AI, and B2B SaaS operations.
 
 **English pages**:
 - Home: https://z-flow.de/en
-- Growth-Ops Teardown: https://z-flow.de/en/growth-ops-teardown
+- Operations Audit: https://z-flow.de/en/operations-audit
 - Services overview: https://z-flow.de/en/services
 - Automation: https://z-flow.de/en/services/automation
 - MVP / Custom Software: https://z-flow.de/en/services/mvp-development
@@ -312,7 +318,7 @@ Practical articles on automation, AI, and B2B SaaS operations.
 
 **German pages (Deutsch)**:
 - Startseite: https://z-flow.de/de
-- Growth-Ops Teardown: https://z-flow.de/de/growth-ops-teardown
+- Operations Audit: https://z-flow.de/de/operations-audit
 - Leistungen: https://z-flow.de/de/services
 - Automatisierung: https://z-flow.de/de/services/automation
 - MVP Entwicklung: https://z-flow.de/de/services/mvp-development
@@ -331,13 +337,13 @@ Practical articles on automation, AI, and B2B SaaS operations.
 
 Automatisierungsagentur Berlin, n8n Agentur Deutschland, n8n Entwickler, n8n Experte,
 n8n Berater, n8n selbst gehostet, n8n DSGVO konform, Make.com Experte,
-Prozessautomatisierung B2B, RevOps Automatisierung, Workflow Automatisierung,
-B2B SaaS Automatisierung, Automatisierungs-Audit, Growth-Ops Teardown,
+Prozessautomatisierung Mittelstand, KMU Automatisierung, Workflow Automatisierung,
+Automatisierung für KMU, Automatisierungs-Audit, Operations Audit,
 MVP Entwicklung, MVP entwickeln lassen, MVP Agentur Berlin, Softwareentwicklung Berlin,
-individuelle Software, Next.js Agentur, B2B SaaS Produktentwicklung,
+individuelle Software, Next.js Agentur, individuelle Softwareentwicklung,
 KI Integration, KI Beratung, Claude API Entwickler, OpenAI API Entwickler,
 RAG System, KI Chatbot entwickeln, KI Assistent Mitarbeiter, MCP,
 Digitalisierung Mittelstand, Digitalisierung KMU, Prozessdigitalisierung,
 Geschäftsprozesse automatisieren, Rechnungsautomatisierung, Dokumentenverarbeitung KI,
 Softwareagentur Berlin, Tech Studio Berlin, technischer Partner, Entwicklungspartner,
-Operator Engineer, fractional engineering partner
+Operator Engineer, Head of Digitalisierung, externer Automatisierungspartner

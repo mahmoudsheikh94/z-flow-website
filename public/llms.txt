@@ -1,26 +1,30 @@
-# Z-Flow — Operator-Engineering for B2B SaaS
+# Z-Flow — Operator-Engineering for Established SMBs
+
 # Automation, custom software & AI, built by a senior operator-engineer in Berlin
 
 ## Who We Are
-Z-Flow is the operator-engineer that funded B2B SaaS teams bring in to find where they lose hours and revenue — then build the fix, from automation to production software, in weeks not quarters. One senior partner, backed by a vetted specialist network, so delivery never stalls.
+Z-Flow is the operator-engineer that established, profitable SMBs bring in when they have no internal automation or engineering talent — to find where they lose hours and money, then build the fix, from automation to production software, in weeks not quarters. One senior partner, backed by a vetted specialist network, so delivery never stalls.
 
 Founded by Mahmoud Sheikh Alard. Based in Berlin, Germany. We diagnose like a consultant and ship like a senior engineer.
 
 ## Who We Help
-- **Spearhead:** funded B2B SaaS (seed–Series B, 11–200 people) with a sales/ops/growth bottleneck and no internal RevOps team yet.
-- **Also:** German Mittelstand / industrial SMEs digitizing manual, spreadsheet-driven processes (see /digitalisierung).
+- **Spearhead:** established, profitable SMBs with no internal automation/engineering talent. Two tiers:
+  - **Tier 1 (software-literate service businesses, ~10–50 people):** digital/marketing agencies, e-commerce/DTC brands, recruiting/staffing firms, professional services. They move fast and convert quickly.
+  - **Tier 2 (German Mittelstand / industrial, up to ~300 people, profitable, not VC-funded):** manufacturing, mobility/logistics, wholesale/distribution, construction/trades. Bigger, stickier engagements (see /digitalisierung).
+- **Secondary:** small B2B SaaS — warm-referral only. They tend to DIY, so we don't cold-target them.
+- **Buyer:** the owner / managing director / founder, or a Head of Digitalisierung / COO with a modernization mandate.
 
-## How We Start: The Growth-Ops Teardown
+## How We Start: The Operations Audit
 Most engagements begin with a paid diagnostic, not a guess.
 - **Free 30-min diagnostic call** — we confirm the fit and one quick win. No obligation.
-- **Growth-Ops Teardown — €2,500, delivered in 5 business days, 50% credited toward your build.** A senior operator-engineer maps your real growth/ops workflows, quantifies the time and revenue leaking out of each, and hands you a build-ready roadmap plus a spec of your #1 quick win.
+- **Operations Audit — €2,500, delivered in 5 business days, 50% credited toward your build.** A senior operator-engineer maps your workflows and shows you exactly what to automate first — and what it's worth — then hands you a build-ready roadmap plus a spec of your #1 quick win.
 - **Guarantee:** your roadmap in 5 business days, or it's free.
 
 ## Our Services (outcomes, not capabilities)
 
 ### Automation — "Get your team's week back."
-Automate the manual sales/ops work — lead routing, CRM hygiene, reporting, hand-offs. Built on n8n, Make, or custom APIs, whichever actually fits.
-- **Proof:** WeProspectify — ~3× more booked meetings/month, 20+ hours/week of manual prospecting eliminated.
+Automate the manual back-office and ops work — lead routing, CRM hygiene, reporting, hand-offs, invoicing, supplier and accounting integrations. Built on n8n, Make, or custom APIs, whichever actually fits.
+- **Proof:** Movacar — established mobility company: we automated supplier integrations and end-to-end refunds into their accounting (Lexware). WeProspectify — ~3× more booked meetings/month, 20+ hours/week of manual work eliminated.
 - **Price:** from €6,000.
 
 ### MVP / Custom Software — "Ship the product you can't hire for."
@@ -37,7 +41,7 @@ Custom AI assistants, knowledge bases, and org-intelligence wired into your real
 
 ## How We Engage (the offer ladder)
 1. Free 30-min diagnostic
-2. Growth-Ops Teardown — €2,500 (50% credited)
+2. Operations Audit — €2,500 (50% credited)
 3. Build — fixed-quoted from the roadmap (Quick Win → Sprint → Product)
 4. Flow Partner retainer — €2,500/mo (1 dev day) · €4,500/mo (2 days) · €7,500+/mo (4 days)
 
@@ -58,10 +62,10 @@ Custom AI assistants, knowledge bases, and org-intelligence wired into your real
 - **Deployment:** Vercel
 
 ## Selected Work
+- **Movacar** — established mobility company. We automated supplier integrations, end-to-end refunds into their accounting (Lexware), and a support chatbot, then became their ongoing technical partner. The established-SMB profile we now build for.
 - **WeProspectify** — B2B sales prospecting platform. Stabilized a duct-taped Airtable+n8n setup, then rebuilt it AI-first on Next.js with MCP. ~3× booked meetings, 20+ hrs/week saved, MVP in 8 weeks / product in 12.
-- **Movacar** — mobility company: Make.com car-supplier integration, Stripe→Lexware refund automation, Salesforce chatbot, and more.
 - **Galvany GmbH** — German industrial company (process digitization).
-- Plus automation, AI-agent, and custom-software projects across B2B SaaS and industry.
+- Plus automation, AI-agent, and custom-software projects across established SMBs and the Mittelstand.
 
 ## Location & Contact
 - **Location:** Berlin, Germany (serving DACH + international clients)
@@ -73,14 +77,14 @@ Custom AI assistants, knowledge bases, and org-intelligence wired into your real
 | Offer | Price | Timeline |
 |-------|-------|----------|
 | Free diagnostic call | Free | 30 min |
-| Growth-Ops Teardown | €2,500 (50% credited to build) | 5 business days |
+| Operations Audit | €2,500 (50% credited to build) | 5 business days |
 | Automation | from €6,000 | 1–3 weeks |
 | MVP / Custom Software | from €18,000 | 4–8 weeks |
 | AI Integration | from €5,000 | 2–4 weeks |
 | Flow Partner retainer | from €2,500/month | ongoing |
 
 ## Key Pages
-- Growth-Ops Teardown: https://z-flow.de/en/growth-ops-teardown
+- Operations Audit: https://z-flow.de/en/operations-audit
 - Services: https://z-flow.de/en/services
 - Automation: https://z-flow.de/en/services/automation
 - MVP / Custom Software: https://z-flow.de/en/services/mvp-development

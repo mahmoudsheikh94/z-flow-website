@@ -13,7 +13,7 @@ export function Header() {
 
   const navigation = [
     { name: t('navigation.services'), href: '/services' },
-    { name: t('navigation.teardown'), href: '/growth-ops-teardown' },
+    { name: t('navigation.teardown'), href: '/operations-audit' },
     { name: t('navigation.projects'), href: '/projects' },
     { name: t('navigation.pricing'), href: '/pricing' },
     { name: t('navigation.about'), href: '/about' },

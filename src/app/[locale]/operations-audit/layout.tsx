@@ -16,13 +16,13 @@ export async function generateMetadata({
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `${baseUrl}/${locale}/growth-ops-teardown`,
+      url: `${baseUrl}/${locale}/operations-audit`,
     },
     alternates: {
-      canonical: `${baseUrl}/${locale}/growth-ops-teardown`,
+      canonical: `${baseUrl}/${locale}/operations-audit`,
       languages: {
-        de: `${baseUrl}/de/growth-ops-teardown`,
-        en: `${baseUrl}/en/growth-ops-teardown`,
+        de: `${baseUrl}/de/operations-audit`,
+        en: `${baseUrl}/en/operations-audit`,
       },
     },
   }
