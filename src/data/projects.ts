@@ -12,6 +12,12 @@ export interface Project {
   status: 'live' | 'built'
   /** Slug into the `testimonials` array (src/data/testimonials.ts) to render a named client quote on the case study. */
   testimonialId?: string
+  /**
+   * Set true ONLY once a real screenshot file exists at `thumbnail`. When true the card/hero
+   * shows that screenshot; otherwise it shows the on-brand ProjectArtifact for the category.
+   * (Default false avoids Next/Image build errors for missing files.)
+   */
+  hasScreenshot?: boolean
 }
 
 export const projects: Project[] = [

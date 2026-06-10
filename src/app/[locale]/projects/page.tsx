@@ -119,6 +119,9 @@ export default function ProjectsPage() {
                 </div>
                 <div className="order-1 lg:order-2">
                   <BrowserMockup
+                    category={featuredProject.category}
+                    src={featuredProject.hasScreenshot ? featuredProject.thumbnail : undefined}
+                    alt={featuredProject.hasScreenshot ? t(`${featuredProject.slug}.title`) : undefined}
                     title={t(`${featuredProject.slug}.title`)}
                     stack={featuredProject.stack}
                   />
@@ -145,6 +148,9 @@ export default function ProjectsPage() {
                   {/* Thumbnail */}
                   <div className="mb-6 -mx-6 -mt-6 md:-mx-8 md:-mt-8">
                     <BrowserMockup
+                      category={project.category}
+                      src={project.hasScreenshot ? project.thumbnail : undefined}
+                      alt={project.hasScreenshot ? t(`${project.slug}.title`) : undefined}
                       title={t(`${project.slug}.title`)}
                       stack={project.stack}
                       className="rounded-none rounded-t-xl border-0 shadow-none"

@@ -1,18 +1,31 @@
 import Image from 'next/image'
+import { ProjectArtifact } from '@/components/ui/ProjectArtifact'
+import type { ProjectCategory } from '@/data/projects'
 
 interface BrowserMockupProps {
   src?: string
   alt?: string
+  /** When no real screenshot (src) exists, render this category's on-brand artifact. */
+  category?: ProjectCategory
   title?: string
   stack?: string[]
   className?: string
 }
 
-export function BrowserMockup({ src, alt, title, stack, className = '' }: BrowserMockupProps) {
+export function BrowserMockup({
+  src,
+  alt,
+  category,
+  title,
+  stack,
+  className = '',
+}: BrowserMockupProps) {
   const hasImage = src && alt
 
   return (
-    <div className={`rounded-xl overflow-hidden shadow-2xl border border-neutral-200 ${className}`}>
+    <div
+      className={`rounded-xl overflow-hidden shadow-2xl border border-neutral-200 ${className}`}
+    >
       {/* Browser chrome */}
       <div className="bg-neutral-100 px-4 py-3 flex items-center gap-2 border-b border-neutral-200">
         <div className="flex gap-1.5">
@@ -27,7 +40,7 @@ export function BrowserMockup({ src, alt, title, stack, className = '' }: Browse
         </div>
       </div>
 
-      {/* Content area */}
+      {/* Content area: real screenshot if provided, else the category artifact */}
       {hasImage ? (
         <div className="relative aspect-video">
           <Image
@@ -38,7 +51,10 @@ export function BrowserMockup({ src, alt, title, stack, className = '' }: Browse
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
           />
         </div>
+      ) : category ? (
+        <ProjectArtifact category={category} />
       ) : (
+        /* Last-resort fallback (no category): keep a non-empty branded panel */
         <div className="aspect-video bg-gradient-to-br from-[#0e0918] to-[#1a1a2e] flex flex-col items-center justify-center px-8 relative overflow-hidden">
           <div className="absolute inset-0 bg-grid opacity-20" />
           <div className="relative z-10 text-center">
