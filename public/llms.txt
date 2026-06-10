@@ -1,92 +1,92 @@
-# Z-Flow - Digitalization Partner Berlin
-# Process Automation, Custom Software & AI Integration
+# Z-Flow — Operator-Engineering for B2B SaaS
+# Automation, custom software & AI, built by a senior operator-engineer in Berlin
 
 ## Who We Are
-Z-Flow is a digitalization partner based in Berlin, Germany. We understand your business process first, then build the right solution — whether that's automation, custom software, or AI.
+Z-Flow is the operator-engineer that funded B2B SaaS teams bring in to find where they lose hours and revenue — then build the fix, from automation to production software, in weeks not quarters. One senior partner, backed by a vetted specialist network, so delivery never stalls.
 
-Founded by Mahmoud Sheikh Alard. 5+ years of process mapping experience in Germany, now powered by AI-driven engineering. We serve startups, SMEs, and the German Mittelstand.
+Founded by Mahmoud Sheikh Alard. Based in Berlin, Germany. We diagnose like a consultant and ship like a senior engineer.
 
-## Our Approach: Process First
-Every engagement starts with understanding how your business actually works:
-1. **Process Audit** — We map your workflows, find bottlenecks, understand what works
-2. **Solution Design** — We choose the right approach based on the process map
-3. **Build** — Agile development in weekly sprints with regular demos
-4. **Launch & Handover** — Full documentation, training, your code. No vendor lock-in.
+## Who We Help
+- **Spearhead:** funded B2B SaaS (seed–Series B, 11–200 people) with a sales/ops/growth bottleneck and no internal RevOps team yet.
+- **Also:** German Mittelstand / industrial SMEs digitizing manual, spreadsheet-driven processes (see /digitalisierung).
 
-## Our Services
+## How We Start: The Growth-Ops Teardown
+Most engagements begin with a paid diagnostic, not a guess.
+- **Free 30-min diagnostic call** — we confirm the fit and one quick win. No obligation.
+- **Growth-Ops Teardown — €2,500, delivered in 5 business days, 50% credited toward your build.** A senior operator-engineer maps your real growth/ops workflows, quantifies the time and revenue leaking out of each, and hands you a build-ready roadmap plus a spec of your #1 quick win.
+- **Guarantee:** your roadmap in 5 business days, or it's free.
 
-### Process Automation
-Your team is spending hours on tasks a machine could handle in seconds. We map the process, find the bottlenecks, and automate what matters.
-- **Platforms**: n8n (self-hosted or cloud), Make.com
-- **Capabilities**: API integrations, webhooks, data sync, CRM automation, lead management, invoice automation
-- **GDPR compliant**: Self-hosted n8n setups available
-- **Timeline**: 1-3 weeks
-- **Price**: From €3,000
+## Our Services (outcomes, not capabilities)
 
-### MVP / Custom Software Development
-You have a business idea but no product yet. We build your MVP in weeks — functional enough to win users, clean enough to scale.
-- **Tech stack**: Next.js, React, TypeScript, Supabase
-- **What's included**: Web app, responsive design, user authentication, backend, deployment, documentation
-- **Timeline**: 4-8 weeks
-- **Price**: From €15,000 (fixed price)
+### Automation — "Get your team's week back."
+Automate the manual sales/ops work — lead routing, CRM hygiene, reporting, hand-offs. Built on n8n, Make, or custom APIs, whichever actually fits.
+- **Proof:** WeProspectify — ~3× more booked meetings/month, 20+ hours/week of manual prospecting eliminated.
+- **Price:** from €6,000.
 
-### AI for Business / Company Brain
-Your company has years of knowledge trapped in documents, emails, and people's heads. We build AI systems that capture this knowledge and put it to work.
-- **Technologies**: OpenAI API, Claude API, LangChain, Vector Databases, RAG Pipelines, n8n + AI
-- **Use cases**: Company knowledge bases, internal AI assistants for employees, chatbots trained on your data, document intelligence, intelligent automation
-- **Approach**: Process-first, human-in-the-loop, privacy-first
+### MVP / Custom Software — "Ship the product you can't hire for."
+Production software in 6 weeks, not 6 months. MVPs and internal tools good enough to win real users and clean enough to scale on.
+- **Tech:** Next.js, React, TypeScript, Supabase.
+- **Proof:** WeProspectify — scrappy Airtable+n8n MVP rebuilt into a scalable AI-first product with MCP, same partner throughout.
+- **Price:** from €18,000.
 
-### Training & Workshops
-Learn to build and maintain automation and no-code solutions yourself.
-- **Topics**: n8n, Make.com, WeWeb, Xano, No-Code stack
-- **Format**: Remote or on-site, half-day to multi-day
-- **Price**: From €1,500
+### AI Integration — "AI that does the work, not a demo."
+Custom AI assistants, knowledge bases, and org-intelligence wired into your real stack — deployed only where it beats the alternative. Trained on your data, not generic.
+- **Tech:** Claude, OpenAI, RAG, MCP, n8n + AI.
+- **Lead-magnet:** Company Brain, our own AI org-intelligence platform (what we build for ourselves).
+- **Price:** from €5,000.
+
+## How We Engage (the offer ladder)
+1. Free 30-min diagnostic
+2. Growth-Ops Teardown — €2,500 (50% credited)
+3. Build — fixed-quoted from the roadmap (Quick Win → Sprint → Product)
+4. Flow Partner retainer — €2,500/mo (1 dev day) · €4,500/mo (2 days) · €7,500+/mo (4 days)
+
+## Differentiators
+- We diagnose like a consultant AND ship like a senior engineer.
+- Platform-agnostic — we recommend what fits, not what we sell.
+- Transparent prices, named clients, real numbers.
+- One senior partner, no junior hand-off; vetted specialist network so delivery never stalls.
+- Berlin-based, GDPR-aware, German + English.
 
 ## Technologies We Use
-- **Automation**: n8n, Make.com
-- **Frontend**: Next.js, React, WeWeb
-- **Backend**: Supabase, Xano, Node.js
-- **Database**: PostgreSQL, Supabase, Airtable
-- **AI**: OpenAI, Claude, 11Labs
-- **Deployment**: Vercel
+- **Automation:** n8n, Make.com
+- **Frontend:** Next.js, React, TypeScript
+- **Backend:** Supabase, Node.js, Xano
+- **Database:** PostgreSQL, Supabase, Airtable
+- **AI:** Claude, OpenAI, MCP, RAG pipelines
+- **Outreach stack (client work):** Smartlead, HeyReach
+- **Deployment:** Vercel
 
-## Selected Projects
-- **WeProspectify** — B2B sales prospecting SaaS (Next.js, Supabase, n8n, OpenAI)
-- **Layovr** — Airport passenger experience platform (Next.js, Supabase)
-- **AI Video Generation** — Automated marketing video pipeline (n8n, OpenAI, 11Labs)
-- **AI Voice Agent** — 24/7 customer support voice agent (n8n, OpenAI)
-- **Lead Generation Pipeline** — 14 interconnected workflows (n8n, Make.com, Airtable)
-- **Automated Invoicing** — End-to-end invoice processing (n8n, Airtable)
-- **Volunteer Management** — Platform for community organizations (WeWeb, Xano)
+## Selected Work
+- **WeProspectify** — B2B sales prospecting platform. Stabilized a duct-taped Airtable+n8n setup, then rebuilt it AI-first on Next.js with MCP. ~3× booked meetings, 20+ hrs/week saved, MVP in 8 weeks / product in 12.
+- **Movacar** — mobility company: Make.com car-supplier integration, Stripe→Lexware refund automation, Salesforce chatbot, and more.
+- **Galvany GmbH** — German industrial company (process digitization).
+- Plus automation, AI-agent, and custom-software projects across B2B SaaS and industry.
 
 ## Location & Contact
-- **Location**: Berlin, Germany (serving DACH region and international clients)
-- **Website**: https://z-flow.de
-- **Email**: hello@z-flow.de
-- **LinkedIn**: https://www.linkedin.com/company/z-flow/
+- **Location:** Berlin, Germany (serving DACH + international clients)
+- **Website:** https://z-flow.de
+- **Email:** hello@z-flow.de
+- **LinkedIn:** https://www.linkedin.com/company/z-flow/
 
 ## Pricing Overview
-| Service | Starting Price | Timeline |
-|---------|---------------|----------|
-| Process Automation | €3,000 | 1-3 weeks |
-| MVP Development | €15,000 | 4-8 weeks |
-| AI for Business | €5,000 | 2-4 weeks |
-| Training/Workshop | €1,500 | Half to multi-day |
-| Monthly Retainer | €4,000/month | Ongoing |
-
-## Blog
-Practical articles on automation, AI, and digital transformation:
-- What is Company Brain? AI-Powered Knowledge Management Explained
-- How We Automated Invoice Processing for a German SME
-- Blog: https://z-flow.de/en/blog
+| Offer | Price | Timeline |
+|-------|-------|----------|
+| Free diagnostic call | Free | 30 min |
+| Growth-Ops Teardown | €2,500 (50% credited to build) | 5 business days |
+| Automation | from €6,000 | 1–3 weeks |
+| MVP / Custom Software | from €18,000 | 4–8 weeks |
+| AI Integration | from €5,000 | 2–4 weeks |
+| Flow Partner retainer | from €2,500/month | ongoing |
 
 ## Key Pages
+- Growth-Ops Teardown: https://z-flow.de/en/growth-ops-teardown
 - Services: https://z-flow.de/en/services
-- MVP Development: https://z-flow.de/en/services/mvp-development
 - Automation: https://z-flow.de/en/services/automation
-- AI for Business: https://z-flow.de/en/services/ai-integration
+- MVP / Custom Software: https://z-flow.de/en/services/mvp-development
+- AI Integration: https://z-flow.de/en/services/ai-integration
 - Projects: https://z-flow.de/en/projects
-- Blog: https://z-flow.de/en/blog
 - Pricing: https://z-flow.de/en/pricing
-- Process: https://z-flow.de/en/process
+- Mittelstand / Digitalisierung: https://z-flow.de/de/digitalisierung
 - Contact: https://z-flow.de/en/contact
+- Blog: https://z-flow.de/en/blog

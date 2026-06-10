@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
+import { JsonLd, schemas } from '@/components/seo/JsonLd'
 
 export default async function GrowthOpsTeardownPage({
   params,
@@ -23,9 +24,26 @@ export default async function GrowthOpsTeardownPage({
     title: string
     description: string
   }[]
+  const faqItems = t.raw('faq.items') as { q: string; a: string }[]
+
+  const teardownUrl = `https://z-flow.de/${locale}/growth-ops-teardown`
 
   return (
     <>
+      <JsonLd
+        data={schemas.service({
+          name: 'Growth-Ops Teardown',
+          description: t('hero.subtitle'),
+          url: teardownUrl,
+          price: '2500',
+        })}
+      />
+      <JsonLd
+        data={schemas.faqPage(
+          faqItems.map((item) => ({ question: item.q, answer: item.a }))
+        )}
+      />
+
       {/* ───────── Hero ───────── */}
       <section className="section-dark pt-40 pb-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-30" />
@@ -235,6 +253,32 @@ export default async function GrowthOpsTeardownPage({
           >
             {t('proof.linkLabel')}
           </Link>
+        </div>
+      </section>
+
+      {/* ───────── FAQ ───────── */}
+      <section className="section-gray py-24 lg:py-32">
+        <div className="mx-auto max-w-3xl px-6 lg:px-8">
+          <div className="text-center mb-16" data-animate="blur-up">
+            <span className="badge badge-orange mb-6">{t('faq.badge')}</span>
+            <h2 className="text-headline font-bold text-text-primary">
+              {t('faq.title')}
+            </h2>
+          </div>
+          <div className="space-y-8">
+            {faqItems.map((item, index) => (
+              <div
+                key={index}
+                data-animate="fade-up"
+                data-delay={String((index + 1) * 100)}
+              >
+                <h3 className="text-title text-text-primary mb-3">{item.q}</h3>
+                <p className="text-text-secondary leading-relaxed text-lg">
+                  {item.a}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

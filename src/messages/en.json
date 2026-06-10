@@ -736,6 +736,16 @@
       "title": "Find out where you're leaking hours and revenue.",
       "subtitle": "Start with a free 30-min diagnostic. If there's a fit, we'll scope your Growth-Ops Teardown on the call.",
       "button": "Book a free 30-min diagnostic"
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "Questions about the Teardown",
+      "items": [
+        { "q": "What is a Growth-Ops Teardown?", "a": "A Growth-Ops Teardown is a paid diagnostic for B2B SaaS teams. A senior operator-engineer maps your real growth and ops workflows, quantifies where you lose hours and revenue, and hands you a build-ready roadmap — the spec your next automation or product is built from. It costs €2,500 and takes 5 business days." },
+        { "q": "What do I actually get?", "a": "You get a 12–20 page build-ready roadmap: current-state workflow maps, a quantified time and revenue leak table, a prioritized 90-day roadmap, and a build-ready spec of your single highest-impact quick win — delivered on a 45-minute walkthrough call. It's a plan you could hand to any team, whether or not you build with us." },
+        { "q": "How much does it cost?", "a": "The Growth-Ops Teardown is a fixed €2,500. If you go on to a build with us within 60 days, 50% of the Teardown fee is credited toward it — so half of it effectively comes back." },
+        { "q": "How long does it take, and what if you're late?", "a": "Five business days from our discovery call. Your roadmap arrives in 5 business days or it's free — that's the guarantee. We only need about 90 minutes of your time: one discovery call plus read-only access to two or three systems." }
+      ]
     }
   },
   "digitalisierung": {
@@ -2022,7 +2032,8 @@
     "categories": {
       "all": "All Posts",
       "serviceExplainer": "Service Explainers",
-      "caseStudy": "Case Studies"
+      "caseStudy": "Case Studies",
+      "guide": "Guides"
     },
     "readingTime": "{minutes} min read",
     "publishedOn": "Published on {date}",
@@ -2035,6 +2046,11 @@
       "subtitle": "Let's discuss how we can automate your processes, build your product, or integrate AI into your workflows."
     },
     "posts": {
+      "20-workflows-saas-teams-automate-first": {
+        "title": "20 Workflows B2B SaaS Teams Should Automate First",
+        "description": "A practical checklist of the 20 highest-impact workflows funded B2B SaaS teams automate first — across sales, ops, onboarding, and reporting — with the tools and time savings for each.",
+        "excerpt": "The 20 manual workflows quietly eating your team's week — and the order to automate them in. A field guide from the bottlenecks we fix most."
+      },
       "what-is-company-brain": {
         "title": "What is Company Brain? AI-Powered Knowledge Management Explained",
         "description": "Learn how a Company Brain uses RAG technology to capture your organization's knowledge and make it instantly accessible to your entire team.",

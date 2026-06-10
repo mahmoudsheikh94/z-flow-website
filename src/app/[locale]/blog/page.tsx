@@ -18,7 +18,7 @@ export default function BlogPage() {
     ? allPosts
     : allPosts.filter((p) => p.category === activeCategory)
 
-  const categories: FilterKey[] = ['all', 'service-explainer', 'case-study']
+  const categories: FilterKey[] = ['all', 'guide', 'service-explainer', 'case-study']
 
   return (
     <>
@@ -56,7 +56,7 @@ export default function BlogPage() {
                     : 'bg-neutral-100 text-text-secondary hover:bg-neutral-200'
                 }`}
               >
-                {t(`categories.${category === 'service-explainer' ? 'serviceExplainer' : category === 'case-study' ? 'caseStudy' : 'all'}`)}
+                {t(`categories.${category === 'service-explainer' ? 'serviceExplainer' : category === 'case-study' ? 'caseStudy' : category === 'guide' ? 'guide' : 'all'}`)}
               </button>
             ))}
           </div>

@@ -1,0 +1,63 @@
+Die 20 Workflows, die B2B-SaaS-Teams zuerst automatisieren sollten, sind die manuellen, sich wiederholenden Aufgaben in Sales, Ops, Onboarding und Reporting, die jede Woche still Stunden auffressen — etwa Lead-Routing, CRM-Pflege, Demo-Terminierung, Rechnungsabwicklung und Churn-Warnungen. Automatisiert sie ungefähr in dieser Reihenfolge, und ein kleines Team gewinnt pro Person einen Tag oder mehr pro Woche zurück — noch bevor jemand eingestellt wird.
+
+Das ist der Leitfaden, den wir bei einem [Growth-Ops Teardown](/de/growth-ops-teardown) nutzen — die folgenden Engpässe finden wir immer wieder bei finanzierten B2B-SaaS-Unternehmen, die Tabellen entwachsen sind, aber noch keine RevOps-Funktion aufgebaut haben.
+
+## So nutzt ihr diese Liste
+
+Automatisiert nicht alles auf einmal. Arbeitet von oben nach unten: Die frühen Punkte haben das beste Wirkung-zu-Aufwand-Verhältnis und entlasten oft die späteren. Zu jedem nennen wir die typischen Tools und was ihr zurückbekommt.
+
+## Sales & Pipeline (zuerst automatisieren)
+
+**1. Lead-Routing & Zuordnung.** Neue Inbound-Leads landen im Postfach oder werden von Hand zugewiesen. Routet automatisch nach Region, Größe oder Round-Robin, sobald sie eintreffen. *Tools: n8n / Make + CRM. Spart: Stunden/Woche + schnellere Reaktion = mehr gebuchte Meetings.*
+
+**2. Lead-Anreicherung.** Schluss mit manuellem Nachschlagen von Unternehmensgröße, Funding und Tech-Stack. Reichert jeden neuen Lead automatisch an. *Tools: Enrichment-API + n8n. Spart: ~5–10 Min. pro Lead.*
+
+**3. CRM-Pflege.** Doppelte Datensätze, fehlende Felder, veraltete Stages. Automatisiert Dedup, Feldbefüllung und Stage-Validierung, damit eure Pipeline-Daten verlässlich sind. *Tools: CRM-Regeln + n8n. Spart: Stunden + besseres Forecasting.*
+
+**4. Demo-/Termin-Buchung.** Beendet das Hin und Her. Automatisch buchen, bestätigen, erinnern, verschieben. *Tools: Scheduling-Tool + Kalender. Spart: Stunden/Woche + weniger No-Shows.*
+
+**5. Outbound-Sequenzen.** Listen, Personalisierung und Follow-ups von Hand skalieren nicht. Automatisiert die Sequenz; der Mensch bleibt bei der Antwort. *Tools: Smartlead / HeyReach + Enrichment. Spart: 20+ Std./Woche bei Volumen.*
+
+**6. Angebots- & Proposal-Erstellung.** Erstellt Angebote aus CRM-Daten, statt jedes Mal ein Template zu bearbeiten. *Tools: Dokument-Automatisierung + CRM. Spart: 15–30 Min. pro Deal.*
+
+**7. Deal-Stage-Benachrichtigungen.** Warnt automatisch die richtige Person, wenn ein Deal sich bewegt, stockt oder Handlung braucht. *Tools: CRM + Slack. Spart: verlorene Deals.*
+
+## Kunden-Onboarding & Success
+
+**8. Onboarding-Kickoff.** Löst die gesamte Onboarding-Sequenz (Willkommen, Account-Setup, Kickoff-Buchung) automatisch bei Signup oder Abschluss aus. *Tools: n8n + Produkt + E-Mail.*
+
+**9. Account-Provisionierung.** Erstellt Accounts, Seats und Berechtigungen automatisch statt manuell. *Tools: API + interne Tools.*
+
+**10. Nutzungs- & Health-Monitoring.** Macht Accounts mit geringer Nutzung oder Risiko automatisch sichtbar, damit CS vor dem Churn handelt. *Tools: Produktdaten + Alerts.*
+
+**11. Churn-Risiko-Warnungen.** Meldet die Signale (Nutzungsrückgang, Support-Spitzen, verpasste Renewals) in Echtzeit an den richtigen Owner. *Tools: Datenpipeline + Slack.*
+
+**12. Renewal-Erinnerungen.** Verpasst nie ein Renewal — automatisiert die Erinnerungskette an CS und Kunde. *Tools: CRM + Kalender + E-Mail.*
+
+## Finanzen & Operations
+
+**13. Rechnungserstellung & -versand.** Erstellt und versendet Rechnungen automatisch aus Billing-/CRM-Daten. *Tools: Billing + Dokument-Automatisierung. Spart: 95% manueller Rechnungsfehler in umgesetzten Fällen.*
+
+**14. Rückerstattungs-Abwicklung.** Automatisiert die Rückerstattung Ende-zu-Ende, abgebildet in eurem Buchhaltungstool. *Tools: Stripe + Buchhaltung (z. B. Lexware) + n8n. Spart: Minuten pro Rückerstattung gegenüber manuell.*
+
+**15. Zahlungsausfall-Recovery.** Automatisches Retry, Benachrichtigung und Dunning bei fehlgeschlagenen Zahlungen. *Tools: Billing + E-Mail/Slack. Spart: zurückgewonnener Umsatz.*
+
+**16. Dokumenten-Ablage.** Sortiert eingehende Dokumente (Rechnungen, Belege, Verträge) automatisch an die richtige Stelle. *Tools: Storage + Parsing + n8n.*
+
+**17. Daten-Sync zwischen Tools.** Der größte versteckte Zeitfresser: Daten zwischen CRM, Billing, Support und Tabellen neu eintippen. Synchronisiert es einmal. *Tools: n8n / Custom-API. Spart: Stunden/Woche + verhindert Fehler.*
+
+## Reporting & interne Ops
+
+**18. Automatisches Reporting & Dashboards.** Stellt die Wochenzahlen nicht mehr von Hand zusammen. Automatisch ziehen und verteilen. *Tools: Data-Warehouse / Sheets + n8n. Spart: Stunden pro Woche.*
+
+**19. Interne Alerts & Standups.** Macht automatisch sichtbar, was sich geändert hat (Deals, Signups, Incidents) — als täglichen Digest. *Tools: Daten + Slack.*
+
+**20. KI-gestützte Triage & Antworten.** Nutzt KI, um Antworten zu entwerfen, Tickets zu kategorisieren und Threads zusammenzufassen — mit menschlicher Freigabe. *Tools: Claude / OpenAI + n8n + MCP. Die Spitze: KI, die die Arbeit macht, kein Demo.*
+
+## Wo anfangen
+
+Wenn ihr nur eine Sache macht: Nehmt den Workflow aus dieser Liste, der euer Team aktuell die meisten Stunden kostet, und automatisiert genau den. Dann den nächsten. Die meisten sind 1–2-Wochen-Builds, und die ersten zahlen meist die übrigen.
+
+Genau das kartiert ein **Growth-Ops Teardown** für euch: Wir finden, welche davon (und andere, die spezifisch für euch sind) am meisten Zeit und Umsatz verlieren, beziffern es und liefern in 5 Werktagen eine build-fertige Roadmap.
+
+[Kostenloses 30-Min-Erstgespräch buchen →](/de/contact)

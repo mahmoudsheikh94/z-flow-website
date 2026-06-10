@@ -1,4 +1,4 @@
-export type BlogCategory = 'service-explainer' | 'case-study'
+export type BlogCategory = 'service-explainer' | 'case-study' | 'guide'
 
 export interface BlogPost {
   slug: string
@@ -14,6 +14,17 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: '20-workflows-saas-teams-automate-first',
+    category: 'guide',
+    publishedAt: '2026-06-10',
+    author: 'Mahmoud Sheikh Alard',
+    thumbnail: '/images/blog/what-is-company-brain/thumbnail.webp',
+    ogImage: '/images/blog/what-is-company-brain/og.png',
+    tags: ['automation', 'b2b-saas', 'revops', 'n8n', 'guide'],
+    relatedSlugs: ['automating-invoice-processing'],
+    featured: true,
+  },
   {
     slug: 'what-is-company-brain',
     category: 'service-explainer',
@@ -41,6 +52,7 @@ export const blogPosts: BlogPost[] = [
 export const categoryBadgeColor: Record<BlogCategory, string> = {
   'service-explainer': 'badge-purple',
   'case-study': 'badge-green',
+  guide: 'badge-orange',
 }
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

@@ -3,6 +3,7 @@ import { Link } from '@/i18n/navigation'
 import { notFound } from 'next/navigation'
 import { projects, getProjectBySlug, getRelatedProjects } from '@/data/projects'
 import { getTestimonialById } from '@/data/testimonials'
+import { JsonLd, schemas } from '@/components/seo/JsonLd'
 import type { Metadata } from 'next'
 import type { ProjectCategory } from '@/data/projects'
 import { locales } from '@/i18n/routing'
@@ -96,6 +97,24 @@ export default async function ProjectDetailPage({
 
   return (
     <>
+      <JsonLd
+        data={schemas.breadcrumb([
+          { name: 'Projects', url: `https://z-flow.de/${locale}/projects` },
+          {
+            name: t(`${slug}.title`),
+            url: `https://z-flow.de/${locale}/projects/${slug}`,
+          },
+        ])}
+      />
+      <JsonLd
+        data={schemas.webPage({
+          name: t(`${slug}.title`),
+          description: t(`${slug}.subtitle`),
+          url: `https://z-flow.de/${locale}/projects/${slug}`,
+          locale,
+        })}
+      />
+
       {/* ───────── Hero ───────── */}
       <section className="section-dark pt-40 pb-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-30" />

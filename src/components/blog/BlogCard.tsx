@@ -27,7 +27,7 @@ export function BlogCard({ post, readingTime }: BlogCardProps) {
     >
       <div className="flex flex-wrap items-center gap-3 mb-4">
         <span className={`badge ${categoryBadgeColor[post.category]}`}>
-          {t(`categories.${post.category === 'service-explainer' ? 'serviceExplainer' : 'caseStudy'}`)}
+          {t(`categories.${post.category === 'service-explainer' ? 'serviceExplainer' : post.category === 'case-study' ? 'caseStudy' : 'guide'}`)}
         </span>
         <span className="text-sm text-text-tertiary">
           {formattedDate}

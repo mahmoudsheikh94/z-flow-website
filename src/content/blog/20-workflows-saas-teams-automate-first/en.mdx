@@ -1,0 +1,63 @@
+The 20 workflows B2B SaaS teams should automate first are the manual, repetitive tasks across sales, ops, onboarding, and reporting that quietly eat hours every week — things like lead routing, CRM hygiene, demo scheduling, invoice handling, and churn alerts. Automate them in roughly this order and a small team buys back a day or more per person, every week, before hiring anyone.
+
+This is the field guide we use when we run a [Growth-Ops Teardown](/en/growth-ops-teardown) — the bottlenecks below are the ones we find again and again in funded B2B SaaS companies that have outgrown spreadsheets but haven't built a RevOps function yet.
+
+## How to use this list
+
+Don't automate everything at once. Work top-down: the earlier items have the highest impact-to-effort ratio and tend to unblock the later ones. For each, we note the typical tools and what you get back.
+
+## Sales & pipeline (automate these first)
+
+**1. Lead routing & assignment.** New inbound leads sit in an inbox or get assigned by hand. Auto-route by territory, size, or round-robin the moment they arrive. *Tools: n8n / Make + your CRM. Saves: hours/week + faster response = more booked meetings.*
+
+**2. Lead enrichment.** Stop manually looking up company size, funding, and tech stack. Enrich every new lead automatically. *Tools: enrichment API + n8n. Saves: ~5–10 min per lead.*
+
+**3. CRM hygiene.** Duplicate records, missing fields, stale stages. Automate dedup, field-fill, and stage validation so your pipeline data is trustworthy. *Tools: CRM rules + n8n. Saves: hours of cleanup + better forecasting.*
+
+**4. Demo / meeting scheduling.** Kill the back-and-forth. Auto-book, confirm, remind, and reschedule. *Tools: scheduling tool + calendar. Saves: hours/week + fewer no-shows.*
+
+**5. Outbound sequencing.** Lists, personalization, and follow-ups done by hand don't scale. Automate the sequence; keep the human on the reply. *Tools: Smartlead / HeyReach + enrichment. Saves: 20+ hrs/week at volume.*
+
+**6. Quote & proposal generation.** Generate quotes/proposals from CRM data instead of editing a template each time. *Tools: doc automation + CRM. Saves: 15–30 min per deal.*
+
+**7. Deal-stage notifications.** Auto-alert the right person when a deal moves, stalls, or needs action. *Tools: CRM + Slack. Saves: dropped deals.*
+
+## Customer onboarding & success
+
+**8. Onboarding kickoff.** Trigger the full onboarding sequence (welcome, account setup, kickoff booking) automatically on signup or close. *Tools: n8n + product + email.*
+
+**9. Account provisioning.** Auto-create accounts, seats, and permissions instead of manual setup. *Tools: API + internal tools.*
+
+**10. Usage & health monitoring.** Surface low-usage or at-risk accounts automatically so CS acts before churn. *Tools: product data + alerts.*
+
+**11. Churn-risk alerts.** Flag the signals (drop in usage, support spikes, missed renewals) to the right owner in real time. *Tools: data pipeline + Slack.*
+
+**12. Renewal reminders.** Never miss a renewal — automate the reminder chain to CS and the customer. *Tools: CRM + calendar + email.*
+
+## Finance & operations
+
+**13. Invoice generation & sending.** Generate and send invoices from billing/CRM data automatically. *Tools: billing + doc automation. Saves: 95% of manual invoice errors in cases we've shipped.*
+
+**14. Refund processing.** Automate refund handling end-to-end, reflected in your accounting tool. *Tools: Stripe + accounting (e.g. Lexware) + n8n. Saves: minutes per refund vs. manual.*
+
+**15. Payment-failure recovery.** Auto-retry, notify, and dun on failed payments. *Tools: billing + email/Slack. Saves: recovered revenue.*
+
+**16. Expense & document filing.** Auto-sort incoming documents (invoices, receipts, contracts) into the right place. *Tools: storage + parsing + n8n.*
+
+**17. Data sync between tools.** The single biggest hidden time sink: re-typing data across CRM, billing, support, and spreadsheets. Sync it once. *Tools: n8n / custom API. Saves: hours/week + kills errors.*
+
+## Reporting & internal ops
+
+**18. Automated reporting & dashboards.** Stop assembling the weekly numbers by hand. Auto-pull and distribute. *Tools: data warehouse / sheets + n8n. Saves: hours every week.*
+
+**19. Internal alerts & standups.** Auto-surface what changed (deals, signups, incidents) into a daily digest. *Tools: data + Slack.*
+
+**20. AI-assisted triage & responses.** Use AI to draft responses, categorize tickets, and summarize threads — with a human approving. *Tools: Claude / OpenAI + n8n + MCP. The frontier: AI that does the work, not a demo.*
+
+## Where to start
+
+If you only do one thing: pick the workflow in this list that costs your team the most hours right now, and automate that. Then the next. Most of these are 1–2 week builds, and the first few usually pay for the rest.
+
+That's exactly what a **Growth-Ops Teardown** maps for you: we find which of these (and others specific to you) are leaking the most time and revenue, quantify it, and hand you a build-ready roadmap in 5 business days.
+
+[Book a free 30-min diagnostic →](/en/contact)

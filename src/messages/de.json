@@ -736,6 +736,16 @@
       "title": "Findet heraus, wo euch Stunden und Umsatz verloren gehen.",
       "subtitle": "Startet mit einem kostenlosen 30-Min-Erstgespräch. Wenn es passt, scopen wir euren Growth-Ops Teardown direkt im Call.",
       "button": "Kostenloses 30-Min-Erstgespräch buchen"
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "Fragen zum Teardown",
+      "items": [
+        { "q": "Was ist ein Growth-Ops Teardown?", "a": "Ein Growth-Ops Teardown ist eine bezahlte Diagnose für B2B-SaaS-Teams. Ein Senior Operator-Engineer kartiert eure echten Growth- und Ops-Workflows, beziffert, wo ihr Stunden und Umsatz verliert, und liefert eine build-fertige Roadmap — die Spezifikation, aus der eure nächste Automatisierung oder euer Produkt entsteht. Er kostet 2.500€ und dauert 5 Werktage." },
+        { "q": "Was bekomme ich konkret?", "a": "Ihr erhaltet eine build-fertige Roadmap auf 12–20 Seiten: Workflow-Maps des Ist-Zustands, eine quantifizierte Zeit- und Umsatz-Leck-Tabelle, eine priorisierte 90-Tage-Roadmap und eine build-fertige Spezifikation eures wichtigsten Quick Wins — übergeben in einem 45-minütigen Walkthrough-Call. Ein Plan, den ihr jedem Team geben könntet, ob ihr mit uns baut oder nicht." },
+        { "q": "Was kostet es?", "a": "Der Growth-Ops Teardown kostet fix 2.500€. Wenn ihr innerhalb von 60 Tagen mit uns einen Build startet, werden 50% der Teardown-Gebühr darauf angerechnet — die Hälfte kommt also effektiv zurück." },
+        { "q": "Wie lange dauert es, und was, wenn ihr zu spät seid?", "a": "Fünf Werktage ab unserem Discovery-Call. Eure Roadmap kommt in 5 Werktagen oder sie ist kostenlos — das ist die Garantie. Wir brauchen nur rund 90 Minuten eurer Zeit: einen Discovery-Call plus Lesezugriff auf zwei bis drei Systeme." }
+      ]
     }
   },
   "digitalisierung": {
@@ -2022,7 +2032,8 @@
     "categories": {
       "all": "Alle Beiträge",
       "serviceExplainer": "Service-Erklärungen",
-      "caseStudy": "Fallstudien"
+      "caseStudy": "Fallstudien",
+      "guide": "Guides"
     },
     "readingTime": "{minutes} Min. Lesezeit",
     "publishedOn": "Veröffentlicht am {date}",
@@ -2035,6 +2046,11 @@
       "subtitle": "Lassen Sie uns besprechen, wie wir Ihre Prozesse automatisieren, Ihr Produkt bauen oder KI in Ihre Workflows integrieren können."
     },
     "posts": {
+      "20-workflows-saas-teams-automate-first": {
+        "title": "20 Workflows, die B2B-SaaS-Teams zuerst automatisieren sollten",
+        "description": "Eine praktische Checkliste der 20 wirkungsvollsten Workflows, die B2B-SaaS-Teams zuerst automatisieren — in Sales, Ops, Onboarding und Reporting — inklusive Tools und Zeitersparnis je Workflow.",
+        "excerpt": "Die 20 manuellen Workflows, die eurem Team still die Woche auffressen — und die Reihenfolge, in der ihr sie automatisieren solltet."
+      },
       "what-is-company-brain": {
         "title": "Was ist ein Company Brain? KI-gestütztes Wissensmanagement erklärt",
         "description": "Erfahren Sie, wie ein Company Brain RAG-Technologie nutzt, um das Wissen Ihrer Organisation zu erfassen und sofort für Ihr gesamtes Team zugänglich zu machen.",

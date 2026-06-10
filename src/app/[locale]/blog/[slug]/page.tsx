@@ -111,7 +111,7 @@ export default async function BlogPostPage({
             {/* Category + meta */}
             <div className="hero-animate hero-animate-1 flex flex-wrap items-center gap-3 mb-6">
               <span className={`badge ${categoryBadgeColor[post.category]}`}>
-                {t(`categories.${post.category === 'service-explainer' ? 'serviceExplainer' : 'caseStudy'}`)}
+                {t(`categories.${post.category === 'service-explainer' ? 'serviceExplainer' : post.category === 'case-study' ? 'caseStudy' : 'guide'}`)}
               </span>
               <span className="text-sm text-white/50">{formattedDate}</span>
               <span className="text-sm text-white/50">

@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
+import { JsonLd, schemas } from '@/components/seo/JsonLd'
 
 export default async function DigitalisierungPage({
   params,
@@ -21,6 +22,15 @@ export default async function DigitalisierungPage({
 
   return (
     <>
+      <JsonLd
+        data={schemas.service({
+          name: 'Digitalisierung für den Mittelstand',
+          description: t('hero.subtitle'),
+          url: `https://z-flow.de/${locale}/digitalisierung`,
+          price: '1500',
+        })}
+      />
+
       {/* ───────── Hero ───────── */}
       <section className="section-dark pt-40 pb-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-30" />
