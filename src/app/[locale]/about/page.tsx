@@ -76,7 +76,7 @@ export default function AboutPage() {
               </div>
               <div className="mt-10 pt-8 border-t border-neutral-200">
                 <p className="text-text-secondary">
-                  <strong className="text-text-primary">{t('team.location')}:</strong> Berlin, Deutschland
+                  <strong className="text-text-primary">{t('team.location')}:</strong> {t('team.locationValue')}
                 </p>
                 <p className="text-text-secondary mt-3">
                   <strong className="text-text-primary">{t('team.contact')}:</strong>{' '}

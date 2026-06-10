@@ -32,7 +32,7 @@
     },
     "footer": {
       "tagline": "Wir finden den Engpass. Dann bauen wir die Lösung.",
-      "location": "Berlin, Deutschland",
+      "location": "Menzelstr. 3, 12157 Berlin, Deutschland",
       "servicesTitle": "Leistungen",
       "companyTitle": "Unternehmen",
       "contactTitle": "Kontakt",
@@ -1042,6 +1042,7 @@
         "role": "Gründer & Engineering"
       },
       "location": "Standort",
+      "locationValue": "Menzelstr. 3, 12157 Berlin, Deutschland",
       "contact": "Kontakt"
     },
     "network": {
@@ -1123,7 +1124,7 @@
       "title": "Direkter Kontakt",
       "email": "E-Mail",
       "location": "Standort",
-      "locationValue": "Berlin, Deutschland",
+      "locationValue": "Menzelstr. 3, 12157 Berlin, Deutschland",
       "responseTime": "Antwortzeit",
       "responseTimeValue": "Wir antworten in der Regel innerhalb von 24 Stunden an Werktagen.",
       "nextSteps": {

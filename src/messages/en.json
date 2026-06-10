@@ -32,7 +32,7 @@
     },
     "footer": {
       "tagline": "We find the bottleneck. Then we build the fix.",
-      "location": "Berlin, Germany",
+      "location": "Menzelstr. 3, 12157 Berlin, Germany",
       "servicesTitle": "Services",
       "companyTitle": "Company",
       "contactTitle": "Contact",
@@ -1042,6 +1042,7 @@
         "role": "Founder & Engineering"
       },
       "location": "Location",
+      "locationValue": "Menzelstr. 3, 12157 Berlin, Germany",
       "contact": "Contact"
     },
     "network": {
@@ -1123,7 +1124,7 @@
       "title": "Direct contact",
       "email": "Email",
       "location": "Location",
-      "locationValue": "Berlin, Germany",
+      "locationValue": "Menzelstr. 3, 12157 Berlin, Germany",
       "responseTime": "Response time",
       "responseTimeValue": "We typically respond within 24 hours on business days.",
       "nextSteps": {
