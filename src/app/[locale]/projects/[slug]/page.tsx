@@ -488,37 +488,52 @@ export default async function ProjectDetailPage({
               <div className="text-left">
                 <p className="text-white font-semibold">{testimonial.name}</p>
                 <p className="text-white/50 text-sm">
-                  {testimonial.role} ·{' '}
-                  {testimonial.companyUrl ? (
-                    <a
-                      href={testimonial.companyUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-white/70 hover:text-brand-orange transition-colors"
-                    >
-                      {testimonial.company}
-                    </a>
-                  ) : (
-                    testimonial.company
-                  )}
+                  {testimonial.role} · {testimonial.company}
                 </p>
-                {testimonial.linkedinUrl && (
-                  <a
-                    href={testimonial.linkedinUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-1 inline-flex items-center gap-1.5 text-white/50 hover:text-brand-orange text-sm transition-colors"
-                  >
-                    <svg
-                      className="w-4 h-4"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
-                    </svg>
-                    LinkedIn
-                  </a>
+                {(testimonial.linkedinUrl || testimonial.companyUrl) && (
+                  <div className="mt-2 flex items-center gap-2">
+                    {testimonial.linkedinUrl && (
+                      <a
+                        href={testimonial.linkedinUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`${testimonial.name} on LinkedIn`}
+                        title="LinkedIn"
+                        className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-white/60 hover:text-brand-orange hover:border-brand-orange transition-colors"
+                      >
+                        <svg
+                          className="w-4 h-4"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
+                          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+                        </svg>
+                      </a>
+                    )}
+                    {testimonial.companyUrl && (
+                      <a
+                        href={testimonial.companyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`${testimonial.company} website`}
+                        title={testimonial.company}
+                        className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-white/60 hover:text-brand-orange hover:border-brand-orange transition-colors"
+                      >
+                        <svg
+                          className="w-4 h-4"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth={1.75}
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
+                          <circle cx="12" cy="12" r="9" />
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M3.6 9h16.8M3.6 15h16.8M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
+                        </svg>
+                      </a>
+                    )}
+                  </div>
                 )}
               </div>
             </div>
