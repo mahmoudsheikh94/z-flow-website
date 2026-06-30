@@ -97,7 +97,7 @@ export default async function GrowthOpsTeardownPage({
                 </svg>
               </Link>
               <Link
-                href="/projects/weprospectify"
+                href="/projects/prospectify"
                 locale={locale}
                 className="btn btn-secondary"
               >

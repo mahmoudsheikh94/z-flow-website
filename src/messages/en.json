@@ -17,7 +17,7 @@
       "blog": "Blog"
     },
     "cta": {
-      "startProject": "Start Project",
+      "startProject": "Book your free diagnostic",
       "discussProject": "Discuss Project",
       "viewProjects": "View Projects",
       "learnMore": "Learn More",
@@ -25,7 +25,7 @@
       "viewPricing": "View Pricing",
       "sendMessage": "Send Message",
       "getInTouch": "Get in Touch",
-      "requestProject": "Request Project",
+      "requestProject": "Book your free diagnostic",
       "scheduleAppointment": "Schedule Appointment",
       "requestCustomQuote": "Request Custom Quote",
       "viewExamples": "View Examples"
@@ -116,33 +116,59 @@
   },
   "home": {
     "hero": {
-      "tagline": "We find the bottleneck.",
-      "headline": "Then we build the fix.",
-      "subheadline": "We're the operator-engineers that growing companies bring in to automate the manual work and build the software they can't hire fast enough to build themselves. We find where you lose hours and revenue — then we ship.",
+      "tagline": "We find where your business loses hours,",
+      "headline": "then we build the fix.",
+      "subheadline": "Growing companies bring us in to automate the manual work and ship the software they can't hire fast enough to build themselves. Recent builds cut one client's refund process from 15 minutes to 30 seconds and dropped another's volunteer onboarding time by 80%.",
       "meetFounder": "Meet Mahmoud"
     },
     "trustSignals": {
-      "transparentPricing": "5+ years process experience",
-      "fullDocumentation": "Process-first approach",
-      "noVendorLockIn": "Your code is yours",
-      "germanQuality": "Based in Germany"
+      "transparentPricing": "200+ refunds a day automated",
+      "fullDocumentation": "Your code is always yours",
+      "noVendorLockIn": "Weekly demos, no black box",
+      "germanQuality": "Berlin-based"
     },
     "services": {
       "badge": "How We Help",
       "title": "Three problems we solve",
       "subtitle": "Every project starts with understanding your process. Then we choose the right approach.",
       "mvp": {
-        "title": "Manual processes slowing you down?",
-        "description": "We map your workflows, find the bottlenecks, and automate what should never be manual. n8n, Make.com, and custom integrations."
+        "title": "Manual work is eating your team's week.",
+        "description": "We map the workflow, kill what should never be manual, and connect your tools so they finally talk to each other. One finance client went from a 95% invoice error rate to almost none. A sales team cut their lead response time by 70%."
       },
       "automation": {
-        "title": "Need a product built fast?",
-        "description": "From idea to working software in weeks. MVPs, internal tools, and custom platforms — built to last, not just to launch."
+        "title": "You need software, and hiring is too slow.",
+        "description": "Idea to working product in weeks, not quarters. MVPs, internal tools, and platforms built to last. We built a non-profit's volunteer system that cut onboarding time by 80% for a team of 50."
       },
       "ai": {
-        "title": "Ready for AI-powered team intelligence?",
-        "description": "From Company Brain — our organizational intelligence platform — to custom AI assistants and knowledge bases. We build AI systems trained on your company data. Not generic AI, but your AI."
+        "title": "You're sitting on data but can't put AI to work on it.",
+        "description": "Custom AI trained on your own company data, not a generic chatbot. We build systems that actually use what your business knows."
       }
+    },
+    "realNumbers": {
+      "badge": "Real Projects, Real Numbers",
+      "title": "The work, measured in results.",
+      "subtitle": "A few of the outcomes we've shipped for growing companies.",
+      "stat1": {
+        "metric": "15 min → 30 sec",
+        "label": "Automated refund processing",
+        "context": "E-commerce"
+      },
+      "stat2": {
+        "metric": "90% less",
+        "label": "Production time — 50+ marketing videos a week",
+        "context": "Agency"
+      },
+      "stat3": {
+        "metric": "70% faster",
+        "label": "Lead response, unified pipeline",
+        "context": "B2B Sales"
+      },
+      "stat4": {
+        "metric": "500+",
+        "label": "Listings synced daily, supplier data unified",
+        "context": "Automotive"
+      },
+      "cta": "See all case studies"
     },
     "process": {
       "badge": "Our Process",
@@ -183,8 +209,8 @@
       "subtitle": "From startups to established companies — here's what our clients say about working with Z-Flow."
     },
     "cta": {
-      "title": "Ready to start your project?",
-      "subtitle": "Let's find out in a short conversation if and how we can help you. No obligation and free of charge."
+      "title": "Ready to find your biggest bottleneck?",
+      "subtitle": "In a free 30-minute call we'll map where you're losing the most time and money, and tell you straight whether it's worth automating. No pitch, no obligation."
     },
     "companyBrain": {
       "badge": "OUR PRODUCT",
@@ -208,13 +234,13 @@
   "services": {
     "hero": {
       "badge": "OUR SERVICES",
-      "title": "Three problems. Three solutions.",
-      "subtitle": "Every engagement starts with understanding your process. Then we choose the right approach — automation, custom software, or AI."
+      "title": "Three problems we solve.",
+      "subtitle": "Tell us where the work is breaking and we'll tell you which fix actually pays off: automation, custom software, or AI. Every engagement starts with mapping your process, not selling you a tool."
     },
     "mvp": {
       "subtitle": "MVP / Custom Software",
       "title": "Ship the product you can't hire for.",
-      "description": "Production software in 6 weeks, not 6 months. We build MVPs and internal tools good enough to win real users — and clean enough to scale on. Same partner from first commit to production.",
+      "description": "Production software in weeks, not months. We build MVPs and internal tools good enough to win real users — and clean enough to scale on. Same partner from first commit to production.",
       "features": {
         "1": "Web apps with Next.js and React",
         "2": "Mobile-first responsive design",
@@ -228,7 +254,7 @@
     "automation": {
       "subtitle": "Automation",
       "title": "Get your team's week back.",
-      "description": "Manual sales and ops work — lead routing, CRM hygiene, reporting, hand-offs — costs hours and causes errors. We automate what should never be manual with n8n, Make, or custom APIs. Whichever actually fits.",
+      "description": "Manual sales and ops work — lead routing, CRM hygiene, reporting, hand-offs — costs hours and causes errors. We automate what should never be manual with n8n, Make, or custom APIs, whichever actually fits. A sales team we worked with cut lead response time by 70%.",
       "features": {
         "1": "Workflow analysis and design",
         "2": "n8n and Make.com integration",
@@ -242,7 +268,7 @@
     "ai": {
       "subtitle": "AI Integration",
       "title": "AI that does the work, not a demo.",
-      "description": "Custom AI assistants, knowledge bases, and org-intelligence wired into your real stack — deployed only where it beats the alternative. Trained on your data, not generic. Company Brain, our own org-intelligence platform, is what we build for ourselves.",
+      "description": "Custom AI assistants, knowledge bases, and org-intelligence wired into your real stack — deployed only where it beats the alternative. Trained on your data, not generic. An agency we built for now generates 50+ marketing videos a week with 90% less production time.",
       "features": {
         "1": "Company Brain — AI-powered team analytics",
         "2": "Internal AI assistants for employees",
@@ -337,7 +363,7 @@
   "automationPage": {
     "hero": {
       "title": "Automation",
-      "subtitle": "Your team is spending hours on tasks a machine could handle in seconds. We map the process, find the bottlenecks, and automate what matters — with n8n and Make.com.",
+      "subtitle": "Your team is spending hours on tasks a machine could handle in seconds. We map the process, find the bottlenecks, and automate what matters — with n8n and Make.com. One client went from 200 manual refunds a day to one-click and error-free.",
       "cta": "Have your process analyzed"
     },
     "benefits": {
@@ -397,14 +423,14 @@
     },
     "cta": {
       "title": "Which processes are stealing your time?",
-      "subtitle": "Let's figure out together which of your processes are best suited for automation.",
+      "subtitle": "In a free 30-minute diagnostic we'll find the one worth automating first and what it's worth.",
       "button": "Book a free diagnostic"
     }
   },
   "aiPage": {
     "hero": {
       "title": "AI for Your Business",
-      "subtitle": "Your team has years of knowledge trapped in documents, processes, and people's heads. We build AI systems that capture this knowledge and put it to work — internal assistants, smart chatbots, and automation that truly understands your business.",
+      "subtitle": "Your team has years of knowledge trapped in documents, processes, and people's heads. We build AI systems that capture this knowledge and put it to work — internal assistants, smart chatbots, and automation that truly understands your business. An agency we built for now generates 50+ marketing videos a week with 90% less production time.",
       "cta": "Discuss your AI project"
     },
     "useCases": {
@@ -484,13 +510,13 @@
       "ai": "AI Integration",
       "automation": "Workflow Automation"
     },
-    "weprospectify": {
-      "title": "~3× more booked meetings for a B2B sales team",
+    "prospectify": {
+      "title": "How Prospectify automated its manual outbound into one system",
       "industry": "B2B SaaS · Sales",
-      "description": "Stabilized a duct-taped Airtable + n8n prospecting setup, then rebuilt it as a scalable AI-first platform on Next.js with MCP — without ever taking the revenue engine offline.",
-      "result1": "~3× more booked meetings per month",
-      "result2": "20+ hours/week of manual prospecting eliminated",
-      "result3": "Working MVP in 8 weeks, full product in 12",
+      "description": "Prospectify ran outbound for 20+ clients on a stack of disconnected tools and spreadsheets. We rebuilt the whole operation into one automated system — a 14-workflow n8n engine on Supabase with a custom MCP server.",
+      "result1": "~€17,000 saved per year",
+      "result2": "580 hours of repeated manual work eliminated",
+      "result3": "One system instead of a stack of tools — same team, more clients",
       "tags": [
         "Next.js",
         "Supabase",
@@ -653,7 +679,7 @@
       "price": "€2,500",
       "priceNote": "50% credited toward your build",
       "ctaPrimary": "Book a free 30-min diagnostic",
-      "ctaSecondary": "See the Weprospectify case"
+      "ctaSecondary": "See the Prospectify case"
     },
     "what": {
       "badge": "What it is",
@@ -729,7 +755,7 @@
       ]
     },
     "proof": {
-      "quote": "For Movacar, an established mobility company, we automated supplier integrations, end-to-end refunds into their accounting, and a support chatbot — and became their ongoing technical partner. For WeProspectify, we stabilized a duct-taped setup then rebuilt it, roughly tripling booked meetings and saving 20+ hours a week.",
+      "quote": "For Movacar, an established mobility company, we automated supplier integrations, end-to-end refunds into their accounting, and a support chatbot — and became their ongoing technical partner. For Prospectify, we rebuilt a manual outbound operation into one automated system — saving ~€17,000 a year and eliminating 580 hours of repeated manual work.",
       "linkLabel": "See the projects →"
     },
     "cta": {
@@ -1100,6 +1126,7 @@
       "emailPlaceholder": "john@example.com",
       "service": "What is this about?",
       "servicePlaceholder": "Please select",
+      "serviceOpsAudit": "Operations Audit",
       "serviceCompanyBrain": "Company Brain Demo",
       "serviceMvp": "MVP Development",
       "serviceAutomation": "Automation",
@@ -1276,51 +1303,51 @@
       "ctaTitle": "Your project could be next",
       "ctaSubtitle": "Let's discuss how we can help you achieve similar results."
     },
-    "weprospectify": {
-      "title": "From Airtable duct-tape to a scalable AI sales platform",
-      "subtitle": "We diagnosed the lead-gen bottleneck, stabilized the existing setup so revenue never stopped, then rebuilt it as an AI-first product — roughly tripling booked meetings along the way.",
+    "prospectify": {
+      "title": "How Prospectify automated its manual outbound into one system",
+      "subtitle": "Prospectify runs outbound for 20+ clients with a team of 7+ SDRs. Their growth was stalling, and the reason wasn't leads or talent — too much of the work was still done by hand. We rebuilt the whole operation into one automated system.",
       "industry": "B2B SaaS · Sales",
-      "keyMetric": "~3× booked meetings",
-      "forWhom": "For: B2B SaaS sales teams running prospecting on duct-taped tools",
+      "keyMetric": "~€17,000 saved / year",
+      "forWhom": "For: B2B SaaS sales teams running prospecting on a stack of disconnected tools",
       "deliveryModel": "Delivered by Z-Flow + a curated specialist team — working MVP in 8 weeks, full product in 12.",
       "challenge": {
-        "intro": "WeProspectify was running its entire prospecting motion on a fragile stack of Airtable, spreadsheets and a few n8n flows. It worked — barely — but it couldn't scale, broke under load, and ate hours of manual work every week. The hard part: the duct-taped system was also the live revenue engine. It couldn't be switched off to be fixed.",
+        "intro": "Prospectify already had momentum: a growing client list and campaigns running across email and LinkedIn. But the work sat on top of disconnected tools and spreadsheets. Leads were deduplicated, scored, and routed by hand. Every handoff was a chance to lose something. It all worked, but only because people kept watching it — and that gets expensive as you grow, putting a hard limit on how many clients one team can carry.",
         "painPoints": [
-          "20+ hours a week lost to manual lead research and list-building",
-          "A brittle Airtable + n8n setup that broke as volume grew",
+          "Leads deduplicated, scored, and routed entirely by hand",
+          "A plan to pass 150,000 leads and 20+ clients without adding headcount",
           "Outreach scattered across tools with no single source of truth",
-          "No clean schema to build on — every new channel meant more glue"
+          "Every handoff a chance to lose something — only working because people kept watching it"
         ]
       },
       "solution": {
-        "intro": "We started with a diagnosis, not a rebuild. First we stabilized the existing Airtable + n8n engine so the team kept booking meetings while we worked. Then — underneath the running system — we re-architected it into a scalable, AI-first product on a proper schema, and migrated over without downtime.",
-        "approach": "The production rebuild runs on Next.js + Supabase with a clean, scalable schema. n8n orchestrates lead enrichment and multi-channel sequencing across Smartlead, HeyReach and Airtable. OpenAI powers personalization, and an MCP layer lets the system extend and scale with AI agents rather than more manual glue. Stripe handles SaaS billing. Same partner from the scrappy MVP to the production platform."
+        "intro": "Hiring wasn't the fix — more people managing more tools would only mean more manual work and more mistakes. So instead of patching the setup again, Prospectify decided to automate it properly and rebuild on something that could actually scale. We put the whole operation in one place.",
+        "approach": "A 14-workflow n8n engine with Supabase as the single source of truth connects Smartlead and HeyReach for outbound and Airtable for the team's daily work. The parts that book meetings now run on their own: each campaign gets its own ICP scoring, every prospect's website is scraped and matched against that campaign's ideal customer, and replies are sorted automatically so nothing sits unread or gets sent to the wrong place. The piece founders mention most is a custom MCP server — they ask their entire operation questions in plain English through Claude and get a straight answer. No dashboards, no waiting on a report."
       },
       "results": {
         "metrics": [
           {
-            "label": "Booked meetings / month",
-            "before": "Baseline",
-            "after": "~3× baseline",
-            "improvement": "~3× more meetings"
+            "label": "Annual cost saved",
+            "before": "Manual operation",
+            "after": "~€17,000 / year",
+            "improvement": "~€17,000 saved per year"
           },
           {
-            "label": "Manual prospecting time",
-            "before": "20+ hrs/week",
-            "after": "Largely automated",
-            "improvement": "20+ hrs/week saved"
+            "label": "Manual work eliminated",
+            "before": "580 hrs/year by hand",
+            "after": "Runs on autopilot",
+            "improvement": "580 hours of repeated manual work, gone"
           },
           {
-            "label": "Time to product",
-            "before": "Fragile MVP",
-            "after": "Scalable platform",
-            "improvement": "MVP in 8 wks · product in 12"
+            "label": "Operating model",
+            "before": "A stack of tools",
+            "after": "One automated system",
+            "improvement": "Same team, more clients, far less manual work"
           }
         ],
         "takeaways": [
-          "Stabilize before you rebuild — the revenue engine kept running the whole time",
-          "A clean schema and an MCP layer let the product scale with AI agents, not more manual glue",
-          "One senior partner across MVP and production rebuild meant zero context loss"
+          "Hiring wasn't the fix — automating the manual work was what unlocked scale",
+          "A 14-workflow n8n engine on Supabase put the whole operation in one place",
+          "A custom MCP server lets the team query their entire operation in plain English"
         ]
       }
     },
@@ -1789,7 +1816,7 @@
     "hero": {
       "badge": "BUILT IN-HOUSE",
       "title": "Company Brain",
-      "subtitle": "The AI org-intelligence platform we built for ourselves — it connects to your team's tools and reveals how work actually happens across code, conversations, documents, and tasks. It's also the kind of AI system we build for clients. Want one tuned to your stack? That starts with an Operations Audit.",
+      "subtitle": "Company Brain connects to your team's tools — code, chat, docs, tickets — and turns scattered activity into a clear picture of how work flows, where collaboration thrives, and where knowledge is at risk. Privacy-first, metadata-only by default. It's also the kind of AI system we build for clients — and one tuned to your stack starts with an Operations Audit.",
       "cta1": "Book a free 30-min diagnostic",
       "cta2": "See How It Works"
     },

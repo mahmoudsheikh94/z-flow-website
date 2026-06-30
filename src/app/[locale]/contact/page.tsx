@@ -128,6 +128,7 @@ export default function ContactPage() {
                   </label>
                   <select id="service" name="service" className="input">
                     <option value="">{t('form.servicePlaceholder')}</option>
+                    <option value="operations-audit">{t('form.serviceOpsAudit')}</option>
                     <option value="company-brain">{t('form.serviceCompanyBrain')}</option>
                     <option value="mvp">{t('form.serviceMvp')}</option>
                     <option value="automation">{t('form.serviceAutomation')}</option>

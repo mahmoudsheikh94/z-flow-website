@@ -17,7 +17,7 @@
       "blog": "Blog"
     },
     "cta": {
-      "startProject": "Projekt starten",
+      "startProject": "Kostenloses Erstgespräch buchen",
       "discussProject": "Projekt besprechen",
       "viewProjects": "Projekte ansehen",
       "learnMore": "Mehr erfahren",
@@ -25,7 +25,7 @@
       "viewPricing": "Preise ansehen",
       "sendMessage": "Nachricht senden",
       "getInTouch": "Kontakt aufnehmen",
-      "requestProject": "Projekt anfragen",
+      "requestProject": "Kostenloses Erstgespräch buchen",
       "scheduleAppointment": "Termin vereinbaren",
       "requestCustomQuote": "Individuelles Angebot anfragen",
       "viewExamples": "Beispiele ansehen"
@@ -116,33 +116,59 @@
   },
   "home": {
     "hero": {
-      "tagline": "Wir finden den Engpass.",
-      "headline": "Dann bauen wir die Lösung.",
-      "subheadline": "Wir sind die Operator-Engineers, die wachsende Unternehmen holen, um manuelle Arbeit zu automatisieren und die Software zu bauen, für die sie nicht schnell genug einstellen können. Wir finden, wo ihr Stunden und Umsatz verliert — dann liefern wir.",
+      "tagline": "Wir finden, wo dein Unternehmen Stunden verliert,",
+      "headline": "dann bauen wir die Lösung.",
+      "subheadline": "Wachsende Unternehmen holen uns, um die manuelle Arbeit zu automatisieren und die Software zu liefern, für die sie nicht schnell genug einstellen können. Aktuelle Projekte haben den Rückerstattungsprozess eines Kunden von 15 Minuten auf 30 Sekunden verkürzt und die Onboarding-Zeit für Freiwillige bei einem anderen um 80% gesenkt.",
       "meetFounder": "Mahmoud kennenlernen"
     },
     "trustSignals": {
-      "transparentPricing": "5+ Jahre Prozesserfahrung",
-      "fullDocumentation": "Prozess-first Ansatz",
-      "noVendorLockIn": "Dein Code gehört dir",
-      "germanQuality": "Standort Deutschland"
+      "transparentPricing": "200+ Rückerstattungen pro Tag automatisiert",
+      "fullDocumentation": "Dein Code gehört immer dir",
+      "noVendorLockIn": "Wöchentliche Demos, keine Blackbox",
+      "germanQuality": "Standort Berlin"
     },
     "services": {
       "badge": "Wie wir helfen",
       "title": "Drei Probleme, die wir lösen",
       "subtitle": "Jedes Projekt beginnt mit dem Verstehen deines Prozesses. Dann wählen wir den richtigen Ansatz.",
       "mvp": {
-        "title": "Manuelle Prozesse bremsen dich aus?",
-        "description": "Wir mappen deine Workflows, finden die Engpässe und automatisieren was nie manuell sein sollte. n8n, Make.com und individuelle Integrationen."
+        "title": "Manuelle Arbeit frisst die Woche deines Teams.",
+        "description": "Wir mappen den Workflow, eliminieren, was nie manuell sein sollte, und verbinden deine Tools, sodass sie endlich miteinander reden. Ein Finanzkunde ging von 95% Rechnungsfehlerquote auf fast null. Ein Vertriebsteam verkürzte seine Lead-Reaktionszeit um 70%."
       },
       "automation": {
-        "title": "Brauchst du ein Produkt — schnell?",
-        "description": "Von der Idee zur funktionierenden Software in Wochen. MVPs, interne Tools und Custom-Plattformen — gebaut um zu halten, nicht nur um zu launchen."
+        "title": "Du brauchst Software, und Einstellen dauert zu lange.",
+        "description": "Von der Idee zum funktionierenden Produkt in Wochen, nicht Quartalen. MVPs, interne Tools und Plattformen, gebaut um zu halten. Wir haben das Freiwilligen-System einer Non-Profit gebaut, das die Onboarding-Zeit für ein 50-köpfiges Team um 80% senkte."
       },
       "ai": {
-        "title": "Bereit für KI-gestützte Team-Intelligenz?",
-        "description": "Von Company Brain — unserer Organisationsintelligenz-Plattform — bis zu individuellen KI-Assistenten und Wissensdatenbanken. Wir bauen KI-Systeme, trainiert auf Ihren Daten. Keine generische KI, sondern Ihre KI."
+        "title": "Du sitzt auf Daten, kannst aber keine KI darauf ansetzen.",
+        "description": "Individuelle KI, trainiert auf deinen eigenen Unternehmensdaten, kein generischer Chatbot. Wir bauen Systeme, die wirklich nutzen, was dein Unternehmen weiß."
       }
+    },
+    "realNumbers": {
+      "badge": "Echte Projekte, echte Zahlen",
+      "title": "Die Arbeit, gemessen an Ergebnissen.",
+      "subtitle": "Einige der Resultate, die wir für wachsende Unternehmen geliefert haben.",
+      "stat1": {
+        "metric": "15 Min → 30 Sek",
+        "label": "Automatisierte Rückerstattungen",
+        "context": "E-Commerce"
+      },
+      "stat2": {
+        "metric": "90% weniger",
+        "label": "Produktionszeit — 50+ Marketing-Videos pro Woche",
+        "context": "Agentur"
+      },
+      "stat3": {
+        "metric": "70% schneller",
+        "label": "Lead-Reaktion, vereinheitlichte Pipeline",
+        "context": "B2B-Vertrieb"
+      },
+      "stat4": {
+        "metric": "500+",
+        "label": "Listings täglich synchronisiert, Lieferantendaten vereinheitlicht",
+        "context": "Automotive"
+      },
+      "cta": "Alle Case Studies ansehen"
     },
     "process": {
       "badge": "Unser Prozess",
@@ -183,8 +209,8 @@
       "subtitle": "Von Startups bis zu etablierten Unternehmen — das sagen unsere Kunden über die Zusammenarbeit mit Z-Flow."
     },
     "cta": {
-      "title": "Bereit, Ihr Projekt zu starten?",
-      "subtitle": "Lassen Sie uns in einem kurzen Gespräch herausfinden, ob und wie wir Ihnen helfen können. Unverbindlich und kostenlos."
+      "title": "Bereit, deinen größten Engpass zu finden?",
+      "subtitle": "In einem kostenlosen 30-Minuten-Gespräch zeigen wir dir, wo du am meisten Zeit und Geld verlierst, und sagen dir ehrlich, ob sich Automatisierung lohnt. Kein Pitch, keine Verpflichtung."
     },
     "companyBrain": {
       "badge": "UNSER PRODUKT",
@@ -208,13 +234,13 @@
   "services": {
     "hero": {
       "badge": "UNSERE LEISTUNGEN",
-      "title": "Drei Probleme. Drei Lösungen.",
-      "subtitle": "Jedes Projekt beginnt mit dem Verstehen Ihres Prozesses. Dann wählen wir den richtigen Ansatz — Automatisierung, individuelle Software oder KI."
+      "title": "Drei Probleme, die wir lösen.",
+      "subtitle": "Sag uns, wo die Arbeit hakt, und wir sagen dir, welcher Fix sich wirklich auszahlt: Automatisierung, individuelle Software oder KI. Jedes Projekt beginnt damit, deinen Prozess zu mappen, nicht damit, dir ein Tool zu verkaufen."
     },
     "mvp": {
       "subtitle": "MVP / Individuelle Software",
       "title": "Baut das Produkt, für das ihr nicht einstellen könnt.",
-      "description": "Produktiv-Software in 6 Wochen, nicht 6 Monaten. Wir bauen MVPs und interne Tools, gut genug um echte Nutzer zu gewinnen — und sauber genug, um darauf zu skalieren. Ein Partner vom ersten Commit bis zur Produktion.",
+      "description": "Produktiv-Software in Wochen, nicht Monaten. Wir bauen MVPs und interne Tools, gut genug um echte Nutzer zu gewinnen — und sauber genug, um darauf zu skalieren. Ein Partner vom ersten Commit bis zur Produktion.",
       "features": {
         "1": "Web-Apps mit Next.js und React",
         "2": "Mobile-first responsive Design",
@@ -228,7 +254,7 @@
     "automation": {
       "subtitle": "Automatisierung",
       "title": "Holt euch die Woche eures Teams zurück.",
-      "description": "Manuelle Sales- und Ops-Arbeit — Lead-Routing, CRM-Pflege, Reporting, Übergaben — kostet Stunden und verursacht Fehler. Wir automatisieren, was nie manuell sein sollte, mit n8n, Make oder Custom-APIs. Was wirklich passt.",
+      "description": "Manuelle Sales- und Ops-Arbeit — Lead-Routing, CRM-Pflege, Reporting, Übergaben — kostet Stunden und verursacht Fehler. Wir automatisieren, was nie manuell sein sollte, mit n8n, Make oder Custom-APIs, was eben wirklich passt. Ein Vertriebsteam, mit dem wir gearbeitet haben, verkürzte seine Lead-Reaktionszeit um 70%.",
       "features": {
         "1": "Workflow-Analyse und -Design",
         "2": "n8n und Make.com Integration",
@@ -242,7 +268,7 @@
     "ai": {
       "subtitle": "KI-Integration",
       "title": "KI, die die Arbeit macht — kein Demo.",
-      "description": "Individuelle KI-Assistenten, Wissensdatenbanken und Organisationsintelligenz, eingebunden in euren echten Stack — nur dort eingesetzt, wo es die Alternative schlägt. Auf euren Daten trainiert, nicht generisch. Company Brain, unsere eigene Org-Intelligence-Plattform, ist das, was wir für uns selbst bauen.",
+      "description": "Individuelle KI-Assistenten, Wissensdatenbanken und Organisationsintelligenz, eingebunden in euren echten Stack — nur dort eingesetzt, wo es die Alternative schlägt. Auf euren Daten trainiert, nicht generisch. Eine Agentur, für die wir gebaut haben, erstellt jetzt 50+ Marketing-Videos pro Woche mit 90% weniger Produktionszeit.",
       "features": {
         "1": "Company Brain — KI-gestützte Team-Analytik",
         "2": "Interne KI-Assistenten für Mitarbeiter",
@@ -337,7 +363,7 @@
   "automationPage": {
     "hero": {
       "title": "Automatisierung",
-      "subtitle": "Ihr Team verbringt Stunden mit Aufgaben, die eine Maschine in Sekunden erledigen könnte. Wir analysieren den Prozess, finden die Engpässe und automatisieren was zählt — mit n8n und Make.com.",
+      "subtitle": "Ihr Team verbringt Stunden mit Aufgaben, die eine Maschine in Sekunden erledigen könnte. Wir analysieren den Prozess, finden die Engpässe und automatisieren was zählt — mit n8n und Make.com. Ein Kunde ging von 200 manuellen Rückerstattungen pro Tag zu einem Klick und fehlerfrei.",
       "cta": "Prozess analysieren lassen"
     },
     "benefits": {
@@ -397,14 +423,14 @@
     },
     "cta": {
       "title": "Welche Prozesse rauben Ihnen Zeit?",
-      "subtitle": "Lassen Sie uns gemeinsam herausfinden, welche Ihrer Prozesse sich am besten automatisieren lassen.",
+      "subtitle": "In einem kostenlosen 30-minütigen Diagnosegespräch finden wir den Prozess, der sich zuerst zu automatisieren lohnt — und was er wert ist.",
       "button": "Kostenloses Erstgespräch buchen"
     }
   },
   "aiPage": {
     "hero": {
       "title": "KI für Ihr Unternehmen",
-      "subtitle": "Ihr Team hat jahrelang Wissen angesammelt — in Dokumenten, Prozessen und in den Köpfen der Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen und nutzbar machen — interne Assistenten, smarte Chatbots und Automatisierung, die Ihr Unternehmen wirklich versteht.",
+      "subtitle": "Ihr Team hat jahrelang Wissen angesammelt — in Dokumenten, Prozessen und in den Köpfen der Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen und nutzbar machen — interne Assistenten, smarte Chatbots und Automatisierung, die Ihr Unternehmen wirklich versteht. Eine Agentur, für die wir gebaut haben, erstellt jetzt 50+ Marketing-Videos pro Woche mit 90% weniger Produktionszeit.",
       "cta": "KI-Projekt besprechen"
     },
     "useCases": {
@@ -484,13 +510,13 @@
       "ai": "KI-Integration",
       "automation": "Workflow-Automatisierung"
     },
-    "weprospectify": {
-      "title": "~3× mehr gebuchte Meetings für ein B2B-Vertriebsteam",
+    "prospectify": {
+      "title": "Wie Prospectify sein manuelles Outbound in ein System überführte",
       "industry": "B2B SaaS · Vertrieb",
-      "description": "Wir haben ein zusammengeflicktes Airtable-+-n8n-Prospecting-Setup stabilisiert und dann als skalierbare, KI-first-Plattform auf Next.js mit MCP neu gebaut — ohne den laufenden Umsatzmotor je abzuschalten.",
-      "result1": "~3× mehr gebuchte Meetings pro Monat",
-      "result2": "20+ Stunden/Woche manuelles Prospecting eingespart",
-      "result3": "Funktionierendes MVP in 8 Wochen, fertiges Produkt in 12",
+      "description": "Prospectify betrieb Outbound für 20+ Kunden auf einem Stapel unverbundener Tools und Tabellen. Wir haben den gesamten Betrieb in ein automatisiertes System überführt — eine n8n-Engine mit 14 Workflows auf Supabase samt eigenem MCP-Server.",
+      "result1": "~17.000 € pro Jahr eingespart",
+      "result2": "580 Stunden wiederkehrender manueller Arbeit eliminiert",
+      "result3": "Ein System statt eines Stapels von Tools — gleiches Team, mehr Kunden",
       "tags": [
         "Next.js",
         "Supabase",
@@ -653,7 +679,7 @@
       "price": "2.500€",
       "priceNote": "50% werden auf euren Build angerechnet",
       "ctaPrimary": "Kostenloses 30-Min-Erstgespräch buchen",
-      "ctaSecondary": "Den Weprospectify-Case ansehen"
+      "ctaSecondary": "Den Prospectify-Case ansehen"
     },
     "what": {
       "badge": "Was es ist",
@@ -729,7 +755,7 @@
       ]
     },
     "proof": {
-      "quote": "Für Movacar, ein etabliertes Mobilitätsunternehmen, haben wir Lieferanten-Integrationen, Ende-zu-Ende-Rückerstattungen in die Buchhaltung und einen Support-Chatbot automatisiert — und wurden ihr fester technischer Partner. Für WeProspectify haben wir ein zusammengeflicktes Setup stabilisiert und neu gebaut — gebuchte Meetings etwa verdreifacht, 20+ Stunden/Woche gespart.",
+      "quote": "Für Movacar, ein etabliertes Mobilitätsunternehmen, haben wir Lieferanten-Integrationen, Ende-zu-Ende-Rückerstattungen in die Buchhaltung und einen Support-Chatbot automatisiert — und wurden ihr fester technischer Partner. Für Prospectify haben wir einen manuellen Outbound-Betrieb in ein automatisiertes System überführt — ~17.000 € pro Jahr gespart und 580 Stunden wiederkehrender Handarbeit eliminiert.",
       "linkLabel": "Die Projekte ansehen →"
     },
     "cta": {
@@ -1100,6 +1126,7 @@
       "emailPlaceholder": "max@beispiel.de",
       "service": "Worum geht es?",
       "servicePlaceholder": "Bitte wählen",
+      "serviceOpsAudit": "Operations Audit",
       "serviceCompanyBrain": "Company Brain Demo",
       "serviceMvp": "MVP Entwicklung",
       "serviceAutomation": "Automatisierung",
@@ -1276,51 +1303,51 @@
       "ctaTitle": "Dein Projekt könnte das nächste sein",
       "ctaSubtitle": "Lass uns besprechen, wie wir dir helfen können, ähnliche Ergebnisse zu erzielen."
     },
-    "weprospectify": {
-      "title": "Von Airtable-Flickwerk zur skalierbaren KI-Vertriebsplattform",
-      "subtitle": "Wir haben den Lead-Gen-Engpass diagnostiziert, das bestehende Setup stabilisiert, sodass der Umsatz nie stoppte, und es dann als KI-first-Produkt neu gebaut — und dabei die gebuchten Meetings etwa verdreifacht.",
+    "prospectify": {
+      "title": "Wie Prospectify sein manuelles Outbound in ein System überführte",
+      "subtitle": "Prospectify betreibt Outbound für 20+ Kunden mit einem Team von 7+ SDRs. Das Wachstum stockte — und der Grund waren weder Leads noch Talent, sondern dass zu viel Arbeit noch von Hand erledigt wurde. Wir haben den gesamten Betrieb in ein automatisiertes System überführt.",
       "industry": "B2B SaaS · Vertrieb",
-      "keyMetric": "~3× gebuchte Meetings",
-      "forWhom": "Für: B2B-SaaS-Vertriebsteams, die Prospecting auf zusammengeflickten Tools betreiben",
+      "keyMetric": "~17.000 € / Jahr eingespart",
+      "forWhom": "Für: B2B-SaaS-Vertriebsteams, die Prospecting auf einem Stapel unverbundener Tools betreiben",
       "deliveryModel": "Umgesetzt von Z-Flow + einem kuratierten Spezialisten-Team — funktionierendes MVP in 8 Wochen, fertiges Produkt in 12.",
       "challenge": {
-        "intro": "WeProspectify betrieb sein gesamtes Prospecting auf einem fragilen Stack aus Airtable, Tabellen und ein paar n8n-Flows. Es funktionierte — gerade so — aber es skalierte nicht, brach unter Last zusammen und kostete jede Woche Stunden manueller Arbeit. Das Schwierige: Das Flickwerk war zugleich der laufende Umsatzmotor. Man konnte es nicht abschalten, um es zu reparieren.",
+        "intro": "Prospectify hatte bereits Schwung: eine wachsende Kundenliste und Kampagnen über E-Mail und LinkedIn. Doch die Arbeit lag auf einem Stapel unverbundener Tools und Tabellen. Leads wurden von Hand dedupliziert, bewertet und verteilt. Jede Übergabe war eine Gelegenheit, etwas zu verlieren. Alles funktionierte, aber nur, weil Menschen es ständig im Blick behielten — und das wird mit dem Wachstum teuer und begrenzt hart, wie viele Kunden ein Team tragen kann.",
         "painPoints": [
-          "20+ Stunden pro Woche durch manuelle Lead-Recherche und Listenaufbau verloren",
-          "Ein brüchiges Airtable-+-n8n-Setup, das mit steigendem Volumen brach",
+          "Leads vollständig von Hand dedupliziert, bewertet und verteilt",
+          "Das Ziel, 150.000 Leads und 20+ Kunden ohne zusätzliches Personal zu bewältigen",
           "Outreach über viele Tools verstreut, ohne zentrale Datenquelle",
-          "Kein sauberes Schema als Basis — jeder neue Kanal bedeutete mehr Bastelei"
+          "Jede Übergabe ein Risiko — funktionierte nur, weil Menschen ständig zusahen"
         ]
       },
       "solution": {
-        "intro": "Wir begannen mit einer Diagnose, nicht mit einem Rebuild. Zuerst stabilisierten wir das bestehende Airtable-+-n8n-Engine, damit das Team weiter Meetings buchte, während wir arbeiteten. Dann — unter dem laufenden System — re-architekturierten wir es zu einem skalierbaren, KI-first-Produkt auf einem sauberen Schema und migrierten ohne Ausfallzeit.",
-        "approach": "Der Produktiv-Rebuild läuft auf Next.js + Supabase mit einem sauberen, skalierbaren Schema. n8n orchestriert Lead-Anreicherung und Multi-Channel-Sequenzierung über Smartlead, HeyReach und Airtable. OpenAI übernimmt die Personalisierung, und eine MCP-Schicht lässt das System mit KI-Agenten wachsen statt mit mehr manueller Bastelei. Stripe übernimmt die SaaS-Abrechnung. Ein Partner vom scrappy MVP bis zur Produktivplattform."
+        "intro": "Mehr einzustellen war nicht die Lösung — mehr Menschen, die mehr Tools verwalten, hätten nur mehr Handarbeit und mehr Fehler bedeutet. Statt das Setup erneut zu flicken, entschied sich Prospectify, es richtig zu automatisieren und auf etwas neu zu bauen, das tatsächlich skaliert. Wir haben den gesamten Betrieb an einen Ort gebracht.",
+        "approach": "Eine n8n-Engine mit 14 Workflows und Supabase als zentraler Datenquelle verbindet Smartlead und HeyReach für Outbound sowie Airtable für die tägliche Arbeit des Teams. Die Teile, die Meetings buchen, laufen jetzt von allein: Jede Kampagne erhält ihr eigenes ICP-Scoring, die Website jedes Interessenten wird gescrapt und mit dem idealen Kunden der Kampagne abgeglichen, und Antworten werden automatisch sortiert, sodass nichts ungelesen liegen bleibt oder am falschen Ort landet. Was Gründer am häufigsten nennen, ist ein eigener MCP-Server — sie befragen ihren gesamten Betrieb in einfacher Sprache über Claude und erhalten eine klare Antwort. Keine Dashboards, kein Warten auf einen Report."
       },
       "results": {
         "metrics": [
           {
-            "label": "Gebuchte Meetings / Monat",
-            "before": "Ausgangswert",
-            "after": "~3× Ausgangswert",
-            "improvement": "~3× mehr Meetings"
+            "label": "Jährliche Kosteneinsparung",
+            "before": "Manueller Betrieb",
+            "after": "~17.000 € / Jahr",
+            "improvement": "~17.000 € pro Jahr eingespart"
           },
           {
-            "label": "Manuelle Prospecting-Zeit",
-            "before": "20+ Std./Woche",
-            "after": "Weitgehend automatisiert",
-            "improvement": "20+ Std./Woche gespart"
+            "label": "Eliminierte Handarbeit",
+            "before": "580 Std./Jahr von Hand",
+            "after": "Läuft autonom",
+            "improvement": "580 Stunden wiederkehrender Handarbeit, weg"
           },
           {
-            "label": "Time-to-Product",
-            "before": "Fragiles MVP",
-            "after": "Skalierbare Plattform",
-            "improvement": "MVP in 8 Wo. · Produkt in 12"
+            "label": "Betriebsmodell",
+            "before": "Ein Stapel von Tools",
+            "after": "Ein automatisiertes System",
+            "improvement": "Gleiches Team, mehr Kunden, weit weniger Handarbeit"
           }
         ],
         "takeaways": [
-          "Erst stabilisieren, dann neu bauen — der Umsatzmotor lief die ganze Zeit weiter",
-          "Ein sauberes Schema und eine MCP-Schicht lassen das Produkt mit KI-Agenten skalieren, nicht mit mehr Handarbeit",
-          "Ein Senior-Partner über MVP und Produktiv-Rebuild hinweg — null Kontextverlust"
+          "Einstellen war nicht die Lösung — die Handarbeit zu automatisieren brachte die Skalierung",
+          "Eine n8n-Engine mit 14 Workflows auf Supabase brachte den gesamten Betrieb an einen Ort",
+          "Ein eigener MCP-Server lässt das Team seinen gesamten Betrieb in einfacher Sprache abfragen"
         ]
       }
     },
@@ -1789,7 +1816,7 @@
     "hero": {
       "badge": "SELBST GEBAUT",
       "title": "Company Brain",
-      "subtitle": "Die KI-Org-Intelligence-Plattform, die wir für uns selbst gebaut haben — sie verbindet sich mit den Tools eures Teams und zeigt, wie Arbeit wirklich passiert: über Code, Kommunikation, Dokumente und Aufgaben hinweg. Es ist auch die Art von KI-System, die wir für Kunden bauen. Wollt ihr eines, abgestimmt auf euren Stack? Das beginnt mit einer Operations-Analyse.",
+      "subtitle": "Company Brain verbindet sich mit den Tools eures Teams — Code, Chat, Dokumente, Tickets — und macht aus verstreuter Aktivität ein klares Bild davon, wie Arbeit fließt, wo Zusammenarbeit gelingt und wo Wissen gefährdet ist. Privacy-first, standardmäßig nur Metadaten. Es ist auch die Art von KI-System, die wir für Kunden bauen — und eines, abgestimmt auf euren Stack, beginnt mit einer Operations-Analyse.",
       "cta1": "Kostenloses 30-Min-Erstgespräch buchen",
       "cta2": "So funktioniert's"
     },

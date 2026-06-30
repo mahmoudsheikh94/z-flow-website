@@ -215,6 +215,50 @@ export default async function Home({
         </div>
       </section>
 
+      {/* Real Projects, Real Numbers Section */}
+      <section className="section-dark py-32 lg:py-40 relative overflow-hidden">
+        <div className="absolute inset-0 bg-grid opacity-20" />
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="text-center mb-20" data-animate="blur-up">
+            <span className="badge badge-dark mb-6">{t('realNumbers.badge')}</span>
+            <h2 className="text-headline font-bold text-white mb-6">
+              {t('realNumbers.title')}
+            </h2>
+            <p className="text-body-lg text-white/60 max-w-2xl mx-auto">
+              {t('realNumbers.subtitle')}
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+            {([1, 2, 3, 4] as const).map((n, index) => (
+              <div
+                key={n}
+                className="rounded-2xl border border-white/10 p-8 text-center
+                           hover:border-white/20 transition-all duration-500"
+                data-animate="fade-up"
+                data-delay={String((index + 1) * 100)}
+              >
+                <div className="text-3xl lg:text-4xl font-bold text-brand-orange mb-4">
+                  {t(`realNumbers.stat${n}.metric`)}
+                </div>
+                <p className="text-white/80 text-sm leading-relaxed mb-3">
+                  {t(`realNumbers.stat${n}.label`)}
+                </p>
+                <span className="text-white/40 text-xs uppercase tracking-wider">
+                  {t(`realNumbers.stat${n}.context`)}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-16" data-animate="fade-up" data-delay="400">
+            <Link href="/projects" locale={locale} className="btn btn-outline">
+              {t('realNumbers.cta')}
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Process Section */}
       <section className="section-gray py-32 lg:py-40">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

@@ -17,6 +17,17 @@ const nextConfig: NextConfig = {
         destination: '/operations-audit',
         permanent: true,
       },
+      // Old case-study slug -> renamed to the client's brand (preserve links/SEO)
+      {
+        source: '/:locale(en|de)/projects/weprospectify',
+        destination: '/:locale/projects/prospectify',
+        permanent: true,
+      },
+      {
+        source: '/projects/weprospectify',
+        destination: '/projects/prospectify',
+        permanent: true,
+      },
     ];
   },
 };

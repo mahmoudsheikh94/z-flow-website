@@ -7,23 +7,27 @@ export interface Testimonial {
   quote_en: string
   quote_de: string
   avatar?: string
+  /** Optional outbound link to the client's company website. */
+  companyUrl?: string
+  /** Optional outbound link to the person's LinkedIn profile. */
+  linkedinUrl?: string
 }
 
-// No testimonials are published yet. The case-study page guards on this array, so the
-// testimonial block simply does not render while it's empty — nothing unverified ships.
-//
-// WHEN THE WEPROSPECTIFY CLIENT APPROVES A QUOTE (Step 0 of the GTM plan), uncomment and
-// fill the entry below with their EXACT words + real name/role. Until then it stays empty.
-//
-// {
-//   id: 'weprospectify',
-//   name: '<client name>',
-//   role: '<role>',
-//   company: 'WeProspectify',
-//   quote_en: '<client-approved English quote>',
-//   quote_de: '<client-approved German quote>',
-// },
-export const testimonials: Testimonial[] = []
+export const testimonials: Testimonial[] = [
+  {
+    id: 'prospectify',
+    name: 'Wouter Wippert',
+    role: 'Founder',
+    company: 'Prospectify',
+    quote_en:
+      "If you're looking for a partner who genuinely thinks along with your business instead of simply building what you ask for, you're in the right place. Mahmoud consistently thinks a few steps ahead and often identifies opportunities and solutions before they become problems.",
+    quote_de:
+      'Wenn Sie einen Partner suchen, der wirklich mit Ihrem Unternehmen mitdenkt, statt nur das zu bauen, worum Sie bitten, sind Sie hier richtig. Mahmoud denkt durchweg ein paar Schritte voraus und erkennt oft Chancen und Lösungen, bevor daraus Probleme werden.',
+    avatar: '/images/testimonials/wouter-wippert.jpg',
+    companyUrl: 'https://weprospectify.com/',
+    linkedinUrl: 'https://www.linkedin.com/in/wouterwippert/',
+  },
+]
 
 export function getTestimonialById(id: string): Testimonial | undefined {
   return testimonials.find((t) => t.id === id)
