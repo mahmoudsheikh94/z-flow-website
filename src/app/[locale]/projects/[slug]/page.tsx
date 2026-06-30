@@ -87,6 +87,12 @@ export default async function ProjectDetailPage({
   const deliveryModel = t.has(`${slug}.deliveryModel`)
     ? t(`${slug}.deliveryModel`)
     : null
+  const challengeQuote = t.has(`${slug}.challenge.quote`)
+    ? t(`${slug}.challenge.quote`)
+    : null
+  const resultsQuote = t.has(`${slug}.results.quote`)
+    ? t(`${slug}.results.quote`)
+    : null
   const testimonial = project.testimonialId
     ? getTestimonialById(project.testimonialId)
     : undefined
@@ -275,6 +281,21 @@ export default async function ProjectDetailPage({
                 </li>
               ))}
             </ul>
+
+            {challengeQuote && (
+              <blockquote
+                className="mt-10 border-l-2 border-brand-orange pl-6 text-xl italic text-text-primary leading-relaxed"
+                data-animate="fade-up"
+                data-delay="200"
+              >
+                “{challengeQuote}”
+                {testimonial && (
+                  <footer className="mt-3 text-sm not-italic text-text-secondary">
+                    — {testimonial.name}, {testimonial.role} · {testimonial.company}
+                  </footer>
+                )}
+              </blockquote>
+            )}
           </div>
         </div>
       </section>
@@ -416,6 +437,21 @@ export default async function ProjectDetailPage({
                 </li>
               ))}
             </ul>
+
+            {resultsQuote && (
+              <blockquote
+                className="mt-10 border-l-2 border-brand-orange pl-6 text-xl italic text-text-primary leading-relaxed"
+                data-animate="fade-up"
+                data-delay="100"
+              >
+                “{resultsQuote}”
+                {testimonial && (
+                  <footer className="mt-3 text-sm not-italic text-text-secondary">
+                    — {testimonial.name}, {testimonial.role} · {testimonial.company}
+                  </footer>
+                )}
+              </blockquote>
+            )}
           </div>
         </div>
       </section>

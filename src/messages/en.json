@@ -20,6 +20,7 @@
       "startProject": "Book your free diagnostic",
       "discussProject": "Discuss Project",
       "viewProjects": "View Projects",
+    "viewWork": "View our work",
       "learnMore": "Learn More",
       "freeConsultation": "Free 30-Min Diagnostic",
       "viewPricing": "View Pricing",
@@ -280,8 +281,8 @@
       "metricLabel": "AI trained on it, not generic"
     },
     "cta": {
-      "title": "Not sure what you need?",
-      "subtitle": "No problem. In a free 30-min diagnostic call, we'll figure out together which solution best fits your requirements."
+      "title": "Not sure which one you need?",
+      "subtitle": "That's what the free 30-minute diagnostic is for. We'll look at where you're losing the most time and point you to the fix that pays back fastest."
     }
   },
   "mvpPage": {
@@ -493,8 +494,8 @@
       "title": "Technologies"
     },
     "cta": {
-      "title": "Ready to build your Company Brain?",
-      "subtitle": "Let's discuss how AI trained on your data can transform how your team works. See Company Brain, our flagship product, in action."
+      "title": "Ready to put AI to work on your own data?",
+      "subtitle": "In a free 30-minute call we'll find one high-value use case worth building first. See Company Brain, our flagship product, in action."
     }
   },
   "projects": {
@@ -1113,8 +1114,8 @@
   "contact": {
     "hero": {
       "badge": "Contact",
-      "title": "Let's talk",
-      "subtitle": "Tell us about your project. We'll get back to you within 24 hours."
+      "title": "Book your free 30-minute diagnostic.",
+      "subtitle": "Tell us where work is breaking and we'll come back within 24 hours with whether and how we can help. No pitch, no obligation."
     },
     "form": {
       "title": "Request project",
@@ -1317,7 +1318,8 @@
           "A plan to pass 150,000 leads and 20+ clients without adding headcount",
           "Outreach scattered across tools with no single source of truth",
           "Every handoff a chance to lose something — only working because people kept watching it"
-        ]
+        ],
+        "quote": "All of our prospecting processes were spread across different tools and systems. Things worked, but there was a lot of manual work and room for mistakes. Working with Z-Flow brought everything together into one streamlined process."
       },
       "solution": {
         "intro": "Hiring wasn't the fix — more people managing more tools would only mean more manual work and more mistakes. So instead of patching the setup again, Prospectify decided to automate it properly and rebuild on something that could actually scale. We put the whole operation in one place.",
@@ -1348,7 +1350,8 @@
           "Hiring wasn't the fix — automating the manual work was what unlocked scale",
           "A 14-workflow n8n engine on Supabase put the whole operation in one place",
           "A custom MCP server lets the team query their entire operation in plain English"
-        ]
+        ],
+        "quote": "The biggest win has been reliability. A lot of processes now run on autopilot, which has significantly reduced errors and freed up time for our team to focus on higher-value activities."
       }
     },
     "layovr": {

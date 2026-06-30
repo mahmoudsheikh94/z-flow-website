@@ -20,6 +20,7 @@
       "startProject": "Kostenloses Erstgespräch buchen",
       "discussProject": "Projekt besprechen",
       "viewProjects": "Projekte ansehen",
+      "viewWork": "Unsere Arbeit ansehen",
       "learnMore": "Mehr erfahren",
       "freeConsultation": "Kostenloses 30-Min-Erstgespräch",
       "viewPricing": "Preise ansehen",
@@ -280,8 +281,8 @@
       "metricLabel": "KI darauf trainiert, nicht generisch"
     },
     "cta": {
-      "title": "Nicht sicher, was Sie brauchen?",
-      "subtitle": "Kein Problem. In einem kostenlosen 30-Min-Erstgespräch finden wir gemeinsam heraus, welche Lösung am besten zu Ihren Anforderungen passt."
+      "title": "Nicht sicher, welche du brauchst?",
+      "subtitle": "Genau dafür ist das kostenlose 30-Minuten-Erstgespräch da. Wir schauen, wo du am meisten Zeit verlierst, und zeigen dir den Fix, der sich am schnellsten auszahlt."
     }
   },
   "mvpPage": {
@@ -493,8 +494,8 @@
       "title": "Technologien"
     },
     "cta": {
-      "title": "Bereit für Ihr Company Brain?",
-      "subtitle": "Lassen Sie uns besprechen, wie KI trainiert auf Ihren Daten die Arbeitsweise Ihres Teams transformieren kann. Erleben Sie Company Brain, unser Flaggschiff-Produkt, in Aktion."
+      "title": "Bereit, KI auf Ihre eigenen Daten anzusetzen?",
+      "subtitle": "In einem kostenlosen 30-Minuten-Gespräch finden wir einen ersten wertvollen Anwendungsfall, der sich zu bauen lohnt. Erleben Sie Company Brain, unser Flaggschiff-Produkt, in Aktion."
     }
   },
   "projects": {
@@ -1113,8 +1114,8 @@
   "contact": {
     "hero": {
       "badge": "Kontakt",
-      "title": "Lassen Sie uns sprechen",
-      "subtitle": "Erzählen Sie uns von Ihrem Projekt. Wir melden uns innerhalb von 24 Stunden."
+      "title": "Buchen Sie Ihr kostenloses 30-Minuten-Erstgespräch.",
+      "subtitle": "Sagen Sie uns, wo die Arbeit hakt, und wir melden uns innerhalb von 24 Stunden mit einer ehrlichen Einschätzung, ob und wie wir helfen können. Kein Pitch, keine Verpflichtung."
     },
     "form": {
       "title": "Projekt anfragen",
@@ -1317,7 +1318,8 @@
           "Das Ziel, 150.000 Leads und 20+ Kunden ohne zusätzliches Personal zu bewältigen",
           "Outreach über viele Tools verstreut, ohne zentrale Datenquelle",
           "Jede Übergabe ein Risiko — funktionierte nur, weil Menschen ständig zusahen"
-        ]
+        ],
+        "quote": "All unsere Prospecting-Prozesse waren über verschiedene Tools und Systeme verteilt. Es funktionierte, aber es gab viel Handarbeit und Raum für Fehler. Die Zusammenarbeit mit Z-Flow hat alles zu einem schlanken Prozess zusammengeführt."
       },
       "solution": {
         "intro": "Mehr einzustellen war nicht die Lösung — mehr Menschen, die mehr Tools verwalten, hätten nur mehr Handarbeit und mehr Fehler bedeutet. Statt das Setup erneut zu flicken, entschied sich Prospectify, es richtig zu automatisieren und auf etwas neu zu bauen, das tatsächlich skaliert. Wir haben den gesamten Betrieb an einen Ort gebracht.",
@@ -1348,7 +1350,8 @@
           "Einstellen war nicht die Lösung — die Handarbeit zu automatisieren brachte die Skalierung",
           "Eine n8n-Engine mit 14 Workflows auf Supabase brachte den gesamten Betrieb an einen Ort",
           "Ein eigener MCP-Server lässt das Team seinen gesamten Betrieb in einfacher Sprache abfragen"
-        ]
+        ],
+        "quote": "Der größte Gewinn war die Zuverlässigkeit. Viele Prozesse laufen jetzt automatisch, was Fehler deutlich reduziert und unserem Team Zeit für wertvollere Aufgaben freigeschaufelt hat."
       }
     },
     "layovr": {
