@@ -215,6 +215,17 @@ export default async function Home({
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <TestimonialsSection
+        testimonials={testimonials}
+        locale={locale}
+        translations={{
+          badge: t('testimonials.badge'),
+          title: t('testimonials.title'),
+          subtitle: t('testimonials.subtitle'),
+        }}
+      />
+
       {/* Real Projects, Real Numbers Section */}
       <section className="section-dark py-32 lg:py-40 relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-20" />
@@ -369,17 +380,6 @@ export default async function Home({
           </div>
         </div>
       </section>
-
-      {/* Testimonials Section */}
-      <TestimonialsSection
-        testimonials={testimonials}
-        locale={locale}
-        translations={{
-          badge: t('testimonials.badge'),
-          title: t('testimonials.title'),
-          subtitle: t('testimonials.subtitle'),
-        }}
-      />
 
       {/* CTA Section */}
       <section className="section-dark py-32 lg:py-44 relative overflow-hidden">
