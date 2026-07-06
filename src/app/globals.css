@@ -672,6 +672,24 @@ body {
   will-change: transform;
 }
 
+/* ============================================
+   CLIENT LOGOS MARQUEE
+   ============================================ */
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.logos-marquee-track {
+  animation: marquee 28s linear infinite;
+  will-change: transform;
+}
+
+.logos-marquee-track:hover {
+  animation-play-state: paused;
+}
+
 /* Play button pulse animation */
 @keyframes playPulse {
   0% {

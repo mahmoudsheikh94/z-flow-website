@@ -19,25 +19,31 @@ interface ClientLogosStripProps {
 
 export function ClientLogosStrip({ label }: ClientLogosStripProps) {
   return (
-    <section className="section-dark py-12 border-t border-white/5">
+    <section className="section-dark py-10 border-t border-white/5">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="flex flex-col sm:flex-row items-center gap-8 sm:gap-12">
-          <p className="text-white/30 text-xs uppercase tracking-widest whitespace-nowrap flex-shrink-0">
-            {label}
-          </p>
-          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-8 lg:gap-12">
-            {clientLogos.map((logo) => (
-              <div key={logo.name} className="opacity-40 hover:opacity-70 transition-opacity duration-300">
-                <Image
-                  src={logo.src}
-                  alt={logo.name}
-                  width={logo.width}
-                  height={logo.height}
-                  className="h-8 w-auto object-contain filter brightness-0 invert"
-                />
-              </div>
-            ))}
-          </div>
+        <p className="text-center text-white/30 text-xs uppercase tracking-widest mb-8">
+          {label}
+        </p>
+      </div>
+
+      {/* Full-width overflow-hidden container for the marquee */}
+      <div className="overflow-hidden">
+        {/* Track is 2× wide — first half visible, second half is the seamless loop */}
+        <div className="logos-marquee-track flex items-center gap-16 w-max">
+          {[...clientLogos, ...clientLogos].map((logo, i) => (
+            <div
+              key={`${logo.name}-${i}`}
+              className="flex-shrink-0 opacity-40 hover:opacity-80 transition-opacity duration-300"
+            >
+              <Image
+                src={logo.src}
+                alt={logo.name}
+                width={logo.width}
+                height={logo.height}
+                className="h-10 w-auto object-contain brightness-0 invert"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>
