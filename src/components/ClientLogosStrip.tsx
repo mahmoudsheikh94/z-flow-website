@@ -3,21 +3,20 @@ import Image from 'next/image'
 interface ClientLogo {
   name: string
   src: string
-  // Intrinsic source dimensions — used by next/image for aspect ratio, NOT display size
+  href: string
   srcWidth: number
   srcHeight: number
-  // Tailwind height class applied to the rendered <img>
   displayClass: string
 }
 
 const clientLogos: ClientLogo[] = [
-  // Wordmark — very wide (1600×144), needs less height to stay balanced with the others
-  { name: 'Prospectify', src: '/images/client_logos/PROSPECTIFY.webp', srcWidth: 1600, srcHeight: 144, displayClass: 'h-6 w-auto' },
-  // Near-square icon+wordmark (512×140)
-  { name: 'Surge', src: '/images/client_logos/Surge.avif', srcWidth: 512, srcHeight: 140, displayClass: 'h-8 w-auto' },
-  // SVG — scales perfectly
-  { name: 'Movacar', src: '/images/client_logos/movacar.svg', srcWidth: 220, srcHeight: 68, displayClass: 'h-7 w-auto' },
+  { name: 'Prospectify', src: '/images/client_logos/PROSPECTIFY.webp', href: 'https://weprospectify.com/', srcWidth: 1600, srcHeight: 144, displayClass: 'h-6 w-auto' },
+  { name: 'Surge', src: '/images/client_logos/Surge.avif', href: 'https://www.surgemusic.io/', srcWidth: 512, srcHeight: 140, displayClass: 'h-8 w-auto' },
+  { name: 'Movacar', src: '/images/client_logos/movacar.svg', href: 'https://www.movacar.com/', srcWidth: 220, srcHeight: 68, displayClass: 'h-7 w-auto' },
 ]
+
+// Repeat enough times so the strip is always fully covered with no gaps
+const repeated = [...clientLogos, ...clientLogos, ...clientLogos, ...clientLogos]
 
 interface ClientLogosStripProps {
   label: string
@@ -32,13 +31,16 @@ export function ClientLogosStrip({ label }: ClientLogosStripProps) {
         </p>
       </div>
 
-      {/* Full-width overflow-hidden container for the marquee */}
       <div className="overflow-hidden">
-        {/* Track is 2× wide — first half visible, second half is the seamless loop */}
+        {/* Track width = 4 sets of logos; animates exactly one set (25%) for a seamless loop */}
         <div className="logos-marquee-track flex items-center gap-20 w-max">
-          {[...clientLogos, ...clientLogos].map((logo, i) => (
-            <div
+          {repeated.map((logo, i) => (
+            <a
               key={`${logo.name}-${i}`}
+              href={logo.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Visit ${logo.name}`}
               className="flex-shrink-0 opacity-60 hover:opacity-100 transition-opacity duration-300"
             >
               <Image
@@ -48,7 +50,7 @@ export function ClientLogosStrip({ label }: ClientLogosStripProps) {
                 height={logo.srcHeight}
                 className={`${logo.displayClass} object-contain`}
               />
-            </div>
+            </a>
           ))}
         </div>
       </div>
