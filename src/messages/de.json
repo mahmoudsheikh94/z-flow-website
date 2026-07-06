@@ -63,8 +63,8 @@
       "description": "MVP Entwicklung für Gründer und KMU. Web-Apps mit Next.js/React, Supabase Backend. Prozess-zuerst Ansatz, Festpreise. Validieren Sie Ihre Geschäftsidee mit echten Nutzern bevor Sie skalieren."
     },
     "automation": {
-      "title": "Prozessautomatisierung | n8n & Make.com Experten Deutschland",
-      "description": "Wir analysieren Ihre Prozesse, finden die Engpässe und automatisieren was zählt. n8n und Make.com Experten mit 5+ Jahren Prozesserfahrung. Self-hosted, DSGVO-konform. 90% Zeitersparnis."
+      "title": "Prozessautomatisierung | Outreach-, Rechnungs- & Abstimmungsautomatisierung",
+      "description": "Wir analysieren Ihre Prozesse, finden die Engpässe und automatisieren was zählt: Outreach-Automatisierung, Rechnungsautomatisierung und Kontenabstimmung, umgesetzt mit n8n und Make.com. Self-hosted, DSGVO-konform. 90% Zeitersparnis."
     },
     "aiIntegration": {
       "title": "KI für Unternehmen | Wissensdatenbanken & KI-Assistenten",
@@ -391,12 +391,12 @@
       "title": "Typische Anwendungsfälle",
       "subtitle": "Diese Workflows automatisieren wir regelmäßig für unsere Kunden.",
       "leadManagement": {
-        "title": "Lead Management",
-        "description": "Automatische Erfassung, Qualifizierung und Verteilung von Leads aus verschiedenen Quellen."
+        "title": "Outreach & Lead Management",
+        "description": "Outreach-Automatisierung sowie automatische Erfassung, Qualifizierung und Verteilung von Leads aus verschiedenen Quellen."
       },
       "documents": {
-        "title": "Dokumenten-Workflows",
-        "description": "Automatische Verarbeitung, Kategorisierung und Ablage von Dokumenten und Rechnungen."
+        "title": "Rechnungsautomatisierung & Kontenabstimmung",
+        "description": "Automatische Verarbeitung, Kategorisierung und Ablage von Rechnungen sowie Abstimmung mit Ihrer Buchhaltung."
       },
       "reporting": {
         "title": "Reporting",

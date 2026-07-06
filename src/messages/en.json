@@ -63,8 +63,8 @@
       "description": "MVP development for founders and SMEs. Web apps with Next.js/React, Supabase backend. Process-first approach, fixed pricing. Validate your business idea with real users before you scale."
     },
     "automation": {
-      "title": "Process Automation | n8n & Make.com Experts in Germany",
-      "description": "We map your processes, find the bottlenecks, and automate what matters. n8n and Make.com experts with 5+ years process experience. Self-hosted, GDPR compliant. Save 90% on repetitive tasks."
+      "title": "Process Automation | Outreach, Invoice & Reconciliation Automation Experts",
+      "description": "We map your processes, find the bottlenecks, and automate what matters: outreach automation, invoice automation, and reconciliation, built with n8n and Make.com. Self-hosted, GDPR compliant. Save 90% on repetitive tasks."
     },
     "aiIntegration": {
       "title": "AI for Business | Company Knowledge Bases & AI Assistants",
@@ -391,12 +391,12 @@
       "title": "Typical use cases",
       "subtitle": "These workflows we regularly automate for our clients.",
       "leadManagement": {
-        "title": "Lead Management",
-        "description": "Automatic capture, qualification and distribution of leads from various sources."
+        "title": "Outreach & Lead Management",
+        "description": "Outreach automation plus automatic capture, qualification and distribution of leads from various sources."
       },
       "documents": {
-        "title": "Document Workflows",
-        "description": "Automatic processing, categorization and filing of documents and invoices."
+        "title": "Invoice Automation & Reconciliation",
+        "description": "Automatic processing, categorization and filing of invoices, and reconciliation against your accounting data."
       },
       "reporting": {
         "title": "Reporting",
