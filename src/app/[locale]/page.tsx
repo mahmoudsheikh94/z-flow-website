@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { HeroBrandVisual } from '@/components/hero/HeroBrandVisual'
 import { TestimonialsSection } from '@/components/testimonials/TestimonialsSection'
+import { ClientLogosStrip } from '@/components/ClientLogosStrip'
 import { testimonials } from '@/data/testimonials'
 
 const tools = [
@@ -170,6 +171,9 @@ export default async function Home({
           </svg>
         </div>
       </section>
+
+      {/* Client Logos Strip */}
+      <ClientLogosStrip label={t('clientLogos.label')} />
 
       {/* Services Section */}
       <section className="section-light py-32 lg:py-40">

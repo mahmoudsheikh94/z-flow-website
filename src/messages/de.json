@@ -204,6 +204,9 @@
       "point2": "Bug-Fixes nach Launch inklusive",
       "point3": "Optionale Wartungsverträge verfügbar"
     },
+    "clientLogos": {
+      "label": "Vertrauen von"
+    },
     "testimonials": {
       "badge": "WAS UNSERE KUNDEN SAGEN",
       "title": "Vertrauen von Teams aus verschiedenen Branchen",
