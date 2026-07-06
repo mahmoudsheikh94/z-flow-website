@@ -51,24 +51,24 @@
   },
   "metadata": {
     "home": {
-      "title": "Z-Flow | Digitalization Partner Berlin — Automation, Software & AI",
-      "description": "Your digitalization partner in Berlin. We understand your business process first, then build the right solution — automation, custom software, or AI systems trained on your data. Process-first approach, fixed pricing."
+      "title": "Z-Flow | Automation & Software Agency Berlin — Digitalization Partner",
+      "description": "Your automation and software agency in Berlin. We understand your business process first, then build the right solution — automation, custom software, or AI systems trained on your data. Fixed pricing."
     },
     "services": {
       "title": "Digitalization Services | Process Automation, Software & AI",
       "description": "Process-first digitalization: workflow automation with n8n and Make.com, custom MVP development with Next.js, and AI integration. We start by understanding your business, then choose the right technology."
     },
     "mvp": {
-      "title": "MVP Development | From Idea to Product in 4-8 Weeks",
-      "description": "MVP development for founders and SMEs. Web apps with Next.js/React, Supabase backend. Process-first approach, fixed pricing. Validate your business idea with real users before you scale."
+      "title": "Custom Software & MVP Development | From Idea to Product in 4-8 Weeks",
+      "description": "Custom software and MVP development for growing companies and SMEs — the internal tools and products you can't hire fast enough to build yourself. Web apps with Next.js/React, Supabase backend. Process-first approach, fixed pricing."
     },
     "automation": {
       "title": "Process Automation | Outreach, Invoice & Reconciliation Automation Experts",
       "description": "We map your processes, find the bottlenecks, and automate what matters: outreach automation, invoice automation, and reconciliation, built with n8n and Make.com. Self-hosted, GDPR compliant. Save 90% on repetitive tasks."
     },
     "aiIntegration": {
-      "title": "AI for Business | Company Knowledge Bases & AI Assistants",
-      "description": "We build AI systems trained on your company data — internal knowledge bases, employee AI assistants, and chatbots that understand your business. Process-first approach, RAG systems, OpenAI & Claude. Based in Berlin."
+      "title": "AI Integration Services | Custom AI Solutions & Knowledge Bases",
+      "description": "AI integration services for growing companies: we build AI systems trained on your company data — document processing, employee AI assistants, and company chatbots that understand your business. RAG systems, OpenAI & Claude. Based in Berlin."
     },
     "companyBrain": {
       "title": "Company Brain | AI-Powered Organizational Intelligence",
@@ -76,7 +76,7 @@
     },
     "projects": {
       "title": "Case Studies | Digitalization, Automation & AI Projects",
-      "description": "Real digitalization projects: process automation, custom software, and AI integration. See how we helped businesses save 90% on manual tasks, automate sales pipelines, and build production-ready platforms."
+      "description": "Real business process automation projects: invoice automation, custom software, and AI integration. See how we helped growing companies save 90% on manual tasks, automate sales pipelines, and build production-ready platforms."
     },
     "process": {
       "title": "Our Process | Operations Audit, Solution Design, Build & Handover",
@@ -84,19 +84,19 @@
     },
     "teardown": {
       "title": "Operations Audit | Find what to automate first — in 5 days",
-      "description": "A fixed-fee €2,500 Operations Audit for growing companies: we map your workflows and show you exactly what to automate first — and what it's worth — in 5 business days. 50% credited toward your build. Roadmap in 5 days or it's free."
+      "description": "A fixed-fee €2,500 process automation audit for growing companies: we map your workflows and show you exactly what to automate first — and what it's worth — in 5 business days. 50% credited toward your build. Roadmap in 5 days or it's free."
     },
     "digitalisierung": {
       "title": "Digitalisierung für den Mittelstand | Z-Flow Berlin",
-      "description": "Schluss mit Tabellen-Chaos und manuellen Prozessen. Z-Flow digitalisiert und automatisiert die Abläufe von Mittelstand und Industrie — mit einem Prozess-Audit ab 1.500€, vor Ort oder remote. GDPR-konform, made in Berlin."
+      "description": "Schluss mit Tabellen-Chaos und manueller Prozessautomatisierung für KMU und Mittelstand. Z-Flow digitalisiert Geschäftsprozesse und automatisiert die Abläufe von Mittelstand und Industrie — mit einer Operations-Analyse ab 2.500€, vor Ort oder remote. DSGVO-konform, made in Berlin."
     },
     "pricing": {
       "title": "Pricing | Automation, Software & AI — Transparent Fixed Prices",
-      "description": "Transparent fixed pricing. Most engagements start with a €2,500 Operations Audit (50% credited): automation from €6,000, MVP development from €18,000, AI integration from €5,000. Free 30-min diagnostic call included."
+      "description": "Transparent fixed pricing: €2,500 Operations Audit (50% credited), automation from €6,000, custom software from €18,000, AI integration from €5,000. Free 30-min diagnostic included."
     },
     "about": {
       "title": "About Z-Flow | Digitalization Partner Berlin",
-      "description": "Z-Flow is your digitalization partner in Berlin. 5+ years of process mapping experience, now powered by AI-driven engineering. We understand your business first, then build the right solution."
+      "description": "Z-Flow is your process automation and digitalization partner in Berlin. 5+ years of process mapping experience, now powered by AI-driven engineering. We understand your business first, then build the right solution."
     },
     "contact": {
       "title": "Contact | Free 30-Min Diagnostic Call",
@@ -111,8 +111,8 @@
       "description": "Privacy policy and data protection information of Z-Flow UG, Berlin."
     },
     "blog": {
-      "title": "Blog | Automation, AI & Digital Transformation Insights",
-      "description": "Practical articles on business automation, AI integration, and digital transformation. Service explainers and real case studies from Z-Flow in Berlin."
+      "title": "Blog | Business Process Automation, AI Integration & Digitalization Insights",
+      "description": "Practical articles on business process automation, AI integration, and digitalization for Mittelstand teams. Service explainers and real case studies from Z-Flow in Berlin."
     }
   },
   "home": {
@@ -238,12 +238,12 @@
   "services": {
     "hero": {
       "badge": "OUR SERVICES",
-      "title": "Three problems we solve.",
+      "title": "We build process automation, custom software, and AI integration.",
       "subtitle": "Tell us where the work is breaking and we'll tell you which fix actually pays off: automation, custom software, or AI. Every engagement starts with mapping your process, not selling you a tool."
     },
     "mvp": {
       "subtitle": "MVP / Custom Software",
-      "title": "Ship the product you can't hire for.",
+      "title": "Build the software you can't hire for.",
       "description": "Production software in weeks, not months. We build MVPs and internal tools good enough to win real users — and clean enough to scale on. Same partner from first commit to production.",
       "features": {
         "1": "Web apps with Next.js and React",
@@ -256,7 +256,7 @@
       "metricLabel": "Typical project duration"
     },
     "automation": {
-      "subtitle": "Automation",
+      "subtitle": "Process Automation",
       "title": "Get your team's week back.",
       "description": "Manual sales and ops work — lead routing, CRM hygiene, reporting, hand-offs — costs hours and causes errors. We automate what should never be manual with n8n, Make, or custom APIs, whichever actually fits. A sales team we worked with cut lead response time by 70%.",
       "features": {
@@ -270,7 +270,7 @@
       "metricLabel": "Typical time savings"
     },
     "ai": {
-      "subtitle": "AI Integration",
+      "subtitle": "AI Integration & Automation",
       "title": "AI that does the work, not a demo.",
       "description": "Custom AI assistants, knowledge bases, and org-intelligence wired into your real stack — deployed only where it beats the alternative. Trained on your data, not generic. An agency we built for now generates 50+ marketing videos a week with 90% less production time.",
       "features": {
@@ -291,7 +291,7 @@
   "mvpPage": {
     "hero": {
       "title": "MVP Development",
-      "subtitle": "You have a business idea but no product yet. We build your MVP in weeks — functional enough to win users, clean enough to scale."
+      "subtitle": "Your team needs software you can't hire fast enough to build yourselves. We build it in weeks — functional enough to use from day one, clean enough to scale."
     },
     "features": {
       "title": "What you get",
@@ -344,7 +344,7 @@
       "title": "Frequently asked questions",
       "q1": {
         "question": "What exactly is an MVP?",
-        "answer": "A Minimum Viable Product is the simplest version of your product that provides real value to users. It's about quickly learning whether your idea works before investing a lot of time and money."
+        "answer": "A Minimum Viable Product is the simplest version of your software that already does the job — replacing the manual process or filling the gap your team can't hire for. It's about getting something real into your team's hands fast, without over-building before you know it's the right fix."
       },
       "q2": {
         "question": "How long does development take?",
@@ -360,13 +360,13 @@
       }
     },
     "cta": {
-      "title": "Ready to bring your idea to life?",
+      "title": "Ready to stop waiting on a hire you can't make?",
       "subtitle": "Let's find out in a short conversation how we can bring your MVP to life."
     }
   },
   "automationPage": {
     "hero": {
-      "title": "Automation",
+      "title": "Business Process Automation",
       "subtitle": "Your team is spending hours on tasks a machine could handle in seconds. We map the process, find the bottlenecks, and automate what matters — with n8n and Make.com. One client went from 200 manual refunds a day to one-click and error-free.",
       "cta": "Have your process analyzed"
     },
@@ -392,7 +392,7 @@
       "subtitle": "These workflows we regularly automate for our clients.",
       "leadManagement": {
         "title": "Outreach & Lead Management",
-        "description": "Outreach automation plus automatic capture, qualification and distribution of leads from various sources."
+        "description": "CRM automation for outreach: automatic capture, qualification and distribution of leads from various sources, synced straight into HubSpot or Pipedrive."
       },
       "documents": {
         "title": "Invoice Automation & Reconciliation",
@@ -409,7 +409,7 @@
     },
     "tools": {
       "title": "Our tools",
-      "subtitle": "We work with proven no-code/low-code platforms.",
+      "subtitle": "We work with proven no-code/low-code platforms — a self-hosted, GDPR-compliant alternative to Zapier when data residency matters, or fast cloud setup with Make.com when speed matters most.",
       "n8n": {
         "title": "n8n",
         "description": "Open-source workflow automation. Self-hosted for maximum control and privacy. Ideal for complex, data-sensitive workflows.",
@@ -434,19 +434,19 @@
   "aiPage": {
     "hero": {
       "title": "AI for Your Business",
-      "subtitle": "Your team has years of knowledge trapped in documents, processes, and people's heads. We build AI systems that capture this knowledge and put it to work — internal assistants, smart chatbots, and automation that truly understands your business. An agency we built for now generates 50+ marketing videos a week with 90% less production time.",
+      "subtitle": "Your team has years of knowledge trapped in documents, processes, and people's heads. We build AI systems that capture this knowledge and put it to work — document processing, internal knowledge chatbots, and intelligent automation that truly understands your business. An agency we built for now generates 50+ marketing videos a week with 90% less production time.",
       "cta": "Discuss your AI project"
     },
     "useCases": {
       "title": "Typical use cases",
       "subtitle": "These AI solutions we regularly implement for our clients.",
       "documents": {
-        "title": "Document Intelligence",
+        "title": "AI Document Processing",
         "description": "Turn your documents, contracts, and manuals into a searchable knowledge base your whole team can query."
       },
       "chatbots": {
-        "title": "Company Chatbot",
-        "description": "An AI assistant trained on your internal data — SOPs, product docs, customer history. Your team asks questions, it answers accurately."
+        "title": "AI Customer Service Chatbot",
+        "description": "An AI chatbot trained on your internal data — SOPs, product docs, customer history — that talks to your customers directly, or gives your team accurate answers on demand."
       },
       "content": {
         "title": "AI Employee Assistants",
@@ -505,7 +505,7 @@
     "hero": {
       "badge": "CASE STUDIES",
       "title": "Real projects. Real results.",
-      "subtitle": "From process digitalization and custom software to AI integration and workflow automation."
+      "subtitle": "From invoice automation and custom software to AI integration and workflow automation for growing companies."
     },
     "categories": {
       "all": "All Projects",
@@ -688,7 +688,7 @@
     "what": {
       "badge": "What it is",
       "title": "A paid diagnosis, not a sales call.",
-      "intro": "Most agencies guess, quote, and start building. We charge to think first — because the roadmap is the most valuable thing we can give you, whether or not you build with us. You walk away with a plan you could hand to any team.",
+      "intro": "Most agencies guess, quote, and start building. We charge to think first — because the roadmap is the most valuable thing we can give you, whether or not you build with us. It's a workflow automation plan you could hand to any team.",
       "points": [
         "A senior operator-engineer maps your team's real workflows and manual work",
         "We quantify the time and revenue leaking out of each one",
@@ -771,7 +771,7 @@
       "badge": "FAQ",
       "title": "Questions about the Operations Audit",
       "items": [
-        { "q": "What is an Operations Audit?", "a": "An Operations Audit is a paid diagnostic for growing companies. A senior operator-engineer maps your team's real workflows and manual work, quantifies where you lose hours and revenue, and shows you exactly what to automate first — handing you a build-ready roadmap, the spec your next automation or product is built from. It costs €2,500 and takes 5 business days." },
+        { "q": "What is an Operations Audit (process automation audit)?", "a": "An Operations Audit is a paid process automation audit for growing companies. A senior operator-engineer maps your team's real workflows and manual work, quantifies where you lose hours and revenue, and shows you exactly what to automate first — handing you a build-ready roadmap, the spec your next automation or product is built from. It costs €2,500 and takes 5 business days." },
         { "q": "What do I actually get?", "a": "You get a 12–20 page build-ready roadmap: current-state workflow maps, a quantified time and revenue leak table, a prioritized 90-day roadmap, and a build-ready spec of your single highest-impact quick win — delivered on a 45-minute walkthrough call. It's a plan you could hand to any team, whether or not you build with us." },
         { "q": "How much does it cost?", "a": "The Operations Audit is a fixed €2,500. If you go on to a build with us within 60 days, 50% of the Audit fee is credited toward it — so half of it effectively comes back." },
         { "q": "How long does it take, and what if you're late?", "a": "Five business days from our discovery call. Your roadmap arrives in 5 business days or it's free — that's the guarantee. We only need about 90 minutes of your time: one discovery call plus read-only access to two or three systems." }
@@ -802,8 +802,8 @@
       "intro": "Wir kommen nicht mit einer fertigen Software-Meinung. Wir schauen uns zuerst an, wie Ihr Betrieb wirklich arbeitet — vor Ort oder remote — und empfehlen dann, was passt. Plattform-unabhängig, ohne Vendor-Lock-in.",
       "steps": [
         {
-          "title": "Prozess-Audit",
-          "description": "Wir kartieren Ihre Abläufe, finden die Engpässe und beziffern, wo Zeit und Geld verloren gehen. Ab 1.500€, vor Ort oder remote."
+          "title": "Operations-Analyse",
+          "description": "Wir kartieren Ihre Geschäftsprozesse, finden die Engpässe und beziffern, wo Zeit und Geld verloren gehen. 2.500€, 5 Werktage, vor Ort oder remote."
         },
         {
           "title": "Lösung & Tool-Auswahl",
@@ -820,12 +820,12 @@
       "title": "Made in Berlin, für deutsche Betriebe.",
       "items": [
         {
-          "title": "GDPR-konform by default",
+          "title": "DSGVO-konform by default",
           "description": "Datenschutz und DSGVO sind in Deutschland kein Nachgedanke — bei uns von Anfang an mitgedacht."
         },
         {
           "title": "Vor Ort oder remote",
-          "description": "Für das Audit und Workshops kommen wir auch zu Ihnen. Persönlich, wenn es zählt."
+          "description": "Für die Operations-Analyse und Workshops kommen wir auch zu Ihnen. Persönlich, wenn es zählt."
         },
         {
           "title": "Ein Senior-Partner",
@@ -967,8 +967,8 @@
         "cta": "Book a free 30-min diagnostic"
       },
       "mvp": {
-        "name": "MVP / Product Build",
-        "description": "For founders and teams who want to validate an idea quickly.",
+        "name": "Custom Software / MVP Build",
+        "description": "For established businesses and teams who want to validate or build a new capability quickly.",
         "price": "from €18,000",
         "duration": "2-6 weeks",
         "feature1": "Web app with Next.js/React or No-Code (WeWeb)",
@@ -1057,12 +1057,12 @@
     "hero": {
       "badge": "ABOUT Z-FLOW",
       "title": "A small team with big impact",
-      "subtitle": "Z-Flow is an engineering studio from Berlin. We're a core team of founders and developers that draws on a curated network of specialists for larger projects."
+      "subtitle": "Z-Flow is a Berlin-based automation and digitalization studio. We're a core team of founders and engineers who map your workflows first, then draw on a curated network of specialists to build the fix — for larger projects."
     },
     "story": {
       "title": "Why Z-Flow?",
       "p1": "We've worked at agencies and startups and observed two things: Either things were built fast but sloppy, or clean but way too slow.",
-      "p2": "Z-Flow is our approach to combining both. With modern tools, clear processes and focused teams, we manage to deliver fast without building up technical debt.",
+      "p2": "Z-Flow is our approach to combining both. With modern tools, clear processes and focused teams, we automate the manual work and build the software that established businesses don't have the time or in-house talent to build themselves — fast, without building up technical debt.",
       "p3": "\"Speed with standards\" isn't just a slogan - it's how we work."
     },
     "team": {
@@ -1076,7 +1076,7 @@
       "contact": "Contact"
     },
     "network": {
-      "title": "Lean team + expert network",
+      "title": "Lean team + automation & engineering network",
       "subtitle": "We keep the core team small and work with trusted freelancers from our network for specialized tasks.",
       "benefitsTitle": "Benefits for you:",
       "benefit1": "Lower costs through lean structure",
@@ -1088,7 +1088,7 @@
       "role2": "Backend developers",
       "role3": "DevOps engineers",
       "role4": "UI/UX designers",
-      "role5": "Data scientists"
+      "role5": "Automation engineers"
     },
     "values": {
       "title": "Our values",
@@ -2060,8 +2060,8 @@
   "blog": {
     "hero": {
       "badge": "BLOG",
-      "title": "Insights & Case Studies",
-      "subtitle": "Practical guides on automation, AI integration, and building digital products — from the Z-Flow team in Berlin."
+      "title": "Automation & Digitalization Insights",
+      "subtitle": "Practical guides on process automation, AI integration, and digitalization for growing SMBs and the German Mittelstand — from the Z-Flow team in Berlin."
     },
     "categories": {
       "all": "All Posts",

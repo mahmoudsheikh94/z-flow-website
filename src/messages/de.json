@@ -51,24 +51,24 @@
   },
   "metadata": {
     "home": {
-      "title": "Z-Flow | Digitalisierungspartner Berlin — Automatisierung, Software & KI",
-      "description": "Ihr Digitalisierungspartner in Berlin. Wir verstehen erst Ihren Geschäftsprozess, dann bauen wir die richtige Lösung — Automatisierung, individuelle Software oder KI-Systeme trainiert auf Ihren Daten. Prozess-zuerst, Festpreise."
+      "title": "Z-Flow | Digitalisierungspartner Berlin — Automatisierungs- & Softwareagentur",
+      "description": "Ihre Automatisierungs- und Softwareagentur in Berlin. Wir verstehen erst Ihren Geschäftsprozess, dann bauen wir die richtige Lösung — Automatisierung, individuelle Software oder KI-Systeme trainiert auf Ihren Daten. Festpreise."
     },
     "services": {
       "title": "Digitalisierung | Prozessautomatisierung, Software & KI",
       "description": "Prozess-zuerst Digitalisierung: Workflow-Automatisierung mit n8n und Make.com, individuelle MVP-Entwicklung mit Next.js, und KI-Integration. Wir verstehen erst Ihr Unternehmen, dann wählen wir die richtige Technologie."
     },
     "mvp": {
-      "title": "MVP Entwicklung | Von der Idee zum Produkt in 4-8 Wochen",
-      "description": "MVP Entwicklung für Gründer und KMU. Web-Apps mit Next.js/React, Supabase Backend. Prozess-zuerst Ansatz, Festpreise. Validieren Sie Ihre Geschäftsidee mit echten Nutzern bevor Sie skalieren."
+      "title": "Individuelle Software & MVP-Entwicklung | Von der Idee zum Produkt in 4-8 Wochen",
+      "description": "Individuelle Software- und MVP-Entwicklung für wachsende Unternehmen und KMU — die internen Tools und Produkte, die Sie selbst nicht schnell genug bauen können. Web-Apps mit Next.js/React, Supabase Backend. Prozess-zuerst Ansatz, Festpreise."
     },
     "automation": {
       "title": "Prozessautomatisierung | Outreach-, Rechnungs- & Abstimmungsautomatisierung",
       "description": "Wir analysieren Ihre Prozesse, finden die Engpässe und automatisieren was zählt: Outreach-Automatisierung, Rechnungsautomatisierung und Kontenabstimmung, umgesetzt mit n8n und Make.com. Self-hosted, DSGVO-konform. 90% Zeitersparnis."
     },
     "aiIntegration": {
-      "title": "KI für Unternehmen | Wissensdatenbanken & KI-Assistenten",
-      "description": "Wir bauen KI-Systeme trainiert auf Ihren Unternehmensdaten — interne Wissensdatenbanken, KI-Assistenten für Mitarbeiter und Chatbots die Ihr Unternehmen verstehen. Prozess-zuerst, RAG-Systeme, OpenAI & Claude. Standort Berlin."
+      "title": "KI Integration für Unternehmen | KI-Assistenten & Wissensdatenbanken",
+      "description": "KI-Integration für wachsende Unternehmen: Wir bauen KI-Systeme trainiert auf Ihren Unternehmensdaten — interne Wissensdatenbanken, KI-Assistenten für Mitarbeiter und Chatbots, die Ihr Unternehmen verstehen. RAG-Systeme, OpenAI & Claude. Standort Berlin."
     },
     "companyBrain": {
       "title": "Company Brain | KI-gestützte Organisationsintelligenz",
@@ -76,7 +76,7 @@
     },
     "projects": {
       "title": "Referenzen | Digitalisierung, Automatisierung & KI Projekte",
-      "description": "Echte Digitalisierungsprojekte: Prozessautomatisierung, individuelle Software und KI-Integration. Sehen Sie wie wir Unternehmen geholfen haben, 90% manuelle Arbeit zu sparen und Prozesse zu digitalisieren."
+      "description": "Echte Digitalisierungsprojekte für den Mittelstand: Prozessautomatisierung, Rechnungsautomatisierung, individuelle Software und KI-Integration. Sehen Sie, wie wir Unternehmen geholfen haben, 90% manuelle Arbeit zu sparen und Prozesse zu digitalisieren."
     },
     "process": {
       "title": "Unser Prozess | Operations-Analyse, Lösungsdesign, Build & Übergabe",
@@ -84,19 +84,19 @@
     },
     "teardown": {
       "title": "Operations-Analyse | In 5 Tagen finden, was zuerst zu automatisieren ist",
-      "description": "Eine Operations-Analyse zum Festpreis von 2.500€ für wachsende Unternehmen: Wir kartieren eure Workflows und zeigen genau, was zuerst zu automatisieren ist — und was es wert ist — in 5 Werktagen. 50% werden auf euren Build angerechnet. Roadmap in 5 Tagen oder kostenlos."
+      "description": "Eine Operations-Analyse (Prozessautomatisierungs-Check) zum Festpreis von 2.500€ für wachsende Unternehmen: Wir kartieren Ihre Geschäftsprozesse und zeigen genau, was zuerst zu automatisieren ist — und was es wert ist — in 5 Werktagen. 50% werden auf Ihren Build angerechnet. Roadmap in 5 Tagen oder kostenlos."
     },
     "digitalisierung": {
       "title": "Digitalisierung für den Mittelstand | Z-Flow Berlin",
-      "description": "Schluss mit Tabellen-Chaos und manuellen Prozessen. Z-Flow digitalisiert und automatisiert die Abläufe von Mittelstand und Industrie — mit einem Prozess-Audit ab 1.500€, vor Ort oder remote. DSGVO-konform, made in Berlin."
+      "description": "Schluss mit Tabellen-Chaos und manueller Prozessautomatisierung für KMU und Mittelstand. Z-Flow digitalisiert Geschäftsprozesse und automatisiert die Abläufe von Mittelstand und Industrie — mit einer Operations-Analyse ab 2.500€, vor Ort oder remote. DSGVO-konform, made in Berlin."
     },
     "pricing": {
       "title": "Preise | Automatisierung, Software & KI — Transparente Festpreise",
-      "description": "Transparente Festpreise. Die meisten Projekte starten mit einer Operations-Analyse für 2.500€ (50% angerechnet): Automatisierung ab 6.000€, MVP-Entwicklung ab 18.000€, KI-Integration ab 5.000€. Kostenloses 30-Min-Erstgespräch inklusive."
+      "description": "Transparente Festpreise: Operations-Analyse für 2.500€ (50% anrechenbar), Automatisierung ab 6.000€, individuelle Softwareentwicklung ab 18.000€, KI-Integration ab 5.000€. Kostenloses 30-Min-Erstgespräch inklusive."
     },
     "about": {
       "title": "Über Z-Flow | Digitalisierungspartner Berlin",
-      "description": "Z-Flow ist Ihr Digitalisierungspartner in Berlin. 5+ Jahre Prozess-Mapping Erfahrung, jetzt mit KI-gestütztem Engineering. Wir verstehen erst Ihr Unternehmen, dann bauen wir die richtige Lösung."
+      "description": "Z-Flow ist Ihr Partner für Prozessautomatisierung und Digitalisierung in Berlin. 5+ Jahre Prozess-Mapping Erfahrung, jetzt mit KI-gestütztem Engineering. Wir verstehen erst Ihr Unternehmen, dann bauen wir die richtige Lösung."
     },
     "contact": {
       "title": "Kontakt | Kostenloses 30-Min-Erstgespräch",
@@ -111,38 +111,38 @@
       "description": "Datenschutzerklärung und Datenschutzinformationen von Z-Flow UG, Berlin."
     },
     "blog": {
-      "title": "Blog | Automatisierung, KI & Digitalisierung Insights",
-      "description": "Praxisnahe Artikel über Geschäftsautomatisierung, KI-Integration und digitale Transformation. Service-Erklärungen und echte Fallstudien von Z-Flow in Berlin."
+      "title": "Blog | Prozessautomatisierung & Digitalisierung für den Mittelstand",
+      "description": "Praxisnahe Artikel über Prozessautomatisierung, KI-Integration und Digitalisierung für den Mittelstand. Service-Erklärungen und echte Fallstudien von Z-Flow in Berlin."
     }
   },
   "home": {
     "hero": {
-      "tagline": "Wir finden, wo dein Unternehmen Stunden verliert,",
+      "tagline": "Wir finden, wo Ihr Unternehmen Stunden verliert,",
       "headline": "dann bauen wir die Lösung.",
       "subheadline": "Wachsende Unternehmen holen uns, um die manuelle Arbeit zu automatisieren und die Software zu liefern, für die sie nicht schnell genug einstellen können. Aktuelle Projekte haben den Rückerstattungsprozess eines Kunden von 15 Minuten auf 30 Sekunden verkürzt und die Onboarding-Zeit für Freiwillige bei einem anderen um 80% gesenkt.",
       "meetFounder": "Mahmoud kennenlernen"
     },
     "trustSignals": {
       "transparentPricing": "200+ Rückerstattungen pro Tag automatisiert",
-      "fullDocumentation": "Dein Code gehört immer dir",
+      "fullDocumentation": "Ihr Code gehört immer Ihnen",
       "noVendorLockIn": "Wöchentliche Demos, keine Blackbox",
       "germanQuality": "Standort Berlin"
     },
     "services": {
       "badge": "Wie wir helfen",
       "title": "Drei Probleme, die wir lösen",
-      "subtitle": "Jedes Projekt beginnt mit dem Verstehen deines Prozesses. Dann wählen wir den richtigen Ansatz.",
+      "subtitle": "Jedes Projekt beginnt mit dem Verstehen Ihres Prozesses. Dann wählen wir den richtigen Ansatz.",
       "mvp": {
-        "title": "Manuelle Arbeit frisst die Woche deines Teams.",
-        "description": "Wir mappen den Workflow, eliminieren, was nie manuell sein sollte, und verbinden deine Tools, sodass sie endlich miteinander reden. Ein Finanzkunde ging von 95% Rechnungsfehlerquote auf fast null. Ein Vertriebsteam verkürzte seine Lead-Reaktionszeit um 70%."
+        "title": "Manuelle Arbeit frisst die Woche Ihres Teams.",
+        "description": "Wir mappen den Workflow, eliminieren, was nie manuell sein sollte, und verbinden Ihre Tools, sodass sie endlich miteinander reden. Ein Finanzkunde ging von 95% Rechnungsfehlerquote auf fast null. Ein Vertriebsteam verkürzte seine Lead-Reaktionszeit um 70%."
       },
       "automation": {
-        "title": "Du brauchst Software, und Einstellen dauert zu lange.",
+        "title": "Sie brauchen Software, und Einstellen dauert zu lange.",
         "description": "Von der Idee zum funktionierenden Produkt in Wochen, nicht Quartalen. MVPs, interne Tools und Plattformen, gebaut um zu halten. Wir haben das Freiwilligen-System einer Non-Profit gebaut, das die Onboarding-Zeit für ein 50-köpfiges Team um 80% senkte."
       },
       "ai": {
-        "title": "Du sitzt auf Daten, kannst aber keine KI darauf ansetzen.",
-        "description": "Individuelle KI, trainiert auf deinen eigenen Unternehmensdaten, kein generischer Chatbot. Wir bauen Systeme, die wirklich nutzen, was dein Unternehmen weiß."
+        "title": "Sie sitzen auf Daten, können aber keine KI darauf ansetzen.",
+        "description": "Individuelle KI, trainiert auf Ihren eigenen Unternehmensdaten, kein generischer Chatbot. Wir bauen Systeme, die wirklich nutzen, was Ihr Unternehmen weiß."
       }
     },
     "realNumbers": {
@@ -174,10 +174,10 @@
     "process": {
       "badge": "Unser Prozess",
       "title": "Prozess-first. Technologie-second.",
-      "subtitle": "Wir starten nicht mit Code. Wir starten damit, dein Business zu verstehen.",
+      "subtitle": "Wir starten nicht mit Code. Wir starten damit, Ihr Business zu verstehen.",
       "step1": {
         "title": "Mappen",
-        "description": "Wir mappen deine aktuellen Prozesse und finden die Engpässe."
+        "description": "Wir mappen Ihre aktuellen Prozesse und finden die Engpässe."
       },
       "step2": {
         "title": "Planen",
@@ -185,11 +185,11 @@
       },
       "step3": {
         "title": "Bauen",
-        "description": "Agile Entwicklung mit wöchentlichen Demos. Du siehst Fortschritt, nicht Berichte."
+        "description": "Agile Entwicklung mit wöchentlichen Demos. Sie sehen Fortschritt, nicht Berichte."
       },
       "step4": {
         "title": "Übergeben",
-        "description": "Vollständige Dokumentation, Training, dein Code. Kein Vendor Lock-in."
+        "description": "Vollständige Dokumentation, Training, Ihr Code. Kein Vendor Lock-in."
       },
       "detailCta": "Prozess im Detail"
     },
@@ -213,8 +213,8 @@
       "subtitle": "Von Startups bis zu etablierten Unternehmen — das sagen unsere Kunden über die Zusammenarbeit mit Z-Flow."
     },
     "cta": {
-      "title": "Bereit, deinen größten Engpass zu finden?",
-      "subtitle": "In einem kostenlosen 30-Minuten-Gespräch zeigen wir dir, wo du am meisten Zeit und Geld verlierst, und sagen dir ehrlich, ob sich Automatisierung lohnt. Kein Pitch, keine Verpflichtung."
+      "title": "Bereit, Ihren größten Engpass zu finden?",
+      "subtitle": "In einem kostenlosen 30-Minuten-Gespräch zeigen wir Ihnen, wo Sie am meisten Zeit und Geld verlieren, und sagen Ihnen ehrlich, ob sich Automatisierung lohnt. Kein Pitch, keine Verpflichtung."
     },
     "companyBrain": {
       "badge": "UNSER PRODUKT",
@@ -238,12 +238,12 @@
   "services": {
     "hero": {
       "badge": "UNSERE LEISTUNGEN",
-      "title": "Drei Probleme, die wir lösen.",
-      "subtitle": "Sag uns, wo die Arbeit hakt, und wir sagen dir, welcher Fix sich wirklich auszahlt: Automatisierung, individuelle Software oder KI. Jedes Projekt beginnt damit, deinen Prozess zu mappen, nicht damit, dir ein Tool zu verkaufen."
+      "title": "Prozessautomatisierung, individuelle Software und KI-Integration.",
+      "subtitle": "Sagen Sie uns, wo die Arbeit hakt, und wir sagen Ihnen, welcher Fix sich wirklich auszahlt: Automatisierung, individuelle Software oder KI. Jedes Projekt beginnt damit, Ihren Prozess zu mappen, nicht damit, Ihnen ein Tool zu verkaufen."
     },
     "mvp": {
       "subtitle": "MVP / Individuelle Software",
-      "title": "Baut das Produkt, für das ihr nicht einstellen könnt.",
+      "title": "Baut die Software, für die Sie nicht einstellen können.",
       "description": "Produktiv-Software in Wochen, nicht Monaten. Wir bauen MVPs und interne Tools, gut genug um echte Nutzer zu gewinnen — und sauber genug, um darauf zu skalieren. Ein Partner vom ersten Commit bis zur Produktion.",
       "features": {
         "1": "Web-Apps mit Next.js und React",
@@ -256,8 +256,8 @@
       "metricLabel": "Typische Projektdauer"
     },
     "automation": {
-      "subtitle": "Automatisierung",
-      "title": "Holt euch die Woche eures Teams zurück.",
+      "subtitle": "Prozessautomatisierung",
+      "title": "Holen Sie sich die Woche Ihres Teams zurück.",
       "description": "Manuelle Sales- und Ops-Arbeit — Lead-Routing, CRM-Pflege, Reporting, Übergaben — kostet Stunden und verursacht Fehler. Wir automatisieren, was nie manuell sein sollte, mit n8n, Make oder Custom-APIs, was eben wirklich passt. Ein Vertriebsteam, mit dem wir gearbeitet haben, verkürzte seine Lead-Reaktionszeit um 70%.",
       "features": {
         "1": "Workflow-Analyse und -Design",
@@ -270,9 +270,9 @@
       "metricLabel": "Typische Zeitersparnis"
     },
     "ai": {
-      "subtitle": "KI-Integration",
+      "subtitle": "KI-Integration & Automatisierung",
       "title": "KI, die die Arbeit macht — kein Demo.",
-      "description": "Individuelle KI-Assistenten, Wissensdatenbanken und Organisationsintelligenz, eingebunden in euren echten Stack — nur dort eingesetzt, wo es die Alternative schlägt. Auf euren Daten trainiert, nicht generisch. Eine Agentur, für die wir gebaut haben, erstellt jetzt 50+ Marketing-Videos pro Woche mit 90% weniger Produktionszeit.",
+      "description": "Individuelle KI-Assistenten, Wissensdatenbanken und Organisationsintelligenz, eingebunden in Ihren echten Stack — nur dort eingesetzt, wo es die Alternative schlägt. Auf Ihren Daten trainiert, nicht generisch. Eine Agentur, für die wir gebaut haben, erstellt jetzt 50+ Marketing-Videos pro Woche mit 90% weniger Produktionszeit.",
       "features": {
         "1": "Company Brain — KI-gestützte Team-Analytik",
         "2": "Interne KI-Assistenten für Mitarbeiter",
@@ -280,18 +280,18 @@
         "4": "RAG-Systeme über Firmenwissen",
         "5": "KI-gestützte Workflow-Automatisierung"
       },
-      "metric": "Deine Daten",
+      "metric": "Ihre Daten",
       "metricLabel": "KI darauf trainiert, nicht generisch"
     },
     "cta": {
-      "title": "Nicht sicher, welche du brauchst?",
-      "subtitle": "Genau dafür ist das kostenlose 30-Minuten-Erstgespräch da. Wir schauen, wo du am meisten Zeit verlierst, und zeigen dir den Fix, der sich am schnellsten auszahlt."
+      "title": "Nicht sicher, welche Sie brauchen?",
+      "subtitle": "Genau dafür ist das kostenlose 30-Minuten-Erstgespräch da. Wir schauen, wo Sie am meisten Zeit verlieren, und zeigen Ihnen den Fix, der sich am schnellsten auszahlt."
     }
   },
   "mvpPage": {
     "hero": {
       "title": "MVP Entwicklung",
-      "subtitle": "Sie haben eine Geschäftsidee, aber noch kein Produkt. Wir bauen Ihr MVP in Wochen — funktional genug für echte Nutzer, sauber genug zum Skalieren."
+      "subtitle": "Ihr Team braucht Software, die Sie selbst nicht schnell genug bauen können. Wir entwickeln sie in Wochen — funktional genug für den täglichen Einsatz, sauber genug zum Skalieren."
     },
     "features": {
       "title": "Was Sie bekommen",
@@ -344,7 +344,7 @@
       "title": "Häufige Fragen",
       "q1": {
         "question": "Was ist ein MVP genau?",
-        "answer": "Ein Minimum Viable Product ist die einfachste Version Ihres Produkts, die echten Nutzern einen Mehrwert bietet. Es geht darum, schnell zu lernen ob Ihre Idee funktioniert, bevor Sie viel Zeit und Geld investieren."
+        "answer": "Ein Minimum Viable Product ist die einfachste Version Ihrer Software, die bereits ihren Zweck erfüllt — sie ersetzt den manuellen Prozess oder schließt die Lücke, für die Sie niemanden einstellen können. Es geht darum, schnell etwas Funktionierendes in die Hände Ihres Teams zu bekommen, statt zu viel zu bauen, bevor klar ist, dass es die richtige Lösung ist."
       },
       "q2": {
         "question": "Wie lange dauert die Entwicklung?",
@@ -355,18 +355,18 @@
         "answer": "Sie erhalten vollständige Dokumentation und Zugang zu allem Code. Wir bieten optionale Wartungsverträge, aber Sie sind nicht an uns gebunden - alles gehört Ihnen."
       },
       "q4": {
-        "question": "Welche Technologien nutzt ihr?",
+        "question": "Welche Technologien nutzen Sie?",
         "answer": "Next.js, React, TypeScript, Tailwind CSS, PostgreSQL oder Supabase. Moderne, bewährte Tools mit großer Community und guter Dokumentation."
       }
     },
     "cta": {
-      "title": "Bereit, Ihre Idee umzusetzen?",
+      "title": "Bereit, Ihre Idee endlich umzusetzen — ohne monatelange Entwicklung oder eine Einstellung, die Sie sich nicht leisten können?",
       "subtitle": "Lassen Sie uns in einem kurzen Gespräch herausfinden, wie wir Ihr MVP zum Leben erwecken können."
     }
   },
   "automationPage": {
     "hero": {
-      "title": "Automatisierung",
+      "title": "Geschäftsprozessautomatisierung",
       "subtitle": "Ihr Team verbringt Stunden mit Aufgaben, die eine Maschine in Sekunden erledigen könnte. Wir analysieren den Prozess, finden die Engpässe und automatisieren was zählt — mit n8n und Make.com. Ein Kunde ging von 200 manuellen Rückerstattungen pro Tag zu einem Klick und fehlerfrei.",
       "cta": "Prozess analysieren lassen"
     },
@@ -392,7 +392,7 @@
       "subtitle": "Diese Workflows automatisieren wir regelmäßig für unsere Kunden.",
       "leadManagement": {
         "title": "Outreach & Lead Management",
-        "description": "Outreach-Automatisierung sowie automatische Erfassung, Qualifizierung und Verteilung von Leads aus verschiedenen Quellen."
+        "description": "CRM-Automatisierung für Outreach: automatische Erfassung, Qualifizierung und Verteilung von Leads aus verschiedenen Quellen, direkt synchronisiert mit HubSpot oder Pipedrive."
       },
       "documents": {
         "title": "Rechnungsautomatisierung & Kontenabstimmung",
@@ -409,7 +409,7 @@
     },
     "tools": {
       "title": "Unsere Tools",
-      "subtitle": "Wir arbeiten mit bewährten No-Code/Low-Code Plattformen.",
+      "subtitle": "Wir arbeiten mit bewährten No-Code/Low-Code-Plattformen: self-hosted und DSGVO-konform als Zapier-Alternative, oder mit Make.com in wenigen Tagen startklar.",
       "n8n": {
         "title": "n8n",
         "description": "Open-Source Workflow Automation. Self-hosted für maximale Kontrolle und Datenschutz. Ideal für komplexe, datensensible Workflows.",
@@ -434,18 +434,18 @@
   "aiPage": {
     "hero": {
       "title": "KI für Ihr Unternehmen",
-      "subtitle": "Ihr Team hat jahrelang Wissen angesammelt — in Dokumenten, Prozessen und in den Köpfen der Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen und nutzbar machen — interne Assistenten, smarte Chatbots und Automatisierung, die Ihr Unternehmen wirklich versteht. Eine Agentur, für die wir gebaut haben, erstellt jetzt 50+ Marketing-Videos pro Woche mit 90% weniger Produktionszeit.",
+      "subtitle": "Ihr Team hat jahrelang Wissen angesammelt — in Dokumenten, Prozessen und in den Köpfen der Mitarbeiter. Wir bauen KI-Systeme, die dieses Wissen erfassen und nutzbar machen — Dokumentenverarbeitung, interne Chatbots und Automatisierung, die Ihr Unternehmen wirklich versteht. Eine Agentur, für die wir gebaut haben, erstellt jetzt 50+ Marketing-Videos pro Woche mit 90% weniger Produktionszeit.",
       "cta": "KI-Projekt besprechen"
     },
     "useCases": {
       "title": "Typische Anwendungsfälle",
       "subtitle": "Diese KI-Lösungen implementieren wir regelmäßig für unsere Kunden.",
       "documents": {
-        "title": "Dokumenten-Intelligenz",
+        "title": "KI-Dokumentenverarbeitung",
         "description": "Verwandeln Sie Ihre Dokumente, Verträge und Handbücher in eine durchsuchbare Wissensdatenbank, die Ihr ganzes Team abfragen kann."
       },
       "chatbots": {
-        "title": "Firmen-Chatbot",
+        "title": "KI-Chatbot für Kundenservice",
         "description": "Ein KI-Assistent trainiert auf Ihren internen Daten — SOPs, Produktdokumentation, Kundenhistorie. Ihr Team stellt Fragen, er antwortet präzise."
       },
       "content": {
@@ -505,7 +505,7 @@
     "hero": {
       "badge": "REFERENZEN",
       "title": "Echte Projekte. Echte Ergebnisse.",
-      "subtitle": "Von Prozessdigitalisierung und Custom-Software bis KI-Integration und Workflow-Automatisierung."
+      "subtitle": "Von Rechnungsautomatisierung und Custom-Software bis KI-Integration und Workflow-Automatisierung für wachsende Unternehmen."
     },
     "categories": {
       "all": "Alle Projekte",
@@ -670,39 +670,39 @@
       ]
     },
     "cta": {
-      "title": "Dein Projekt könnte das nächste sein",
-      "subtitle": "Lass uns besprechen, wie wir dir helfen können, ähnliche Ergebnisse zu erzielen."
+      "title": "Ihr Projekt könnte das nächste sein",
+      "subtitle": "Lassen Sie uns besprechen, wie wir Ihnen helfen können, ähnliche Ergebnisse zu erzielen."
     }
   },
   "teardown": {
     "hero": {
       "badge": "Operations-Analyse",
       "title": "Findet in 5 Tagen, was zuerst zu automatisieren ist.",
-      "subtitle": "Eine Diagnose zum Festpreis für wachsende Unternehmen. Wir kartieren die Workflows eures Unternehmens und zeigen genau, was zuerst zu automatisieren ist — und was es wert ist — und liefern eine build-fertige Roadmap, die Spezifikation, aus der eure nächste Automatisierung oder euer Produkt entsteht.",
+      "subtitle": "Eine Diagnose zum Festpreis für wachsende Unternehmen. Wir kartieren die Workflows Ihres Unternehmens und zeigen genau, was zuerst zu automatisieren ist — und was es wert ist — und liefern eine build-fertige Roadmap, die Spezifikation, aus der Ihre nächste Automatisierung oder Ihr Produkt entsteht.",
       "priceLabel": "Festpreis",
       "price": "2.500€",
-      "priceNote": "50% werden auf euren Build angerechnet",
+      "priceNote": "50% werden auf Ihren Build angerechnet",
       "ctaPrimary": "Kostenloses 30-Min-Erstgespräch buchen",
       "ctaSecondary": "Den Prospectify-Case ansehen"
     },
     "what": {
       "badge": "Was es ist",
       "title": "Eine bezahlte Diagnose, kein Verkaufsgespräch.",
-      "intro": "Die meisten Agenturen raten, bieten an und legen los. Wir lassen uns das Denken zuerst bezahlen — denn die Roadmap ist das Wertvollste, das wir euch geben können, ob ihr mit uns baut oder nicht. Ihr geht mit einem Plan, den ihr jedem Team in die Hand drücken könntet.",
+      "intro": "Die meisten Agenturen raten, bieten an und legen los. Wir lassen uns das Denken zuerst bezahlen — denn eine klare Roadmap zur Prozessautomatisierung ist das Wertvollste, das wir Ihnen geben können, ob Sie mit uns bauen oder nicht. Sie gehen mit einem Plan, den Sie jedem Team in die Hand drücken könnten.",
       "points": [
-        "Ein Senior Operator-Engineer kartiert die echten Workflows und manuelle Arbeit eures Teams",
+        "Ein Senior Operator-Engineer kartiert die echten Workflows und manuelle Arbeit Ihres Teams",
         "Wir quantifizieren die Zeit und den Umsatz, die in jedem davon verloren gehen",
-        "Ihr erhaltet eine priorisierte 90-Tage-Roadmap und eine build-fertige Spezifikation eures wichtigsten Quick Wins",
+        "Sie erhalten eine priorisierte 90-Tage-Roadmap und eine build-fertige Spezifikation Ihres wichtigsten Quick Wins",
         "Plattform-agnostisch — wir empfehlen, was wirklich passt, nicht was wir verkaufen"
       ]
     },
     "deliverable": {
-      "badge": "Was ihr bekommt",
+      "badge": "Was Sie bekommen",
       "title": "Eine build-fertige Roadmap, 12–20 Seiten.",
       "items": [
         {
           "title": "Workflow-Maps des Ist-Zustands",
-          "description": "Wie die Arbeit heute wirklich fließt — über eure echten Tools, nicht auf einem Whiteboard."
+          "description": "Wie die Arbeit heute wirklich fließt — über Ihre echten Tools, nicht auf einem Whiteboard."
         },
         {
           "title": "Die Zeit- & Umsatz-Leck-Tabelle",
@@ -713,14 +713,14 @@
           "description": "Was zuerst zu beheben ist, sortiert nach Wirkung und Aufwand."
         },
         {
-          "title": "Build-fertige Spezifikation eures Quick Wins",
+          "title": "Build-fertige Spezifikation Ihres Quick Wins",
           "description": "Das Schlüssel-Artefakt — eine Spezifikation, die nur ein Senior-Builder erstellen kann, sofort umsetzbar."
         }
       ]
     },
     "how": {
       "badge": "So läuft es",
-      "title": "Fünf Tage. ~90 Minuten eurer Zeit.",
+      "title": "Fünf Tage. ~90 Minuten Ihrer Zeit.",
       "steps": [
         {
           "step": "01",
@@ -730,7 +730,7 @@
         {
           "step": "02",
           "title": "Ein 60-Min-Discovery-Call",
-          "description": "Aufgezeichnet. Plus Lesezugriff auf 2–3 Systeme und ein kurzes asynchrones Walkthrough — mehr brauchen wir nicht von euch."
+          "description": "Aufgezeichnet. Plus Lesezugriff auf 2–3 Systeme und ein kurzes asynchrones Walkthrough — mehr brauchen wir nicht von Ihnen."
         },
         {
           "step": "03",
@@ -750,7 +750,7 @@
       "items": [
         {
           "title": "Roadmap in 5 Werktagen, oder kostenlos.",
-          "description": "Wir liefern pünktlich oder ihr zahlt nicht. Ganz einfach."
+          "description": "Wir liefern pünktlich oder Sie zahlen nicht. Ganz einfach."
         },
         {
           "title": "Ein Senior-Partner, keine Junior-Übergabe.",
@@ -763,18 +763,18 @@
       "linkLabel": "Die Projekte ansehen →"
     },
     "cta": {
-      "title": "Findet heraus, wo euch Stunden und Umsatz verloren gehen.",
-      "subtitle": "Startet mit einem kostenlosen 30-Min-Erstgespräch. Wenn es passt, scopen wir eure Operations-Analyse direkt im Call.",
+      "title": "Finden Sie heraus, wo Ihnen Stunden und Umsatz verloren gehen.",
+      "subtitle": "Starten Sie mit einem kostenlosen 30-Min-Erstgespräch. Wenn es passt, scopen wir Ihre Operations-Analyse direkt im Call.",
       "button": "Kostenloses 30-Min-Erstgespräch buchen"
     },
     "faq": {
       "badge": "FAQ",
       "title": "Fragen zur Operations-Analyse",
       "items": [
-        { "q": "Was ist eine Operations-Analyse?", "a": "Eine Operations-Analyse ist eine bezahlte Diagnose für wachsende Unternehmen. Ein Senior Operator-Engineer kartiert die echten Workflows und manuelle Arbeit eures Teams, beziffert, wo ihr Stunden und Umsatz verliert, und zeigt genau, was zuerst zu automatisieren ist — und liefert eine build-fertige Roadmap, die Spezifikation, aus der eure nächste Automatisierung oder euer Produkt entsteht. Sie kostet 2.500€ und dauert 5 Werktage." },
-        { "q": "Was bekomme ich konkret?", "a": "Ihr erhaltet eine build-fertige Roadmap auf 12–20 Seiten: Workflow-Maps des Ist-Zustands, eine quantifizierte Zeit- und Umsatz-Leck-Tabelle, eine priorisierte 90-Tage-Roadmap und eine build-fertige Spezifikation eures wichtigsten Quick Wins — übergeben in einem 45-minütigen Walkthrough-Call. Ein Plan, den ihr jedem Team geben könntet, ob ihr mit uns baut oder nicht." },
-        { "q": "Was kostet es?", "a": "Die Operations-Analyse kostet fix 2.500€. Wenn ihr innerhalb von 60 Tagen mit uns einen Build startet, werden 50% der Analyse-Gebühr darauf angerechnet — die Hälfte kommt also effektiv zurück." },
-        { "q": "Wie lange dauert es, und was, wenn ihr zu spät seid?", "a": "Fünf Werktage ab unserem Discovery-Call. Eure Roadmap kommt in 5 Werktagen oder sie ist kostenlos — das ist die Garantie. Wir brauchen nur rund 90 Minuten eurer Zeit: einen Discovery-Call plus Lesezugriff auf zwei bis drei Systeme." }
+        { "q": "Was ist eine Operations-Analyse (Prozessautomatisierungs-Analyse)?", "a": "Eine Operations-Analyse ist eine bezahlte Prozessautomatisierungs-Analyse für wachsende Unternehmen. Ein Senior Operator-Engineer kartiert die echten Workflows und manuelle Arbeit Ihres Teams, beziffert, wo Sie Stunden und Umsatz verlieren, und zeigt genau, was zuerst zu automatisieren ist — und liefert eine build-fertige Roadmap, die Spezifikation, aus der Ihre nächste Automatisierung oder Ihr Produkt entsteht. Sie kostet 2.500€ und dauert 5 Werktage." },
+        { "q": "Was bekomme ich konkret?", "a": "Sie erhalten eine build-fertige Roadmap auf 12–20 Seiten: Workflow-Maps des Ist-Zustands, eine quantifizierte Zeit- und Umsatz-Leck-Tabelle, eine priorisierte 90-Tage-Roadmap und eine build-fertige Spezifikation Ihres wichtigsten Quick Wins — übergeben in einem 45-minütigen Walkthrough-Call. Ein Plan, den Sie jedem Team geben könnten, ob Sie mit uns bauen oder nicht." },
+        { "q": "Was kostet es?", "a": "Die Operations-Analyse kostet fix 2.500€. Wenn Sie innerhalb von 60 Tagen mit uns einen Build starten, werden 50% der Analyse-Gebühr darauf angerechnet — die Hälfte kommt also effektiv zurück." },
+        { "q": "Wie lange dauert es, und was, wenn Sie zu spät sind?", "a": "Fünf Werktage ab unserem Discovery-Call. Ihre Roadmap kommt in 5 Werktagen oder sie ist kostenlos — das ist die Garantie. Wir brauchen nur rund 90 Minuten Ihrer Zeit: einen Discovery-Call plus Lesezugriff auf zwei bis drei Systeme." }
       ]
     }
   },
@@ -802,8 +802,8 @@
       "intro": "Wir kommen nicht mit einer fertigen Software-Meinung. Wir schauen uns zuerst an, wie Ihr Betrieb wirklich arbeitet — vor Ort oder remote — und empfehlen dann, was passt. Plattform-unabhängig, ohne Vendor-Lock-in.",
       "steps": [
         {
-          "title": "Prozess-Audit",
-          "description": "Wir kartieren Ihre Abläufe, finden die Engpässe und beziffern, wo Zeit und Geld verloren gehen. Ab 1.500€, vor Ort oder remote."
+          "title": "Operations-Analyse",
+          "description": "Wir kartieren Ihre Geschäftsprozesse, finden die Engpässe und beziffern, wo Zeit und Geld verloren gehen. 2.500€, 5 Werktage, vor Ort oder remote."
         },
         {
           "title": "Lösung & Tool-Auswahl",
@@ -825,7 +825,7 @@
         },
         {
           "title": "Vor Ort oder remote",
-          "description": "Für das Audit und Workshops kommen wir auch zu Ihnen. Persönlich, wenn es zählt."
+          "description": "Für die Operations-Analyse und Workshops kommen wir auch zu Ihnen. Persönlich, wenn es zählt."
         },
         {
           "title": "Ein Senior-Partner",
@@ -967,8 +967,8 @@
         "cta": "Kostenloses 30-Min-Erstgespräch buchen"
       },
       "mvp": {
-        "name": "MVP / Produkt-Build",
-        "description": "Für Gründer und Teams die eine Idee schnell validieren wollen.",
+        "name": "Individuelle Software / MVP-Build",
+        "description": "Für etablierte Unternehmen und Teams, die eine neue Lösung schnell validieren oder umsetzen wollen.",
         "price": "ab 18.000€",
         "duration": "2-6 Wochen",
         "feature1": "Web-App mit Next.js/React oder No-Code (WeWeb)",
@@ -1036,7 +1036,7 @@
         "answer": "Externe Kosten wie Hosting, Domains, oder Lizenzen für Drittanbieter-Tools werden separat berechnet. Wir beraten Sie aber gerne zu kostengünstigen Optionen."
       },
       "q3": {
-        "question": "Bietet ihr Ratenzahlung an?",
+        "question": "Bieten Sie Ratenzahlung an?",
         "answer": "Ja, bei größeren Projekten ist eine Ratenzahlung möglich. Typischerweise 30% bei Start, 30% nach Design-Abnahme, 40% bei Übergabe."
       },
       "q4": {
@@ -1057,12 +1057,12 @@
     "hero": {
       "badge": "ÜBER Z-FLOW",
       "title": "Ein kleines Team mit großer Wirkung",
-      "subtitle": "Z-Flow ist ein Engineering Studio aus Berlin. Wir sind ein Kernteam von Gründern und Entwicklern, das für größere Projekte auf ein kuratiertes Netzwerk von Spezialisten zurückgreift."
+      "subtitle": "Z-Flow ist ein Automatisierungs- und Digitalisierungs-Studio aus Berlin. Wir sind ein Kernteam von Gründern und Entwicklern, das Ihre Prozesse zuerst kartiert und für größere Projekte auf ein kuratiertes Netzwerk von Spezialisten zurückgreift."
     },
     "story": {
       "title": "Warum Z-Flow?",
       "p1": "Wir haben bei Agenturen und Startups gearbeitet und dabei zwei Dinge beobachtet: Entweder wurde schnell gebaut aber schlampig, oder sauber aber viel zu langsam.",
-      "p2": "Z-Flow ist unser Ansatz, beides zu vereinen. Mit modernen Tools, klaren Prozessen und fokussierten Teams schaffen wir es, schnell zu liefern ohne technische Schulden aufzubauen.",
+      "p2": "Z-Flow ist unser Ansatz, beides zu vereinen. Mit modernen Tools, klaren Prozessen und fokussierten Teams automatisieren wir manuelle Arbeit und bauen die Software, für die wachsenden Unternehmen intern Zeit oder Fachkräfte fehlen — schnell, ohne technische Schulden aufzubauen.",
       "p3": "\"Speed with standards\" ist nicht nur ein Slogan - es ist wie wir arbeiten."
     },
     "team": {
@@ -1076,7 +1076,7 @@
       "contact": "Kontakt"
     },
     "network": {
-      "title": "Lean Team + Experten-Netzwerk",
+      "title": "Lean Team + Automatisierungs- & Engineering-Netzwerk",
       "subtitle": "Wir halten das Kernteam klein und arbeiten für spezialisierte Aufgaben mit vertrauenswürdigen Freelancern aus unserem Netzwerk.",
       "benefitsTitle": "Vorteile für Sie:",
       "benefit1": "Niedrigere Kosten durch schlanke Struktur",
@@ -1304,8 +1304,8 @@
       "techStackTitle": "Tech Stack",
       "relatedTitle": "Ähnliche Projekte",
       "backToProjects": "Zurück zu Projekte",
-      "ctaTitle": "Dein Projekt könnte das nächste sein",
-      "ctaSubtitle": "Lass uns besprechen, wie wir dir helfen können, ähnliche Ergebnisse zu erzielen."
+      "ctaTitle": "Ihr Projekt könnte das nächste sein",
+      "ctaSubtitle": "Lassen Sie uns besprechen, wie wir Ihnen helfen können, ähnliche Ergebnisse zu erzielen."
     },
     "prospectify": {
       "title": "Wie Prospectify sein manuelles Outbound in ein System überführte",
@@ -1822,7 +1822,7 @@
     "hero": {
       "badge": "SELBST GEBAUT",
       "title": "Company Brain",
-      "subtitle": "Company Brain verbindet sich mit den Tools eures Teams — Code, Chat, Dokumente, Tickets — und macht aus verstreuter Aktivität ein klares Bild davon, wie Arbeit fließt, wo Zusammenarbeit gelingt und wo Wissen gefährdet ist. Privacy-first, standardmäßig nur Metadaten. Es ist auch die Art von KI-System, die wir für Kunden bauen — und eines, abgestimmt auf euren Stack, beginnt mit einer Operations-Analyse.",
+      "subtitle": "Company Brain verbindet sich mit den Tools Ihres Teams — Code, Chat, Dokumente, Tickets — und macht aus verstreuter Aktivität ein klares Bild davon, wie Arbeit fließt, wo Zusammenarbeit gelingt und wo Wissen gefährdet ist. Privacy-first, standardmäßig nur Metadaten. Es ist auch die Art von KI-System, die wir für Kunden bauen — und eines, abgestimmt auf Ihren Stack, beginnt mit einer Operations-Analyse.",
       "cta1": "Kostenloses 30-Min-Erstgespräch buchen",
       "cta2": "So funktioniert's"
     },
@@ -2060,8 +2060,8 @@
   "blog": {
     "hero": {
       "badge": "BLOG",
-      "title": "Insights & Fallstudien",
-      "subtitle": "Praxisnahe Leitfäden zu Automatisierung, KI-Integration und digitaler Produktentwicklung — vom Z-Flow Team in Berlin."
+      "title": "Automatisierung & Digitalisierung im Fokus",
+      "subtitle": "Praxisnahe Leitfäden zu Prozessautomatisierung, KI-Integration und Digitalisierung für Mittelstand und wachsende Unternehmen — vom Z-Flow Team in Berlin."
     },
     "categories": {
       "all": "Alle Beiträge",
@@ -2083,7 +2083,7 @@
       "20-workflows-saas-teams-automate-first": {
         "title": "20 Workflows, die wachsende Unternehmen zuerst automatisieren sollten",
         "description": "Eine praktische Checkliste der 20 wirkungsvollsten Workflows, die wachsende Unternehmen zuerst automatisieren — in Sales, Ops, Onboarding und Reporting — inklusive Tools und Zeitersparnis je Workflow.",
-        "excerpt": "Die 20 manuellen Workflows, die eurem Team still die Woche auffressen — und die Reihenfolge, in der ihr sie automatisieren solltet."
+        "excerpt": "Die 20 manuellen Workflows, die Ihrem Team still die Woche auffressen — und die Reihenfolge, in der Sie sie automatisieren sollten."
       },
       "what-is-company-brain": {
         "title": "Was ist ein Company Brain? KI-gestütztes Wissensmanagement erklärt",
